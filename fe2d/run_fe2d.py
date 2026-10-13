@@ -40,6 +40,12 @@ def inward(u,tooth=0):
 def rotation(angle):
     return np.array([[np.cos(angle),-np.sin(angle)],[np.sin(angle),np.cos(angle)]])
 
+def flank_root(function):
+    """Preserve exact flank endpoints despite station roundoff at clipped tips."""
+    if abs(function(UF))<=1e-11:return UF
+    if abs(function(UA))<=1e-11:return UA
+    return brentq(function,UF,UA)
+
 def contacts(fraction,patch,step,allow_clipped=False):
     span=np.sqrt(RA*RA-RB*RB)-RB*np.tan(AW)
     s=fraction*PB+np.arange(-2,2)*PB
@@ -66,8 +72,8 @@ def contacts(fraction,patch,step,allow_clipped=False):
         truncated=lower>-patch+1e-9 or upper<patch-1e-9
         if truncated and not allow_clipped:raise ValueError('Patch reaches a tooth edge; allow_clipped is a restricted transition model, not corner-contact validation.')
         xs=np.unique(np.r_[lower,full_xs[(full_xs>lower+1e-10)&(full_xs<upper-1e-10)],upper])
-        v1=np.array([brentq(lambda u:station(u,R1,t1,np.zeros(2))-x,UF,UA) for x in xs])
-        v2=np.array([brentq(lambda u:station(u,R2,t2,np.array([CENTER,0]))-x,UF,UA) for x in xs])
+        v1=np.array([flank_root(lambda u:station(u,R1,t1,np.zeros(2))-x) for x in xs])
+        v2=np.array([flank_root(lambda u:station(u,R2,t2,np.array([CENTER,0]))-x) for x in xs])
         if not allow_clipped and (min(v1.min(),v2.min())<=UF or max(v1.max(),v2.max())>=UA):
             raise ValueError('Contact patch intersects a root blend or tip; use interior phases.')
         Q1=np.array([R1@point(v,t1) for v in v1]);Q2=np.array([R2@point(v,t2)+np.array([CENTER,0]) for v in v2])
@@ -91,7 +97,7 @@ def mesh_body(contact,which,h,bore,root_trim,tag,geometry_factor=1,traction='nod
             base=R@point(c['u'+str(which)],c['tooth'+str(which)])+center
             tangent=np.array([np.cos(AW),-np.sin(AW)])
             fixed_x=np.linspace(c['x'][0],c['x'][-1],71)
-            geometry_vs[index]=np.array([brentq(lambda u:(R@point(u,c['tooth'+str(which)])+center-base)@tangent-x,UF,UA) for x in fixed_x])
+            geometry_vs[index]=np.array([flank_root(lambda u:(R@point(u,c['tooth'+str(which)])+center-base)@tangent-x) for x in fixed_x])
     # Sharp root or quadratic tangent-like blend, controlled by trim length.
     ustart=np.sqrt(UF*UF+2*root_trim/RB) if root_trim else UF
     beta_f=HALF+INV-(UF-np.arctan(UF))

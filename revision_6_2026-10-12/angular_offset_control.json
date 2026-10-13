@@ -1,0 +1,64 @@
+{
+  "period_deg": 6.315789473684211,
+  "step_deg": 0.21,
+  "sampling": "Grid offset in [0,0.21 deg); crop to one fixed mesh cycle, 30 or 31 samples. Cycles do not have an integer number of 0.21-degree steps.",
+  "results": [
+    {
+      "min_pp_um": 11.706350518065381,
+      "max_pp_um": 11.955461646686423,
+      "minimum_offset_deg": 0.11289473684210533,
+      "partition_intervals": 3841,
+      "sample_counts": [
+        30,
+        31
+      ],
+      "method": "All offset intervals partitioned at shifted interpolation knots and the sample-count change. Range is convex within each interval; interval maxima occur at endpoints and minima use 70 ternary steps. Bounds apply to this periodic piecewise-linear interpolant, not the unknown exact waveform.",
+      "model": "baseline",
+      "nodes": 3840,
+      "dense_pp_um": 11.955470817743379
+    },
+    {
+      "min_pp_um": 11.706350163155385,
+      "max_pp_um": 11.95546172353911,
+      "minimum_offset_deg": 0.11289473684210283,
+      "partition_intervals": 7681,
+      "sample_counts": [
+        30,
+        31
+      ],
+      "method": "All offset intervals partitioned at shifted interpolation knots and the sample-count change. Range is convex within each interval; interval maxima occur at endpoints and minima use 70 ternary steps. Bounds apply to this periodic piecewise-linear interpolant, not the unknown exact waveform.",
+      "model": "baseline",
+      "nodes": 7680,
+      "dense_pp_um": 11.955470817743379
+    },
+    {
+      "min_pp_um": 11.706350138054884,
+      "max_pp_um": 11.955461761965427,
+      "minimum_offset_deg": 0.11289473684210533,
+      "partition_intervals": 15361,
+      "sample_counts": [
+        30,
+        31
+      ],
+      "method": "All offset intervals partitioned at shifted interpolation knots and the sample-count change. Range is convex within each interval; interval maxima occur at endpoints and minima use 70 ternary steps. Bounds apply to this periodic piecewise-linear interpolant, not the unknown exact waveform.",
+      "model": "baseline",
+      "nodes": 15360,
+      "dense_pp_um": 11.955470817743379
+    },
+    {
+      "min_pp_um": 12.269918152881932,
+      "max_pp_um": 12.4425314857051,
+      "minimum_offset_deg": 0.11290498090445819,
+      "partition_intervals": 9,
+      "sample_counts": [
+        30,
+        31
+      ],
+      "method": "All offset intervals partitioned at shifted interpolation knots and the sample-count change. Range is convex within each interval; interval maxima occur at endpoints and minima use 70 ternary steps. Bounds apply to this periodic piecewise-linear interpolant, not the unknown exact waveform.",
+      "model": "FE eight-phase linear interpolant",
+      "nodes": 8,
+      "sampled_range_um": 12.463290972205936
+    }
+  ],
+  "warning": "Baseline envelopes are refined interpolation diagnostics. FE envelope is a sensitivity illustration of an eight-phase interpolant; it cannot measure the unresolved FE transition ramp or attribute the benchmark mismatch to angular sampling."
+}
