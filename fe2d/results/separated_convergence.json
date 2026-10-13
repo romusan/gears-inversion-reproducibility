@@ -471,7 +471,7 @@
       "study": "interface"
     }
   ],
-  "formulation": "Normalized continuous pressure hats integrated against actual linear FE boundary trace; gap constraints averaged with the same hats.",
+  "formulation": "Normalized continuous pressure hats integrated against actual quadratic FE boundary trace; gap constraints averaged with the same hats.",
   "fixed_local_mesh_mm": 0.01,
   "element_degree": 2,
   "scope": "Interior phases; weak contact constraints. Bulk and interface studies vary separate controls; no corner validation."
