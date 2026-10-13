@@ -1,0 +1,141 @@
+{
+  "nominal": [
+    {
+      "phase_fraction": 0,
+      "nominal_pairs": 1,
+      "mesh_h_mm": 0.25,
+      "contact_step_mm": 0.01,
+      "bore_radius_mm": 25,
+      "root_trim_mm": 0.4,
+      "patch_halfwidth_mm": 0.35,
+      "nodes": [
+        45396,
+        45436
+      ],
+      "elements": [
+        84945,
+        85025
+      ],
+      "approach_um": 40.078054757125805,
+      "k_incremental_N_um": 239.18250570570436,
+      "k_fd_N_um": 239.18250570570066,
+      "tangent_relative_difference": 1.5432100042289676e-14,
+      "k_secant_N_um": 232.9178099482746,
+      "pair_forces_N": [
+        9334.892741016774
+      ],
+      "normal_force_N": 9334.89274101677,
+      "force_residual_N": 3.637978807091713e-12,
+      "contact_residual_mm": 2.0816681711721685e-17,
+      "elastic_residual_relative": 2.4668072224253604e-12,
+      "strain_energy_N_mm": 184.58393517351385,
+      "body_torques_Nmm": [
+        -650000.0466442883,
+        -649999.9533580963
+      ],
+      "torque_relative_error": 7.176044358736533e-08,
+      "seconds": 18.64850950241089
+    },
+    {
+      "phase_fraction": 0.5,
+      "nominal_pairs": 2,
+      "mesh_h_mm": 0.25,
+      "contact_step_mm": 0.01,
+      "bore_radius_mm": 25,
+      "root_trim_mm": 0.4,
+      "patch_halfwidth_mm": 0.35,
+      "nodes": [
+        46848,
+        46883
+      ],
+      "elements": [
+        87574,
+        87644
+      ],
+      "approach_um": 29.172920439949355,
+      "k_incremental_N_um": 327.0620921726795,
+      "k_fd_N_um": 327.0620921727092,
+      "tangent_relative_difference": 9.08162434143378e-14,
+      "k_secant_N_um": 319.9848558265556,
+      "pair_forces_N": [
+        4666.784047075216,
+        4668.108693941556
+      ],
+      "normal_force_N": 9334.89274101677,
+      "force_residual_N": 0.0,
+      "contact_residual_mm": 1.3877787807814457e-17,
+      "elastic_residual_relative": 3.1113866620809218e-12,
+      "strain_energy_N_mm": 134.79028084650628,
+      "body_torques_Nmm": [
+        -650000.0569003441,
+        -649999.943107638
+      ],
+      "torque_relative_error": 8.753899094493534e-08,
+      "seconds": 19.190911769866943
+    }
+  ],
+  "k2_over_k1": 1.3674164471506298,
+  "baseline": {
+    "phase_fraction": [
+      0,
+      0.5
+    ],
+    "k_incremental_N_um": [
+      346.50674595884794,
+      535.4921473519315
+    ],
+    "approach_um": [
+      28.059656592715353,
+      17.99218843592849
+    ],
+    "source": "Existing analytical baseline evaluated at exactly the same two phases and nominal dimensions; not external measured/FE values."
+  },
+  "baseline_k2_over_k1": 1.5454017954834507,
+  "coupling_ablation": {
+    "uncoupled_k2_N_um": 408.12667550084086,
+    "uncoupled_approach_um": 23.47398824700748,
+    "relative_k_reduction": 0.1986260349894584,
+    "interpretation": "Controlled removal of cross-pair FE flexibility blocks; a counterfactual diagnostic, not another physical geometry."
+  },
+  "mesh_convergence": [
+    {
+      "phase_fraction": 0,
+      "last_k_change": 0.009742284375250598,
+      "within_one_percent": true
+    },
+    {
+      "phase_fraction": 0.5,
+      "last_k_change": 0.006972975717568386,
+      "within_one_percent": true
+    }
+  ],
+  "geometry_and_patch_checks": [
+    {
+      "phase_fraction": 0,
+      "geometry_factor": 2,
+      "patch_halfwidth_mm": 0.35,
+      "k_change_relative": -0.0012077129376665274
+    },
+    {
+      "phase_fraction": 0,
+      "geometry_factor": 1,
+      "patch_halfwidth_mm": 0.5,
+      "k_change_relative": -0.0005571658561301929
+    },
+    {
+      "phase_fraction": 0.5,
+      "geometry_factor": 2,
+      "patch_halfwidth_mm": 0.35,
+      "k_change_relative": -0.0011006630611476442
+    },
+    {
+      "phase_fraction": 0.5,
+      "geometry_factor": 1,
+      "patch_halfwidth_mm": 0.5,
+      "k_change_relative": -0.0007059249034381265
+    }
+  ],
+  "fe_runs": 18,
+  "maximum_torque_relative_error": 4.0635947744505074e-06,
+  "physical_scope": "Assumed bore and approximate root; independent numerical continuum test, not validated reconstruction of the published FE model."
+}

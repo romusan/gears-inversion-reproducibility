@@ -1,0 +1,82 @@
+[
+  {
+    "variant": "legacy",
+    "torque_Nm": 50,
+    "sampled_min_xi": 0.2356851805943736,
+    "onset_xi": 0.23552691652088087,
+    "onset_phi_rad": 0.03294124996109854,
+    "bracket_width_rad": 1.2712053631958042e-13,
+    "force_threshold_N": 1e-08,
+    "sd_minus_onset": 0.014473083479119131
+  },
+  {
+    "variant": "legacy",
+    "torque_Nm": 300,
+    "sampled_min_xi": 0.23473342304814213,
+    "onset_xi": 0.23468152427946282,
+    "onset_phi_rad": 0.0324562832331791,
+    "bracket_width_rad": 1.2712053631958042e-13,
+    "force_threshold_N": 1e-08,
+    "sd_minus_onset": 0.015318475720537184
+  },
+  {
+    "variant": "shear-G",
+    "torque_Nm": 50,
+    "sampled_min_xi": 0.2356851805943736,
+    "onset_xi": 0.23548893986112873,
+    "onset_phi_rad": 0.032919464314726365,
+    "bracket_width_rad": 1.2712053631958042e-13,
+    "force_threshold_N": 1e-08,
+    "sd_minus_onset": 0.014511060138871268
+  },
+  {
+    "variant": "shear-G",
+    "torque_Nm": 300,
+    "sampled_min_xi": 0.23473342304814213,
+    "onset_xi": 0.23445374063830404,
+    "onset_phi_rad": 0.032325613135070486,
+    "bracket_width_rad": 1.2712053631958042e-13,
+    "force_threshold_N": 1e-08,
+    "sd_minus_onset": 0.015546259361695958
+  },
+  {
+    "variant": "projected-energy",
+    "torque_Nm": 50,
+    "sampled_min_xi": 0.2356851805943736,
+    "onset_xi": 0.23550729675522833,
+    "onset_phi_rad": 0.032929994909200844,
+    "bracket_width_rad": 1.2712053631958042e-13,
+    "force_threshold_N": 1e-08,
+    "sd_minus_onset": 0.01449270324477167
+  },
+  {
+    "variant": "projected-energy",
+    "torque_Nm": 300,
+    "sampled_min_xi": 0.23473342304814213,
+    "onset_xi": 0.23456379819020598,
+    "onset_phi_rad": 0.032388748622024066,
+    "bracket_width_rad": 1.2712747521348433e-13,
+    "force_threshold_N": 1e-08,
+    "sd_minus_onset": 0.01543620180979402
+  },
+  {
+    "variant": "centerline-energy",
+    "torque_Nm": 50,
+    "sampled_min_xi": 0.2356851805943736,
+    "onset_xi": 0.23550385978209415,
+    "onset_phi_rad": 0.03292802325919844,
+    "bracket_width_rad": 1.2712053631958042e-13,
+    "force_threshold_N": 1e-08,
+    "sd_minus_onset": 0.01449614021790585
+  },
+  {
+    "variant": "centerline-energy",
+    "torque_Nm": 300,
+    "sampled_min_xi": 0.23473342304814213,
+    "onset_xi": 0.23454320493071495,
+    "onset_phi_rad": 0.03237693511678559,
+    "bracket_width_rad": 1.2712053631958042e-13,
+    "force_threshold_N": 1e-08,
+    "sd_minus_onset": 0.015456795069285045
+  }
+]

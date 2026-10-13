@@ -1,0 +1,86 @@
+[
+  {
+    "trial": 0,
+    "min_eigenvalue": 0.00010039052947405381,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 1,
+    "min_eigenvalue": 0.00011773816315150799,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 2,
+    "min_eigenvalue": 0.00010024702754960792,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 3,
+    "min_eigenvalue": 0.00010808819520368968,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 4,
+    "min_eigenvalue": 0.00010928218107214013,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 5,
+    "min_eigenvalue": 0.00010123331014633655,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 6,
+    "min_eigenvalue": 0.00010189185513530781,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 7,
+    "min_eigenvalue": 0.00010170699333403108,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 8,
+    "min_eigenvalue": 0.00010071053164788387,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 9,
+    "min_eigenvalue": 0.00010102629585020882,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 10,
+    "min_eigenvalue": 0.0001010721939073267,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  },
+  {
+    "trial": 11,
+    "min_eigenvalue": 0.00010769640921531625,
+    "signed_off_diagonal": true,
+    "max_force_change_N": 0.0,
+    "max_approach_change_mm": 0.0
+  }
+]
