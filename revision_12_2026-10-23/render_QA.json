@@ -1,0 +1,19 @@
+{
+  "renderer": "Microsoft Word native COM; Poppler PNG rasterization at 100 dpi",
+  "canonical_renderer_limitation": "Bundled render_docx.py requires soffice, unavailable on this Windows host; native Word used for visual verification.",
+  "main_pages": 27,
+  "supplement_pages": 7,
+  "highlights_pages": 1,
+  "all_pages_visually_inspected": true,
+  "repairs": [
+    "Move full S20 caption with its table",
+    "Remove default blue title border from highlights",
+    "Enlarge new scientific figure labels and clear legends from curves",
+    "Complete bibliography article numbers and pages; handle Unicode author initials"
+  ],
+  "verified_output_names": [
+    "MMT_manuscript_Q1_revision_v12.docx",
+    "MMT_supplementary_Q1_revision_v12.docx",
+    "Highlights_v12.docx"
+  ]
+}

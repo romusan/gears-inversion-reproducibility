@@ -1,0 +1,53 @@
+{
+  "provenance": {
+    "campaign": "corrections-2026-10-12",
+    "created_utc": "2026-10-12T19:25:14.592419+00:00",
+    "source_sha256": "abf36116ef51148f3172e59a0aef4053c52cd3e8bb3e48f8d27f00eb2bc5d80c",
+    "files_sha256": {
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/involute.py": "9f968dd5d179fc4f63316b45360d88d80e603b58f1b7f4cf4328e6b840bd52b9",
+      "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+      "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+      "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/inverse/reconstruction.py": "752c23d2565fdf8b72d48e61797b4e09726137fec39b334959d7d3d218026d72",
+      "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/mechanics/alt_models.py": "b44d5682d0678492492c7a94596f883f033648bdef7eb25823f55f4558b0a6a7",
+      "src/mechanics/compliance.py": "53ac8eb5326c7c608cca00c16dd8ec0b308e741de60bf38e167702c2fbcd2b2f",
+      "src/mechanics/contact_solver.py": "2cc1c5ca71c0e68aec9d34b9d94ee930b990fd65bad5625cf5c8cbddd72209fb",
+      "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+      "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/audit_solver_equivalence.py": "587c15ebba13ae3934243fdd3e5f9953892663e7ba5db7cffacfb993f040a99f",
+      "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+      "experiments/complete_correction_runs.py": "dab1b0582008d696bfd87a087957924f781b198e0da937bddbd2e864076039c7",
+      "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+      "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+      "experiments/E01_verification_audit.py": "8bea45340d04120ef0698ed154228384dba05b062125f3ca2f81c7c8bc8b7517",
+      "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+      "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+      "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+      "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+      "experiments/E04_noise_bias.py": "89b37222b2b801bbea7d470bf3a63ff8cb8725f00ae2bcb5ca8a24542cbd77de",
+      "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+      "experiments/E05_optimal_load_selection.py": "ed10305d4eb26772654084fc8c11017677f7941060eb07a23b0beb7b5b0ad193",
+      "experiments/E07_model_discrepancy.py": "4fb4e10df60ca2a4863e1e5711778ca4598b0ff883041c613b3e4fc8f5ee8539",
+      "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+      "experiments/summarize_correction_campaign.py": "84f490851d271dd8dde668e6c14b5696e23a74bba3fdf9ef6e2e0de7b84d2259",
+      "experiments/V06_korta_mundo_reproduction.py": "1949a007e7b391c3f38c35f10bf51794cc7c78383692a72fc4ee9d1594431b73"
+    },
+    "python": "3.12.10",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0"
+  },
+  "historical_unversioned": {
+    "E04": 27,
+    "E07": 6,
+    "E08": 17
+  },
+  "expected": {
+    "E04": 36,
+    "E07": 40,
+    "E08": 24
+  }
+}

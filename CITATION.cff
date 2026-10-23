@@ -1,18 +1,14 @@
 cff-version: 1.2.0
-message: "Please cite the exact tagged version and commit used."
-title: "Contact support and practical identifiability of spur gear microgeometry from transmission error numerical controls"
+message: "Cite this versioned evidence package with the accompanying article."
 type: software
-version: manuscript-v6
-date-released: 2026-10-12
-repository-code: "https://github.com/romusan/gears-inversion-reproducibility"
-url: "https://github.com/romusan/gears-inversion-reproducibility/tree/manuscript-v6"
+title: "Contact support and practical identifiability of spur gear microgeometry from transmission error"
+version: "12"
+date-released: "2026-10-23"
+url: "https://github.com/romusan/gears-inversion-reproducibility/tree/manuscript-v12"
 authors:
   - family-names: "Sandoval Flórez"
     given-names: "Romulo"
-    affiliation: "Universidad ECCI"
   - family-names: "Parra Medina"
     given-names: "Claudia Patricia"
-    affiliation: "Grupo GAV Universidad Militar Nueva Granada"
   - family-names: "Vargas Fonseca"
     given-names: "German Leandro"
-    affiliation: "Grupo GAV Universidad Militar Nueva Granada"

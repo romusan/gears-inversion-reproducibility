@@ -1,0 +1,26 @@
+from pathlib import Path
+import json,re,copy
+ROOT=Path('.');out=ROOT/'revision_12_2026-10-23';old=json.loads((ROOT/'referencias_42_q1.json').read_text());audit=json.loads((out/'bibliography_registry_audit.json').read_text());order=list(range(1,9))+[41,42]+list(range(9,41));mapping={n:i+1 for i,n in enumerate(order)}
+fixed=[];changes=[]
+for n in order:
+ r=copy.deepcopy(old[n-1]);m=audit[n-1].get('metadata',{});notes=[]
+ for field in ['article-number','type','issue']:
+  if m.get(field) is not None:r[field]=m[field]
+ if n==11:r['page']='437';notes.append('Se incorpora número de artículo 437, confirmado por Springer.')
+ if n==40:r['page']='273-304';notes.append('Se completa el rango 273–304 registrado para la revisión de diseño bayesiano.')
+ if n==28:notes.append('Se conserva apellido Sainsot; la cadena Sainsot and del registro es un artefacto de autoría, no un apellido.')
+ if n==5:r['page']='11';r['article-number']='11';notes.append('Se incorpora número de artículo 11, confirmado por Springer.')
+ if n==8:r['title']=m['title'];r['page']='4-31–4-32';notes.append('Se conserva prefijo 419 del título registrado; se normalizan páginas tipográficas, no el DOI.')
+ if n==12:r['title']=m['title'];notes.append('Se conserva la errata trasnsmission del título publicado; confirmada en ScienceDirect.')
+ if n==26:r['volume']='92';r['issue']=None;notes.append('Se normaliza a volumen histórico 92 (Band 92, confirmado por De Gruyter); Crossref usa año 1882 como volumen e issue 92.')
+ if n==34:notes.append('Se conserva subtítulo Insight and Algorithms confirmado en SIAM, ausente del título corto Crossref.')
+ if n==17:notes.append('Se conserva rango completo 577–591; Crossref sólo registra página inicial 577.')
+ if n==29:notes.append('Ficha ISO primaria: edición 3 (2019), confirmada en 2025; no se verifica texto normativo de pago.')
+ r['verification_utc']='2026-10-23';r['old_number']=n;fixed.append(r)
+ changes.append(dict(new_number=mapping[n],old_number=n,title=r['title'][0],doi=r.get('DOI'),source=audit[n-1].get('source_url') if n!=29 else r['url'],status='ISO primary catalogue verified' if n==29 else 'Crossref DOI metadata verified',notes=notes,semantic_scope='Publisher abstract/highlights inspected' if n in [5,7,8,9,11,12,41,42] else 'Bibliographic verification; full text not independently reread'))
+(ROOT/'referencias_42_v12.json').write_text(json.dumps(fixed,indent=2,ensure_ascii=False),encoding='utf-8');(out/'bibliography_verification_v12.json').write_text(json.dumps(changes,indent=2,ensure_ascii=False),encoding='utf-8');(out/'citation_number_map.json').write_text(json.dumps(mapping,indent=2))
+lines=['# Auditoría bibliográfica en internet — v12','', 'Se verificaron 41 DOI mediante metadatos depositados por sus editoriales en Crossref y la referencia ISO mediante el catálogo oficial. La comprobación de existencia y metadatos no equivale a una lectura íntegra de los 42 textos. Las afirmaciones de novedad se contrastaron específicamente con los resúmenes y destacados editoriales de los antecedentes inversos y mecánicos cercanos. Fuentes consultadas el 23 de octubre de 2026.','', 'Los números se reorganizan por primera aparición: los antiguos 41 y 42 pasan a 9 y 10; los antiguos 9–40 pasan a 11–42. Se conservan los identificadores DOI exactos.','', '| Nueva / anterior | Referencia | Fuente primaria y alcance | Corrección |','|---|---|---|---|']
+for r in changes:lines.append(f"| {r['new_number']} / {r['old_number']} | {r['title']} | [{r['status']}]({r['source']}); {r['semantic_scope']} | {' '.join(r['notes']) or 'Sin corrección bibliográfica material.'} |")
+lines+=['','Fuentes editoriales adicionales: [De Gruyter, Band 92 de Hertz](https://www.degruyterbrill.com/document/doi/10.1515/9783112342404-004/html); [SIAM, título completo de Hansen](https://epubs.siam.org/doi/book/10.1137/1.9780898718836); [Springer, artículo 11](https://link.springer.com/article/10.1007/s10010-025-00786-2); [Sánchez et al., título y alcance](https://www.sciencedirect.com/science/article/pii/S0094114X19308791); [Spitas et al., inversión de contacto para diseño](https://www.tandfonline.com/doi/full/10.1080/17415970701256486); [Kalligeros et al., inversión del ensayo de rodadura](https://www.sciencedirect.com/science/article/abs/pii/S1569190X23000345); [ISO 6336-1](https://www.iso.org/standard/63819.html).','', 'Los estudios inversos previos impiden presentar la inversión de engranajes como novedad general. El aporte se limita al diagnóstico de soporte cargado, su extensión a cumplimiento acoplado, la transición débil y el espacio nulo del observable centrado. Sánchez et al. también obtienen modificaciones para respuestas prescritas; el artículo reconoce expresamente ese antecedente de síntesis inversa.','', 'Control editorial: se siguen cinco destacados de hasta 85 caracteres, en archivo Word editable independiente, conforme a la [guía oficial de Elsevier](https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript). La guía específica MMT devolvió acceso 403; no se atribuyen a ella requisitos no comprobados.']
+(out/'AUDITORIA_BIBLIOGRAFICA_v12.md').write_text('\n'.join(lines),encoding='utf-8')
+print('Verified references',len(fixed))

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-23",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "baseline_commit": "8a08285ea9b6e8026d147102278f67e4c403e6bf",
+  "package_versions": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "gmsh": "4.15.2",
+    "scikit-fem": "12.0.2",
+    "meshio": "5.3.5"
+  },
+  "original_1800_optimizations_rerun": false,
+  "tests_passed": 40,
+  "new_controls": [
+    "common-mask waveforms",
+    "cyclic mask erosion",
+    "P2 pressure interface refinement",
+    "physical contour deformation and elastic reassembly"
+  ]
+}

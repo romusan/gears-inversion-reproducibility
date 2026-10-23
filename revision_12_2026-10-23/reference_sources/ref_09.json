@@ -1,0 +1,431 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2026-09-29T03:42:34Z",
+      "timestamp": 1790653354193,
+      "version": "4.1.0"
+    },
+    "reference-count": 18,
+    "publisher": "MDPI AG",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              28
+            ]
+          ],
+          "date-time": "2021-05-28T00:00:00Z",
+          "timestamp": 1622160000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100007655",
+        "name": "Czech Technical University in Prague",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "SGS21/108/OHK2/2T/12"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "SGS21/108/OHK2/2T/12"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100007655",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Applied Sciences"
+    ],
+    "DOI": "10.3390/app11114960",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          28
+        ]
+      ],
+      "date-time": "2021-05-28T11:33:20Z",
+      "timestamp": 1622201600000
+    },
+    "page": "4960",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 29,
+    "title": [
+      "Determination of Mesh Stiffness of Gear—Analytical Approach vs. FEM Analysis"
+    ],
+    "prefix": "10.3390",
+    "volume": "11",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4495-1206",
+        "authenticated-orcid": false,
+        "given": "Jan",
+        "family": "Flek",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Designing and Machine Components, Faculty of Mechanical Engineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4027-0465",
+        "authenticated-orcid": false,
+        "given": "Martin",
+        "family": "Dub",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Designing and Machine Components, Faculty of Mechanical Engineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4648-6515",
+        "authenticated-orcid": false,
+        "given": "Josef",
+        "family": "Kolář",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Automotive, Combustion Engine and Railway Engineering, Faculty of Mechanical Engineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5731-6784",
+        "authenticated-orcid": false,
+        "given": "František",
+        "family": "Lopot",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Designing and Machine Components, Faculty of Mechanical Engineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9789-5709",
+        "authenticated-orcid": false,
+        "given": "Karel",
+        "family": "Petr",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Designing and Machine Components, Faculty of Mechanical Engineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          28
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2149",
+        "DOI": "10.1016/j.engfailanal.2011.07.006",
+        "article-title": "Dynamic simulation of spur gear with tooth root crack propagating along tooth width and crack depth",
+        "volume": "18",
+        "author": "Chen",
+        "year": "2011",
+        "journal-title": "Eng. Fail. Anal."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1016/j.mechmachtheory.2016.10.006",
+        "article-title": "Effect of mesh stiffness of healthy and cracked gear tooth on modal frequency response characteristics of geared rotor system",
+        "volume": "107",
+        "author": "Saxena",
+        "year": "2017",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "748",
+        "DOI": "10.1115/1.1758252",
+        "article-title": "Contribution of Gear Body to Tooth Deflections—A New Bidimensional Analytical Formula",
+        "volume": "126",
+        "author": "Sainsot",
+        "year": "2004",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, L.T., Shao, Y.M., Jiang, W.W., Zhang, L.K., Wang, L.M., and Xu, J. (2021). Effects of Tooth Surface Crack Propagation on Meshing Stiffness and Vibration Characteristic of Spur Gear System. Appl. Sci., 11.",
+        "DOI": "10.3390/app11041968"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1227",
+        "DOI": "10.1007/s11071-019-05348-0",
+        "article-title": "Nonlinear dynamics of a spur gear pair with force-dependent mesh stiffness",
+        "volume": "99",
+        "author": "Cao",
+        "year": "2020",
+        "journal-title": "Nonlinear Dyn."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.1016/j.engfailanal.2014.04.005",
+        "article-title": "An improved time-varying mesh stiffness algorithm and dynamic modeling of gear-rotor system with tooth root crack",
+        "volume": "42",
+        "author": "Wan",
+        "year": "2014",
+        "journal-title": "Eng. Fail. Anal."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "266",
+        "DOI": "10.1016/j.measurement.2016.03.001",
+        "article-title": "Experimental measurement of gear mesh stiffness of cracked spur gear by strain gauge technique",
+        "volume": "86",
+        "author": "Raghuwanshi",
+        "year": "2016",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2149",
+        "DOI": "10.1016/j.mechmachtheory.2020.103989",
+        "article-title": "Mesh stiffness and nonlinear dynamic response of a spur gear pair considering tribo-dynamic effect",
+        "volume": "153",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "858",
+        "DOI": "10.1016/j.jsv.2007.02.008",
+        "article-title": "An analysis of the automotive driveline dynamic behaviour focusing on the influence of the oil squeeze effect on the idle rattle phenomenon",
+        "volume": "303",
+        "author": "Brancati",
+        "year": "2007",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "key": "ref_10",
+        "unstructured": "Šalamoun, C. (1990). Čelní a šroubová soukolí s evolventním ozubením, SNTL—Státní nakladatelství technické literatury. [1st ed.]."
+      },
+      {
+        "key": "ref_11",
+        "unstructured": "Moravec, V. (2001). Konstrukce strojů a zařízení II.: Čelní ozubená kola: Teorie, výpočet, konstrukce, výroba, kontrola, Montanex. [1st ed.]."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "503",
+        "DOI": "10.1007/s40997-018-0173-x",
+        "article-title": "A New Model for the Single Mesh Stiffness Calculation of Helical Gears Using the Slicing Principle",
+        "volume": "43",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "Iran. J. Sci. Technol. Trans. Mech. Eng."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gokcek, M. (2012). On the Modelling of Spur and Helical Gear Dynamic Behaviour. Mechanical Engineering, IntechOpen. Chapter 4.",
+        "DOI": "10.5772/2397"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "2959",
+        "DOI": "10.1016/j.matpr.2020.09.309",
+        "article-title": "Dynamic analysis of spur gear with backlash using ADAMS",
+        "volume": "38",
+        "author": "Ambaye",
+        "year": "2021",
+        "journal-title": "Mater. Today Proc."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1016/j.measurement.2017.07.034",
+        "article-title": "Experimental measurement of spur gear mesh stiffness using digital image correlation technique",
+        "volume": "111",
+        "author": "Raghuwanshi",
+        "year": "2017",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raghuwanshi, N.K., and Parey, A. (2019). A New Technique of Gear Mesh Stiffness Measurement Using Experimental Modal Analysis. J. Vib. Acoust., 141.",
+        "DOI": "10.1115/1.4042100"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Park, J., Ha, J.M., Oh, H., Youn, B.D., Park, S., and Choi, J.H. (2015, January 21–23). Experimental Approach for Estimating Mesh Stiffness in Faulty States of Rotating Gear. Proceedings of the Annual Conference of the PHM Society, Beijing, China.",
+        "DOI": "10.36001/phmconf.2015.v7i1.2654"
+      },
+      {
+        "key": "ref_18",
+        "unstructured": "Slavík, J., Stejskal, V., and Zeman, V. (1997). Základy dynamicky strojů, Vydavatelství ČVUT. [1st ed.]."
+      }
+    ],
+    "container-title": [
+      "Applied Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2076-3417/11/11/4960/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          11
+        ]
+      ],
+      "date-time": "2025-10-11T06:09:28Z",
+      "timestamp": 1760162968000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2076-3417/11/11/4960"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          28
+        ]
+      ]
+    },
+    "references-count": 18,
+    "journal-issue": {
+      "issue": "11",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "app11114960"
+    ],
+    "URL": "https://doi.org/10.3390/app11114960",
+    "relation": {},
+    "ISSN": [
+      "2076-3417"
+    ],
+    "issn-type": [
+      {
+        "value": "2076-3417",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          28
+        ]
+      ]
+    }
+  }
+}

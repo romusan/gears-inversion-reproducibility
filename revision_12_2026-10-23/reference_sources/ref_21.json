@@ -1,0 +1,828 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T20:46:53Z",
+      "timestamp": 1792788413283,
+      "version": "4.5.0"
+    },
+    "reference-count": 49,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              10,
+              28
+            ]
+          ],
+          "date-time": "2016-10-28T00:00:00Z",
+          "timestamp": 1477612800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000266",
+        "name": "Engineering and Physical Sciences Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EP/M002454/1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EP/M002454/1"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000266",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000266",
+        "name": "Engineering and Physical Sciences Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EP/J012041/1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EP/J012041/1"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000266",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Consellería de Cultura, Educación e Ordenación Universitaria",
+        "award": [
+          "ED481B2014/133-0"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ED481B2014/133-0"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003329",
+        "name": "Ministerio de Economía y Competitividad",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DPI2013-47100-C2-2-P"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DPI2013-47100-C2-2-P"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003329",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "European Union’s Horizon 2020",
+        "award": [
+          "686282"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "686282"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.ploscompbiol.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS Comput Biol"
+    ],
+    "DOI": "10.1371/journal.pcbi.1005153",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2016-10-28T13:35:46Z",
+      "timestamp": 1477661746000
+    },
+    "page": "e1005153",
+    "update-policy": "https://doi.org/10.1371/journal.pcbi.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 288,
+    "title": [
+      "Structural Identifiability of Dynamic Systems Biology Models"
+    ],
+    "prefix": "10.1371",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Alejandro F.",
+        "family": "Villaverde",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2862-1840",
+        "authenticated-orcid": true,
+        "given": "Antonio",
+        "family": "Barreiro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3565-8967",
+        "authenticated-orcid": true,
+        "given": "Antonis",
+        "family": "Papachristodoulou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          10,
+          28
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "article-title": "Dynamic systems biology modeling and simulation",
+        "author": "J DiStefano III",
+        "year": "2015"
+      },
+      {
+        "issue": "91",
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "first-page": "20130505",
+        "DOI": "10.1098/rsif.2013.0505",
+        "article-title": "Reverse engineering and identification in systems biology: strategies, perspectives and challenges",
+        "volume": "11",
+        "author": "AF Villaverde",
+        "year": "2014",
+        "journal-title": "J R Soc Interface"
+      },
+      {
+        "issue": "11",
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "813",
+        "DOI": "10.1038/nrm2030",
+        "article-title": "Linking data to models: data regression",
+        "volume": "7",
+        "author": "K Jaqaman",
+        "year": "2006",
+        "journal-title": "Nat Rev Mol Cell Biol"
+      },
+      {
+        "issue": "3",
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "329",
+        "DOI": "10.1016/0025-5564(70)90132-X",
+        "article-title": "On structural identifiability",
+        "volume": "7",
+        "author": "R Bellman",
+        "year": "1970",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Communications and Control Engineering Series",
+        "author": "E Walter",
+        "year": "1997"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "first-page": "143",
+        "DOI": "10.1016/j.copbio.2016.04.004",
+        "article-title": "Model calibration and uncertainty analysis in signaling networks",
+        "volume": "39",
+        "author": "T Heinemann",
+        "year": "2016",
+        "journal-title": "Curr Opin Biotechnol"
+      },
+      {
+        "issue": "11",
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pcbi.1000558",
+        "article-title": "Optimal experimental design for parameter estimation of a cell signaling model",
+        "volume": "5",
+        "author": "S Bandara",
+        "year": "2009",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "issue": "5",
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1004096",
+        "DOI": "10.1371/journal.pcbi.1004096",
+        "article-title": "Summary of the DREAM8 parameter estimation challenge: toward parameter identification for whole-cell models",
+        "volume": "11",
+        "author": "JR Karr",
+        "year": "2015",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "issue": "1",
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1137/090757009",
+        "article-title": "On identifiability of nonlinear ODE models and applications in viral dynamics",
+        "volume": "53",
+        "author": "H Miao",
+        "year": "2011",
+        "journal-title": "SIAM Rev"
+      },
+      {
+        "issue": "11",
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "first-page": "e27755",
+        "DOI": "10.1371/journal.pone.0027755",
+        "article-title": "Structural identifiability of systems biology models: a critical comparison of methods",
+        "volume": "6",
+        "author": "OT Chiş",
+        "year": "2011",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "2",
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "389",
+        "DOI": "10.1016/j.cell.2012.05.044",
+        "article-title": "A whole-cell computational model predicts phenotype from genotype",
+        "volume": "150",
+        "author": "JR Karr",
+        "year": "2012",
+        "journal-title": "Cell"
+      },
+      {
+        "issue": "1",
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "first-page": "52",
+        "DOI": "10.1016/j.cmpb.2007.07.002",
+        "article-title": "DAISY: a new software tool to test global identifiability of biological and physiological systems",
+        "volume": "88",
+        "author": "G Bellu",
+        "year": "2007",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "issue": "15",
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1923",
+        "DOI": "10.1093/bioinformatics/btp358",
+        "article-title": "Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood",
+        "volume": "25",
+        "author": "A Raue",
+        "year": "2009",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "18",
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "first-page": "2610",
+        "DOI": "10.1093/bioinformatics/btr431",
+        "article-title": "GenSSI: a software toolbox for structural identifiability analysis of biological models",
+        "volume": "27",
+        "author": "O Chiş",
+        "year": "2011",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "11",
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1549",
+        "DOI": "10.1093/bioinformatics/bts171",
+        "article-title": "CRNreals: a toolbox for distinguishability and identifiability analysis of biochemical reaction networks",
+        "volume": "28",
+        "author": "G Szederkényi",
+        "year": "2012",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Karlsson J, Anguelova M, Jirstrand M. An Efficient Method for Structural Identiability Analysis of Large Dynamic Systems. In: 16th IFAC Symposium on System Identification. vol. 16; 2012. p. 941–946.",
+        "DOI": "10.3182/20120711-3-BE-2027.00381"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "first-page": "735",
+        "DOI": "10.1006/jsco.2002.0532",
+        "article-title": "A probabilistic algorithm to test local algebraic observability in polynomial time",
+        "volume": "33",
+        "author": "A Sedoglavic",
+        "year": "2002",
+        "journal-title": "J Symbol Comput"
+      },
+      {
+        "issue": "5",
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "first-page": "433",
+        "DOI": "10.1007/s00285-003-0261-3",
+        "article-title": "Structural identifiability analysis of some highly structured families of statespace models using differential algebra",
+        "volume": "49",
+        "author": "G Margaria",
+        "year": "2004",
+        "journal-title": "J Math Biol"
+      },
+      {
+        "issue": "3",
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e60",
+        "DOI": "10.1016/j.cmpb.2013.06.013",
+        "article-title": "Structural identifiability analyses of candidate models for in vitro Pitavastatin hepatic uptake",
+        "volume": "114",
+        "author": "TR Grandjean",
+        "year": "2014",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "ref20",
+        "first-page": "btt006",
+        "article-title": "Comparison of approaches for parameter identifiability analysis of biological systems",
+        "author": "A Raue",
+        "year": "2014",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "3",
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "first-page": "574",
+        "DOI": "10.1002/stc.1690",
+        "article-title": "On the observability and identifiability of nonlinear structural and mechanical systems",
+        "volume": "22",
+        "author": "MN Chatzis",
+        "year": "2015",
+        "journal-title": "Struct Control Health Monit"
+      },
+      {
+        "issue": "2",
+        "key": "ref22",
+        "article-title": "Identifiability of Large Nonlinear Models in Systems Biology: Mathematical and Computational Aspects",
+        "volume": "76",
+        "author": "AF Villaverde",
+        "year": "2016",
+        "journal-title": "MATCH Commun Math Comput Chem"
+      },
+      {
+        "issue": "5",
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "first-page": "728",
+        "DOI": "10.1109/TAC.1977.1101601",
+        "article-title": "Nonlinear controllability and observability",
+        "volume": "22",
+        "author": "R Hermann",
+        "year": "1977",
+        "journal-title": "IEEE Trans Autom Control"
+      },
+      {
+        "issue": "2",
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "first-page": "146",
+        "DOI": "10.1109/TAC.1987.1104544",
+        "article-title": "New results for identifiability of nonlinear systems",
+        "volume": "32",
+        "author": "ET Tunali",
+        "year": "1987",
+        "journal-title": "IEEE Trans Autom Control"
+      },
+      {
+        "issue": "6",
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "first-page": "875",
+        "DOI": "10.1089/cmb.2008.0211",
+        "article-title": "A new computational tool for establishing model parameter identifiability",
+        "volume": "16",
+        "author": "E August",
+        "year": "2009",
+        "journal-title": "J Comput Biol"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Villaverde AF, Barreiro A, Papachristodoulou A. Structural Identifiability Analysis via Extended Observability and Decomposition. In: 6th IFAC Conference on Foundations of Systems Biology in Engineering; 2016. p. in press.",
+        "DOI": "10.1016/j.ifacol.2016.12.121"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "425",
+        "DOI": "10.1016/0065-2571(65)90067-1",
+        "article-title": "Oscillatory behavior in enzymatic control processes",
+        "volume": "3",
+        "author": "BC Goodwin",
+        "year": "1965",
+        "journal-title": "Adv Enzyme Regul"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/srep12569",
+        "article-title": "DYVIPAC: an integrated analysis and visualisation framework to probe multi-dimensional biological networks",
+        "volume": "5",
+        "author": "LK Nguyen",
+        "year": "2015",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "3",
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1016/j.jtbi.2004.11.038",
+        "article-title": "Modelling genetic networks with noisy and varied experimental data: the circadian clock in Arabidopsis thaliana",
+        "volume": "234",
+        "author": "J Locke",
+        "year": "2005",
+        "journal-title": "J Theor Biol"
+      },
+      {
+        "issue": "2",
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "first-page": "195",
+        "DOI": "10.1016/j.jtbi.2004.01.001",
+        "article-title": "Mathematical model of NF-<italic>κ</italic>B regulatory module",
+        "volume": "228",
+        "author": "T Lipniacki",
+        "year": "2004",
+        "journal-title": "J Theor Biol"
+      },
+      {
+        "issue": "3",
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "first-page": "693",
+        "DOI": "10.1158/0008-5472.CAN-10-2987",
+        "article-title": "Dynamic mathematical modeling of IL13-induced signaling in Hodgkin and primary mediastinal B-cell lymphoma allows prediction of therapeutic targets",
+        "volume": "71",
+        "author": "V Raia",
+        "year": "2011",
+        "journal-title": "Cancer Res"
+      },
+      {
+        "issue": "1",
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "first-page": "8",
+        "DOI": "10.1186/s12918-015-0144-4",
+        "article-title": "BioPreDyn-bench: a suite of benchmark problems for dynamic modelling in systems biology",
+        "volume": "9",
+        "author": "AF Villaverde",
+        "year": "2015",
+        "journal-title": "BMC Syst Biol"
+      },
+      {
+        "issue": "2",
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1016/0005-1098(94)90029-9",
+        "article-title": "On global identifiability for arbitrary model parametrizations",
+        "volume": "30",
+        "author": "L Ljung",
+        "year": "1994",
+        "journal-title": "Automatica"
+      },
+      {
+        "issue": "2",
+        "key": "ref34",
+        "first-page": "102",
+        "article-title": "Contributions to the theory of optimal control",
+        "volume": "5",
+        "author": "RE Kalman",
+        "year": "1960",
+        "journal-title": "Bol Soc Mat Mex"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Nonlinear systems analysis",
+        "volume": "vol. 42",
+        "author": "M Vidyasagar",
+        "year": "2002"
+      },
+      {
+        "issue": "4",
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1016/0167-6911(89)90116-3",
+        "article-title": "On two definitions of observation spaces",
+        "volume": "13",
+        "author": "Y Wang",
+        "year": "1989",
+        "journal-title": "Syst Control Lett"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sontag ED, Wang Y. I/O equations for nonlinear systems and observation spaces. In: Proceedings of the 30th IEEE Conference on Decision and Control. IEEE; 1991. p. 720–725.",
+        "DOI": "10.1109/CDC.1991.261406"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Nonlinear observability and identifiability: General theory and a case study of a kinetic model for S. cerevisiae",
+        "author": "M Anguelova",
+        "year": "2004"
+      },
+      {
+        "issue": "4",
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "first-page": "619",
+        "DOI": "10.1016/S0005-1098(02)00302-3",
+        "article-title": "Parameter identifiability of nonlinear systems: the role of initial conditions",
+        "volume": "39",
+        "author": "MP Saccomani",
+        "year": "2003",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/0470045345",
+        "article-title": "Optimal state estimation: Kalman, H<sub>∞</sub>, and nonlinear approaches",
+        "author": "D Simon",
+        "year": "2006"
+      },
+      {
+        "issue": "2",
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/j.mbs.2009.08.010",
+        "article-title": "An algorithm for finding globally identifiable parameter combinations of nonlinear ODE models using Gröbner Bases",
+        "volume": "222",
+        "author": "N Meshkat",
+        "year": "2009",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "issue": "10",
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0110261",
+        "article-title": "On Finding and Using Identifiable Parameter Combinations in Nonlinear Dynamic Systems Biology Models and COMBOS: A Novel Web Implementation",
+        "volume": "9",
+        "author": "N Meshkat",
+        "year": "2014",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "1",
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1016/S0025-5564(97)10004-9",
+        "article-title": "A procedure for generating locally identifiable reparameterisations of unidentifiable non-linear systems by the similarity transformation approach",
+        "volume": "148",
+        "author": "MJ Chappell",
+        "year": "1998",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "issue": "2",
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "first-page": "137",
+        "DOI": "10.1016/S0025-5564(00)00047-X",
+        "article-title": "Extensions to a procedure for generating locally identifiable reparameterisations of unidentifiable systems",
+        "volume": "168",
+        "author": "ND Evans",
+        "year": "2000",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "first-page": "118",
+        "DOI": "10.1016/j.automatica.2015.05.004",
+        "article-title": "A fast algorithm to assess local structural identifiability",
+        "volume": "58",
+        "author": "JD Stigter",
+        "year": "2015",
+        "journal-title": "Automatica"
+      },
+      {
+        "issue": "11",
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1097",
+        "DOI": "10.1016/S0305-0548(97)00031-2",
+        "article-title": "Variable neighborhood search",
+        "volume": "24",
+        "author": "N Mladenović",
+        "year": "1997",
+        "journal-title": "Comput Oper Res"
+      },
+      {
+        "key": "ref47",
+        "article-title": "Observability of complex systems",
+        "author": "YY Liu",
+        "year": "2013",
+        "journal-title": "Proc Natl Acad Sci USA"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1186/1471-2105-15-136",
+        "article-title": "MEIGO: an open-source software suite based on metaheuristics for global optimization in systems biology and bioinformatics",
+        "volume": "15",
+        "author": "J Egea",
+        "year": "2014",
+        "journal-title": "BMC Bioinf"
+      },
+      {
+        "issue": "6–7",
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "first-page": "1795",
+        "DOI": "10.1007/s00285-012-0614-x",
+        "article-title": "On the identifiability of metabolic network models",
+        "volume": "67",
+        "author": "S Berthoumieux",
+        "year": "2013",
+        "journal-title": "J Math Biol"
+      }
+    ],
+    "container-title": [
+      "PLOS Computational Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://dx.plos.org/10.1371/journal.pcbi.1005153",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          20
+        ]
+      ],
+      "date-time": "2023-08-20T13:35:25Z",
+      "timestamp": 1692538525000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pcbi.1005153"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Satoru",
+        "family": "Miyano",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          10,
+          28
+        ]
+      ]
+    },
+    "references-count": 49,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2016,
+            10,
+            28
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pcbi.1005153",
+    "relation": {},
+    "ISSN": [
+      "1553-7358"
+    ],
+    "issn-type": [
+      {
+        "value": "1553-7358",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          10,
+          28
+        ]
+      ]
+    }
+  }
+}

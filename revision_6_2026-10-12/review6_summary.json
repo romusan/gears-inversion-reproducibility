@@ -638,11 +638,6 @@
   "quadratic_reference_difference_percent": 18.393568653993885,
   "maximum_torque_error_percent": 0.033321319688495166,
   "source_sha256": {
-    "fe2d/run_fe2d.py": "0c941a1807e3cf350fff281bb9f9a7f641b9db34b984210db0bf10fb850115d9",
-    "fe2d/quadratic_eight_phases.py": "3ae9a28f6d220b9cc65a0628f40581a7adc293201d5dc0e223237bb7c9091bac",
-    "gear_inverse_identifiability/experiments/Q1_review6_angular.py": "09ac13d5dc78c3817aab393248482d4620233b0cac5850662839bbb89f653161"
-  },
-  "source_sha256_observed_local": {
     "fe2d\\run_fe2d.py": "0c941a1807e3cf350fff281bb9f9a7f641b9db34b984210db0bf10fb850115d9",
     "fe2d\\quadratic_eight_phases.py": "3ae9a28f6d220b9cc65a0628f40581a7adc293201d5dc0e223237bb7c9091bac",
     "gear_inverse_identifiability\\experiments\\Q1_review6_angular.py": "09ac13d5dc78c3817aab393248482d4620233b0cac5850662839bbb89f653161"

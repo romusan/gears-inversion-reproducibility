@@ -1,0 +1,146 @@
+{
+  "provenance": {
+    "campaign": "corrections-2026-10-12",
+    "created_utc": "2026-10-12T18:31:51.715046+00:00",
+    "source_sha256": "7ab18ee382604000ab71132bf20cdf4cdd9648db5573a4fe8f9ad61fb35f80cb",
+    "files_sha256": {
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+      "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+      "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+      "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+      "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/mechanics/alt_models.py": "9403de2a48848c280918ea4f33cc8fcf3f60d019f61719ba960beedc1340f27c",
+      "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+      "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+      "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+      "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+      "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+      "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+      "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+      "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+      "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+      "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+      "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+      "experiments/E04_noise_bias.py": "0d402301066a9c29102453c1cddf5440ba190600bc28d58c94c584180215ac0b",
+      "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+      "experiments/E05_optimal_load_selection.py": "ed10305d4eb26772654084fc8c11017677f7941060eb07a23b0beb7b5b0ad193",
+      "experiments/E07_model_discrepancy.py": "8aef03689959a30f80250cb7da269e2aaa6ca5be78fc1a8328aeb6db8b4c44ea",
+      "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+      "experiments/summarize_correction_campaign.py": "dc79d4dc182d110795b751375783cc16292b94632fb47be88203b59c36b7f9ea",
+      "experiments/V06_korta_mundo_reproduction.py": "dccaf2c37cce61b8f95a1b608e63ee28391a599d7d6b8b2f5e43c837a5de1507"
+    },
+    "python": "3.12.10",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0"
+  },
+  "source_url": "https://iris.unical.it/bitstream/20.500.11770/133021/10/1.Korta_MMT__Submitted_Version_opt.pdf",
+  "source_tables": [
+    6,
+    7,
+    8
+  ],
+  "target_type": "FE-derived, excluding metamodel predictions",
+  "results": [
+    {
+      "case": "unmodified",
+      "torque_Nm": 350.0,
+      "model_pp_um": 6.334161619093311,
+      "reference_fe_pp_um": 6.078,
+      "difference_percent": 4.214570896566476,
+      "passes_5_percent": true
+    },
+    {
+      "case": "unmodified",
+      "torque_Nm": 500.0,
+      "model_pp_um": 8.895206970534979,
+      "reference_fe_pp_um": 8.276,
+      "difference_percent": 7.481959527972195,
+      "passes_5_percent": false
+    },
+    {
+      "case": "unmodified",
+      "torque_Nm": 650.0,
+      "model_pp_um": 11.32024716729484,
+      "reference_fe_pp_um": 10.527,
+      "difference_percent": 7.535358291012067,
+      "passes_5_percent": false
+    },
+    {
+      "case": "Sol1",
+      "torque_Nm": 350.0,
+      "model_pp_um": 3.734638545509237,
+      "reference_fe_pp_um": 3.542,
+      "difference_percent": 5.438694113755985,
+      "passes_5_percent": false
+    },
+    {
+      "case": "Sol1",
+      "torque_Nm": 500.0,
+      "model_pp_um": 6.236404827481917,
+      "reference_fe_pp_um": 5.689,
+      "difference_percent": 9.622162550218263,
+      "passes_5_percent": false
+    },
+    {
+      "case": "Sol1",
+      "torque_Nm": 650.0,
+      "model_pp_um": 8.700482378320679,
+      "reference_fe_pp_um": 7.96,
+      "difference_percent": 9.302542441214559,
+      "passes_5_percent": false
+    },
+    {
+      "case": "Sol2",
+      "torque_Nm": 350.0,
+      "model_pp_um": 3.013813093452354,
+      "reference_fe_pp_um": 2.434,
+      "difference_percent": 23.82140893395045,
+      "passes_5_percent": false
+    },
+    {
+      "case": "Sol2",
+      "torque_Nm": 500.0,
+      "model_pp_um": 5.4832007862939545,
+      "reference_fe_pp_um": 4.462,
+      "difference_percent": 22.886615560151384,
+      "passes_5_percent": false
+    },
+    {
+      "case": "Sol2",
+      "torque_Nm": 650.0,
+      "model_pp_um": 7.916095921280859,
+      "reference_fe_pp_um": 6.67,
+      "difference_percent": 18.682097770327726,
+      "passes_5_percent": false
+    },
+    {
+      "case": "Sol3",
+      "torque_Nm": 350.0,
+      "model_pp_um": 3.907561776137023,
+      "reference_fe_pp_um": 3.775,
+      "difference_percent": 3.511570228795312,
+      "passes_5_percent": true
+    },
+    {
+      "case": "Sol3",
+      "torque_Nm": 500.0,
+      "model_pp_um": 6.391739351935856,
+      "reference_fe_pp_um": 5.93,
+      "difference_percent": 7.786498346304488,
+      "passes_5_percent": false
+    },
+    {
+      "case": "Sol3",
+      "torque_Nm": 650.0,
+      "model_pp_um": 8.838169027739758,
+      "reference_fe_pp_um": 8.162,
+      "difference_percent": 8.284354664785063,
+      "passes_5_percent": false
+    }
+  ]
+}

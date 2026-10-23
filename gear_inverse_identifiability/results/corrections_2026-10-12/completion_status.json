@@ -1,0 +1,17 @@
+{
+  "E04": {
+    "records": 36,
+    "expected": 36,
+    "success": 36
+  },
+  "E07": {
+    "records": 40,
+    "expected": 40,
+    "success": 40
+  },
+  "E08": {
+    "records": 24,
+    "expected": 24,
+    "success": 24
+  }
+}

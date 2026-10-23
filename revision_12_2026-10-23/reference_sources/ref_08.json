@@ -1,0 +1,208 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2022-03-31T18:56:38Z",
+      "timestamp": 1648752998367
+    },
+    "reference-count": 0,
+    "publisher": "Japan Society of Mechanical Engineers",
+    "issue": "0",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "DOI": "10.1299/jsmekansai.2000.75._4-31_",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2017-06-23T01:17:12Z",
+      "timestamp": 1498180632000
+    },
+    "page": "_4-31_-_4-32_",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "419 A study on meshing transmission error of spur gear used inverse problems"
+    ],
+    "prefix": "10.1299",
+    "volume": "2000.75",
+    "author": [
+      {
+        "given": "Eiichi",
+        "family": "AOYAMA",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Eng., Doshisha Univ."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Toshiki",
+        "family": "HIROGAKI",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Eng., School of Shiga Pref."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yasuhiro",
+        "family": "UENISHI",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mitsubishi Motors Co."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zaigaku",
+        "family": "KOU",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Kouyou Lindberg Co."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jun",
+        "family": "KOJIMA",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Doshisha Univ."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "124",
+    "container-title": [
+      "The Proceedings of Conference of Kansai Branch"
+    ],
+    "original-title": [
+      "419 逆問題を用いた平歯車のかみあい伝達誤差に関する研究(GS-11 機械要素(1))"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.jstage.jst.go.jp/article/jsmekansai/2000.75/0/2000.75__4-31_/_pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2017-06-23T01:17:13Z",
+      "timestamp": 1498180633000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.jstage.jst.go.jp/article/jsmekansai/2000.75/0/2000.75__4-31_/_article/-char/ja/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "0",
+      "published-print": {
+        "date-parts": [
+          [
+            2000
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1299/jsmekansai.2000.75._4-31_",
+    "relation": {},
+    "ISSN": [
+      "2424-2756"
+    ],
+    "issn-type": [
+      {
+        "value": "2424-2756",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    }
+  }
+}

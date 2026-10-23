@@ -1,0 +1,20 @@
+{
+  "main_pages": 24,
+  "supplement_pages": 6,
+  "main_tables": 11,
+  "figures": 8,
+  "supplement_tables": 16,
+  "equation_blocks": 15,
+  "rendering": "Native Word PDF export and bundled Poppler at 100 dpi; canonical render_docx.py could not find a LibreOffice executable",
+  "visual_review": "All 30 pages inspected; unchanged first seven article page images checked by SHA256 equality against inspected render",
+  "article_sha256": "125e417b093c7b8cc687470304db039654b7e8f494eccc7e8ebc417203af6adb",
+  "supplement_sha256": "8f75b5b7172e0fd2bf3342a2244dac096b0b7edf3b6918629bee2fdec863d10a",
+  "baseline_git_status": "clean after work",
+  "scientific_checks": {
+    "isolated_FE_signal_um": 0.17898699986522773,
+    "null_fit_delta_chi2_below": 1e-06,
+    "original_statistics_records_checked": 1800,
+    "original_statistics_optimizations_rerun": false,
+    "unit_tests_passed": 40
+  }
+}

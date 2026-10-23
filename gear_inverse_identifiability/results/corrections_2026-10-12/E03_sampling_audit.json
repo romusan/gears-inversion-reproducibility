@@ -1,0 +1,871 @@
+{
+  "provenance": {
+    "campaign": "corrections-2026-10-12",
+    "created_utc": "2026-10-12T19:11:55.285683+00:00",
+    "source_sha256": "b6e0fa847f01e94f94e044599ccf420dd67fbe440248ee4f0de4b43d57707cc7",
+    "files_sha256": {
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/involute.py": "9f968dd5d179fc4f63316b45360d88d80e603b58f1b7f4cf4328e6b840bd52b9",
+      "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+      "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+      "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+      "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/mechanics/alt_models.py": "b44d5682d0678492492c7a94596f883f033648bdef7eb25823f55f4558b0a6a7",
+      "src/mechanics/compliance.py": "53ac8eb5326c7c608cca00c16dd8ec0b308e741de60bf38e167702c2fbcd2b2f",
+      "src/mechanics/contact_solver.py": "2cc1c5ca71c0e68aec9d34b9d94ee930b990fd65bad5625cf5c8cbddd72209fb",
+      "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+      "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/audit_solver_equivalence.py": "587c15ebba13ae3934243fdd3e5f9953892663e7ba5db7cffacfb993f040a99f",
+      "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+      "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+      "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+      "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+      "experiments/E01_verification_audit.py": "8bea45340d04120ef0698ed154228384dba05b062125f3ca2f81c7c8bc8b7517",
+      "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+      "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+      "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+      "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+      "experiments/E04_noise_bias.py": "0d402301066a9c29102453c1cddf5440ba190600bc28d58c94c584180215ac0b",
+      "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+      "experiments/E05_optimal_load_selection.py": "ed10305d4eb26772654084fc8c11017677f7941060eb07a23b0beb7b5b0ad193",
+      "experiments/E07_model_discrepancy.py": "8aef03689959a30f80250cb7da269e2aaa6ca5be78fc1a8328aeb6db8b4c44ea",
+      "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+      "experiments/summarize_correction_campaign.py": "84f490851d271dd8dde668e6c14b5696e23a74bba3fdf9ef6e2e0de7b84d2259",
+      "experiments/V06_korta_mundo_reproduction.py": "1949a007e7b391c3f38c35f10bf51794cc7c78383692a72fc4ee9d1594431b73"
+    },
+    "python": "3.12.10",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0"
+  },
+  "grids": [
+    {
+      "n_positions": 20,
+      "rank": 2,
+      "singular_values": [
+        364.16617107967727,
+        53.28787664064932,
+        9.593038534884448e-11,
+        1.1721823027781073e-26
+      ],
+      "root_change_rmse_um": 0.0
+    },
+    {
+      "n_positions": 30,
+      "rank": 3,
+      "singular_values": [
+        447.0172892753896,
+        65.62055099518088,
+        5.081207086229399,
+        4.4115431397909396e-11
+      ],
+      "root_change_rmse_um": 0.00043377143515068817
+    },
+    {
+      "n_positions": 60,
+      "rank": 4,
+      "singular_values": [
+        634.0977649582246,
+        92.71171303910519,
+        5.8499963861945545,
+        0.010823556487988833
+      ],
+      "root_change_rmse_um": 0.00038707793760361616
+    },
+    {
+      "n_positions": 120,
+      "rank": 4,
+      "singular_values": [
+        897.8392734095336,
+        130.8794091744064,
+        10.72597740108395,
+        0.036397004047544916
+      ],
+      "root_change_rmse_um": 0.0006416420194430457
+    },
+    {
+      "n_positions": 240,
+      "rank": 4,
+      "singular_values": [
+        1269.4698920521273,
+        184.94342699002092,
+        14.116746795202527,
+        0.04700402258832663
+      ],
+      "root_change_rmse_um": 0.0005717680441945406
+    }
+  ],
+  "records": [
+    {
+      "n_positions": 30,
+      "start_id": 0,
+      "theta0": [
+        0.026000000000000002,
+        0.675,
+        0.01,
+        0.3
+      ],
+      "theta_est": [
+        0.019999999996849635,
+        0.749999999919987,
+        0.005656895965391813,
+        0.24944624597601373
+      ],
+      "success": true,
+      "nfev": 10,
+      "fit_rmse_um": 5.117971930680297e-08,
+      "heldout_dense_rmse_um": 2.526629984346208e-05,
+      "error_scaled": [
+        -6.300730770458784e-11,
+        -8.00129962286178e-11,
+        0.06568959653918127,
+        -0.0005537540239862748
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 30,
+      "start_id": 1,
+      "theta0": [
+        0.06105805936917183,
+        0.5681378313922967,
+        0.04459581878494,
+        0.34344247863773186
+      ],
+      "theta_est": [
+        0.019999999999268287,
+        0.7499999999814152,
+        0.017173738409637204,
+        0.2457986881552384
+      ],
+      "success": true,
+      "nfev": 14,
+      "fit_rmse_um": 2.0399725857314004e-08,
+      "heldout_dense_rmse_um": 0.0003728006810735464,
+      "error_scaled": [
+        -1.4634266021218423e-11,
+        -1.8584800365317733e-11,
+        1.2173738409637203,
+        -0.004201311844761607
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 30,
+      "start_id": 2,
+      "theta0": [
+        0.061137794749520705,
+        0.7914814754399992,
+        0.02113906420662683,
+        0.49735801270130026
+      ],
+      "theta_est": [
+        0.019999999999998786,
+        0.7499999999999694,
+        0.003277423352439475,
+        0.25220164431507175
+      ],
+      "success": true,
+      "nfev": 12,
+      "fit_rmse_um": 1.5178892204695452e-11,
+      "heldout_dense_rmse_um": 7.427483774555748e-05,
+      "error_scaled": [
+        -2.42861286636753e-14,
+        -3.064215547965432e-14,
+        -0.1722576647560525,
+        0.002201644315071749
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 30,
+      "start_id": 3,
+      "theta0": [
+        0.013913234315197566,
+        0.3722221911396938,
+        0.047009886278559926,
+        0.11962437774680668
+      ],
+      "theta_est": [
+        0.02000032386163803,
+        0.7500082309902782,
+        0.04697842174578577,
+        0.11962437774680668
+      ],
+      "success": true,
+      "nfev": 27,
+      "fit_rmse_um": 0.0004304956468192779,
+      "heldout_dense_rmse_um": 0.0005692282625408165,
+      "error_scaled": [
+        6.477232760565554e-06,
+        8.230990278246253e-06,
+        4.197842174578577,
+        -0.13037562225319332
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 60,
+      "start_id": 0,
+      "theta0": [
+        0.026000000000000002,
+        0.675,
+        0.01,
+        0.3
+      ],
+      "theta_est": [
+        0.02000000000087395,
+        0.750000000022319,
+        0.005000008509656542,
+        0.2499999609123373
+      ],
+      "success": true,
+      "nfev": 12,
+      "fit_rmse_um": 2.3121875672856537e-09,
+      "heldout_dense_rmse_um": 2.6454121635503005e-09,
+      "error_scaled": [
+        1.747900435500327e-11,
+        2.2319035508644447e-11,
+        8.509656541921817e-07,
+        -3.908766268989616e-08
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 60,
+      "start_id": 1,
+      "theta0": [
+        0.06105805936917183,
+        0.5681378313922967,
+        0.04459581878494,
+        0.34344247863773186
+      ],
+      "theta_est": [
+        0.02000001083166699,
+        0.7500002766399956,
+        0.022725636079082363,
+        0.2445774441515436
+      ],
+      "success": true,
+      "nfev": 13,
+      "fit_rmse_um": 2.021508190778702e-05,
+      "heldout_dense_rmse_um": 0.00039560351937550773,
+      "error_scaled": [
+        2.1663333980848076e-07,
+        2.7663999557780983e-07,
+        1.772563607908236,
+        -0.005422555848456412
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 60,
+      "start_id": 2,
+      "theta0": [
+        0.061137794749520705,
+        0.7914814754399992,
+        0.02113906420662683,
+        0.49735801270130026
+      ],
+      "theta_est": [
+        0.019999999999107582,
+        0.749999999977208,
+        0.004999703285349033,
+        0.2500001695405822
+      ],
+      "success": true,
+      "nfev": 14,
+      "fit_rmse_um": 1.057987654519947e-08,
+      "heldout_dense_rmse_um": 1.9398847928561455e-08,
+      "error_scaled": [
+        -1.784836167750825e-11,
+        -2.2791990517134764e-11,
+        -2.967146509672003e-05,
+        1.6954058218443535e-07
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 60,
+      "start_id": 3,
+      "theta0": [
+        0.013913234315197566,
+        0.3722221911396938,
+        0.047009886278559926,
+        0.11962437774680668
+      ],
+      "theta_est": [
+        0.02000021240159756,
+        0.7500054182192176,
+        0.04696562142980565,
+        0.11962437774680668
+      ],
+      "success": true,
+      "nfev": 39,
+      "fit_rmse_um": 0.0003854724612596855,
+      "heldout_dense_rmse_um": 0.0005695289761538694,
+      "error_scaled": [
+        4.248031951203934e-06,
+        5.41821921762331e-06,
+        4.196562142980565,
+        -0.13037562225319332
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 120,
+      "start_id": 0,
+      "theta0": [
+        0.026000000000000002,
+        0.675,
+        0.01,
+        0.3
+      ],
+      "theta_est": [
+        0.019999999999999293,
+        0.7499999999999826,
+        0.004999999935525385,
+        0.25000000011307427
+      ],
+      "success": true,
+      "nfev": 12,
+      "fit_rmse_um": 3.798787254693714e-12,
+      "heldout_dense_rmse_um": 3.790648649880816e-12,
+      "error_scaled": [
+        -1.4155343563970746e-14,
+        -1.7430501486614958e-14,
+        -6.447461488312545e-09,
+        1.130742721677791e-10
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 120,
+      "start_id": 1,
+      "theta0": [
+        0.06105805936917183,
+        0.5681378313922967,
+        0.04459581878494,
+        0.34344247863773186
+      ],
+      "theta_est": [
+        0.019999999999546277,
+        0.7499999999885715,
+        0.004999945035370295,
+        0.2500000678152613
+      ],
+      "success": true,
+      "nfev": 21,
+      "fit_rmse_um": 1.8317254223164456e-09,
+      "heldout_dense_rmse_um": 1.674574676567152e-09,
+      "error_scaled": [
+        -9.074477280712756e-12,
+        -1.1428524793188899e-11,
+        -5.496462970530636e-06,
+        6.781526129540083e-08
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 120,
+      "start_id": 2,
+      "theta0": [
+        0.061137794749520705,
+        0.7914814754399992,
+        0.02113906420662683,
+        0.49735801270130026
+      ],
+      "theta_est": [
+        0.01999999999249906,
+        0.7499999998110634,
+        0.004998887872685565,
+        0.2500010590456825
+      ],
+      "success": true,
+      "nfev": 13,
+      "fit_rmse_um": 4.998213801180246e-08,
+      "heldout_dense_rmse_um": 4.239180418442772e-08,
+      "error_scaled": [
+        -1.5001881681353524e-10,
+        -1.8893664410768451e-10,
+        -0.00011121273144351976,
+        1.0590456824832728e-06
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    },
+    {
+      "n_positions": 120,
+      "start_id": 3,
+      "theta0": [
+        0.013913234315197566,
+        0.3722221911396938,
+        0.047009886278559926,
+        0.11962437774680668
+      ],
+      "theta_est": [
+        0.02000037595119892,
+        0.7500094735803818,
+        0.04803763637632654,
+        0.11962437774680668
+      ],
+      "success": true,
+      "nfev": 41,
+      "fit_rmse_um": 0.0006386834049753349,
+      "heldout_dense_rmse_um": 0.000569281327550456,
+      "error_scaled": [
+        7.519023978372341e-06,
+        9.473580381835767e-06,
+        4.303763637632654,
+        -0.13037562225319332
+      ],
+      "provenance": {
+        "campaign": "corrections-2026-10-12",
+        "created_utc": "2026-10-12T18:24:23.337061+00:00",
+        "source_sha256": "007893808a0e064a557462e032d1755200812221980dc7ed9d975e595081ecce",
+        "files_sha256": {
+          "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+          "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+          "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+          "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+          "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+          "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+          "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+          "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+          "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+          "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+          "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+          "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+          "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+          "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+          "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+          "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+          "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+          "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+          "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+          "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+          "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+          "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+        },
+        "python": "3.12.10",
+        "numpy": "2.5.1",
+        "scipy": "1.18.0"
+      }
+    }
+  ],
+  "description": "Four seeded starts per grid; 240-point held-out validation; does not prove global uniqueness."
+}

@@ -1,0 +1,118 @@
+{
+  "provenance": {
+    "campaign": "corrections-2026-10-12",
+    "created_utc": "2026-10-12T22:59:06.529887+00:00",
+    "source_sha256": "823e5298a2f3ecce299a6199a32745e9658932d5ec102cbe5e23694535d1c5c0",
+    "files_sha256": {
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/involute.py": "9f968dd5d179fc4f63316b45360d88d80e603b58f1b7f4cf4328e6b840bd52b9",
+      "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+      "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+      "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/inverse/reconstruction.py": "752c23d2565fdf8b72d48e61797b4e09726137fec39b334959d7d3d218026d72",
+      "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/mechanics/alt_models.py": "b44d5682d0678492492c7a94596f883f033648bdef7eb25823f55f4558b0a6a7",
+      "src/mechanics/batched_operator.py": "86841dec08bfdad0bb0b86699b916542a6b6ca6c4b777da18b100008dfaa86ae",
+      "src/mechanics/compliance.py": "1559a606b7d1a4a083ce72ca4647248d8abcd77f00e6efb4329ae35a878fcda4",
+      "src/mechanics/contact_solver.py": "2cc1c5ca71c0e68aec9d34b9d94ee930b990fd65bad5625cf5c8cbddd72209fb",
+      "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+      "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/audit_solver_equivalence.py": "587c15ebba13ae3934243fdd3e5f9953892663e7ba5db7cffacfb993f040a99f",
+      "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+      "experiments/complete_correction_runs.py": "dab1b0582008d696bfd87a087957924f781b198e0da937bddbd2e864076039c7",
+      "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+      "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+      "experiments/E01_verification_audit.py": "8bea45340d04120ef0698ed154228384dba05b062125f3ca2f81c7c8bc8b7517",
+      "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+      "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+      "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+      "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+      "experiments/E04_noise_bias.py": "89b37222b2b801bbea7d470bf3a63ff8cb8725f00ae2bcb5ca8a24542cbd77de",
+      "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+      "experiments/E05_optimal_load_selection.py": "ed10305d4eb26772654084fc8c11017677f7941060eb07a23b0beb7b5b0ad193",
+      "experiments/E07_model_discrepancy.py": "4fb4e10df60ca2a4863e1e5711778ca4598b0ff883041c613b3e4fc8f5ee8539",
+      "experiments/E08_contact_support_audit.py": "35d689068650edf0396491db4c8ee5ea7975113338c611debbc59997a77d5487",
+      "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+      "experiments/Q1_angular_peaks.py": "a3f3af7b7697c125b6f5f8bff398ba79ad59bf18742b28d648888d96963b725b",
+      "experiments/Q1_finalize_figures.py": "53ef9edfa997db265fcf05eed40d95b562485b60a11f8da46051e25523f62d4b",
+      "experiments/Q1_forward_campaign.py": "f806703da95bb89a044f811e1ee9d9fe0e67d335e89117b7154e831f459ebc71",
+      "experiments/Q1_geometry_transfer.py": "5e9f74b64674a1e57e6dcd2eba9de245c6aa20c70c95ddc1a1a2b4ae2434037c",
+      "experiments/Q1_identifiability_campaign.py": "cf990eac5b9ce3a3bd521350dd00484f9a58c0f883ab62c5e35ad3e83c0507f0",
+      "experiments/Q1_review2_diagnostics.py": "d155b9728054fa52904055b1a7d9c9935552711eec880e8507e8dde0fd4caedf",
+      "experiments/Q1_review2_figures.py": "f5f3af2a9222fcc0a092dc91ec6e6db7667590d3a1858313f26a748e4754896c",
+      "experiments/Q1_review3_grid_control.py": "fd4de40cffb6b580c691fbe7fa11b7fd37498885e4e67893c7ae654ac8a77f7c",
+      "experiments/Q1_review3_stiffness.py": "de49be68be6b5f8cb743e49b86dee75adaa5f6b6268220a20c27a2bbbf849303",
+      "experiments/Q1_review4_baseline.py": "da42be1ea5edce0babc82287d2e0057db93766cb3ef51697c51e3850288377bd",
+      "experiments/Q1_review4_edge.py": "c77d2f0c52198b4532ce57c41759d69576d19916d7ea8cc155052ae1904195b2",
+      "experiments/Q1_review4_support.py": "a9cb0f1d5ae52aab8f16f7a76d42b8e02d7e2d453816f83cc3e665a12baef888",
+      "experiments/Q1_summary.py": "deb02109fea7c9247db37b2f09a55230700d3f2f34e4c1e8f284dd1936229fc2",
+      "experiments/summarize_correction_campaign.py": "997d4cefd18d1bbeef8a5a09f647e73dd645f974c0ea3f0154f28124ea307604",
+      "experiments/V06_korta_mundo_reproduction.py": "1949a007e7b391c3f38c35f10bf51794cc7c78383692a72fc4ee9d1594431b73"
+    },
+    "python": "3.12.10",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0"
+  },
+  "records": [
+    {
+      "phase_fraction": 0,
+      "approach_um": 28.059656592715353,
+      "k_N_um": 346.50674595884794,
+      "k_per_width_N_mm_um": 15.065510693862954,
+      "loaded_pairs": 1
+    },
+    {
+      "phase_fraction": 0.24714731371212909,
+      "approach_um": 29.65466092802407,
+      "k_N_um": 327.1382643790249,
+      "k_per_width_N_mm_um": 14.22340279908804,
+      "loaded_pairs": 1
+    },
+    {
+      "phase_fraction": 0.2971473137121291,
+      "approach_um": 18.396305098201985,
+      "k_N_um": 523.9566620881445,
+      "k_per_width_N_mm_um": 22.78072443861498,
+      "loaded_pairs": 2
+    },
+    {
+      "phase_fraction": 0.3321473137121291,
+      "approach_um": 18.265433202712714,
+      "k_N_um": 527.6427491070507,
+      "k_per_width_N_mm_um": 22.9409890916109,
+      "loaded_pairs": 2
+    },
+    {
+      "phase_fraction": 0.5,
+      "approach_um": 17.99218843592849,
+      "k_N_um": 535.4921473519315,
+      "k_per_width_N_mm_um": 23.282267276170934,
+      "loaded_pairs": 2
+    },
+    {
+      "phase_fraction": 0.6678526862878709,
+      "approach_um": 18.265433202712714,
+      "k_N_um": 527.6427491070507,
+      "k_per_width_N_mm_um": 22.9409890916109,
+      "loaded_pairs": 2
+    },
+    {
+      "phase_fraction": 0.7028526862878709,
+      "approach_um": 18.396305098201985,
+      "k_N_um": 523.9566620881445,
+      "k_per_width_N_mm_um": 22.78072443861498,
+      "loaded_pairs": 2
+    },
+    {
+      "phase_fraction": 0.7528526862878709,
+      "approach_um": 29.65466092802407,
+      "k_N_um": 327.1382643790249,
+      "k_per_width_N_mm_um": 14.22340279908804,
+      "loaded_pairs": 1
+    }
+  ],
+  "full_cycle_pp_um": 11.949930685986672,
+  "positions_full_cycle": 1920
+}

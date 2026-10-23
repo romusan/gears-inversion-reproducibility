@@ -1,0 +1,967 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2025-02-21T20:23:49Z",
+      "timestamp": 1740169429276,
+      "version": "3.37.3"
+    },
+    "reference-count": 76,
+    "publisher": "Bentham Science Publishers Ltd.",
+    "issue": "2",
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "51905378"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "51905378"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100006606",
+        "name": "Natural Science Foundation of Tianjin",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "18JCQNJC75200",
+          "20JCQNJC00360"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "18JCQNJC75200",
+              "20JCQNJC00360"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100006606",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "eurekaselect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "MENG"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.2174/2212797614666210415111613",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          16
+        ]
+      ],
+      "date-time": "2021-04-16T05:00:24Z",
+      "timestamp": 1618549224000
+    },
+    "page": "163-177",
+    "update-policy": "https://doi.org/10.2174/bsp_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Recent Progress and Prospect on Tooth Modification of Involute Cylindrical\nGear"
+    ],
+    "prefix": "10.2174",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Lin",
+        "family": "Han",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Mechanical Engineering, Tianjin University of Technology and Education, 1310#, Dagu South Road, Jinnan\nDistrict, Tianjin City 300222, P.R. China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yang",
+        "family": "Qi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mechanical Engineering, Tianjin University of Technology and Education, 1310#, Dagu South Road, Jinnan\nDistrict, Tianjin City 300222, P.R. China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "965",
+    "reference": [
+      {
+        "key": "ref=1",
+        "unstructured": "Calculation of load capacity of spur and helical gears - Part 21: Basic principles, introduction and general influence factors."
+      },
+      {
+        "key": "ref=2",
+        "unstructured": "Calculation of load capacity of spur and helical gears - Part 20: Calculation of scuffing load capacity (also applicable to bevel and hypoid gears) - Flash temperature method"
+      },
+      {
+        "key": "ref=3",
+        "doi-asserted-by": "publisher",
+        "first-page": "606",
+        "DOI": "10.1016/j.mechmachtheory.2016.07.013",
+        "volume": "105",
+        "author": "Liu H.",
+        "year": "2016",
+        "unstructured": "Liu H.; Zhang C.; Xiang C.; Wang C.; Tooth profile modification based on lateral- torsional-rocking coupled nonlinear dynamic model of gear system. Mechanism Mach Theory 2016,105,606-619",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=4",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.1016/j.mechmachtheory.2012.10.012",
+        "volume": "62",
+        "author": "Chen Z.",
+        "year": "2013",
+        "unstructured": "Chen Z.; Shao Y.; Mesh stiffness calculation of a spur gear pair with tooth profile modification and tooth root crack. Mechanism Mach Theory 2013,62,63-74",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=5",
+        "first-page": "10",
+        "volume": "37",
+        "author": "Wei J",
+        "year": "2018",
+        "unstructured": "Wei J; Lai Y; Qin D; Wang G; Lin X; Analytical model of the mesh   stiffness of helical gear pair after tooth profile modification. J Vibration   and Shock  94-101+116.2018,37,10"
+      },
+      {
+        "key": "ref=6",
+        "first-page": "561",
+        "volume": "31",
+        "author": "Wei J.",
+        "year": "2018",
+        "unstructured": "Wei J.; Wang G.; Qin D.; Zhang A.; Lai Y.; Ru X.; Nonlinear excitation and dynamic characteristics of helical gear system with considering modification. J Vibration Engineering 2018,31(4),561-572",
+        "journal-title": "J Vibration Engineering"
+      },
+      {
+        "key": "ref=7",
+        "first-page": "91",
+        "volume": "46",
+        "author": "Chen H.",
+        "year": "2018",
+        "unstructured": "Chen H.; Zhu Y.; Mao J.; Wang X.; Influence of tooth profile modification on design transmission error of involute spur gear. J Huazhong University of Science and Technology [Natural Science Edition].2018,46(3),91-98",
+        "journal-title": "J Huazhong University of Science and Technology"
+      },
+      {
+        "key": "ref=8",
+        "doi-asserted-by": "publisher",
+        "first-page": "64",
+        "DOI": "10.1016/j.mechmachtheory.2015.11.017",
+        "volume": "98",
+        "author": "Ma H.",
+        "year": "2016",
+        "unstructured": "Ma H.; Zeng J.; Feng R.; Pang X.; Wen B.; An improved analytical method for mesh stiffness calculation of spur gears with tip relief. Mechanism Mach Theory 2016,98,64-80",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=9",
+        "first-page": "30",
+        "volume": "40",
+        "author": "Yang Y.",
+        "year": "2017",
+        "unstructured": "Yang Y.; Wei J.; Lai Y.; Zhang A.; Vibration response analysis of helical gear transmission considering the tip relief. J Chongqing University 2017,40(1),30-40",
+        "journal-title": "J Chongqing University"
+      },
+      {
+        "key": "ref=10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1948",
+        "DOI": "10.1007/s11431-019-9506-5",
+        "volume": "62",
+        "author": "Huangfu Y.",
+        "year": "2019",
+        "unstructured": "Huangfu Y.; Chen K.; Ma H.; Li X.; Yu X.; Zhao B.; Investigation on meshing and dynamic characteristic of spur gears with tip relief under wear fault. Sci China Technol Sci 2019,62,1948-1960",
+        "journal-title": "Sci China Technol Sci"
+      },
+      {
+        "key": "ref=11",
+        "doi-asserted-by": "publisher",
+        "first-page": "506",
+        "DOI": "10.1016/j.mechmachtheory.2019.05.014",
+        "volume": "139",
+        "author": "Miryam B.",
+        "year": "2019",
+        "unstructured": "Miryam B.; Sánchez, Miguel Pleguezuelos, José I. Pedrero. Influence of profile modifications on meshing stiffness, load sharing, and transmission error of involute spur gears. Mechanism Mach Theory 2019,139,506-525",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=12",
+        "doi-asserted-by": "publisher",
+        "first-page": "240",
+        "DOI": "10.1016/j.mechmachtheory.2017.02.012",
+        "volume": "112",
+        "author": "Diez-Ibarbia A.",
+        "year": "2017",
+        "unstructured": "Diez-Ibarbia A.; Fernandez-del-Rincon A.; de-Juan A.; Iglesias M.; Garcia P.; Viadero F.; Frictional power losses on spur gears with tip reliefs. The load sharing role. Mechanism Mach Theory 2017,112,240-254",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=13",
+        "doi-asserted-by": "publisher",
+        "first-page": "15",
+        "DOI": "10.1016/j.mechmachtheory.2017.10.003",
+        "volume": "121",
+        "author": "Diez-Ibarbia A.",
+        "year": "2018",
+        "unstructured": "Diez-Ibarbia A.; Fernandez-del-Rincon A.; de-Juan A.; Iglesias M.; Garcia P.; Viadero F.; Frictional power losses on spur gears with tip reliefs. The friction coefficient role. Mechanism Mach Theory 2018,121,15-27",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1131",
+        "DOI": "10.1016/j.ymssp.2015.09.019",
+        "volume": "70-71",
+        "author": "Ma H.",
+        "year": "2016",
+        "unstructured": "Ma H.; Pang X.; Feng R.; Wen B.; Evaluation of optimum profile modification curves of profile shifted spur gears based on vibration responses. Mech Syst Signal Process 2016,70-71,1131-1149",
+        "journal-title": "Mech Syst Signal Process"
+      },
+      {
+        "key": "ref=15",
+        "first-page": "368",
+        "volume": "37",
+        "author": "Yang Z.",
+        "year": "2016",
+        "unstructured": "Yang Z.; Zhang J.; Zhang Y.; Tan X.; Gear tooth modification based on reliability robust optimization design. J Northeastern University  [Natural Science].2016,37(3),368-372",
+        "journal-title": "J Northeastern University"
+      },
+      {
+        "key": "ref=16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1079",
+        "DOI": "10.1007/s12206-017-0207-0",
+        "volume": "31",
+        "author": "Wang S.",
+        "year": "2017",
+        "unstructured": "Wang S.; Zhu C.; Song C.; Liu H.; Tan J.; Bai H.; Effects of gear modifications on the dynamic characteristics of wind turbine gearbox considering elastic support of the gearbox. J Mech Sci Technol 2017,31(3),1079-1088",
+        "journal-title": "J Mech Sci Technol"
+      },
+      {
+        "year": "2017",
+        "author": "Zhang R",
+        "key": "ref=17",
+        "unstructured": "Zhang R; Wang D; Wang T; Wu Z; Cylindrical spur gear tooth   trace modification method based on tooth surface stress edge action   and gear skew deformation. CN107256300, 2017"
+      },
+      {
+        "year": "2017",
+        "author": "Zhang R",
+        "key": "ref=18",
+        "unstructured": "Zhang R; Wang D; Wang T; Wu Z;  Spur gear profile modification   method based on thermal elastic deformation of gear teeth and deflection   deformation of gear. CN107025367 2017"
+      },
+      {
+        "year": "2017",
+        "author": "Wang C",
+        "key": "ref=19",
+        "unstructured": "Wang C; Lin T; Ling T;  Shape correction method for reducing   noise or abnormal sound of gears. CN106704544, 2017"
+      },
+      {
+        "key": "ref=20",
+        "first-page": "1239",
+        "volume": "39",
+        "author": "Li C.",
+        "year": "2018",
+        "unstructured": "Li C.; Wang C.; Du M.; Zhao Z.; Analysis of dynamic load of spur gears considering the gear body stiffness and tooth profile modification. ACTA ARMAMENTARII 2018,39(6),1239-1248",
+        "journal-title": "ACTA ARMAMENTARII"
+      },
+      {
+        "key": "ref=21",
+        "first-page": "212",
+        "volume": "50",
+        "author": "Yang Y.",
+        "year": "2018",
+        "unstructured": "Yang Y.; Wang J.; Zhou Q.; Li W.; Xiong L.; Stiffness calculation considering friction for a spur gear pair with tooth wear and profile modification. Advanced Engineering Sciences 2018,50(2),212-219",
+        "journal-title": "Advanced Engineering Sciences"
+      },
+      {
+        "year": "2019",
+        "author": "Liu G",
+        "key": "ref=22",
+        "unstructured": "Liu G; Liu L; Wang H; Yuan B; Wu L; Cao X;  Herringbone gear   pair tooth surface modification compensation design method.   CN110321656 2019"
+      },
+      {
+        "key": "ref=23",
+        "first-page": "1",
+        "volume": "11",
+        "author": "Yi Y.",
+        "year": "2019",
+        "unstructured": "Yi Y.; Lan H.; Yu S.; Research on gear profile modification based on thermal-fluid-solid coupling. J Mechanical Transmission 2019,11(43),1-6",
+        "journal-title": "J Mechanical Transmission"
+      },
+      {
+        "key": "ref=24",
+        "first-page": "25",
+        "volume": "43",
+        "author": "Ren X.",
+        "year": "2019",
+        "unstructured": "Ren X.; Li Z.; Su J.; Study on internal helical gear topographic modification and transmission. J Mechanical Transmission 2019,43(8),25-29",
+        "journal-title": "J Mechanical Transmission"
+      },
+      {
+        "key": "ref=25",
+        "first-page": "380",
+        "volume": "40",
+        "author": "Ma H.",
+        "year": "2019",
+        "unstructured": "Ma H.; Duan T.; Sun Y.; Chen K.; Mesh stiffness analysis of planetary gear system with gear tip relief. J Northeastern University  [Natural Science].2019,40(3),380-385",
+        "journal-title": "J Northeastern University"
+      },
+      {
+        "year": "2019",
+        "author": "Li X",
+        "key": "ref=26",
+        "unstructured": "Li X; Wang N; Zhong P;  Profile modification method for   involute spur cylindrical gear pairs and matched dedicated parameterized   CAD system. CN106295015, 2019"
+      },
+      {
+        "year": "2020",
+        "author": "Liu H",
+        "key": "ref=27",
+        "unstructured": "Liu H; Yan P; Zhang C; Xu H; Gao P; Helical gear multi-parameter   tooth profile modification optimization design method.   CN111488659, 2020"
+      },
+      {
+        "year": "2020",
+        "author": "Liu H",
+        "key": "ref=28",
+        "unstructured": "Liu H; Yan P; Zhang C; Gao P;  Two-parameter tooth profile modification   optimization design method for involute helical gear pair.   CN111488657, 2020"
+      },
+      {
+        "key": "ref=29",
+        "doi-asserted-by": "publisher",
+        "first-page": "061015",
+        "DOI": "10.1115/1.3116261",
+        "volume": "131",
+        "author": "Mohamad E.",
+        "year": "2009",
+        "unstructured": "Mohamad E.; Komori M.; Murakami H.; Kubo A.; Fang S.; Analysis of general characteristics of transmission error of gears with convex modification of tooth flank form considering elastic deformation under load. ASME J Mech Design 2009,131,061015-1",
+        "journal-title": "ASME J Mech Design"
+      },
+      {
+        "key": "ref=30",
+        "doi-asserted-by": "publisher",
+        "first-page": "845",
+        "DOI": "10.1016/j.apm.2020.08.046",
+        "volume": "90",
+        "author": "Wang Q.",
+        "year": "2021",
+        "unstructured": "Wang Q.; Xu K.; Huai T.; Ma H.; Wang K.; A mesh stiffness method using slice coupling for spur gear pairs with misalignment and lead crown relief. Appl Math Model 2021,90,845-861",
+        "journal-title": "Appl Math Model"
+      },
+      {
+        "key": "ref=31",
+        "first-page": "61",
+        "volume": "29",
+        "author": "Wang Q.",
+        "year": "2016",
+        "unstructured": "Wang Q.; Zhang Y.; Dynamic characteristics analysis of a spur gear system with the lead crown relief. J Vibration Engineering 2016,29(1),61-68",
+        "journal-title": "J Vibration Engineering"
+      },
+      {
+        "key": "ref=32",
+        "doi-asserted-by": "publisher",
+        "first-page": "7224",
+        "DOI": "10.1177/0954406219846156",
+        "volume": "233",
+        "author": "Portron S´.",
+        "year": "2019",
+        "unstructured": "Portron S´.; Velex P.; Abousleiman V.; A hybrid model to study the effect of tooth lead modifications on the dynamic behavior of double helical planetary gears. Proc IMechE Part C: J Mechanical Engineering Science 2019,233(21-22),7224-7235",
+        "journal-title": "Proc IMechE Part C: J Mechanical Engineering Science"
+      },
+      {
+        "key": "ref=33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1393",
+        "DOI": "10.1007/s11012-020-01160-y",
+        "volume": "55",
+        "author": "Yang Y.",
+        "year": "2020",
+        "unstructured": "Yang Y.; Wang J.; Zhu G.; Yang W.; Zhou Q.; A thermomechanical model for mesh deflection calculation of crown spur gear pair. Meccanica 2020,55,1393-1411",
+        "journal-title": "Meccanica"
+      },
+      {
+        "key": "ref=34",
+        "first-page": "541",
+        "volume": "234",
+        "author": "Xiao Z.",
+        "year": "2020",
+        "unstructured": "Xiao Z.; Shi X.; Tribological and thermal properties of a crowned gear pair with high-speed and heavy-load in thermal micro-elastohydrodynamic lubrication, P I Mech Eng J-. J Eng (Stevenage) 2020,234(4),541-553",
+        "journal-title": "J Eng (Stevenage)"
+      },
+      {
+        "key": "ref=35",
+        "doi-asserted-by": "publisher",
+        "first-page": "102",
+        "DOI": "10.1016/j.triboint.2019.04.041",
+        "volume": "137",
+        "author": "Xiao Z.",
+        "year": "2019",
+        "unstructured": "Xiao Z.; Shi X.; Investigation on stiffness and damping of transient non-Newtonian thermal elastohydrodynamic point contact for crowned herringbone gears. Tribol Int 2019,137,102-112",
+        "journal-title": "Tribol Int"
+      },
+      {
+        "key": "ref=36",
+        "doi-asserted-by": "publisher",
+        "first-page": "947",
+        "DOI": "10.1177/1350650119896467",
+        "author": "Wang H.",
+        "year": "2020",
+        "unstructured": "Wang H.; Zhou C.; Hu B.; Liu Z.; Tooth wear prediction of crowned helical gears in point contact. Proc IME JJ Eng Tribol 2020,947-63",
+        "journal-title": "Proc IME JJ Eng Tribol"
+      },
+      {
+        "year": "2017",
+        "author": "Yan L",
+        "key": "ref=37",
+        "unstructured": "Yan L; Liu Z; Wen C; Design method of large axial modification  amount gear and large axial modification amount gear.  CN104565289, 2017"
+      },
+      {
+        "year": "2017",
+        "author": "Yan L",
+        "key": "ref=38",
+        "unstructured": "Yan L; Liu Z; Wen C;  Gear with large tooth lead modification  quantity and processing method thereof. CN104653749 2017"
+      },
+      {
+        "year": "2020",
+        "author": "Liu H",
+        "key": "ref=39",
+        "unstructured": "Liu H; Yan P; Zhang C; Wang Z;  Involute helical gear helical angle  modification optimization design method. CN111488660 2020"
+      },
+      {
+        "key": "ref=40",
+        "doi-asserted-by": "publisher",
+        "first-page": "261",
+        "DOI": "10.1016/j.mechmachtheory.2018.08.003",
+        "volume": "129",
+        "author": "Sun Y.",
+        "year": "2018",
+        "unstructured": "Sun Y.; Ma H.; Huangfu Y.; Chen K.; Che L.; Wen B.; Revised time-varying mesh stiffness model of spur gear pairs with tooth modifications. Mechanism Mach Theory 2018,129,261-278",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=41",
+        "doi-asserted-by": "publisher",
+        "first-page": "661",
+        "DOI": "10.1360/N092018-00263",
+        "volume": "49",
+        "author": "Huangfu Y.",
+        "year": "2019",
+        "unstructured": "Huangfu Y.; Chen K.; Ma H.; Sun Y.; Duan T.; A model for evaluating the meshing characteristics and vibration characteristics of asymmetric spur gears with tooth modifications. Sci Sin Tech 2019,49(6),661-668",
+        "journal-title": "Sci Sin Tech"
+      },
+      {
+        "key": "ref=42",
+        "doi-asserted-by": "publisher",
+        "first-page": "314",
+        "DOI": "10.1016/j.mechmachtheory.2018.06.005",
+        "volume": "128",
+        "author": "Wei J.",
+        "year": "2018",
+        "unstructured": "Wei J.; Zhang A.; Wang G.; Qin D.; Lim T.; Wang Y.; A study of nonlinear excitation modeling of helical gears with Modification: Theoretical analysis and experiments. Mechanism Mach Theory 2018,128,314-335",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=43",
+        "doi-asserted-by": "publisher",
+        "first-page": "3105",
+        "DOI": "10.1007/s12206-019-0605-6",
+        "volume": "33",
+        "author": "Xu X.",
+        "year": "2019",
+        "unstructured": "Xu X.; Fan X.; Diao P.; Liu H.; An investigation on the influence of modification parameters on transmission characteristics of planetary gear system. J Mech Sci Technol 2019,33(7),3105-3114",
+        "journal-title": "J Mech Sci Technol"
+      },
+      {
+        "key": "ref=44",
+        "doi-asserted-by": "publisher",
+        "first-page": "103301",
+        "DOI": "10.1115/1.4043586",
+        "volume": "141",
+        "author": "Benatar M.",
+        "year": "2019",
+        "unstructured": "Benatar M.; Handschuh M.; Kahraman A.; Talbot D.; Static and Dynamic Transmission Error Measurements of Helical Gear Pairs with Various Tooth Modifications. ASME J Mech Design 2019,141,103301-1",
+        "journal-title": "ASME J Mech Design"
+      },
+      {
+        "key": "ref=45",
+        "first-page": "1082",
+        "volume": "50",
+        "author": "Yang S.",
+        "year": "2019",
+        "unstructured": "Yang S.; Tang J.; A new design method for compound modification of spur gear. J Cent South Univ [Science and  Technology].2019,50(5),1082-1087",
+        "journal-title": "J Cent South Univ"
+      },
+      {
+        "key": "ref=46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymssp.2020.106991",
+        "volume": "146",
+        "author": "Wang C.",
+        "year": "2021",
+        "unstructured": "Wang C.; Study on 3-D modification for reducing vibration of helical gear based on TCA technology, LTCA technology and system dynamics. Mech Syst Signal Process 2021,146",
+        "journal-title": "Mech Syst Signal Process"
+      },
+      {
+        "key": "ref=47",
+        "first-page": "24",
+        "volume": "3",
+        "author": "Fang Z.",
+        "year": "1995",
+        "unstructured": "Fang Z.; Zhao N.; Calculation and experiment of 3-D correcting of cylindrical gear. Manufacturing Technology  1995,3,24-31",
+        "journal-title": "Manufacturing Technology"
+      },
+      {
+        "year": "2019",
+        "author": "Tang J",
+        "key": "ref=48",
+        "unstructured": "Tang J; Zhou Y; Wu Y; Shaping and designing method for straight  gear tooth surface. CN108953549, 2019"
+      },
+      {
+        "year": "2019",
+        "author": "Su J",
+        "key": "ref=49",
+        "unstructured": "Su J; Yan Z; Wang Y; Chang L; He Z.; A method for designing the  free tooth surface of helical gear. CN109241683 2019"
+      },
+      {
+        "year": "2019",
+        "author": "Liu G",
+        "key": "ref=50",
+        "unstructured": "Liu G; Wang H; Liu L; Yuan B; Wu L; Yang L; Tooth surface  modification robust design method considering load torque change  and meshing dislocation tolerance. CN110427720, 2019"
+      },
+      {
+        "key": "ref=51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.4032264",
+        "volume": "138",
+        "author": "Yu B.",
+        "year": "2016",
+        "unstructured": "Yu B.; Ting K.; Compensated Conjugation and Gear Tooth Modification Design. ASME J Mech Design 2016,138(7)",
+        "journal-title": "ASME J Mech Design"
+      },
+      {
+        "key": "ref=52",
+        "doi-asserted-by": "publisher",
+        "first-page": "1297",
+        "DOI": "10.1177/0954406220940758",
+        "volume": "235",
+        "author": "Zheng F.",
+        "year": "2020",
+        "unstructured": "Zheng F.; Han X.; Man X.; Hua L.; Geometric characteristics and tooth modification for variable speed pinion–rack drive. Proc Inst Mech Eng, Part C J Mech Eng Sci 2020,235(7),1297-1314",
+        "journal-title": "Proc Inst Mech Eng, Part C J Mech Eng Sci"
+      },
+      {
+        "key": "ref=53",
+        "first-page": "66",
+        "volume": "46",
+        "author": "Jia C.",
+        "year": "2018",
+        "unstructured": "Jia C.; Fang Z.; Zhang X.; Yang X.; Optimal design and analysis of tooth modification for helical gears. J Huazhong University of Science and Technology [Natural Science Edition].2018,46(5),66-71",
+        "journal-title": "J Huazhong University of Science and Technology"
+      },
+      {
+        "year": "2019",
+        "author": "Yang W",
+        "key": "ref=54",
+        "unstructured": "Yang W; Du F; Li C; Modification method of secondary straighttooth  planetary gear. CN105626820, 2019"
+      },
+      {
+        "key": "ref=55",
+        "first-page": "3903",
+        "volume": "234",
+        "author": "Zhang J.",
+        "year": "2020",
+        "unstructured": "Zhang J.; Tang W.; Chen Q.; Chen T.; Reliability sensitivity analysis of tooth modification on dynamic transmission error of helical planetary gears. P I Mech Eng C-. J Mec 2020,234(19),3903-3918",
+        "journal-title": "J Mec"
+      },
+      {
+        "key": "ref=56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechmachtheory.2020.103870",
+        "volume": "150",
+        "author": "Huangfu Y.",
+        "year": "2020",
+        "unstructured": "Huangfu Y.; Zhao Z.; Ma H.; Han H.; Chen K.; Effects of tooth modifications on the dynamic characteristics of thin-rimmed gears under surface wear. Mechanism Mach Theory 2020,150",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=57",
+        "doi-asserted-by": "publisher",
+        "first-page": "28",
+        "DOI": "10.1016/j.jsv.2016.05.044",
+        "volume": "379",
+        "author": "Velex Ph.",
+        "year": "2016",
+        "unstructured": "Velex Ph.; Chapron M.; Fakhfakh H.; Bruyère J.; Becquerelle S.; On transmission errors and profile modifications minimizing dynamic tooth loads in multi-mesh gears. J Sound Vibrat 2016,379,28-52",
+        "journal-title": "J Sound Vibrat"
+      },
+      {
+        "key": "ref=58",
+        "doi-asserted-by": "publisher",
+        "first-page": "603",
+        "DOI": "10.1016/j.jsv.2007.12.013",
+        "volume": "313",
+        "author": "Bonori G.",
+        "year": "2008",
+        "unstructured": "Bonori G.; Barbieri M.; Pellicano F.; Optimum profile modifications of spur gears by means of genetic algorithms. J Sound Vibrat 2008,313,603-616",
+        "journal-title": "J Sound Vibrat"
+      },
+      {
+        "key": "ref=59",
+        "doi-asserted-by": "publisher",
+        "first-page": "70",
+        "DOI": "10.1016/j.mechmachtheory.2014.04.015",
+        "volume": "80",
+        "author": "Bruyère J.",
+        "year": "2014",
+        "unstructured": "Bruyère J.; Velex P.; A simplified multi-objective analysis of optimum profile modifications in spur and helical gears. Mechanism Mach Theory 2014,80,70-83",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=60",
+        "doi-asserted-by": "publisher",
+        "first-page": "145",
+        "DOI": "10.1016/j.mechmachtheory.2016.06.008",
+        "volume": "105",
+        "author": "Ghosh S.",
+        "year": "2016",
+        "unstructured": "Ghosh S.; Chakraborty G.; On optimal tooth profile modification for reduction of vibration and noise in spur gear pairs. Mechanism Mach Theory 2016,105,145-163",
+        "journal-title": "Mechanism Mach Theory"
+      },
+      {
+        "key": "ref=61",
+        "doi-asserted-by": "publisher",
+        "first-page": "1499",
+        "DOI": "10.1007/s11012-019-01046-8",
+        "volume": "54",
+        "author": "Luo B.",
+        "year": "2019",
+        "unstructured": "Luo B.; Li W.; Research on tooth profile modification based on system dynamic characteristics under thermoelastic coupling condition. Meccanica 2019,54,1499-1513",
+        "journal-title": "Meccanica"
+      },
+      {
+        "key": "ref=62",
+        "doi-asserted-by": "publisher",
+        "first-page": "150",
+        "DOI": "10.1007/s40430-020-2234-5",
+        "volume": "42",
+        "author": "Luo B.",
+        "year": "2020",
+        "unstructured": "Luo B.; Li W.; Fu C.; Li L.; Zhang X.; Investigation of the thermal stiffness and thermal tooth profile modification of spur gears. J Braz Soc Mech Sci 2020,42,150",
+        "journal-title": "J Braz Soc Mech Sci"
+      },
+      {
+        "key": "ref=63",
+        "first-page": "1412",
+        "volume": "32",
+        "author": "Li Y.",
+        "year": "2017",
+        "unstructured": "Li Y.; Cao T.; Chen C.; Guo Q.; Vibration reduction optimization of gear modification based on Kriging model and genetic algorithm. J Aerospace Power 2017,32(6),1412-1418",
+        "journal-title": "J Aerospace Power"
+      },
+      {
+        "key": "ref=64",
+        "doi-asserted-by": "publisher",
+        "first-page": "3097",
+        "DOI": "10.1007/s12206-018-0612-z",
+        "volume": "32",
+        "author": "Wang X.",
+        "year": "2018",
+        "unstructured": "Wang X.; Wang Y.; Liu Y.; Zhang X.; Zheng D.; Multi-objective optimization modification of a tooth surface with minimum of flash temperature and vibration acceleration RMS. J Mech Sci Technol 2018,32(7),3097-3106",
+        "journal-title": "J Mech Sci Technol"
+      },
+      {
+        "key": "ref=65",
+        "doi-asserted-by": "publisher",
+        "first-page": "7257",
+        "DOI": "10.1177/0954406219839096",
+        "volume": "233",
+        "author": "Jia H.",
+        "year": "2019",
+        "unstructured": "Jia H.; Qin D.; Liu C.; Novel tooth modification methodology for multistage spur gears considering dynamic deformation of housing. Proc Inst Mech Eng, Part C J Mech Eng Sci 2019,233(21-22),7257-7269",
+        "journal-title": "Proc Inst Mech Eng, Part C J Mech Eng Sci"
+      },
+      {
+        "year": "2020",
+        "author": "Liu H",
+        "key": "ref=66",
+        "unstructured": "Liu H; Yan P; Zhang C; Wu Y; Tooth width modification optimization  design method for helical gear pair. CN111488658, 2020"
+      },
+      {
+        "year": "2020",
+        "author": "Lin T",
+        "key": "ref=67",
+        "unstructured": "Lin T; Yang J; Chen M; Huang H; Chen B; Hu Y;  An optimization  method of gear parameters based on low friction-induced heat loss.  CN111767615 2020"
+      },
+      {
+        "year": "2020",
+        "author": "Ryou Y",
+        "key": "ref=68",
+        "unstructured": "Ryou Y; Tetsuya Y; Katsunori S.; Vehicle drive device. WO036138, 2020"
+      },
+      {
+        "year": "2014",
+        "author": "Hu Y",
+        "key": "ref=69",
+        "unstructured": "Hu Y; Fan J; Wu B;  Involute gear tooth profile modification  method, modified tooth profile and application of method.  CN103821905, 2014"
+      },
+      {
+        "year": "2019",
+        "author": "Wen G.",
+        "key": "ref=70",
+        "unstructured": "Wen G.; Gear tooth profile smoothness evaluation method and gear  tooth profile modification method. WO227293, 2019"
+      },
+      {
+        "year": "2017",
+        "author": "Shi W",
+        "key": "ref=71",
+        "unstructured": "Shi W; Liu Z; Yin S; Circular locus crowned tooth forming grinding  swing device. CN107309500 2017"
+      },
+      {
+        "year": "2017",
+        "author": "Jörg S.",
+        "key": "ref=72",
+        "unstructured": "Jörg S.; Method for modifying the flanks of a gear wheel tooth with  the aid of a tool. US20150217389, 2017"
+      },
+      {
+        "year": "2017",
+        "author": "Jiang R.",
+        "key": "ref=73",
+        "unstructured": "Jiang R.; Gear modification method. CN106695265, 2017"
+      },
+      {
+        "year": "2018",
+        "author": "Ding G",
+        "key": "ref=74",
+        "unstructured": "Ding G; Yu J; Zhao D; Wu Z.;  Tooth profile correcting method for  automobile steering device rockshaft gear sector. CN106392199, 2018"
+      },
+      {
+        "key": "ref=75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.4040268",
+        "volume": "140",
+        "author": "Zheng F.",
+        "year": "2018",
+        "unstructured": "Zheng F.; Zhang M.; Zhang W.; Guo X.; Research on the tooth modification in gear skiving. ASME J Mech Design 2018,140",
+        "journal-title": "ASME J Mech Design"
+      },
+      {
+        "year": "2019",
+        "author": "Han Y.",
+        "key": "ref=76",
+        "unstructured": "Han Y.; Method for modifying involute gear. CN109834339 2019"
+      }
+    ],
+    "container-title": [
+      "Recent Patents on Mechanical Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.eurekaselect.com/article/download?doi=10.2174/2212797614666210415111613",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.eurekaselect.com/192857/article",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.eurekaselect.com/article/download?doi=10.2174/2212797614666210415111613",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          27
+        ]
+      ],
+      "date-time": "2023-08-27T18:43:37Z",
+      "timestamp": 1693161817000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.eurekaselect.com/192857/article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "references-count": 76,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "LiveAll1"
+    ],
+    "URL": "https://doi.org/10.2174/2212797614666210415111613",
+    "relation": {},
+    "ISSN": [
+      "2212-7976"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2212-7976"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Peer Reviewed",
+        "order": 0,
+        "name": "review_status",
+        "label": "Review Status",
+        "group": {
+          "name": "peer_review_details",
+          "label": "Peer Review Details"
+        }
+      },
+      {
+        "value": "Single blind",
+        "order": 1,
+        "name": "review_process",
+        "label": "Review Process",
+        "group": {
+          "name": "peer_review_details",
+          "label": "Peer Review Details"
+        }
+      },
+      {
+        "value": "Checked with iThenticate",
+        "order": 0,
+        "name": "screening_status",
+        "label": "Screening Status",
+        "group": {
+          "name": "plagiarism_screening",
+          "label": "Plagiarism Screening"
+        }
+      },
+      {
+        "value": "2020-12-27",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-01-25",
+        "order": 1,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-02-17",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-03-11",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

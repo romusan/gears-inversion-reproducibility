@@ -1,0 +1,639 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2026-09-29T23:02:32Z",
+      "timestamp": 1790722952751,
+      "version": "4.1.0"
+    },
+    "reference-count": 43,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2017-03-01T00:00:00Z",
+          "timestamp": 1488326400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "European Union's Seventh Framework Programme",
+        "award": [
+          "324336"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "324336"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Mechanism and Machine Theory"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.mechmachtheory.2016.11.015",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          12
+        ]
+      ],
+      "date-time": "2016-12-12T00:00:18Z",
+      "timestamp": 1481500818000
+    },
+    "page": "278-295",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 85,
+    "special_numbering": "C",
+    "title": [
+      "Multi-objective micro-geometry optimization of gear tooth supported by response surface methodology"
+    ],
+    "prefix": "10.1016",
+    "volume": "109",
+    "author": [
+      {
+        "given": "Jakub A.",
+        "family": "Korta",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Domenico",
+        "family": "Mundo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib1",
+        "series-title": "Gear Geometry and Applied Theory",
+        "author": "Litvin",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1115/1.4025196",
+        "article-title": "Robust optimization of cylindrical gear tooth surface modifications within ranges of torque and misalignments",
+        "volume": "135",
+        "author": "Artoni",
+        "year": "2013",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Harianto, D.R Houser, A methodology for obtaining optimum gear tooth micro-topographies for noise and stress minimization over a broad operating torque range, in: Proceedings of the ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, American Society of Mechanical Engineers, January 2007, pp. 289–303.",
+        "DOI": "10.1115/DETC2007-34655"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1115/1.4005234",
+        "article-title": "Multi-objective ease-off optimization of hypoid gears for their efficiency, noise, and durability performances",
+        "volume": "133",
+        "author": "Artoni",
+        "year": "2011",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "603",
+        "DOI": "10.1016/j.jsv.2007.12.013",
+        "article-title": "Optimum profile modifications of spur gears by means of genetic algorithms",
+        "volume": "313",
+        "author": "Bonori",
+        "year": "2008",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "304",
+        "DOI": "10.1115/1.1286189",
+        "article-title": "Dynamic response of a planetary gear system using a finite element/contact mechanics model",
+        "volume": "122",
+        "author": "Parker",
+        "year": "2000",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cai Yurong, Hayashi Teru, Optimum modification of tooth profile for a pair of spur gears to make its rotational vibration equal zero, Paper presented at the American Society of Mechanical Engineers, Design Engineering Division (Publication), 1992, pp. 453–460.",
+        "DOI": "10.1115/DETC1992-0058"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "544",
+        "DOI": "10.1016/j.mechmachtheory.2010.11.005",
+        "article-title": "Dynamic optimization of spur gears",
+        "volume": "46",
+        "author": "Faggioni",
+        "year": "2011",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "138",
+        "DOI": "10.1016/j.apacoust.2013.05.014",
+        "article-title": "Gear transmission dynamic: effects of tooth profile deviations and support flexibility",
+        "volume": "77",
+        "author": "Fernández",
+        "year": "2014",
+        "journal-title": "Appl. Acoust."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1016/j.ijmecsci.2014.07.002",
+        "article-title": "A multi-objective surrogate-based optimization of the crashworthiness of a hybrid impact absorber",
+        "volume": "88",
+        "author": "Costas",
+        "year": "2014",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1143",
+        "DOI": "10.4271/2012-01-1555",
+        "article-title": "Multi-objective optimization of a car body structure",
+        "volume": "5",
+        "author": "Korta",
+        "year": "2012",
+        "journal-title": "SAE Int. J. Passeng. Cars-Mech. Syst."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "128",
+        "DOI": "10.1002/wics.73",
+        "article-title": "Response surface methodology",
+        "volume": "2",
+        "author": "Khuri",
+        "year": "2010",
+        "journal-title": "Wiley Interdiscip. Rev.: Comput. Stat."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib13",
+        "first-page": "858",
+        "article-title": "Response surface methodology",
+        "volume": "1",
+        "author": "Myers",
+        "year": "2003",
+        "journal-title": "Encycl. Biopharm. Stat."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1016/j.mechmachtheory.2013.06.003",
+        "article-title": "Global optimization of reliability design for large ball mill gear transmission based on the Kriging model and genetic algorithm",
+        "volume": "69",
+        "author": "Zhang",
+        "year": "2013",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "441",
+        "DOI": "10.1016/j.matdes.2005.09.009",
+        "article-title": "Shape optimization of tooth profile of a flexspline for a harmonic drive by finite element modelling",
+        "volume": "28",
+        "author": "Kayabasi",
+        "year": "2007",
+        "journal-title": "Mater. Des."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1194",
+        "DOI": "10.3901/CJME.2015.0610.079",
+        "article-title": "Statistical modification analysis of helical planetary gears based on response surface method and Monte Carlo simulation",
+        "volume": "28",
+        "author": "Zhang",
+        "year": "2015",
+        "journal-title": "Chin. J. Mech. Eng."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "823",
+        "DOI": "10.1007/s12206-010-0117-x",
+        "article-title": "Multi-objective optimization of the tooth surface in helical gears using design of experiment and the response surface method",
+        "volume": "24",
+        "author": "Park",
+        "year": "2010",
+        "journal-title": "J. Mech. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib18",
+        "series-title": "Evolutionary Algorithms for Solving Multi-Objective Problems",
+        "volume": "242",
+        "author": "Coello",
+        "year": "2002"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "182",
+        "DOI": "10.1109/4235.996017",
+        "article-title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+        "volume": "6",
+        "author": "Deb",
+        "year": "2002",
+        "journal-title": "IEEE Trans. Evolut. Comput."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "439",
+        "DOI": "10.1016/j.ijmecsci.2014.10.001",
+        "article-title": "Crushing analysis and multiobjective optimization for functionally graded foam-filled tubes under multiple load cases",
+        "volume": "89",
+        "author": "Li",
+        "year": "2014",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib21",
+        "first-page": "20",
+        "article-title": "Multi-material design optimization of a bus body structure",
+        "author": "Korta",
+        "year": "2013",
+        "journal-title": "J. Kones"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Deb, T. Goel, Controlled elitist non-dominated sorting genetic algorithms for better convergence, in: Evolutionary Multi-Criterion Optimization, Springer, London, UK, March 2001, pp. 67–81.",
+        "DOI": "10.1007/3-540-44719-9_5"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib23",
+        "first-page": "239",
+        "article-title": "Comparison of three methods for selecting values of input variables in the analysis of output from a computer code",
+        "volume": "21",
+        "author": "McKay",
+        "year": "1979",
+        "journal-title": "Technometrics"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib24",
+        "series-title": "Optimization Methods: From Theory to Design Scientific and Technological Aspects in Mechanics",
+        "author": "Cavazzuti",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Shepard, A two-dimensional interpolation function for irregularly-spaced data, in: Proceedings of the 23rd ACM National Conference, January 1968, pp. 517–524.",
+        "DOI": "10.1145/800186.810616"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1590/S1679-78252013000200004",
+        "article-title": "An improved version of Inverse Distance Weighting metamodel assisted Harmony Search algorithm for truss design optimization",
+        "volume": "10",
+        "author": "Gholipour",
+        "year": "2013",
+        "journal-title": "Lat. Am. J. Solids Struct."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib27",
+        "unstructured": "C.K. Williams, C.E. Rasmussen, Gaussian processes for machine learning, the MIT Press, 2, 3, 2006, pp. 4."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1007/PL00007198",
+        "article-title": "Metamodels for computer-based engineering design: survey and recommendations",
+        "volume": "17",
+        "author": "Simpson",
+        "year": "2001",
+        "journal-title": "Eng. Comput."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "4215",
+        "DOI": "10.1016/j.csda.2012.04.020",
+        "article-title": "The effect of the nugget on Gaussian process emulators of computer models",
+        "volume": "56",
+        "author": "Andrianakis",
+        "year": "2012",
+        "journal-title": "Comput. Stat. Data Anal."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib30",
+        "series-title": "Processes for regression: a quick introduction. The Website of Robotics Research Group in Department on Engineering Science",
+        "author": "Ebden",
+        "year": "2008"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2053",
+        "DOI": "10.2514/2.1538",
+        "article-title": "Computationally inexpensive metamodel assessment strategies",
+        "volume": "40",
+        "author": "Meckesheimer",
+        "year": "2002",
+        "journal-title": "AIAA J."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "370",
+        "DOI": "10.1115/1.2429697",
+        "article-title": "Review of metamodeling techniques in support of engineering design optimization",
+        "volume": "129",
+        "author": "Wang",
+        "year": "2007",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib33",
+        "series-title": "Gear Noise and Vibration",
+        "author": "Smith",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1016/j.mechmachtheory.2014.07.009",
+        "article-title": "Adaptive grid-size finite element modeling of helical gear pairs",
+        "volume": "82",
+        "author": "Barbieri",
+        "year": "2014",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib35",
+        "unstructured": "J. Korta, A. Palermo, D. Mundo, S. Sweiki, Combining Finite Element and Multibody Modeling Techniques for Time-Efficient Simulation of Nonlinear Gear Dynamics, in: Proceedings of the Seventh International Conference on Advances in System Simulation, SIMUL, November 15–20, Barcelona, Spain, 2015, pp. 94–99."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "190",
+        "DOI": "10.1016/j.mechmachtheory.2015.11.008",
+        "article-title": "A computerized method for loaded tooth contact analysis of high-contact-ratio spur gears with or without flank modification considering tip corner contact and shaft misalignment",
+        "volume": "97",
+        "author": "Ye",
+        "year": "2016",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "96",
+        "DOI": "10.1016/j.ijmecsci.2014.03.035",
+        "article-title": "An investigation of contact stresses and crack initiation in spur gears based on finite element dynamics analysis",
+        "volume": "83",
+        "author": "Qin",
+        "year": "2014",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib38",
+        "unstructured": "A.R. Hassan, Contact stress analysis of spur gear teeth pair, World Academy of Science, Engineering and Technology, 58, 1, 2009, pp. 597–602"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib39",
+        "series-title": "Statistics for Research",
+        "volume": "512",
+        "author": "Dowdy",
+        "year": "2004"
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib40",
+        "first-page": "400",
+        "article-title": "Mechanical engineering design",
+        "volume": "7",
+        "author": "Shigley",
+        "year": "2004",
+        "journal-title": "JE Shigley, Mech. Eng. Des."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1848",
+        "DOI": "10.1016/j.mechmachtheory.2009.03.009",
+        "article-title": "A load distribution model for hypoid gears using ease-off topography and shell theory",
+        "volume": "44",
+        "author": "Kolivand",
+        "year": "2009",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1115/1.4001485",
+        "article-title": "Robust optimization of the loaded contact pattern in hypoid gears with uncertain misalignments",
+        "volume": "132",
+        "author": "Gabiccini",
+        "year": "2010",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.mechmachtheory.2016.11.015_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1016/j.cirp.2013.03.067",
+        "article-title": "A new methodology to optimize spiral bevel gear topography",
+        "volume": "62",
+        "author": "Mermoz",
+        "year": "2013",
+        "journal-title": "CIRP Ann.-Manuf. Technol."
+      }
+    ],
+    "container-title": [
+      "Mechanism and Machine Theory"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0094114X16305821?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0094114X16305821?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2022-07-16T18:17:10Z",
+      "timestamp": 1657995430000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X16305821"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          3
+        ]
+      ]
+    },
+    "references-count": 43,
+    "alternative-id": [
+      "S0094114X16305821"
+    ],
+    "URL": "https://doi.org/10.1016/j.mechmachtheory.2016.11.015",
+    "relation": {},
+    "ISSN": [
+      "0094-114X"
+    ],
+    "issn-type": [
+      {
+        "value": "0094-114X",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Multi-objective micro-geometry optimization of gear tooth supported by response surface methodology",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Mechanism and Machine Theory",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.mechmachtheory.2016.11.015",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2016 Elsevier Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

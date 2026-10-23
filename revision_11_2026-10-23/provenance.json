@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-23",
+  "baseline_commit": "8a08285ea9b6e8026d147102278f67e4c403e6bf",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "matplotlib": "3.11.1",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "tests": {
+    "command": "python -m pytest deposit_v6/gear_inverse_identifiability/tests -q",
+    "passed": 40,
+    "failed": 0
+  },
+  "original_1800_fits_rerun": false,
+  "new_24_24_audit_rerun": true
+}

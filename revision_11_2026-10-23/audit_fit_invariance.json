@@ -1,0 +1,74 @@
+[
+  {
+    "variant": "legacy",
+    "fit": "broad_start",
+    "estimate": [
+      0.015694301648183934,
+      0.8473320776322494,
+      0.0026159325371493632,
+      0.17949460749626128
+    ],
+    "min_loaded_coordinate": 0.3036049784873155,
+    "relief_start": 0.17949460749626128,
+    "loaded_points_in_dedendum": 0,
+    "deletion_of_fitted_dedendum_rms_um": 0.0,
+    "dedendum_jacobian_column_norms": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "variant": "legacy",
+    "fit": "archived_two_start",
+    "estimate": [
+      0.015695131028093532,
+      0.8473350668473434,
+      0.006332966700363588,
+      0.23035954766516203
+    ],
+    "min_loaded_coordinate": 0.3036049784873155,
+    "relief_start": 0.23035954766516203,
+    "loaded_points_in_dedendum": 0,
+    "deletion_of_fitted_dedendum_rms_um": 0.0,
+    "dedendum_jacobian_column_norms": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "variant": "projected-energy",
+    "fit": "broad_start",
+    "estimate": [
+      0.01625686168819832,
+      0.8027821394029969,
+      0.025839879114452225,
+      0.23683266185366436
+    ],
+    "min_loaded_coordinate": 0.3036049784873155,
+    "relief_start": 0.23683266185366436,
+    "loaded_points_in_dedendum": 0,
+    "deletion_of_fitted_dedendum_rms_um": 0.0,
+    "dedendum_jacobian_column_norms": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "variant": "projected-energy",
+    "fit": "archived_two_start",
+    "estimate": [
+      0.01625698641359371,
+      0.8027827656471564,
+      0.010221417376770896,
+      0.30062053740662154
+    ],
+    "min_loaded_coordinate": 0.3036049784873155,
+    "relief_start": 0.30062053740662154,
+    "loaded_points_in_dedendum": 0,
+    "deletion_of_fitted_dedendum_rms_um": 0.0,
+    "dedendum_jacobian_column_norms": [
+      0.0,
+      0.0
+    ]
+  }
+]

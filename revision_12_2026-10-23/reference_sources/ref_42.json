@@ -1,0 +1,639 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ],
+      "date-time": "2026-09-24T19:43:15Z",
+      "timestamp": 1790278995315,
+      "version": "4.1.0"
+    },
+    "reference-count": 40,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Simulation Modelling Practice and Theory"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.simpat.2023.102757",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          5
+        ]
+      ],
+      "date-time": "2023-04-05T18:52:24Z",
+      "timestamp": 1680720744000
+    },
+    "page": "102757",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "special_numbering": "C",
+    "title": [
+      "Exploiting double-flank roll testing spur gear measurements to determine gear parameter deviations through numerical simulation of free-form meshing gears"
+    ],
+    "prefix": "10.1016",
+    "volume": "126",
+    "author": [
+      {
+        "given": "Christos",
+        "family": "Kalligeros",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9194-2858",
+        "authenticated-orcid": false,
+        "given": "Christos",
+        "family": "Papalexis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3496-0619",
+        "authenticated-orcid": false,
+        "given": "Georgios",
+        "family": "Vasileiou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1877-7489",
+        "authenticated-orcid": false,
+        "given": "Panteleimon",
+        "family": "Tzouganakis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christos",
+        "family": "Spitas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vasilios",
+        "family": "Spitas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "659",
+        "DOI": "10.1016/S0007-8506(07)60209-1",
+        "article-title": "Gear metrology",
+        "volume": "52",
+        "author": "Goch",
+        "year": "2003",
+        "journal-title": "CIRP Ann."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "5523",
+        "DOI": "10.1016/j.cma.2005.05.055",
+        "article-title": "Reduction of noise of loaded and unloaded misaligned gear drives",
+        "volume": "195",
+        "author": "Litvin",
+        "year": "2006",
+        "journal-title": "Comput. Methods Appl. Mech. Eng."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0003",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.simpat.2022.102593",
+        "article-title": "Robust multi-objective optimization of gear microgeometry design",
+        "volume": "119",
+        "author": "Mohammed",
+        "year": "2022",
+        "journal-title": "Simul. Model. Pract. Theory"
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0004",
+        "series-title": "Proceedings of the 17th International Congress on Sound and Vibration",
+        "first-page": "1544",
+        "article-title": "Effects of gear machining accuracy on the noise of a planetary-gear reducer",
+        "author": "Park",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.1007/s00170-019-04426-2",
+        "article-title": "A machine vision algorithm for quality control inspection of gears",
+        "volume": "106",
+        "author": "Moru",
+        "year": "2020",
+        "journal-title": "Int. J. Adv. Manuf. Technol."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0006",
+        "doi-asserted-by": "crossref",
+        "first-page": "2203",
+        "DOI": "10.1007/s12541-012-0292-z",
+        "article-title": "The calculation and experiment for measurements over pins of the external helical gears with an odd number of teeth",
+        "volume": "13",
+        "author": "Zhang",
+        "year": "2012",
+        "journal-title": "Int. J. Precis. Eng. Manuf."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "2065",
+        "DOI": "10.1007/s12541-014-0564-x",
+        "article-title": "Research on the compensation method for the measurement error of cycloidal gear tooth flank",
+        "volume": "15",
+        "author": "Fang",
+        "year": "2014",
+        "journal-title": "Int. J. Precis. Eng. Manuf."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "843",
+        "DOI": "10.1007/s12541-020-00320-0",
+        "article-title": "Fault Diagnosis of bevel gears using neural pattern recognition and MLP neural network algorithms",
+        "volume": "21",
+        "author": "Keleşoğlu",
+        "year": "2020",
+        "journal-title": "Int. J. Precis. Eng. Manuf."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0009",
+        "unstructured": "Smiith, Ir.I., Smith, R.E., 1994. Quality gear inspection Part I. Gear Technology 1994(September/October), 32–38."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0010",
+        "unstructured": "Smith, R.E., 1994. Quality gear inspection Part II. Gear Technology 1994(November/December), 31–34."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0011",
+        "unstructured": "Lawson E., 1998. The basics of gear metrology and terminology part I. Gear Technology 1998(September/October), 41–50."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "522",
+        "DOI": "10.1016/j.precisioneng.2017.05.007",
+        "article-title": "A review of tangential composite and radial composite gear inspection",
+        "volume": "50",
+        "author": "Pueo",
+        "year": "2017",
+        "journal-title": "Precis. Eng."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "1481",
+        "DOI": "10.1007/s00542-008-0601-8",
+        "article-title": "Validation of micromechanical systems",
+        "volume": "14",
+        "author": "Albers",
+        "year": "2008",
+        "journal-title": "Microsyst. Technol."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0014",
+        "first-page": "142",
+        "article-title": "Verification methods for micro gears. Analysis of double flank roll testing applied to micro gears",
+        "volume": "63",
+        "author": "Cacho",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0015",
+        "unstructured": "Reiter, E., Eberle, F., 2014. Practical considerations for the use of double-flank testing for the manufacturing control of gearing - Part I. Gear Technology 2014(January/February), 44–51."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0016",
+        "unstructured": "Reiter, E., Eberle, F., 2014. Practical considerations for the use of double-flank testing for the manufacturing control of gearing - Part II. Gear Technology 2014(March/April), 60–69."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0017",
+        "series-title": "Proceedings of the Institution of Mechanical Engineers, Conference Proceedings",
+        "first-page": "79",
+        "article-title": "Paper 10: effect of geometrical errors on the transmission of motion between gears",
+        "volume": "184",
+        "author": "Munro",
+        "year": "1969"
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0018",
+        "unstructured": "Smith, R.E., 1985. Single flank data analysis and interpretation. Gear Technology 1985(September/October), 20–34."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0019",
+        "unstructured": "Smith, R.E., 2004. Single-flank testing of gears. Gear Technology 2004(May/June), 18–21."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0020",
+        "first-page": "1",
+        "article-title": "Gear tolerances",
+        "volume": "7",
+        "author": "Townsend",
+        "year": "1991"
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0021",
+        "unstructured": "ISO 1328:1975 Parallel involute gears – ISO system of accuracy. 1975."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0022",
+        "unstructured": "DIN 3960:1987 Definitions, parameters and equations for involute cylindrical gears and gear pairs. 1987."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0023",
+        "unstructured": "ANSI/AGMA 2000-A88 gear classification and inspection handbook. 1988."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0024",
+        "unstructured": "ISO 1328-1:2013 cylindrical gears - ISO system of accuracy - Part 1: definitions and allowable values of deviations relevant to corresponding flanks of gear teeth. 2013."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0025",
+        "unstructured": "ISO 21771:2007 Gears - cylindrical involute gears and gear pairs - concepts and geometry.2007."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0026",
+        "unstructured": "DIN ISO 21771:2014 Gears - cylindrical involute gears and gear pairs - concepts and geometry. 2014."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0027",
+        "unstructured": "DIN 21772:2012 Gears - cylindrical involute gears and gear pairs - definition of deviations. 2012."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0028",
+        "unstructured": "DIN 21773:2014 Gears - cylindrical involute gears and gear pairs - inspection dimensions of tooth thickness. 2014."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0029",
+        "unstructured": "ANSI/AGMA 2015-1-A01 accuracy classifications system - Tangential Measurements for Cylindrical Gears. 2001."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0030",
+        "unstructured": "ANSI/AGMA 2015-2-A06 Accuracy Classifications System - radial measurements for cylindrical gears. 2006."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0031",
+        "unstructured": "Reiter, E., 2012. Towards an improved AGMA accuracy classification system on double-flank composite measurements 7."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0032",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1016/j.precisioneng.2016.02.006",
+        "article-title": "Development of a gear measuring device using DFRP method",
+        "volume": "45",
+        "author": "Tang",
+        "year": "2016",
+        "journal-title": "Precis. Eng."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0033",
+        "series-title": "Proceedings of the Seventh International Symposium on Instrumentation and Control Technology: Sensors and Instruments, Computer Simulation, and Artificial Intelligence",
+        "first-page": "71271C",
+        "article-title": "Research on a measurement principle of the double-flank gear rolling test with many degrees of freedom for fast inspection",
+        "author": "Shi",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0034",
+        "doi-asserted-by": "crossref",
+        "first-page": "222",
+        "DOI": "10.1016/j.precisioneng.2019.07.015",
+        "article-title": "Measurement uncertainty evaluation model in radial composite gear inspection",
+        "volume": "60",
+        "author": "Pueo",
+        "year": "2019",
+        "journal-title": "Precis. Eng."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0035",
+        "series-title": "Gear Geometry and Applied Theory",
+        "author": "Litvin",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0036",
+        "unstructured": "Litvin, F.L., 1989. Theory of gearing, No. AD-A233672."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0037",
+        "series-title": "Proceedings of the ASME 2009 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+        "first-page": "255",
+        "article-title": "Simulation of double flank gear rolling testing",
+        "author": "Liu",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0038",
+        "doi-asserted-by": "crossref",
+        "first-page": "552",
+        "DOI": "10.1016/j.precisioneng.2017.10.011",
+        "article-title": "Radial and tangential error analysis of double-flank gear measurement",
+        "volume": "51",
+        "author": "Tang",
+        "year": "2018",
+        "journal-title": "Precis. Eng."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0039",
+        "unstructured": "Oswald F.B., Townsend D.P., 1996. Tooth modification and spur gear tooth strain. Gear Technology 1996(September/October), 20–24."
+      },
+      {
+        "key": "10.1016/j.simpat.2023.102757_bib0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1016/S0043-1648(96)07467-4",
+        "article-title": "Simulation of mild wear in spur gears",
+        "volume": "207",
+        "author": "Flodin",
+        "year": "1997",
+        "journal-title": "Wear"
+      }
+    ],
+    "container-title": [
+      "Simulation Modelling Practice and Theory"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1569190X23000345?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1569190X23000345?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2025-10-27T21:36:59Z",
+      "timestamp": 1761601019000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1569190X23000345"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "references-count": 40,
+    "alternative-id": [
+      "S1569190X23000345"
+    ],
+    "URL": "https://doi.org/10.1016/j.simpat.2023.102757",
+    "relation": {},
+    "ISSN": [
+      "1569-190X"
+    ],
+    "issn-type": [
+      {
+        "value": "1569-190X",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Exploiting double-flank roll testing spur gear measurements to determine gear parameter deviations through numerical simulation of free-form meshing gears",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Simulation Modelling Practice and Theory",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.simpat.2023.102757",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "102757"
+  }
+}

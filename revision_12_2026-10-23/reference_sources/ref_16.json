@@ -1,0 +1,340 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ],
+      "date-time": "2026-10-04T11:23:44Z",
+      "timestamp": 1791113024525,
+      "version": "4.1.0"
+    },
+    "reference-count": 29,
+    "publisher": "ASME International",
+    "issue": "2",
+    "content-domain": {
+      "domain": [
+        "asmedigitalcollection.asme.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2002,
+          6,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1115/1.1462044",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          7,
+          27
+        ]
+      ],
+      "date-time": "2002-07-27T09:05:07Z",
+      "timestamp": 1027760707000
+    },
+    "page": "334-346",
+    "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+    "source": "Crossref",
+    "is-referenced-by-count": 102,
+    "title": [
+      "Static and Dynamic Tooth Loading in Spur and Helical Geared Systems-Experiments and Model Validation"
+    ],
+    "prefix": "10.1115",
+    "volume": "124",
+    "author": [
+      {
+        "given": "S.",
+        "family": "Baud",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Laboratoire de Me´canique des Contacts, UMR CNRS 5514, INSA Lyon, Ba^t. 113 20, Avenue Albert Einstein 69 621 VILLEURBANNE Cedex France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Velex",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Laboratoire de Me´canique des Contacts, UMR CNRS 5514, INSA Lyon, Ba^t. 113 20, Avenue Albert Einstein 69 621 VILLEURBANNE Cedex France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "33",
+    "published-online": {
+      "date-parts": [
+        [
+          2002,
+          5,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2019100522213685600_r1",
+        "unstructured": "Niemann, G., and Rettig, H., 1958, “Error-induced Dynamic Gear Tooth Loads,” Proc. IMechE Int. Conf. Gearing, pp. 31–42."
+      },
+      {
+        "key": "2019100522213685600_r2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Utagawa, M., and Harada, T., 1960, “Dynamic Loading on Spur Gear Teeth at High Speed,” Bull. JSME, 4(16), pp. 706–713.",
+        "DOI": "10.1299/jsme1958.4.706"
+      },
+      {
+        "key": "2019100522213685600_r3",
+        "unstructured": "Munro, R. G., 1962, “The Dynamic Behavior of Spur Gears,” Ph.D. dissertation, University of Cambridge, 95 p."
+      },
+      {
+        "key": "2019100522213685600_r4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gregory, R. W., Harris, S. L., and Munro, R. G., 1963, “Dynamic Behavior of Spur Gears,” Proc. IMechE Int. Conf. Gearing, 178, pp. 261–266.",
+        "DOI": "10.1177/002034836317800130"
+      },
+      {
+        "key": "2019100522213685600_r5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kubo, A., Yamada, K., Aida, T., and Sato, S., 1972, “Research on Ultra High Speed Gear Devices,” Bull. JSME, 38, pp. 2692–2715.",
+        "DOI": "10.1299/kikai1938.38.2692"
+      },
+      {
+        "key": "2019100522213685600_r6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ichimaru, K., and Hirano, F., 1974, “Dynamic Behavior of Heavy-loaded Spur Gears,” ASME J. Eng. Ind., 96(2), pp. 373–381.",
+        "DOI": "10.1115/1.3438339"
+      },
+      {
+        "key": "2019100522213685600_r7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Umezawa, K., Suzuki, T., Houjoh, H., and Sato, T., 1985, “Vibration of Power Transmission Helical Gears (the effect of contact ratio on the vibration),” Bull. JSME, 28, pp. 694–700.",
+        "DOI": "10.1299/jsme1958.28.694"
+      },
+      {
+        "key": "2019100522213685600_r8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oswald, F. B., Rebbechi, B., Zakrajsek, J. J., Townsend, D. P., and Lin, H. H., 1991, “Comparison of Analysis and Experiment for Dynamics of Low-contact-ratio Spur Gears,” Proc. ASME Machinery Dynamics and Element Vibrations, Paper DE-Vol. 36, 36, pp. 263–269.",
+        "DOI": "10.1115/DETC1991-0302"
+      },
+      {
+        "key": "2019100522213685600_r9",
+        "unstructured": "Lin, H. H., Oswald, F. B., and Townsend, D. P., 1989, “Dynamic Loading of Spur Gears With Linear or Parabolic Tooth Profile Modification,” Proc. 5th ASME Int. Power Trans and Gearing Conferences, (1), pp. 409–419."
+      },
+      {
+        "key": "2019100522213685600_r10",
+        "unstructured": "Lin, H. H., Townsend, D. P., and Oswald, F. B., 1989, “Profile Modification to Minimize Spur Gear Dynamic Loading,” Proc. R. Soc. London, Ser. A, 1, pp. 455–465."
+      },
+      {
+        "key": "2019100522213685600_r11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kahraman, A., and Blankenship, G. W., 1997, “Experiments on Nonlinear Dynamic Behavior of an Oscillator With Clearance and Periodically Time-varying Parameters,” ASME J. Appl. Mech., 64, pp. 217–226.",
+        "DOI": "10.1115/1.2787276"
+      },
+      {
+        "key": "2019100522213685600_r12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kahraman, A., and Blankenship, G. W., 1999, “Effect of Involute Contact Ratio on Spur Gear Dynamics,” ASME J. Mech. Des., 121, pp. 112–118.",
+        "DOI": "10.1115/1.2829411"
+      },
+      {
+        "key": "2019100522213685600_r13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kahraman, A., and Blankenship, G. W., 1999, “Effect of Involute Tip Relief on Dynamic Response of Spur Gears,” ASME J. Mech. Des., 121, pp. 313–315.",
+        "DOI": "10.1115/1.2829460"
+      },
+      {
+        "key": "2019100522213685600_r14",
+        "unstructured": "Ku¨c¸u¨kay, F., 1984, “Dynamic Behavior of High-speed Gears,” Proc. 3rd IMechE Conf. Vib in Rotating Machinery, York, pp. 81–90."
+      },
+      {
+        "key": "2019100522213685600_r15",
+        "unstructured": "Houser, D. R., Bolze, V. M., and Graber, J. M., 1996, “Static and Dynamic Transmission Error Measurements and Predictions for Spur and Helical Gear Sets,” Proc. 7th ASME Int. Power Trans. and Gearing Conference, San Diego, pp. 365–372."
+      },
+      {
+        "key": "2019100522213685600_r16",
+        "unstructured": "Houjoh, H., Umezawa, K., and Mastumura, S., 1996, “Vibration Analysis for a Pair of Helical Gears Mounted on Elastic Shafts,” Proc. 7th ASME Int. Power Trans. and Gearing Conference, San Diego, pp. 501–508."
+      },
+      {
+        "key": "2019100522213685600_r17",
+        "unstructured": "Umezawa, K., Houjoh, H., Matsumura, S., Wang, S., and Ohshima, S., 1996, “Experimental Investigation on Modal Behavior of Helical Gear Units With Various Ratio,” Proc. 7th ASME Int. Power Trans. and Gearing Conference, San Diego, pp. 509–518."
+      },
+      {
+        "key": "2019100522213685600_r18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Badgley, R. H., and Hartman, R. H., 1974, “Gearbox Noise Reduction: Prediction and Measurement of Mesh-frequency Vibrations Within an Operating Helicopter Rotor-drive Gearbox,” ASME J. Eng. Ind., 96(2), pp. 567–577.",
+        "DOI": "10.1115/1.3438366"
+      },
+      {
+        "key": "2019100522213685600_r19",
+        "unstructured": "Choy, F. K., Townsend, D. P., and Oswald, F. B., 1988, “Dynamic Analysis of Multi-mesh Gear Helicopter Transmissions,” NASA Technical Paper 2789, 22 p."
+      },
+      {
+        "key": "2019100522213685600_r20",
+        "unstructured": "Velex, P., Pichon, V., Wittman, R., and Randrianarivo, L., 1994, “Dynamic Behavior of Epicyclic Trains—Experimental and Numerical Analyses,” Proc. Int. Gearing Conference, Newcastle, pp. 265–269."
+      },
+      {
+        "key": "2019100522213685600_r21",
+        "unstructured": "Velex, P., and Berthe, D., 1989, “Dynamic Tooth Loads on Geared Trains,” Proc. 5th ASME Int. Power Trans. and Gearing, Chicago, 1, pp. 447–454."
+      },
+      {
+        "key": "2019100522213685600_r22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Velex, P., and Maatar, M., 1996, “A Mathematical Model for Analyzing the Influence of Shape Deviations and Mounting Errors on Gear Dynamic Behavior,” J. Sound Vib., 191(5), pp. 629–660.",
+        "DOI": "10.1006/jsvi.1996.0148"
+      },
+      {
+        "key": "2019100522213685600_r23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cornell, R. W. , 1981, “Compliance and Stress Sensitivity of Spur Gear Teeth,” ASME J. Mech. Des., 103, pp. 447–459.",
+        "DOI": "10.1115/1.3254939"
+      },
+      {
+        "key": "2019100522213685600_r24",
+        "unstructured": "Weber, C., and Banaschek, K., 1953, “Forma¨nderung und Profilru¨cknahme bei Gerad-und Schra¨gverzahnten Ra¨der,” Heft II, Friedrich Vieweg und Sohn, Braunschweig."
+      },
+      {
+        "key": "2019100522213685600_r25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O’Donnell, W. J. , 1963, “Stresses and Deflections in Built-in Beams,” ASME J. Eng. Ind., 85(2), pp. 265–273.",
+        "DOI": "10.1115/1.3669856"
+      },
+      {
+        "key": "2019100522213685600_r26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lundberg, G., 1939, “Elastiche Beru¨hrung zweier Halbrau¨me,” Forsch. Ing. -Wes., 10 (5), pp. 201–210.",
+        "DOI": "10.1007/BF02584950"
+      },
+      {
+        "key": "2019100522213685600_r27",
+        "unstructured": "Smith, J. D., 1999, Gear Noise and Vibration, Marcel Dekker, Inc., New York, pp. 32–34."
+      },
+      {
+        "key": "2019100522213685600_r28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raclot, J. P., and Velex, P., 1999, “Simulation of the Dynamic Behavior of Single and Multi-stage Geared Systems With Shape Deviations and Mounting Errors by Using a Spectral Method,” J. Sound Vib., 220(5), pp. 861–903.",
+        "DOI": "10.1006/jsvi.1998.1988"
+      },
+      {
+        "key": "2019100522213685600_r29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Velex, P., Maatar, M., and Raclot, J. P., 1997, “Some Numerical Methods for the Simulation of Geared Transmission Dynamic Behavior—Formulation and Assessment,” ASME J. Mech. Des., 119, 2, pp. 292–298.",
+        "DOI": "10.1115/1.2826250"
+      }
+    ],
+    "container-title": [
+      "Journal of Mechanical Design"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/124/2/334/5799005/334_1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/124/2/334/5799005/334_1.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          25
+        ]
+      ],
+      "date-time": "2021-05-25T19:06:31Z",
+      "timestamp": 1621969591000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://asmedigitalcollection.asme.org/mechanicaldesign/article/124/2/334/456658/Static-and-Dynamic-Tooth-Loading-in-Spur-and"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2002,
+          5,
+          16
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2002,
+            6,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1115/1.1462044",
+    "relation": {},
+    "ISSN": [
+      "1050-0472",
+      "1528-9001"
+    ],
+    "issn-type": [
+      {
+        "value": "1050-0472",
+        "type": "print"
+      },
+      {
+        "value": "1528-9001",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2002,
+          5,
+          16
+        ]
+      ]
+    }
+  }
+}

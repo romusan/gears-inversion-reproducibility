@@ -1,0 +1,1002 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2026-09-26T20:37:35Z",
+      "timestamp": 1790455055233,
+      "version": "4.1.0"
+    },
+    "reference-count": 69,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              17
+            ]
+          ],
+          "date-time": "2024-05-17T00:00:00Z",
+          "timestamp": 1715904000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100014833",
+        "name": "Society for Music Theory",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100014833",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000780",
+        "name": "European Commission",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000780",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007195",
+        "name": "Università degli Studi di Napoli Federico II",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007195",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100007601",
+        "name": "Horizon 2020",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "860243"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "860243"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100007601",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100009505",
+        "name": "École Centrale de Lyon",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100009505",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100019247",
+        "name": "Ansys",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100019247",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Results in Engineering"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.rineng.2024.102286",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          23
+        ]
+      ],
+      "date-time": "2024-05-23T15:05:45Z",
+      "timestamp": 1716476745000
+    },
+    "page": "102286",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 25,
+    "special_numbering": "C",
+    "title": [
+      "Review and benchmarking study of different gear contact analysis software in terms of the static transmission error response"
+    ],
+    "prefix": "10.1016",
+    "volume": "22",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-8379-8684",
+        "authenticated-orcid": false,
+        "given": "Firas",
+        "family": "Bejar",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jöel",
+        "family": "Perret-Liaudet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Olivier",
+        "family": "Bareille",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mohamed",
+        "family": "Ichchou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mauro",
+        "family": "Fontana",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "1142",
+        "key": "10.1016/j.rineng.2024.102286_br0010",
+        "first-page": "369",
+        "article-title": "A discussion on the origin and treatment of noise in industrial environments-noise of gears",
+        "volume": "263",
+        "author": "Opitz",
+        "year": "1968",
+        "journal-title": "Philos. Trans. R. Soc. Lond. Ser. A, Math. Phys. Sci."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0020",
+        "series-title": "Fundamental knowledge of gear noise: a survey",
+        "author": "Welbourn",
+        "year": "1979"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.rineng.2024.102286_br0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1243/PIME_PROC_1958_172_017_02",
+        "article-title": "Dynamic loads on the teeth of spur gears",
+        "volume": "172",
+        "author": "Harris",
+        "year": "1958",
+        "journal-title": "Proc. Inst. Mech. Eng."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0040",
+        "first-page": "213",
+        "article-title": "Transmission errors of cylindrical gears under load-influence of tooth profile modification and tooth deflection",
+        "volume": "88",
+        "author": "Kurokawa",
+        "year": "1996",
+        "journal-title": "Am. Soc. Mech. Eng., Des. Eng. Div. (Publication) DE"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0050",
+        "unstructured": "A. Kahraman, G. Blankenship, Effect of involute tip relief on dynamic response of spur gear pairs."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "569",
+        "DOI": "10.1016/j.apm.2017.06.026",
+        "article-title": "Coupled torsion–bending dynamic analysis of gear-rotor-bearing system with eccentricity fluctuation",
+        "volume": "50",
+        "author": "Xiang",
+        "year": "2017",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.rineng.2024.102286_br0070",
+        "first-page": "99",
+        "article-title": "Gearbox noise and vibration prediction and control",
+        "volume": "14",
+        "author": "Tuma",
+        "year": "2009",
+        "journal-title": "Int. J. Acoust. Vib."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0080",
+        "series-title": "Interactions dynamiques entre dentures, lignes d'arbres, roulements et carter dans les transmissions par engrenages",
+        "author": "Rigaud",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "138",
+        "DOI": "10.1016/j.apacoust.2013.05.014",
+        "article-title": "Gear transmission dynamic: effects of tooth profile deviations and support flexibility",
+        "volume": "77",
+        "author": "Fernández",
+        "year": "2014",
+        "journal-title": "Appl. Acoust."
+      },
+      {
+        "issue": "587",
+        "key": "10.1016/j.rineng.2024.102286_br0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "3101",
+        "DOI": "10.1299/kikaic.61.3101",
+        "article-title": "Effects of deviation of tooth surface errors of a helical gear pair on the transmission error",
+        "volume": "61",
+        "author": "Umeyama",
+        "year": "1995",
+        "journal-title": "Nippon Kikai Gakkai Ronbunshu, C Hen/Trans. Jpn. Soc. Mech. Eng. C"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0110",
+        "series-title": "Automotive NVH Technology",
+        "first-page": "63",
+        "article-title": "Vibro-acoustic analysis of geared systems—predicting and controlling the whining noise",
+        "author": "Carbonelli",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0120",
+        "series-title": "Gear Noise and Vibration",
+        "author": "Smith",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0130",
+        "series-title": "Comportement dynamique et acoustique des transmissions par engrenages: synthèse bibliographique",
+        "author": "Remond",
+        "year": "1993"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0140",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2023.105503",
+        "article-title": "Gear design optimization: stiffness versus dynamics",
+        "volume": "191",
+        "author": "Marafona",
+        "year": "2024",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.rineng.2024.102286_br0150",
+        "first-page": "653",
+        "article-title": "Load and stress cycles in gear teeth",
+        "volume": "51",
+        "author": "Baud",
+        "year": "1929",
+        "journal-title": "Mech. Eng."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0160",
+        "unstructured": "C. Weber, The deformation of loaded gears and the effect on their load-carrying capacity, Sponsored Research (in Germany), British Dept. of Scientific and Industrial Research, Report 3."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0170",
+        "unstructured": "B.E.B. Mahr, A. KISSsoft, U. Kissling, Comparison between different commercial gear tooth contact analysis software packages, 2018."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0180",
+        "unstructured": "B.E.B. Mahr, A. KISSsoft, U. Kissling, Vergleich der resultate verschiedener kommerzieller programme für die kontaktanalyse von stirnrädern, technischer Bericht der KISSsoft AG."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0190",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2021.104291",
+        "article-title": "A hybrid analytical-numerical method based on isogeometric analysis for determination of time varying gear mesh stiffness",
+        "volume": "160",
+        "author": "Beinstingel",
+        "year": "2021",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0200",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2021.104262",
+        "article-title": "An improved analytical model for gear mesh stiffness calculation",
+        "volume": "159",
+        "author": "Dai",
+        "year": "2021",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1016/j.engfailanal.2017.01.015",
+        "article-title": "Effects of gear center distance variation on time varying mesh stiffness of a spur gear pair",
+        "volume": "75",
+        "author": "Luo",
+        "year": "2017",
+        "journal-title": "Eng. Fail. Anal."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1016/j.mechmachtheory.2015.11.017",
+        "article-title": "An improved analytical method for mesh stiffness calculation of spur gears with tip relief",
+        "volume": "98",
+        "author": "Ma",
+        "year": "2016",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "1695",
+        "DOI": "10.1007/s11012-016-0502-3",
+        "article-title": "Time-varying mesh characteristics of a spur gear pair considering the tip-fillet and friction",
+        "volume": "52",
+        "author": "Ma",
+        "year": "2017",
+        "journal-title": "Meccanica"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "845",
+        "DOI": "10.1016/j.apm.2020.08.046",
+        "article-title": "A mesh stiffness method using slice coupling for spur gear pairs with misalignment and lead crown relief",
+        "volume": "90",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "1194",
+        "DOI": "10.1016/j.apm.2020.11.003",
+        "article-title": "A new mesh stiffness model for modified spur gears with coupling tooth and body flexibility effects",
+        "volume": "91",
+        "author": "Xie",
+        "year": "2021",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0260",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2020.103838",
+        "article-title": "Improved analytical calculation model of spur gear mesh excitations with tooth profile deviations",
+        "volume": "149",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0270",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2021.104386",
+        "article-title": "Improved analytical model for calculating mesh stiffness and transmission error of helical gears considering trochoidal root profile",
+        "volume": "163",
+        "author": "Chung",
+        "year": "2021",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "1131",
+        "DOI": "10.1007/s11012-017-0746-6",
+        "article-title": "An improved analytical method for calculating time-varying mesh stiffness of helical gears",
+        "volume": "53",
+        "author": "Feng",
+        "year": "2018",
+        "journal-title": "Meccanica"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "503",
+        "DOI": "10.1007/s40997-018-0173-x",
+        "article-title": "A new model for the single mesh stiffness calculation of helical gears using the slicing principle",
+        "volume": "43",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "Iran. J. Sci. Technol. Trans. Mech. Eng."
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.rineng.2024.102286_br0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "225",
+        "DOI": "10.1049/joe.2018.9027",
+        "article-title": "Mesh stiffness calculation of helical gears with profile modification",
+        "volume": "2019",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "J. Eng."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "524",
+        "DOI": "10.1016/j.apm.2018.08.003",
+        "article-title": "Novel mathematical modelling methods of comprehensive mesh stiffness for spur and helical gears",
+        "volume": "64",
+        "author": "Tang",
+        "year": "2018",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "413",
+        "DOI": "10.1016/j.ymssp.2018.01.012",
+        "article-title": "An improved time-varying mesh stiffness model for helical gear pairs considering axial mesh force component",
+        "volume": "106",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "issue": "19",
+        "key": "10.1016/j.rineng.2024.102286_br0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "6695",
+        "DOI": "10.3390/app10196695",
+        "article-title": "A novel comprehensive method for modeling and analysis of mesh stiffness of helical gear",
+        "volume": "10",
+        "author": "Hou",
+        "year": "2020",
+        "journal-title": "Appl. Sci."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0340",
+        "doi-asserted-by": "crossref",
+        "first-page": "540",
+        "DOI": "10.1016/j.mechmachtheory.2016.07.021",
+        "article-title": "Gear tooth mesh stiffness: a comparison of calculation approaches",
+        "volume": "105",
+        "author": "Cooley",
+        "year": "2016",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.rineng.2024.102286_br0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "569",
+        "DOI": "10.1243/0954406991522509",
+        "article-title": "Evaluation of spur gear mesh compliance using the finite element method",
+        "volume": "213",
+        "author": "Arafa",
+        "year": "1999",
+        "journal-title": "Proc. Inst. Mech. Eng., Part C, J. Mech. Eng. Sci."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0360",
+        "doi-asserted-by": "crossref",
+        "first-page": "424",
+        "DOI": "10.1016/j.ymssp.2017.09.005",
+        "article-title": "Three new models for evaluation of standard involute spur gear mesh stiffness",
+        "volume": "101",
+        "author": "Liang",
+        "year": "2018",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0370",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2021.104319",
+        "article-title": "A critical review on fe-based methods for mesh stiffness estimation in spur gears",
+        "volume": "161",
+        "author": "Natali",
+        "year": "2021",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0380",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1016/j.measurement.2016.12.056",
+        "article-title": "A cad-fem-qsa integration technique for determining the time-varying meshing stiffness of gear pairs",
+        "volume": "100",
+        "author": "Zhan",
+        "year": "2017",
+        "journal-title": "Measurement"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.rineng.2024.102286_br0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1115/1.1843154",
+        "article-title": "Finite element analysis of high contact ratio spur gears in mesh",
+        "volume": "127",
+        "author": "Wang",
+        "year": "2005",
+        "journal-title": "J. Tribol."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1007/s11668-007-9078-5",
+        "article-title": "Three-dimensional analyses by finite element method of a spur gear: effect of cracks in the teeth foot on the mesh stiffness",
+        "volume": "7",
+        "author": "Zouari",
+        "year": "2007",
+        "journal-title": "J. Fail. Anal. Prev."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0410",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engfailanal.2020.104383",
+        "article-title": "Influence of finite element model, load-sharing and load distribution on crack propagation path in spur gear drive",
+        "volume": "110",
+        "author": "Thirumurugan",
+        "year": "2020",
+        "journal-title": "Eng. Fail. Anal."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.mechmachtheory.2016.08.005",
+        "article-title": "The influence of tooth pitting on the mesh stiffness of a pair of external spur gears",
+        "volume": "106",
+        "author": "Liang",
+        "year": "2016",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0430",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1016/j.ymssp.2018.11.023",
+        "article-title": "Comparison of meshing characteristics of helical gears with spalling fault using analytical and finite-element methods",
+        "volume": "121",
+        "author": "Chen",
+        "year": "2019",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0440",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fmech.2023.1228696",
+        "article-title": "Evaluating lightweight gear transmission error: a novel nonlinear finite element approach using direct constraint contact algorithm",
+        "volume": "9",
+        "author": "Masmoudi",
+        "year": "2023",
+        "journal-title": "Front. Mech. Eng."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0450",
+        "unstructured": "L. Vedmar, On the design of external involute helical gears, (No Title)."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0460",
+        "unstructured": "L. Vedmar, B. Henriksson, A general approach for determining dynamic forces in spur gears."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.rineng.2024.102286_br0470",
+        "doi-asserted-by": "crossref",
+        "first-page": "1321",
+        "DOI": "10.1243/09544062JMES849",
+        "article-title": "A parameterized numerical model for the evaluation of gear mesh stiffness variation of a helical gear pair",
+        "volume": "222",
+        "author": "Hedlund",
+        "year": "2008",
+        "journal-title": "Proc. Inst. Mech. Eng., Part C, J. Mech. Eng. Sci."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0480",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2020.103930",
+        "article-title": "An efficient three-dimensional dynamic contact model for cylindrical gear pairs with distributed tooth flank errors",
+        "volume": "152",
+        "author": "Yuan",
+        "year": "2020",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0490",
+        "first-page": "54",
+        "article-title": "Hybrid hertzian and fe-based helical gear-loaded tooth contact analysis and comparison with fe",
+        "volume": "6",
+        "author": "Langlois",
+        "year": "2016",
+        "journal-title": "Gear Technol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.rineng.2024.102286_br0500",
+        "first-page": "43",
+        "article-title": "An overview of mathematical models used in gear dynamics",
+        "volume": "4",
+        "author": "Korka",
+        "year": "2007",
+        "journal-title": "Rom. J. Acoust. Vib."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0510",
+        "first-page": "26",
+        "article-title": "Contact analysis of gears using a combined finite element and surface integral method",
+        "volume": "10",
+        "author": "Vijayakar",
+        "year": "1993",
+        "journal-title": "Gear Technol."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0520",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1155/2017/7982170",
+        "article-title": "A study on the dynamic behaviour of lightweight gears",
+        "author": "Shweiki",
+        "year": "2017",
+        "journal-title": "Shock Vib."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0530",
+        "doi-asserted-by": "crossref",
+        "first-page": "573",
+        "DOI": "10.1016/j.ymssp.2019.01.024",
+        "article-title": "Transmission error and strain analysis of lightweight gears by using a hybrid fe-analytical gear contact model",
+        "volume": "123",
+        "author": "Shweiki",
+        "year": "2019",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0540",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.mechmachtheory.2017.01.006",
+        "article-title": "External spur gear root bending stress: a comparison of iso 6336: 2006, agma 2101-d04, ansys finite element analysis and strain gauge techniques",
+        "volume": "111",
+        "author": "Lisle",
+        "year": "2017",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0550",
+        "doi-asserted-by": "crossref",
+        "first-page": "78",
+        "DOI": "10.1016/j.mechmachtheory.2017.07.008",
+        "article-title": "Nvh robust optimization of gear macro and microgeometries using an efficient tooth contact model",
+        "volume": "117",
+        "author": "Garambois",
+        "year": "2017",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0560",
+        "series-title": "4th World Congress on Gearing and Power Transmission, Vol. 3",
+        "first-page": "1961",
+        "article-title": "Modelling and analysis of static transmission error. Effect of wheel body deformation and interactions between adjacent loaded teeth",
+        "author": "Rigaud",
+        "year": "1999"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0570",
+        "unstructured": "T.F. Conry, A. Seireg, A mathematical programming technique for the evaluation of load distribution and optimal modifications for gear systems."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0580",
+        "unstructured": "T.F. Conry, A. Seireg, A mathematical programming method for design of elastic bodies in contact."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0590",
+        "unstructured": "E. Reissner, The effect of transverse shear deformation on the bending of elastic plates."
+      },
+      {
+        "issue": "1–4",
+        "key": "10.1016/j.rineng.2024.102286_br0600",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.1002/sapm195029190",
+        "article-title": "On a variational theorem in elasticity",
+        "volume": "29",
+        "author": "Reissner",
+        "year": "1950",
+        "journal-title": "J. Math. Phys."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0610",
+        "unstructured": "C. Weber, K. Banaschek, The deformation of loaded gears and the effect on their load carrying capacity (part i), DSIR, London."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0620",
+        "series-title": "Elastic analysis of load distribution in wide-faced spur gears",
+        "author": "Steward",
+        "year": "1989"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0630",
+        "series-title": "Load distribution and transmission error in thin-rimmed gears through finite element analysis",
+        "author": "Prabhu",
+        "year": "1994"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0640",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2021.104505",
+        "article-title": "On a flexible multibody modelling approach using fe-based contact formulation for describing gear transmission error",
+        "volume": "167",
+        "author": "Benaïcha",
+        "year": "2022",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0650",
+        "series-title": "Time domain nv simulation with a/t assy model by modal synthesis method",
+        "author": "Asai",
+        "year": "2018"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.rineng.2024.102286_br0660",
+        "doi-asserted-by": "crossref",
+        "first-page": "678",
+        "DOI": "10.2514/3.2947",
+        "article-title": "Dynamic analysis of structural systems using component modes",
+        "volume": "3",
+        "author": "Hurty",
+        "year": "1965",
+        "journal-title": "AIAA J."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.rineng.2024.102286_br0670",
+        "doi-asserted-by": "crossref",
+        "first-page": "1313",
+        "DOI": "10.2514/3.4741",
+        "article-title": "Coupling of substructures for dynamic analyses",
+        "volume": "6",
+        "author": "Craig",
+        "year": "1968",
+        "journal-title": "AIAA J."
+      },
+      {
+        "key": "10.1016/j.rineng.2024.102286_br0680",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jsv.2022.116927",
+        "article-title": "A decomposition method for the fast computation of the transmission error of gears with holes",
+        "volume": "532",
+        "author": "Benaicha",
+        "year": "2022",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.rineng.2024.102286_br0690",
+        "doi-asserted-by": "crossref",
+        "first-page": "380",
+        "DOI": "10.2514/3.2874",
+        "article-title": "Reduction of stiffness and mass matrices",
+        "volume": "3",
+        "author": "Guyan",
+        "year": "1965",
+        "journal-title": "AIAA J."
+      }
+    ],
+    "container-title": [
+      "Results in Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2590123024005413?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2590123024005413?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          8
+        ]
+      ],
+      "date-time": "2025-11-08T20:40:39Z",
+      "timestamp": 1762634439000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2590123024005413"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "references-count": 69,
+    "alternative-id": [
+      "S2590123024005413"
+    ],
+    "URL": "https://doi.org/10.1016/j.rineng.2024.102286",
+    "relation": {},
+    "ISSN": [
+      "2590-1230"
+    ],
+    "issn-type": [
+      {
+        "value": "2590-1230",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Review and benchmarking study of different gear contact analysis software in terms of the static transmission error response",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Results in Engineering",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.rineng.2024.102286",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 The Author(s). Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "102286"
+  }
+}

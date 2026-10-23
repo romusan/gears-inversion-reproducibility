@@ -1,27 +1,40 @@
-# Spur gear relief identifiability reproducibility package
+# Contact support and practical identifiability of spur gear microgeometry
 
-Scientific controls accompanying manuscript revision 5 by Romulo Sandoval FlÃ³rez, Claudia Patricia Parra Medina and German Leandro Vargas Fonseca.
+Version 12 accompanying the final article and supplementary controls prepared on 23 October 2026. The versioned repository is https://github.com/romusan/gears-inversion-reproducibility/tree/manuscript-v12. No DOI is assigned. Historical v10 results are preserved inside `deposit_v6/`; they contain the superseded mixed-relief signal comparison and are not the current conclusions.
 
-## Contents and execution
+## Scientific result
 
-`gear_inverse_identifiability/src` contains the forward and inverse models. Experiments, configurations and final Q1 campaign records are retained with their directory layout. Historical exploratory records outside the Q1 campaigns are excluded.
+The fixed-geometry gap operator has exactly invisible relief sets determined by loaded support. Its coupled-compliance extension, weak transition and centred-response gauge are conditional observability results. The corrected 24/24 FE isolated dedendum signal is 0.178987 µm RMS, versus 0.196589 µm analytically. Nevertheless, restricted and unrestricted inversions have the same residual and dedendum profiles are flat. This does not demonstrate physical profile recovery.
 
-Install the numerical dependencies in an isolated Python environment using `gear_inverse_identifiability/requirements.txt` and `fe2d/requirements.txt`. The additional quadratic FE controls use NumPy 2.5.1, SciPy 1.18.0, Matplotlib 3.11.1, gmsh 4.15.2, scikit-fem 12.0.2 and meshio 5.3.5. Other library/runtime versions can produce small numerical differences. The elasticity model is two-dimensional plane strain.
+Bulk P1 refinement stabilizes the isolated contrast while the combined waveform and inverse residual still move. Dedicated v12 controls compare complete retained waveforms, erode the angular mask, refine pressure hats on identical P2 body meshes, and physically remove material with reassembled elastic stiffness. The latter two controls use explicitly recorded eligible phase subsets, not a complete-cycle or inverse convergence certificate. Unresolved corner phases are not treated as validated FE observations. All four analytical formulations exceed the adopted 5% external amplitude target.
 
-Run from `gear_inverse_identifiability`: `python experiments/Q1_review5_monte.py` regenerates the complementary-phase control, using the retained original single-load records. Run `python fe2d/convergence_separated.py` from the repository root to regenerate the separated quadratic bulk/interface controls (ten FE cases; computationally expensive). `python revision_5_2026-10-12/analyze_review5.py` rebuilds the tabular summaries and diagnostics from the stored records. Existing experiment scripts document earlier campaigns.
+## Layout and execution
 
-## Scientific scope
+`manuscript/` contains final DOCX files, editable scientific Markdown, figure scripts and deterministic builders. `revision_12_2026-10-23/` contains new verified records, phase selection, summaries, 42-reference verification, source metadata and the Spanish independent audit. `revision_11_2026-10-23/` supplies broad-start and restricted inversions, profiles and bulk-mesh cycles. The unchanged historical baseline is commit 8a08285ea9b6e8026d147102278f67e4c403e6bf, preserved under `deposit_v6/`.
 
-The six paired bootstrap intervals in the added 600-fit campaign contain zero. This does not establish equivalence; twenty fits reported nonconvergence and remain included. The tested complementary assignment uses 50 Nm at even canonical positions and 300 Nm at odd positions.
+Use Python 3.12 with NumPy, SciPy, Matplotlib, python-docx and Pillow. FE generation additionally requires gmsh, scikit-fem and meshio; retained requirements and recorded versions are included. From this package root:
 
-The final quadratic FE sequence is identified by `fe2d/results/separated_convergence.json` and filenames ending in `weak_hat_local0.01_P2`. The quadratic eight-phase campaign is separately identified by quadratic_eight_phases.json. The original linear/nodal controls must not be pooled with the quadratic formulation. The bulk and pressure controls vary separately. Pressure constraints are weak, averaged constraints; interior numerical stability does not certify a continuous corner-contact cycle or validate the published peak-to-peak benchmark. FE body VTU visualization files are omitted; they can be regenerated from the scripts. No DOI has been assigned.
+```text
+python -m pytest deposit_v6/gear_inverse_identifiability/tests -q
+python manuscript/audit_structure_v11.py
+python manuscript/audit_statistics_v11.py
+python manuscript/audit_v11.py
+python manuscript/diagnose_invariance_v11.py
+python manuscript/convergence_v11.py
+python manuscript/waveform_mask_v12.py
+python manuscript/interface_v12.py
+python manuscript/physical_geometry_v12.py
+python manuscript/audit_references_v12.py
+python manuscript/prepare_bibliography_v12.py
+python manuscript/prepare_source_v12.py
+python manuscript/figures_v11.py
+python manuscript/figures_controls_v12.py
+python manuscript/build_review12.py
+python manuscript/final_audit_v12.py
+```
 
-`SHA256SUMS.json` identifies all deposited files except itself. No licence grant is asserted by this deposit. The cited external publications are referenced, not redistributed.
+The FE scripts resume their verified JSONL outputs. Do not combine pilot files with verified runs. Failed exploratory trace/projection checks were corrected before the final verified runs; incomplete pilot records are excluded from this package. Reproduction from scratch requires moving the deliberately selected verified output files aside before rerunning. The bibliography fetcher uses cached publisher-deposited Crossref metadata and respects rate limits. Registry verification is distinguished from full-text reading; targeted editorial abstracts and ISO catalogue checks are documented. Distributed metadata caches omit complete abstracts; titles, authors, publication fields and identifiers are retained.
 
-## Revision 6 controls
+Forty unit tests pass. Metrics from all 1800 archived statistical fits were audited; those 1800 optimizations were not rerun. Statistical precision assumes the declared noise and mechanical operator. Deterministic cross-operator profile objectives are not calibrated confidence intervals. Complete external benchmark waveforms, CAD and solver settings are unavailable; this package does not claim to reproduce those external FE simulations.
 
-The annotated tags `manuscript-v5` and `manuscript-v6` identify separate versions. Revision 6 repeats the eight original FE phases with P2 displacement and weak distributed pressure, reports seed improvement fractions and near ties, and adds 0.21-degree offset envelopes. Run `python fe2d/quadratic_eight_phases.py`, then from `gear_inverse_identifiability` run `python experiments/Q1_review6_angular.py`, then from the repository root run `python revision_6_2026-10-12/summarize_review6.py`.
-
-The FE envelope is computed from an eight-node periodic interpolant. It is not a direct dense FE scan and cannot resolve the FE transition ramp. The analytical waveform uses successively refined angular nodes. The numerical envelope algorithm covers every interpolation-offset interval with a fixed one-cycle window and 30 or 31 samples. Interface stiffness is nonmonotonic; observed small changes are not a certified convergence order or exact-error bound. The fixed-normal FE body torque deviations and adaptive tangent checks are retained in the review-6 summary. No stiffness calibration to the reference is introduced.
-
-No DOI has been assigned. The GitHub tag and commit SHA provide version identification; they are not represented as a Zenodo DOI.
+`SHA256SUMS.json` covers every package file except itself. PDF page renders are local QA outputs, not required numerical inputs. The final article is written as a scientific argument; revision history belongs to the separate audit, not its narrative. No new licence grant is asserted.
