@@ -109,3 +109,51 @@ def map_roll_to_modification_domain(
     s = (u - u_root) / (u_tip - u_root)
     return np.clip(s, 0.0, 1.0)
 
+
+class GridRelief:
+    """
+    Non-parametric relief on a fixed uniform grid over s in [0, 1].
+
+    The relief is the piecewise-linear interpolant of the nodal values
+    theta = (h_1, ..., h_N) (linear hat basis). Unlike TipRelief, every
+    node is a free parameter, which allows resolution/null-space analysis
+    of the observation operator along the whole flank.
+
+    Interface matches TipRelief: evaluate(s, theta) and jacobian(s, theta)
+    with theta of length n_nodes.
+    """
+
+    def __init__(self, n_nodes: int = 41):
+        if n_nodes < 3:
+            raise ValueError("At least 3 grid nodes are required")
+        self.n_nodes = int(n_nodes)
+        self.grid = np.linspace(0.0, 1.0, self.n_nodes)
+
+    def evaluate(self, s: np.ndarray, theta: np.ndarray) -> np.ndarray:
+        theta = np.asarray(theta, dtype=float)
+        if theta.shape != (self.n_nodes,):
+            raise ValueError("theta must have shape (n_nodes,)")
+        return np.interp(np.asarray(s, dtype=float), self.grid, theta)
+
+    def jacobian(self, s: np.ndarray, theta: np.ndarray) -> np.ndarray:
+        theta = np.asarray(theta, dtype=float)
+        if theta.shape != (self.n_nodes,):
+            raise ValueError("theta must have shape (n_nodes,)")
+        s = np.asarray(s, dtype=float)
+        n = s.size
+        J = np.zeros((n, self.n_nodes))
+        inside = (s > self.grid[0]) & (s < self.grid[-1])
+        si = s[inside]
+        idx = np.clip(np.searchsorted(self.grid, si) - 1, 0, self.n_nodes - 2)
+        x0 = self.grid[idx]
+        x1 = self.grid[idx + 1]
+        t = (si - x0) / (x1 - x0)
+        rows = np.flatnonzero(inside)
+        J[rows, idx] = 1.0 - t
+        J[rows, idx + 1] = t
+        # Endpoints carry the one-sided basis function; outside the grid the
+        # interpolant is constant, so the derivative is zero there.
+        J[s <= self.grid[0], 0] = 1.0
+        J[s >= self.grid[-1], -1] = 1.0
+        return J
+

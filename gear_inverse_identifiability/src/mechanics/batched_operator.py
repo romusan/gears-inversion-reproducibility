@@ -122,7 +122,8 @@ class BatchedGapOperator:
         if jacobian:
             if theta1 is None or self.model.micro1 is None:
                 raise ValueError('Pinion relief required for tangent')
-            dg=self.model.micro1.jacobian(self.xi1.ravel(),theta1).reshape(*shape,4)
+            dg_all=self.model.micro1.jacobian(self.xi1.ravel(),theta1)
+            dg=dg_all.reshape(*shape,dg_all.shape[-1])
             weights=np.where(active,1/tangent,0)
             J=np.sum(weights[:,:,None]*dg,axis=1)/weights.sum(axis=1)[:,None]
             result['jacobian']=J-J.mean(axis=0)
