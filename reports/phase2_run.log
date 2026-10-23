@@ -1,0 +1,212 @@
+{
+ "1_components": {
+  "legacy": [
+   {
+    "u": 0.1,
+    "bend": 2.673758606481668e-11,
+    "shear": 8.68190370941058e-09,
+    "axial": 0.0,
+    "foundation": 2.3573785950023572e-07,
+    "total": 2.444465007957111e-07,
+    "model_total": 2.444465007957111e-07,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.3,
+    "bend": 1.9803766396267653e-08,
+    "shear": 7.990664069688259e-08,
+    "axial": 0.0,
+    "foundation": 2.1843599825251201e-07,
+    "total": 3.1814640534566224e-07,
+    "model_total": 3.1814640534566224e-07,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.5,
+    "bend": 4.4498899302624067e-07,
+    "shear": 2.4890084448036165e-07,
+    "axial": 0.0,
+    "foundation": 1.9047619047619045e-07,
+    "total": 8.843660279827928e-07,
+    "model_total": 8.843660279827927e-07,
+    "crosscheck_rel_diff": 1.1972318593953008e-16
+   },
+   {
+    "u": 0.8,
+    "bend": 0.00015583235054934954,
+    "shear": 2.100248724506455e-06,
+    "axial": 0.0,
+    "foundation": 1.4518002322880367e-07,
+    "total": 0.0001580777792970848,
+    "model_total": 0.0001580777792970848,
+    "crosscheck_rel_diff": 0.0
+   }
+  ],
+  "shear-G": [
+   {
+    "u": 0.1,
+    "bend": 2.673758606481668e-11,
+    "shear": 2.2572949644467506e-08,
+    "axial": 0.0,
+    "foundation": 2.3573785950023572e-07,
+    "total": 2.5833754673076805e-07,
+    "model_total": 2.5833754673076805e-07,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.3,
+    "bend": 1.9803766396267653e-08,
+    "shear": 2.0775726581189475e-07,
+    "axial": 0.0,
+    "foundation": 2.1843599825251201e-07,
+    "total": 4.459970304606744e-07,
+    "model_total": 4.459970304606744e-07,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.5,
+    "bend": 4.4498899302624067e-07,
+    "shear": 6.471421956489402e-07,
+    "axial": 0.0,
+    "foundation": 1.9047619047619045e-07,
+    "total": 1.2826073791513713e-06,
+    "model_total": 1.2826073791513713e-06,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.8,
+    "bend": 0.00015583235054934954,
+    "shear": 5.460646683716784e-06,
+    "axial": 0.0,
+    "foundation": 1.4518002322880367e-07,
+    "total": 0.0001614381772562951,
+    "model_total": 0.00016143817725629514,
+    "crosscheck_rel_diff": 1.678974253351877e-16
+   }
+  ],
+  "projected-energy": [
+   {
+    "u": 0.1,
+    "bend": 1.1072454905908444e-10,
+    "shear": 2.2349455093532184e-08,
+    "axial": 7.163286888952627e-11,
+    "foundation": 2.3573785950023572e-07,
+    "total": 2.582696720117165e-07,
+    "model_total": 2.582696720117165e-07,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.3,
+    "bend": 4.891840688256651e-09,
+    "shear": 1.9060299615770161e-07,
+    "axial": 5.498163350702932e-09,
+    "foundation": 2.1843599825251201e-07,
+    "total": 4.194289984491732e-07,
+    "model_total": 4.194289984491732e-07,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.5,
+    "bend": 1.7507811002297305e-07,
+    "shear": 5.177137565191521e-07,
+    "axial": 4.148347408006027e-08,
+    "foundation": 1.9047619047619045e-07,
+    "total": 9.247515310983758e-07,
+    "model_total": 9.247515310983758e-07,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.8,
+    "bend": 7.630264964383995e-05,
+    "shear": 3.3296626120224286e-06,
+    "axial": 6.83007715286652e-07,
+    "foundation": 1.4518002322880367e-07,
+    "total": 8.046049999437784e-05,
+    "model_total": 8.046049999437784e-05,
+    "crosscheck_rel_diff": 0.0
+   }
+  ],
+  "centerline-energy": [
+   {
+    "u": 0.1,
+    "bend": 9.308826397103893e-12,
+    "shear": 2.2638491292475796e-08,
+    "axial": 2.8011909649479876e-12,
+    "foundation": 2.3573785950023572e-07,
+    "total": 2.5838846081007356e-07,
+    "model_total": 2.5838846081007356e-07,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.3,
+    "bend": 5.920769303373456e-09,
+    "shear": 2.0052630943426086e-07,
+    "axial": 3.2032438504648596e-09,
+    "foundation": 2.1843599825251201e-07,
+    "total": 4.280863208406112e-07,
+    "model_total": 4.280863208406112e-07,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.5,
+    "bend": 2.0975963114448966e-07,
+    "shear": 5.502147958353716e-07,
+    "axial": 3.510225885161908e-08,
+    "foundation": 1.9047619047619045e-07,
+    "total": 9.855528763076708e-07,
+    "model_total": 9.855528763076708e-07,
+    "crosscheck_rel_diff": 0.0
+   },
+   {
+    "u": 0.8,
+    "bend": 7.778746463002358e-05,
+    "shear": 3.3827808348395335e-06,
+    "axial": 6.744490330884845e-07,
+    "foundation": 1.4518002322880367e-07,
+    "total": 8.19898745211804e-05,
+    "model_total": 8.198987452118041e-05,
+    "crosscheck_rel_diff": 1.6529513229792523e-16
+   }
+  ]
+ },
+ "2_positivity_continuity": {
+  "legacy": {
+   "min_compliance": 2.3817776420723148e-07,
+   "max_compliance": 1.6295361994054359e-06,
+   "all_positive": true,
+   "max_rel_jump": 0.013302108779291532,
+   "max_jump_at_u": 0.5694101129224773,
+   "monotonicity_margin_min_pair": 7.193882782237042e-07,
+   "monotone_certified": true,
+   "pair_approach_slope_at_100N": null,
+   "max_abs_slope": 1.5496441603327655e-05
+  },
+  "shear-G": {
+   "min_compliance": 2.384621256440062e-07,
+   "max_compliance": 2.2162158628812503e-06,
+   "all_positive": true,
+   "max_rel_jump": 0.011950590514016689,
+   "max_jump_at_u": 0.5694101129224773,
+   "monotonicity_margin_min_pair": 1.2171468017692455e-06,
+   "monotone_certified": true,
+   "pair_approach_slope_at_100N": null,
+   "max_abs_slope": 1.8959572445951118e-05
+  },
+  "projected-energy": {
+   "min_compliance": 2.3846216671802147e-07,
+   "max_compliance": 1.4929759488252857e-06,
+   "all_positive": true,
+   "max_rel_jump": 0.01117451982482296,
+   "max_jump_at_u": 0.5694101129224773,
+   "monotonicity_margin_min_pair": 9.770001049096377e-07,
+   "monotone_certified": true,
+   "pair_approach_slope_at_100N": null,
+   "max_abs_slope": 1.1952038605853549e-05
+  },
+  "centerline-energy": {
+   "min_compliance": 2.384622779599928e-07,
+   "max_compliance": 1.592159585501704e-06,
+   "all_positive": true,
+   "max_rel_jump": 0.011024193643975104,
+   "max_jump_at_u": 0.56941011292247
+... written to reports/02_mechanical_components.json

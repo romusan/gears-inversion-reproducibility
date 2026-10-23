@@ -85,9 +85,10 @@ class ToothCompliance:
                 continue
 
             # Numerical integration along the radial beam direction.
-            n_q = 24
-            xs = np.linspace(0.0, h, n_q)
-            # Gauss-Legendre on [0, h] for smooth integrands
+            # Array sizes follow the quadrature rule so a refined rule (e.g.
+            # 96 points) can be selected via self._quadrature for convergence
+            # checks; the default 24-point rule reproduces the historical model.
+            n_q = len(self._quadrature[0])
             xi, wi = self._quadrature
             xg = 0.5 * h * (xi + 1.0)
             wg = 0.5 * h * wi
