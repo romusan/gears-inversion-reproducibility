@@ -27,6 +27,19 @@ AW=np.arccos(2*RB/CENTER);PB=np.pi*MODULE*np.cos(np.deg2rad(20))
 UF=np.sqrt((RF/RB)**2-1);UA=np.sqrt((RA/RB)**2-1)
 INV=np.tan(np.deg2rad(20))-np.deg2rad(20);HALF=3.78/(2*RP)
 
+def configure_24_24():
+    """Symmetric 24/24 pair, module 3 mm (same module and pressure angle as
+    the nominal study) for the observable-dedendum FE validation (phase 11).
+    Standard proportions: addendum 1m, dedendum 1.25m, thickness pi*m/2."""
+    global Z,MODULE,RP,RB,RF,RA,WIDTH,E,NU,CENTER,AW,PB,UF,UA,INV,HALF
+    Z=24;MODULE=3.;RP=Z*MODULE/2;RB=RP*np.cos(np.deg2rad(20))
+    RF=RP-1.25*MODULE;RA=RP+MODULE;WIDTH=20.;E=210000.;NU=.3;CENTER=2*RP
+    AW=np.arccos(2*RB/CENTER);PB=np.pi*MODULE*np.cos(np.deg2rad(20))
+    # Standard dedendum puts the root circle at or below the base circle;
+    # the involute flank then starts at the base circle itself (UF=0).
+    UF=0.0 if RF<=RB else float(np.sqrt((RF/RB)**2-1));UA=float(np.sqrt((RA/RB)**2-1))
+    INV=np.tan(np.deg2rad(20))-np.deg2rad(20);HALF=np.pi/(2*Z)
+
 def point(u,tooth=0,side=1):
     r=RB*np.sqrt(1+u*u);beta=HALF+INV-(u-np.arctan(u))
     angle=tooth*2*np.pi/Z+side*beta
