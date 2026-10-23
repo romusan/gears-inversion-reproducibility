@@ -1,0 +1,204 @@
+{
+ "null_structure": {
+  "n_nodes": 41,
+  "n_loaded": 32,
+  "rank": 31,
+  "rank_equals_loaded_minus_one": true,
+  "null_dim": 10,
+  "Jh_times_uniform_relative": 5.489975118152635e-16,
+  "null_loaded_part_max_deviation_from_uniform": 1.904060242807759e-12,
+  "rdiag_max_deviation_from_1_minus_1_over_n": 1.3685460764634172e-08,
+  "zero_column_nodes": [
+   0.0,
+   0.025,
+   0.05,
+   0.07500000000000001,
+   0.1,
+   0.125,
+   0.15000000000000002,
+   0.17500000000000002,
+   0.2
+  ],
+  "xi_min_sampled": 0.23562919485635994
+ },
+ "precision": {
+  "direction_std_um": [
+   0.041325873341467964,
+   0.04238659195535583,
+   0.04672173278514307,
+   0.05040068228162096,
+   0.05626418699885935,
+   0.05647277782714741,
+   0.05861263462202526,
+   0.059519392452220335,
+   0.06297918265479645,
+   0.0635691260642333,
+   0.06707193091450032,
+   0.07034308769033261,
+   0.07541502204558888,
+   0.0809903616469801,
+   0.08761864816058858,
+   0.09447937810133487,
+   0.1007730531501373,
+   0.18132043523001956,
+   0.23341837762990117,
+   0.2509043826292421,
+   0.2907490477016289,
+   0.35036526377325306,
+   0.4090344447359763,
+   0.4503044156008528,
+   0.5739514317901727,
+   0.7785432913038203,
+   1.0677150142460539,
+   1.6033781946972367,
+   2.6657470900558424,
+   5.258962157923556,
+   14.694196265181935
+  ],
+  "directions_with_std_below_um": {
+   "0.5": 24,
+   "1.0": 26,
+   "5.0": 29
+  },
+  "node_std_um": [
+   Infinity,
+   Infinity,
+   Infinity,
+   Infinity,
+   Infinity,
+   Infinity,
+   Infinity,
+   Infinity,
+   Infinity,
+   0.621600157710396,
+   0.4347476875166562,
+   1.8081345321601814,
+   3.0675442880735626,
+   4.029983978447737,
+   4.614578098527332,
+   4.834502422257742,
+   4.669362287410628,
+   4.1939665120513405,
+   3.435333141238743,
+   2.5181265032417555,
+   1.5399830128246406,
+   0.7136835096598352,
+   0.1113392112764833,
+   0.10380028188554112,
+   0.10367499255600755,
+   0.1024511233692257,
+   0.10528166982856545,
+   0.10190300136607021,
+   0.20919563645188083,
+   1.170526569795399,
+   2.2390838652696448,
+   3.189822358870005,
+   3.9099862529847424,
+   4.37628760425609,
+   4.523875409501226,
+   4.364540953607799,
+   3.880191981866784,
+   3.1223703995879672,
+   2.161935474179505,
+   1.1613927747240504,
+   0.3255115101301185
+  ],
+  "boundary": {
+   "1.0": {
+    "n_nodes": 11,
+    "xi_range": [
+     0.225,
+     1.0
+    ],
+    "max_xi": 1.0
+   },
+   "5.0": {
+    "n_nodes": 32,
+    "xi_range": [
+     0.225,
+     1.0
+    ],
+    "max_xi": 1.0
+   }
+  },
+  "note": "std de amplitud por direccion singular (1/s_k, sigma=0.1 um, sin cotas); std por nodo condicionado al subespacio resuelto (las direcciones nulas quedan excluidas: std infinita)"
+ },
+ "mc_025_legacy_single300": {
+  "original_campaign": {
+   "n": 100,
+   "median": 0.3938916207539006,
+   "ci95": [
+    0.3104928664619028,
+    0.43326553680127083
+   ]
+  },
+  "phase4_cells": {
+   "n": 100,
+   "median": 0.3689884162422192,
+   "ci95": [
+    0.2906151332984739,
+    0.4354565253893159
+   ]
+  },
+  "note": "semillas disjuntas (original 0-99 vs base 20261022+k); bootstrap del mediana con 10000 remuestreos"
+ },
+ "percent_ranges": {
+  "table1_forward_ablation": {
+   "field_sample": {
+    "case": "unmodified",
+    "torque_Nm": 350.0
+   },
+   "difference_percent": [
+    8.928112700985135,
+    37.172149144922734
+   ],
+   "unmodified_normalized": [
+    7.277160033149671,
+    17.5390495201529
+   ]
+  },
+  "phase3_recalculation": {
+   "relative_error_percent": [
+    9.071954048473133,
+    38.07822205399279
+   ]
+  }
+ },
+ "table9_vs_starts": {
+  "legacy": {
+   "estimate_dedendum": [
+    0.02,
+    0.45
+   ],
+   "start_dedendum": [
+    0.02,
+    0.45
+   ],
+   "equal": true,
+   "addendum_abs_error_mm": 0.0025420534665286133,
+   "addendum_start_error": 0.008675231654477367
+  },
+  "projected-energy": {
+   "estimate_dedendum": [
+    0.01,
+    0.35
+   ],
+   "start_dedendum": [
+    0.01,
+    0.35
+   ],
+   "equal": true,
+   "addendum_abs_error_mm": 0.0006374258793723532,
+   "addendum_start_error": 0.02219708074622062
+  }
+ },
+ "xi_min_57_57": {
+  "xi_min": 0.6953275618776631,
+  "sd_cases": [
+   0.3,
+   0.45
+  ],
+  "both_sd_above_xi_min": true,
+  "note": "soporte analitico en las 19 fases interiores; relieve dedendum invisible para ambos casos por la condicion de soporte"
+ }
+}
