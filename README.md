@@ -1,6 +1,6 @@
 # Contact support and practical identifiability of spur gear microgeometry
 
-Version 12 accompanying the final article and supplementary controls prepared on 23 October 2026. The versioned repository is https://github.com/romusan/gears-inversion-reproducibility/tree/manuscript-v12. No DOI is assigned. Historical v10 results are preserved inside `deposit_v6/`; they contain the superseded mixed-relief signal comparison and are not the current conclusions.
+Version 13 accompanying the final article and supplementary controls finalized on 24 October 2026. The versioned repository is https://github.com/romusan/gears-inversion-reproducibility/tree/manuscript-v13. No DOI is assigned. Historical v10 results are preserved inside `deposit_v6/`; they contain the superseded mixed-relief signal comparison and are not the current conclusions.
 
 ## Scientific result
 
@@ -38,3 +38,18 @@ The FE scripts resume their verified JSONL outputs. Do not combine pilot files w
 Forty unit tests pass. Metrics from all 1800 archived statistical fits were audited; those 1800 optimizations were not rerun. Statistical precision assumes the declared noise and mechanical operator. Deterministic cross-operator profile objectives are not calibrated confidence intervals. Complete external benchmark waveforms, CAD and solver settings are unavailable; this package does not claim to reproduce those external FE simulations.
 
 `SHA256SUMS.json` covers every package file except itself. PDF page renders are local QA outputs, not required numerical inputs. The final article is written as a scientific argument; revision history belongs to the separate audit, not its narrative. No new licence grant is asserted.
+
+
+## Focused version 13 numerical controls
+
+The current submission files end in v13. The retained v12 files document the previous evidence. Version 13 adds only targeted numerical controls for the nanometre physical-removal contrast and clarifies the information excluded by the phase mask. S21 is not a rigorous continuum error bound or a certificate for the P1 full-cycle inverse.
+
+Install mpmath 1.4.1 in addition to the recorded FE dependencies. The full elastic assembly remains float64. The enhanced control uses alternative sparse-LU ordering, four elastic residual corrections, and 80-digit polishing of the condensed active-contact equations. Weighted harmonic morphing holds the identical boundary polygon fixed; pressure refinement uses the same eight phases as S20.
+
+```text
+python manuscript/precision_v13.py
+python manuscript/build_review13.py
+python manuscript/audit_v13.py
+```
+
+The 1800 archived optimizations are not repeated in this focused revision. The main DOCX, supplementary DOCX, editable Highlights and reproducibility ZIP are explicitly listed in the separate journal upload kit. A prepared upload kit does not imply submission to a journal.

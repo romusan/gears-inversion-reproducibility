@@ -1,0 +1,33 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "mpmath": "1.4.1",
+  "elastic_arithmetic": "float64",
+  "elastic_mantissa_bits": 52,
+  "condensed_contact_decimal_digits": 80,
+  "elastic_refinement_steps": 4,
+  "baseline_LU_ordering": "COLAMD",
+  "alternative_LU_ordering": "MMD_AT_PLUS_A",
+  "bulk_h_mm": 0.35,
+  "root_trim_mm": 0.1,
+  "geometry_factor": 2,
+  "elastic_degree": 2,
+  "bore_radius_mm": 12,
+  "local_h_mm": 0.02,
+  "pressure_steps_mm": [
+    0.02,
+    0.01
+  ],
+  "patch_half_width_mm": 0.35,
+  "torque_Nm": 300,
+  "depths_um": [
+    10,
+    50
+  ],
+  "phases": "same eight phases as S20",
+  "new_precision_script_sha256": "e7c547522f887a3d46079c9bc87e7edd7e199088f385213bccb6d293fee7be09",
+  "S20_source_records_sha256": "a115426dca6b4e2b825d10f2558537db5a27374487ab7296deb795551e569ab7",
+  "unit_tests_passed": 40
+}

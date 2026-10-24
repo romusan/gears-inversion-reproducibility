@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "Cite this versioned evidence package with the accompanying article."
 type: software
 title: "Contact support and practical identifiability of spur gear microgeometry from transmission error"
-version: "12"
-date-released: "2026-10-23"
-url: "https://github.com/romusan/gears-inversion-reproducibility/tree/manuscript-v12"
+version: "13"
+date-released: "2026-10-24"
+url: "https://github.com/romusan/gears-inversion-reproducibility/tree/manuscript-v13"
 authors:
   - family-names: "Sandoval Flórez"
     given-names: "Romulo"

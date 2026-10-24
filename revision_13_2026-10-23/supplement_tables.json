@@ -1,0 +1,1227 @@
+[
+  {
+    "number": "S1",
+    "caption": "Supplementary Table S1 Fisher–Monte Carlo comparison at σ=0.1 µm. Predicted weakest-direction absolute median is 0.67449/σ₄; projected MC uses the same singular vector. The dedendum maximum is a distinct statistic approximated by 100000 draws from the full unconstrained Gaussian covariance.",
+    "headers": [
+      "True s_d",
+      "Nm",
+      "σ₄",
+      "Local dir.",
+      "MC dir.",
+      "Local ded. max",
+      "MC ded. max"
+    ],
+    "rows": [
+      [
+        0.25,
+        "300",
+        "0.03581",
+        "18.84",
+        "0.3932",
+        "18.78",
+        "0.3939"
+      ],
+      [
+        0.25,
+        "50/300",
+        "0.01524",
+        "44.25",
+        "0.4677",
+        "44.13",
+        "0.4668"
+      ],
+      [
+        0.4,
+        "300",
+        "6.368",
+        "0.1059",
+        "0.1075",
+        "0.1041",
+        "0.1058"
+      ],
+      [
+        0.4,
+        "50/300",
+        "5.873",
+        "0.1148",
+        "0.1113",
+        "0.1129",
+        "0.1066"
+      ]
+    ],
+    "widths": [
+      1.6,
+      1.8,
+      1.8,
+      2.4,
+      2.4,
+      3.2,
+      3.2
+    ]
+  },
+  {
+    "number": "S2",
+    "caption": "Supplementary Table S2 Scaled singular values at 120 positions and σ=0.1 µm. Marginal σ₄ uses two significant figures because angular sampling affects it.",
+    "headers": [
+      "True s_d",
+      "Torque Nm",
+      "σ₃",
+      "σ₄"
+    ],
+    "rows": [
+      [
+        0.25,
+        50,
+        "10.79",
+        "0.037"
+      ],
+      [
+        0.25,
+        100,
+        "10.73",
+        "0.036"
+      ],
+      [
+        0.25,
+        200,
+        "10.6",
+        "0.036"
+      ],
+      [
+        0.25,
+        300,
+        "10.5",
+        "0.036"
+      ],
+      [
+        0.4,
+        50,
+        "46.86",
+        "3.942"
+      ],
+      [
+        0.4,
+        100,
+        "82.18",
+        "5.041"
+      ],
+      [
+        0.4,
+        200,
+        "85.81",
+        "6.059"
+      ],
+      [
+        0.4,
+        300,
+        "83.58",
+        "6.368"
+      ]
+    ],
+    "widths": [
+      3.8,
+      3.8,
+      4.4,
+      4.4
+    ]
+  },
+  {
+    "number": "S3",
+    "caption": "Supplementary Table S3 Common-grid local information at σ=0.1 µm. Single-load information uses weight 120/n; each paired load uses 60/n. Dense grids are quadrature controls normalized to a 120-observation budget, not new 120-observation Monte Carlo datasets. PSD margin is λ_min(I_pair)−[λ_min(I_50)+λ_min(I_300)]/2.",
+    "headers": [
+      "True s_d",
+      "Nodes n",
+      "300 σ₄",
+      "50/300 σ₄",
+      "PSD margin"
+    ],
+    "rows": [
+      [
+        0.25,
+        60,
+        "0.01501",
+        "0.015242",
+        "5.32e-08"
+      ],
+      [
+        0.25,
+        120,
+        "0.03581",
+        "0.036227",
+        "3.08e-07"
+      ],
+      [
+        0.25,
+        240,
+        "0.033169",
+        "0.030033",
+        "5.09e-05"
+      ],
+      [
+        0.25,
+        480,
+        "0.031657",
+        "0.030007",
+        "1.32e-05"
+      ],
+      [
+        0.25,
+        960,
+        "0.033091",
+        "0.031487",
+        "1.25e-05"
+      ],
+      [
+        0.4,
+        60,
+        "6.0757",
+        "5.873",
+        "9.02"
+      ],
+      [
+        0.4,
+        120,
+        "6.3685",
+        "6.133",
+        "9.57"
+      ],
+      [
+        0.4,
+        240,
+        "6.2959",
+        "5.9752",
+        "8.97"
+      ],
+      [
+        0.4,
+        480,
+        "6.2632",
+        "5.9902",
+        "9.14"
+      ],
+      [
+        0.4,
+        960,
+        "6.2921",
+        "6.0231",
+        "9.23"
+      ]
+    ],
+    "widths": [
+      2.3,
+      2.3,
+      3.4,
+      3.4,
+      4.8
+    ]
+  },
+  {
+    "number": "S4",
+    "caption": "Supplementary Table S4 Actual designs with 120 observations, σ=0.1 µm. Original 60 denotes the original uniform cycle grid. Even and odd denote complementary index subsets of the 120-position grid, with its existing endpoint convention; they differ from the original 60-position grid.",
+    "headers": [
+      "Phase and torque assignment",
+      "σ₄ at s_d=0.25",
+      "σ₄ at s_d=0.40"
+    ],
+    "rows": [
+      [
+        "300, 120 phases",
+        "0.03581",
+        "6.3685"
+      ],
+      [
+        "50/300, original 60",
+        "0.015242",
+        "5.873"
+      ],
+      [
+        "300/300, original 60",
+        "0.01501",
+        "6.0757"
+      ],
+      [
+        "50/300, even 60",
+        "0.018822",
+        "5.9272"
+      ],
+      [
+        "300/300, even 60",
+        "0.018539",
+        "6.1384"
+      ],
+      [
+        "50 even, 300 odd",
+        "0.036069",
+        "6.1569"
+      ],
+      [
+        "50 odd, 300 even",
+        "0.036212",
+        "6.106"
+      ],
+      [
+        "300 even, 300 odd",
+        "0.03574",
+        "6.368"
+      ]
+    ],
+    "widths": [
+      8.4,
+      3.9,
+      3.9
+    ]
+  },
+  {
+    "number": "S5",
+    "caption": "Supplementary Table S5 Three mesh levels at interior phases. h controls bulk/root resolution; requested contact step controls stations. Triangles count both bodies. k is N/µm and approach is µm.",
+    "headers": [
+      "Fraction",
+      "h mm",
+      "Contact mm",
+      "Triangles",
+      "k",
+      "Approach"
+    ],
+    "rows": [
+      [
+        0,
+        0.5,
+        0.02,
+        50812,
+        "244.3226",
+        "39.1986"
+      ],
+      [
+        0,
+        0.35,
+        0.014,
+        95618,
+        "241.5356",
+        "39.6792"
+      ],
+      [
+        0,
+        0.25,
+        0.01,
+        169970,
+        "239.1825",
+        "40.0781"
+      ],
+      [
+        0.5,
+        0.5,
+        0.02,
+        52332,
+        "332.9522",
+        "28.6405"
+      ],
+      [
+        0.5,
+        0.35,
+        0.014,
+        98552,
+        "329.3587",
+        "28.9529"
+      ],
+      [
+        0.5,
+        0.25,
+        0.01,
+        175218,
+        "327.0621",
+        "29.1729"
+      ]
+    ],
+    "widths": [
+      2,
+      2,
+      2.8,
+      3,
+      3.2,
+      3.2
+    ]
+  },
+  {
+    "number": "S6",
+    "caption": "Supplementary Table S6 Interior two-phase contrast under three bore assumptions. The incremental proxy F(1/k₁−1/k₂) differs from the actual phase difference. Both are µm.",
+    "headers": [
+      "Bore radius mm",
+      "Incremental proxy",
+      "Actual phase difference",
+      "Baseline k₁ excess %",
+      "Baseline k₂ excess %"
+    ],
+    "rows": [
+      [
+        20,
+        "10.47764",
+        "10.89577",
+        "59.36",
+        "86.16"
+      ],
+      [
+        25,
+        "10.48667",
+        "10.90513",
+        "44.87",
+        "63.73"
+      ],
+      [
+        35,
+        "10.47348",
+        "10.89127",
+        "30.24",
+        "41.19"
+      ]
+    ],
+    "widths": [
+      2.8,
+      3.4,
+      3.8,
+      3.2,
+      3.0
+    ]
+  },
+  {
+    "number": "S7",
+    "caption": "Supplementary Table S7 Separated quadratic-element bulk and pressure-interface refinement controls. The interface stiffness sequence is nonmonotonic. Local contact mesh target remains 0.01 mm; interface spacing changes on a fixed geometric body mesh. k is N/µm and approach is µm. Weak contact constraints differ from the original nodal discretization.",
+    "headers": [
+      "Study",
+      "Fraction",
+      "h mm",
+      "Contact mm",
+      "k",
+      "Approach"
+    ],
+    "rows": [
+      [
+        "bulk",
+        0,
+        0.5,
+        0.01,
+        "236.5279",
+        "40.5446"
+      ],
+      [
+        "bulk",
+        0.5,
+        0.5,
+        0.01,
+        "323.8552",
+        "29.4786"
+      ],
+      [
+        "bulk",
+        0,
+        0.35,
+        0.01,
+        "236.4045",
+        "40.5658"
+      ],
+      [
+        "bulk",
+        0.5,
+        0.35,
+        0.01,
+        "323.6832",
+        "29.4944"
+      ],
+      [
+        "bulk",
+        0,
+        0.25,
+        0.01,
+        "236.3494",
+        "40.5752"
+      ],
+      [
+        "bulk",
+        0.5,
+        0.25,
+        0.01,
+        "323.6308",
+        "29.4992"
+      ],
+      [
+        "interface",
+        0,
+        0.25,
+        0.02,
+        "236.2526",
+        "40.5766"
+      ],
+      [
+        "interface",
+        0.5,
+        0.25,
+        0.02,
+        "323.6059",
+        "29.5000"
+      ],
+      [
+        "interface",
+        0,
+        0.25,
+        0.005,
+        "236.4924",
+        "40.5745"
+      ],
+      [
+        "interface",
+        0.5,
+        0.25,
+        0.005,
+        "323.5308",
+        "29.4988"
+      ]
+    ],
+    "widths": [
+      2.4,
+      2,
+      2,
+      2.8,
+      3.4,
+      3.6
+    ]
+  },
+  {
+    "number": "S8",
+    "caption": "Supplementary Table S8 Linear-element nodal FE and baseline at identical sampled phases. Approach is µm; k/b is incremental stiffness per width, N/(mm·µm). Edge denotes load reaching a clipped flank endpoint.",
+    "headers": [
+      "Cycle fraction",
+      "Pairs",
+      "FE approach",
+      "Baseline approach",
+      "FE k/b",
+      "Baseline k/b",
+      "Edge"
+    ],
+    "rows": [
+      [
+        "0.000000",
+        1,
+        "40.078",
+        "28.060",
+        "10.399",
+        "15.066",
+        "No"
+      ],
+      [
+        "0.247147",
+        1,
+        "41.451",
+        "29.655",
+        "10.058",
+        "14.223",
+        "No"
+      ],
+      [
+        "0.297147",
+        2,
+        "29.591",
+        "18.396",
+        "14.029",
+        "22.781",
+        "Yes"
+      ],
+      [
+        "0.332147",
+        2,
+        "29.446",
+        "18.265",
+        "14.080",
+        "22.941",
+        "No"
+      ],
+      [
+        "0.500000",
+        2,
+        "29.173",
+        "17.992",
+        "14.220",
+        "23.282",
+        "No"
+      ],
+      [
+        "0.667853",
+        2,
+        "29.447",
+        "18.265",
+        "14.080",
+        "22.941",
+        "No"
+      ],
+      [
+        "0.702853",
+        2,
+        "29.596",
+        "18.396",
+        "14.027",
+        "22.781",
+        "Yes"
+      ],
+      [
+        "0.752853",
+        1,
+        "41.449",
+        "29.655",
+        "10.059",
+        "14.223",
+        "No"
+      ]
+    ],
+    "widths": [
+      2.5,
+      1.1,
+      2.7,
+      3.1,
+      2.2,
+      3.0,
+      1.6
+    ]
+  },
+  {
+    "number": "S9",
+    "caption": "Supplementary Table S9 Angular sampling every 0.21° over one fixed mesh period (360/57 degrees). Offset spans [0,0.21°); grids contain 30 or 31 samples. Envelopes apply to the stated periodic piecewise-linear interpolants. FE has only eight nodes and does not resolve transition ramps.",
+    "headers": [
+      "Waveform",
+      "Nodes",
+      "Minimum p-p µm",
+      "Maximum p-p µm"
+    ],
+    "rows": [
+      [
+        "baseline",
+        3840,
+        "11.706351",
+        "11.955462"
+      ],
+      [
+        "baseline",
+        7680,
+        "11.706350",
+        "11.955462"
+      ],
+      [
+        "baseline",
+        15360,
+        "11.706350",
+        "11.955462"
+      ],
+      [
+        "FE eight-phase linear interpolant",
+        8,
+        "12.269918",
+        "12.442531"
+      ]
+    ],
+    "widths": [
+      6.5,
+      2,
+      3.5,
+      3.5
+    ]
+  },
+  {
+    "number": "S10",
+    "caption": "Supplementary Table S10 57/57 fixed-section cross-operator inversion. Nineteen common interior phases; values of an inactive dedendum block depend on initialization.",
+    "headers": [
+      "Variant",
+      "Case",
+      "Estimate (Cₐ,sₐ,C_d,s_d)",
+      "TE RMS µm"
+    ],
+    "rows": [
+      [
+        "legacy",
+        "addendum",
+        "(0.01746, 0.74132, 0.02000, 0.45000)",
+        "0.109"
+      ],
+      [
+        "legacy",
+        "dedendum",
+        "(0.01746, 0.74132, 0.02000, 0.45000)",
+        "0.109"
+      ],
+      [
+        "legacy",
+        "dedendum-deep",
+        "(0.01746, 0.74132, 0.02000, 0.45000)",
+        "0.109"
+      ],
+      [
+        "projected-energy",
+        "addendum",
+        "(0.02064, 0.77220, 0.01000, 0.35000)",
+        "0.151"
+      ],
+      [
+        "projected-energy",
+        "dedendum",
+        "(0.02064, 0.77220, 0.01000, 0.35000)",
+        "0.151"
+      ],
+      [
+        "projected-energy",
+        "dedendum-deep",
+        "(0.02064, 0.77220, 0.01000, 0.35000)",
+        "0.151"
+      ]
+    ],
+    "widths": [
+      2.7,
+      2.6,
+      8.4,
+      2.7
+    ]
+  },
+  {
+    "number": "S11",
+    "caption": "Supplementary Table S11 Formulation dependence of internal noise recovery. Each cell uses 100 realizations, σ=0.1 µm, 300 Nm and 120 positions; parameter errors use the declared scales.",
+    "headers": [
+      "Variant",
+      "True s_d",
+      "Addendum med.",
+      "Dedendum med.",
+      "Profile RMS µm"
+    ],
+    "rows": [
+      [
+        "legacy",
+        0.25,
+        "0.002",
+        "0.369",
+        "0.835"
+      ],
+      [
+        "legacy",
+        0.4,
+        "0.002",
+        "0.108",
+        "0.280"
+      ],
+      [
+        "projected-energy",
+        0.25,
+        "0.002",
+        "0.374",
+        "0.833"
+      ],
+      [
+        "projected-energy",
+        0.4,
+        "0.002",
+        "0.104",
+        "0.271"
+      ]
+    ],
+    "widths": [
+      3.1,
+      1.8,
+      3.7,
+      3.7,
+      4.1
+    ]
+  },
+  {
+    "number": "S12",
+    "caption": "Supplementary Table S12 Resolution refinement of the local discretized operator. Zero columns follow the support of basis functions. The additional constant is annihilated by mean removal.",
+    "headers": [
+      "Positions",
+      "Nodes",
+      "Zero columns",
+      "Rank",
+      "Null dimension",
+      "Smallest resolved s"
+    ],
+    "rows": [
+      [
+        120,
+        41,
+        9,
+        31,
+        10,
+        "68.05"
+      ],
+      [
+        240,
+        41,
+        9,
+        31,
+        10,
+        "97.29"
+      ],
+      [
+        240,
+        81,
+        18,
+        62,
+        19,
+        "23.1"
+      ],
+      [
+        480,
+        81,
+        18,
+        62,
+        19,
+        "33.11"
+      ]
+    ],
+    "widths": [
+      2.4,
+      1.8,
+      2.8,
+      1.8,
+      2.8,
+      4.8
+    ]
+  },
+  {
+    "number": "S13",
+    "caption": "Supplementary Table S13 24/24 two-start inversion archived with the FE test. Correct isolated FE dedendum signal is 0.178987 µm RMS; nominal and combined profiles share addendum relief. Profile errors use 1001 full-flank coordinates. MC uses 50 realizations and σ=0.1 µm.",
+    "headers": [
+      "Variant",
+      "Noiseless estimate",
+      "TE RMS µm",
+      "Profile RMS µm",
+      "MC profile median µm",
+      "MC profile p90 µm"
+    ],
+    "rows": [
+      [
+        "legacy",
+        "(0.01570, 0.84734, 0.00633, 0.23036)",
+        "0.8545",
+        "2.8810",
+        "2.3581",
+        "2.9049"
+      ],
+      [
+        "projected-energy",
+        "(0.01626, 0.80278, 0.01022, 0.30062)",
+        "0.2778",
+        "1.7593",
+        "2.0650",
+        "2.4510"
+      ]
+    ],
+    "widths": [
+      2.1,
+      5.3,
+      2.1,
+      2.3,
+      2.3,
+      2.3
+    ]
+  },
+  {
+    "number": "S14",
+    "caption": "Supplementary Table S14 Broad-start and restricted inversions of the 24/24 FE observations. Each unrestricted and null fit uses 26 starts. The null fixes C_d=0 and redundant s_d=0.50. Δχ² uses an assumed 0.1 µm scale and is not a calibrated physical test.",
+    "headers": [
+      "Variant",
+      "Broad-start estimate",
+      "TE RMS µm",
+      "Profile RMS µm",
+      "Null TE RMS µm",
+      "Null Δχ²"
+    ],
+    "rows": [
+      [
+        "legacy",
+        "(0.01569, 0.84733, 0.00262, 0.17949)",
+        "0.85445",
+        "3.4349",
+        "0.85445",
+        "8.58241e-07"
+      ],
+      [
+        "projected-energy",
+        "(0.01626, 0.80278, 0.02584, 0.23683)",
+        "0.27775",
+        "3.4020",
+        "0.27775",
+        "5.22346e-09"
+      ]
+    ],
+    "widths": [
+      2.1,
+      5.3,
+      2.1,
+      2.3,
+      2.3,
+      2.3
+    ]
+  },
+  {
+    "number": "S15",
+    "caption": "Supplementary Table S15 Profile-objective diagnostics for the 24/24 gap data. Each point uses five starts. Extrema below 3.841 are sampled diagnostics, not confidence limits; depth is in µm and start is dimensionless.",
+    "headers": [
+      "Variant",
+      "Parameter",
+      "Points",
+      "Grid extrema",
+      "Max Δχ²",
+      "Failed fits"
+    ],
+    "rows": [
+      [
+        "legacy",
+        "Cd",
+        41,
+        "0–50",
+        "5.5206e-10",
+        0
+      ],
+      [
+        "legacy",
+        "sd",
+        46,
+        "0.05–0.5",
+        "5.5206e-10",
+        0
+      ],
+      [
+        "projected-energy",
+        "Cd",
+        41,
+        "0–50",
+        "3.4674e-11",
+        0
+      ],
+      [
+        "projected-energy",
+        "sd",
+        46,
+        "0.05–0.5",
+        "3.4674e-11",
+        0
+      ]
+    ],
+    "widths": [
+      3,
+      2.5,
+      2,
+      4.2,
+      2.7,
+      2
+    ]
+  },
+  {
+    "number": "S16",
+    "caption": "Supplementary Table S16 Dedicated 24/24 bulk-mesh sensitivity at fixed 0.02 mm nodal interface, P1 elasticity, nominal contour and 102 common interior phases. Each inverse uses twelve starts. Last-step changes do not certify an asymptotic rate or interface convergence.",
+    "headers": [
+      "h mm",
+      "Isolated signal µm",
+      "Estimate",
+      "TE RMS µm",
+      "Profile RMS µm"
+    ],
+    "rows": [
+      [
+        0.5,
+        "0.178987",
+        "(0.01626, 0.80278, 0.01103, 0.23728)",
+        "0.27775",
+        "1.9884"
+      ],
+      [
+        0.35,
+        "0.178994",
+        "(0.01611, 0.81219, 0.03467, 0.27535)",
+        "0.36776",
+        "5.5425"
+      ],
+      [
+        0.25,
+        "0.178969",
+        "(0.01594, 0.81692, 0.03437, 0.17683)",
+        "0.42389",
+        "4.5561"
+      ]
+    ],
+    "widths": [
+      1.4,
+      2.6,
+      7.4,
+      2.5,
+      2.5
+    ]
+  },
+  {
+    "number": "S17",
+    "caption": "Supplementary Table S17 Common-mask full-waveform sensitivity of the 24/24 P1 gap test. Differences are centred on the same 102 phases and refer to h=0.50 mm.",
+    "headers": [
+      "h mm",
+      "Combined RMS µm",
+      "Wave change RMS µm",
+      "Isolated change RMS µm",
+      "Fit residual µm"
+    ],
+    "rows": [
+      [
+        0.5,
+        "4.015834",
+        "0.000000",
+        "0.000000",
+        "0.277751"
+      ],
+      [
+        0.35,
+        "4.142864",
+        "0.141289",
+        "0.001060",
+        "0.367759"
+      ],
+      [
+        0.25,
+        "4.218430",
+        "0.217928",
+        "0.001145",
+        "0.423886"
+      ]
+    ],
+    "widths": [
+      1.5,
+      3.4,
+      3.9,
+      4.1,
+      3.5
+    ]
+  },
+  {
+    "number": "S18",
+    "caption": "Supplementary Table S18 Cyclic erosion of the phase mask. Full-cycle results are analytical only. Each FE inversion uses eight starts per model. Singular values are scaled, whitened at σ=0.1 µm and normalized to 120 observations. Small signed objective differences are optimization roundoff.",
+    "headers": [
+      "Mask",
+      "N",
+      "Rank at truth",
+      "Normalized s_min",
+      "Fit RMS µm",
+      "Null Δχ²"
+    ],
+    "rows": [
+      [
+        "Analytical full cycle",
+        120,
+        4,
+        "3.7063",
+        "Not FE data",
+        "Not FE data"
+      ],
+      [
+        "Guard 0",
+        102,
+        4,
+        "0.9808",
+        "0.27775",
+        "-1.08e-07"
+      ],
+      [
+        "Guard 1",
+        98,
+        4,
+        "0.9171",
+        "0.26998",
+        "1.45e-08"
+      ],
+      [
+        "Guard 2",
+        94,
+        4,
+        "0.8858",
+        "0.26095",
+        "-5.27e-10"
+      ],
+      [
+        "Guard 3",
+        90,
+        4,
+        "0.8208",
+        "0.25243",
+        "2.72e-09"
+      ]
+    ],
+    "widths": [
+      4.1,
+      1,
+      2.3,
+      3.1,
+      3.3,
+      2.6
+    ]
+  },
+  {
+    "number": "S19",
+    "caption": "Supplementary Table S19 Pressure-hat interface sensitivity on 24 common eligible phases with identical P2 body meshes, fixed geometric trace and h=0.35 mm. Changes compare adjacent spacings. This subset is distinct from the 102-phase P1 inversion.",
+    "headers": [
+      "Step mm",
+      "Isolated RMS µm",
+      "Signal change %",
+      "Combined wave change µm"
+    ],
+    "rows": [
+      [
+        0.04,
+        "0.083208",
+        "+0.0000",
+        "0.000000"
+      ],
+      [
+        0.02,
+        "0.085275",
+        "+2.4850",
+        "0.006038"
+      ],
+      [
+        0.01,
+        "0.085008",
+        "-0.3130",
+        "0.000716"
+      ]
+    ],
+    "widths": [
+      2.4,
+      4.6,
+      4.6,
+      4.8
+    ]
+  },
+  {
+    "number": "S20",
+    "caption": "Supplementary Table S20 Physically removed relief with reassembled stiffness and zero added gap. P2 elasticity; eight common eligible phases; upper pinion flanks and root blends; start 0.25; no addendum relief. Centred differences refer to nominal geometry on the same mesh. Removed area includes all modified pinion teeth. No full-cycle or inverse validation is asserted.",
+    "headers": [
+      "h mm",
+      "Depth µm",
+      "Centred RMS µm",
+      "Mean approach change µm",
+      "Max relative H change",
+      "Area removed mm²"
+    ],
+    "rows": [
+      [
+        0.5,
+        10.0,
+        "0.000406",
+        "0.002291",
+        "0.00023806",
+        "0.15351"
+      ],
+      [
+        0.5,
+        50.0,
+        "0.002110",
+        "0.011855",
+        "0.001236",
+        "0.76726"
+      ],
+      [
+        0.35,
+        10.0,
+        "0.000400",
+        "0.002233",
+        "0.00023344",
+        "0.15351"
+      ],
+      [
+        0.35,
+        50.0,
+        "0.002079",
+        "0.011573",
+        "0.0012136",
+        "0.76726"
+      ],
+      [
+        0.25,
+        10.0,
+        "0.000397",
+        "0.002206",
+        "0.00023165",
+        "0.15351"
+      ],
+      [
+        0.25,
+        50.0,
+        "0.002063",
+        "0.011437",
+        "0.0012046",
+        "0.76726"
+      ]
+    ],
+    "widths": [
+      1.4,
+      1.8,
+      3.2,
+      3.9,
+      3.5,
+      2.6
+    ]
+  },
+  {
+    "number": "S21",
+    "caption": "Supplementary Table S21 Numerical controls for physical removal on the eight S20 phases at h=0.35 mm. Enhanced algebra uses alternative sparse-LU ordering, four elastic residual corrections and 80-digit condensed-contact polishing; the FE assembly remains float64. Weighted morphing fixes the identical boundary polygon. Fine interface halves pressure spacing on these same eight phases. Changes compare centred curves with the repeated baseline, not only their RMS magnitudes. These empirical changes are not total numerical-error bounds.",
+    "headers": [
+      "Control",
+      "Depth µm",
+      "Signal RMS nm",
+      "Curve change RMS nm"
+    ],
+    "rows": [
+      [
+        "baseline",
+        "10",
+        "0.399676",
+        "0"
+      ],
+      [
+        "baseline",
+        "50",
+        "2.078703",
+        "0"
+      ],
+      [
+        "enhanced algebra",
+        "10",
+        "0.399676",
+        "7.5434e-09"
+      ],
+      [
+        "enhanced algebra",
+        "50",
+        "2.078703",
+        "9.05806e-09"
+      ],
+      [
+        "weighted morph",
+        "10",
+        "0.399620",
+        "7.34142e-05"
+      ],
+      [
+        "weighted morph",
+        "50",
+        "2.078431",
+        "0.000358193"
+      ],
+      [
+        "fine interface",
+        "10",
+        "0.397879",
+        "0.00378067"
+      ],
+      [
+        "fine interface",
+        "50",
+        "2.069267",
+        "0.0197247"
+      ]
+    ],
+    "widths": [
+      4.7,
+      2.2,
+      4.8,
+      4.7
+    ]
+  }
+]

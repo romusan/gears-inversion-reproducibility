@@ -1,0 +1,75 @@
+{
+  "scope": "Eight S20 phases, h=0.35 mm; empirical numerical stability, not a rigorous total error bound",
+  "phases": [
+    0.0,
+    0.1,
+    0.4,
+    0.5,
+    0.6083333333333333,
+    0.7083333333333334,
+    0.8916666666666667,
+    0.9916666666666667
+  ],
+  "contact_precision_digits": 80,
+  "elastic_arithmetic": "float64, alternative LU ordering and four residual corrections",
+  "rows": [
+    {
+      "mode": "baseline",
+      "depth_um": 10.0,
+      "signal_rms_nm": 0.39967640468982646,
+      "control_change_rms_nm": 0.0,
+      "max_phase_control_change_nm": 0.0
+    },
+    {
+      "mode": "baseline",
+      "depth_um": 50.0,
+      "signal_rms_nm": 2.078703282919939,
+      "control_change_rms_nm": 0.0,
+      "max_phase_control_change_nm": 0.0
+    },
+    {
+      "mode": "enhanced_algebra",
+      "depth_um": 10.0,
+      "signal_rms_nm": 0.3996764077116803,
+      "control_change_rms_nm": 7.543396303998706e-09,
+      "max_phase_control_change_nm": 1.6860211143887582e-08
+    },
+    {
+      "mode": "enhanced_algebra",
+      "depth_um": 50.0,
+      "signal_rms_nm": 2.0787032851442526,
+      "control_change_rms_nm": 9.058061649403852e-09,
+      "max_phase_control_change_nm": 2.0927270333315207e-08
+    },
+    {
+      "mode": "weighted_morph",
+      "depth_um": 10.0,
+      "signal_rms_nm": 0.39961986321017084,
+      "control_change_rms_nm": 7.341424283110039e-05,
+      "max_phase_control_change_nm": 9.431825025857377e-05
+    },
+    {
+      "mode": "weighted_morph",
+      "depth_um": 50.0,
+      "signal_rms_nm": 2.0784306002380357,
+      "control_change_rms_nm": 0.00035819311806403785,
+      "max_phase_control_change_nm": 0.00046889901727034666
+    },
+    {
+      "mode": "fine_interface",
+      "depth_um": 10.0,
+      "signal_rms_nm": 0.39787946378007455,
+      "control_change_rms_nm": 0.0037806655908828126,
+      "max_phase_control_change_nm": 0.005460045991289436
+    },
+    {
+      "mode": "fine_interface",
+      "depth_um": 50.0,
+      "signal_rms_nm": 2.069267195673502,
+      "control_change_rms_nm": 0.019724713799228147,
+      "max_phase_control_change_nm": 0.028442412158130592
+    }
+  ],
+  "max_nominal_reassembly_change_nm": 2.1399548799649892e-08,
+  "max_baseline_archive_shift_change_nm": 1.3877787807814457e-11
+}

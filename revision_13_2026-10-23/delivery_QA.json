@@ -1,0 +1,23 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "mpmath": "1.4.1",
+  "records": 32,
+  "phases": 8,
+  "nominal_h_mm": 0.35,
+  "precision": "80 decimal digits only for condensed active-contact equations; full FE remains float64",
+  "independently_recalculated_all_new_RMS": true,
+  "largest_control_curve_change_nm": 0.019724713799228147,
+  "smallest_baseline_signal_nm": 0.39967640468982646,
+  "largest_same_depth_relative_change_percent": 0.948895109816779,
+  "rigorous_total_error_bound": false,
+  "references_in_order": 42,
+  "figures_in_order": 10,
+  "supplementary_tables": 21,
+  "all_1800_optimizations_repeated": false,
+  "documents": {
+    "MMT_manuscript_Q1_revision_v13.docx": "fe61dc19f921b5c32350a195b024b05372c7d99848864708542a73263b7658ea",
+    "MMT_supplementary_Q1_revision_v13.docx": "84cbcef35cd625f53d74612641c421a425ae75780300c9dd014800bf94043fb6",
+    "Highlights_v13.docx": "2e9b3efd4f501148ef51deee1dd6b71243f1624e31170eacea22423407971602"
+  }
+}
