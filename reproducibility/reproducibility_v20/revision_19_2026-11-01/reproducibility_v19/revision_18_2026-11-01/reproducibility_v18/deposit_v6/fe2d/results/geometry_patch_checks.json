@@ -1,0 +1,152 @@
+[
+  {
+    "phase_fraction": 0,
+    "nominal_pairs": 1,
+    "mesh_h_mm": 0.25,
+    "contact_step_mm": 0.01,
+    "bore_radius_mm": 25,
+    "root_trim_mm": 0.4,
+    "patch_halfwidth_mm": 0.35,
+    "geometry_factor": 2,
+    "nodes": [
+      47017,
+      47022
+    ],
+    "elements": [
+      86899,
+      86909
+    ],
+    "approach_um": 40.12484784493591,
+    "k_incremental_N_um": 238.8936418991001,
+    "k_fd_N_um": 238.89364189910003,
+    "tangent_relative_difference": 2.220446049250313e-16,
+    "k_secant_N_um": 232.64618415730422,
+    "pair_forces_N": [
+      9334.89274101677
+    ],
+    "normal_force_N": 9334.89274101677,
+    "force_residual_N": 0.0,
+    "contact_residual_mm": 2.0816681711721685e-17,
+    "elastic_residual_relative": 2.4660514076876377e-12,
+    "strain_energy_N_mm": 184.79256785827053,
+    "body_torques_Nmm": [
+      -650001.6222150708,
+      -649998.3777873137
+    ],
+    "torque_relative_error": 2.4957154933780146e-06,
+    "seconds": 20.91838264465332
+  },
+  {
+    "phase_fraction": 0,
+    "nominal_pairs": 1,
+    "mesh_h_mm": 0.25,
+    "contact_step_mm": 0.01,
+    "bore_radius_mm": 25,
+    "root_trim_mm": 0.4,
+    "patch_halfwidth_mm": 0.5,
+    "geometry_factor": 1,
+    "nodes": [
+      45761,
+      45839
+    ],
+    "elements": [
+      85637,
+      85793
+    ],
+    "approach_um": 40.10201448053934,
+    "k_incremental_N_um": 239.04924138014147,
+    "k_fd_N_um": 239.04924138015625,
+    "tangent_relative_difference": 6.17284001691587e-14,
+    "k_secant_N_um": 232.77864870221913,
+    "pair_forces_N": [
+      9334.89274101677
+    ],
+    "normal_force_N": 9334.89274101677,
+    "force_residual_N": 0.0,
+    "contact_residual_mm": 2.0816681711721685e-17,
+    "elastic_residual_relative": 2.7674401932862094e-12,
+    "strain_energy_N_mm": 184.66637265389778,
+    "body_torques_Nmm": [
+      -649998.3072157827,
+      -650001.6927866009
+    ],
+    "torque_relative_error": 2.604287078211698e-06,
+    "seconds": 16.928332567214966
+  },
+  {
+    "phase_fraction": 0.5,
+    "nominal_pairs": 2,
+    "mesh_h_mm": 0.25,
+    "contact_step_mm": 0.01,
+    "bore_radius_mm": 25,
+    "root_trim_mm": 0.4,
+    "patch_halfwidth_mm": 0.35,
+    "geometry_factor": 2,
+    "nodes": [
+      48397,
+      48436
+    ],
+    "elements": [
+      89412,
+      89490
+    ],
+    "approach_um": 29.205728717755974,
+    "k_incremental_N_um": 326.7021070091234,
+    "k_fd_N_um": 326.7021070091435,
+    "tangent_relative_difference": 6.150635556423367e-14,
+    "k_secant_N_um": 319.6254005927786,
+    "pair_forces_N": [
+      4666.141492858956,
+      4668.751248157814
+    ],
+    "normal_force_N": 9334.89274101677,
+    "force_residual_N": 0.0,
+    "contact_residual_mm": 1.3877787807814457e-17,
+    "elastic_residual_relative": 3.193825321435353e-12,
+    "strain_energy_N_mm": 134.9344662758332,
+    "body_torques_Nmm": [
+      -649997.9245370775,
+      -650002.0754709039
+    ],
+    "torque_relative_error": 3.193032159787279e-06,
+    "seconds": 20.740257740020752
+  },
+  {
+    "phase_fraction": 0.5,
+    "nominal_pairs": 2,
+    "mesh_h_mm": 0.25,
+    "contact_step_mm": 0.01,
+    "bore_radius_mm": 25,
+    "root_trim_mm": 0.4,
+    "patch_halfwidth_mm": 0.5,
+    "geometry_factor": 1,
+    "nodes": [
+      47603,
+      47581
+    ],
+    "elements": [
+      89055,
+      89011
+    ],
+    "approach_um": 29.193882385199263,
+    "k_incremental_N_um": 326.83121089684425,
+    "k_fd_N_um": 326.8312108968839,
+    "tangent_relative_difference": 1.212363542890671e-13,
+    "k_secant_N_um": 319.75509861440634,
+    "pair_forces_N": [
+      4668.971577061139,
+      4665.921163955631
+    ],
+    "normal_force_N": 9334.89274101677,
+    "force_residual_N": 0.0,
+    "contact_residual_mm": 1.0408340855860843e-17,
+    "elastic_residual_relative": 3.4145779387455028e-12,
+    "strain_energy_N_mm": 134.8824317454475,
+    "body_torques_Nmm": [
+      -649999.0657349556,
+      -650000.9342730276
+    ],
+    "torque_relative_error": 1.4373431194147912e-06,
+    "seconds": 21.798084259033203
+  }
+]

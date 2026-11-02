@@ -1,0 +1,24 @@
+{
+  "native_equations_preserved": 15,
+  "old_numerical_main_tables_preserved": true,
+  "old_numerical_supplement_tables_preserved": true,
+  "figures": 13,
+  "references": 48,
+  "credit_confirmation_preserved": true,
+  "abstract_words": 174,
+  "supplement_tables": 36,
+  "clean_comments_and_revisions": 0,
+  "highlights_lengths": [
+    72,
+    71,
+    72,
+    69,
+    69
+  ],
+  "docx_sha256": {
+    "Cover_letter_MMT_v19.docx": "e0c6cc9c076c8a4ffa9fb40fa7755762ffd614202d8f25a167675720d3463704",
+    "Highlights_v19.docx": "2eec0bf9ef9791dc83a3ff53f93bb60f2acdf29ee9f9bcbd9a44e0b34cc8353a",
+    "MMT_manuscript_Q1_revision_v19_clean.docx": "8c55255fcc4c44e77c84f6ec01cd8c9203100515eca33c101922cae4c6ca3b88",
+    "MMT_supplementary_Q1_revision_v19.docx": "66746591d91373ac0fd3dca9ad95bf568df7b570c2dd61bcbefa1a9a1e2958b0"
+  }
+}

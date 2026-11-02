@@ -1,0 +1,416 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2026-10-05T18:12:06Z",
+      "timestamp": 1791223926575,
+      "version": "4.1.0"
+    },
+    "reference-count": 28,
+    "publisher": "Elsevier BV",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2005,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2005-02-01T00:00:00Z",
+          "timestamp": 1107216000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Mechanism and Machine Theory"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2005,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.mechmachtheory.2003.06.001",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2004,
+          9,
+          14
+        ]
+      ],
+      "date-time": "2004-09-14T18:27:57Z",
+      "timestamp": 1095186477000
+    },
+    "page": "173-190",
+    "source": "Crossref",
+    "is-referenced-by-count": 136,
+    "title": [
+      "A model for simulating the quasi-static and dynamic behaviour of solid wide-faced spur and helical gears"
+    ],
+    "prefix": "10.1016",
+    "volume": "40",
+    "author": [
+      {
+        "given": "M.",
+        "family": "Ajmi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Velex",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib1",
+        "first-page": "166",
+        "article-title": "Torsional motion of a pair of spur gears",
+        "volume": "178",
+        "author": "Gregory",
+        "year": "1963",
+        "journal-title": "Proc. Inst. Mech. Eng."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1115/1.3453898",
+        "article-title": "Stress condition, vibrational exciting force and contact pattern of helical gears with manufacturing and alignment errors",
+        "volume": "100",
+        "author": "Kubo",
+        "year": "1978",
+        "journal-title": "ASME J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1016/S0022-460X(88)80365-1",
+        "article-title": "Mathematical models used in gear dynamics. A review",
+        "volume": "121",
+        "author": "Ozgüven",
+        "year": "1988",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "507",
+        "DOI": "10.1115/1.2926579",
+        "article-title": "Dynamic analysis of geared rotors by finite elements",
+        "volume": "114",
+        "author": "Kahraman",
+        "year": "1992",
+        "journal-title": "ASME J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "593",
+        "DOI": "10.1115/1.2829320",
+        "article-title": "A general approach for determining dynamic forces in spur gears",
+        "volume": "120",
+        "author": "Vedmar",
+        "year": "1998",
+        "journal-title": "ASME J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "334",
+        "DOI": "10.1115/1.1462044",
+        "article-title": "Static and dynamic tooth loading in spur and helical geared systems. Experiments and model validation",
+        "volume": "124",
+        "author": "Baud",
+        "year": "2002",
+        "journal-title": "ASME J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib7",
+        "series-title": "Three Dimensional Problems of the Theory of Elasticity",
+        "author": "Lur’e",
+        "year": "1964"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib8",
+        "series-title": "Contact Mechanics",
+        "author": "Johnson",
+        "year": "1984"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1016/0022-460X(88)90416-6",
+        "article-title": "Dynamic analysis of high speed gears by using loaded static transmission error",
+        "volume": "125",
+        "author": "Ozgüven",
+        "year": "1988",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib10",
+        "unstructured": "C. Weber, The deformation of loaded gears and the effect on their load carrying capacity. Report 3, DSIR Sponsored Research, 1949, London"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib11",
+        "unstructured": "D.L. Seager, Some elastic effects in helical gear teeth, PhD dissertation, 1967, University of Cambridge"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib12",
+        "unstructured": "G. Schmidt, Berechnung der Walzpressung Schragverzahnter unter Berucksichtigung der Lastverteilung, PhD dissertation, 1973, Technical University of Münich"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib13",
+        "unstructured": "L. Vedmar, On the design of external involute helical gears, PhD dissertation, 1981, Technical University of Lund"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "590",
+        "DOI": "10.1115/1.2912651",
+        "article-title": "The compliance of solid wide-faced spur gears",
+        "volume": "112",
+        "author": "Steward",
+        "year": "1990",
+        "journal-title": "ASME J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib15",
+        "unstructured": "C.D. Haddad, The elastic analysis of load distribution in wide-faced helical gears, PhD dissertation, 1991, University of Newcastle"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Ajmi, P. Velex, A model for simulating the quasi-static and dynamic behaviour of double helical gears, in: Proc. JSME Int. Conf. Motion Power Trans., Fukuoka, 2001, pp. 132–137",
+        "DOI": "10.1299/jsmeimpt.I.01.202.132"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib17",
+        "series-title": "Rotordynamics. Prediction in Engineering",
+        "author": "Lalanne",
+        "year": "1990"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "491",
+        "DOI": "10.1115/1.3629667",
+        "article-title": "Elastic and visco-elastic foundation models",
+        "volume": "31",
+        "author": "Kerr",
+        "year": "1964",
+        "journal-title": "ASME J. Appl. Mech."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib19",
+        "unstructured": "S.M. Vijayakar, Edge effects in gear tooth contact, in: Proc. 7th ASME Int. Power Trans. Gearing Conf., San Diego, 1996, pp. 205–212"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "304",
+        "DOI": "10.1115/1.1286189",
+        "article-title": "Dynamic response of a planetary gear system using a finite element/contact mechanics model",
+        "volume": "122",
+        "author": "Parker",
+        "year": "2000",
+        "journal-title": "ASME J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "408",
+        "DOI": "10.1115/1.1371477",
+        "article-title": "Effect of internal gear flexibility on the quasi-static behavior of a planetary gear set",
+        "volume": "123",
+        "author": "Kahraman",
+        "year": "2001",
+        "journal-title": "ASME J. Mech. Des."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1115/1.3408492",
+        "article-title": "A general solution for the elastic quarter-plane",
+        "volume": "37",
+        "author": "Hetenyi",
+        "year": "1970",
+        "journal-title": "ASME J. Appl. Mech."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "497",
+        "DOI": "10.1016/0020-7683(83)90087-2",
+        "article-title": "Hetenyi’s elastic quarter space problem revisited",
+        "volume": "19",
+        "author": "Keer",
+        "year": "1983",
+        "journal-title": "Int. J. Solids Struct."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib24",
+        "unstructured": "M. Ajmi, Introduction des couplages élastiques dans la modélisation du comportement statique et dynamique d’engrenages à dentures larges, PhD dissertation, INSA de Lyon"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "629",
+        "DOI": "10.1006/jsvi.1996.0148",
+        "article-title": "A mathematical model for analyzing the influence of shape deviations and mounting errors on gear dynamic behaviour",
+        "volume": "191",
+        "author": "Velex",
+        "year": "1996",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O. Duverger, P. Velex, L. Vedmar, P. Sainsot, A model of the dynamic behavior of spur gears with consideration of off-line-of-action contacts, in: Proc. 9th ASME Int. Power Trans. Gearing Conf., Chicago, 2003, Paper DETC2003-48052",
+        "DOI": "10.1115/DETC2003/PTG-48052"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib27",
+        "unstructured": "H. Sigg, Profile and longitudinal corrections on involute gears, in: Proc. AGMA Semi-Annual Meeting, October 1965, no. 109.16, 24 p"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.mechmachtheory.2003.06.001_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/0094-114X(94)00018-G",
+        "article-title": "A new gear mesh interface dynamic model to predict multi-dimensional force coupling and excitation",
+        "volume": "30",
+        "author": "Blankenship",
+        "year": "1995",
+        "journal-title": "Mech. Mach. Theory"
+      }
+    ],
+    "container-title": [
+      "Mechanism and Machine Theory"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0094114X04001223?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0094114X04001223?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2020-04-03T04:21:38Z",
+      "timestamp": 1585887698000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X04001223"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          2
+        ]
+      ]
+    },
+    "references-count": 28,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2005,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0094114X04001223"
+    ],
+    "URL": "https://doi.org/10.1016/j.mechmachtheory.2003.06.001",
+    "relation": {},
+    "ISSN": [
+      "0094-114X"
+    ],
+    "issn-type": [
+      {
+        "value": "0094-114X",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          2
+        ]
+      ]
+    }
+  }
+}

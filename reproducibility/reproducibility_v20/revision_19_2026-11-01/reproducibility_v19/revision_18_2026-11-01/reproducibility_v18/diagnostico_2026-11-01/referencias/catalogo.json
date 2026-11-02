@@ -1,0 +1,314 @@
+[
+  {
+    "id": "R01",
+    "idioma": "en",
+    "titulo": "Multi-objective micro-geometry optimization of gear tooth supported by response surface methodology",
+    "doi": "10.1016/j.mechmachtheory.2016.11.015",
+    "url": "https://iris.unical.it/handle/20.500.11770/133021",
+    "uso": "Prioridad 1. Reexaminar el benchmark externo; preprint, cotejar tablas y versiones con la referencia final antes de cambiar valores.",
+    "consulta": "2026-11-01",
+    "archivos": [
+      "R01_crossref.json"
+    ],
+    "intentos": [
+      {
+        "url": "https://iris.unical.it/handle/20.500.11770/133021",
+        "status": 403
+      },
+      {
+        "url": "https://iris.unical.it/bitstream/20.500.11770/133021/10/1.Korta_MMT__Submitted_Version_opt.pdf",
+        "status": 403
+      }
+    ],
+    "metadata_crossref": true,
+    "estado": "Ficha/metadatos; PDF no obtenido"
+  },
+  {
+    "id": "R02",
+    "idioma": "fr",
+    "titulo": "Modélisation et analyse de l’erreur statique de transmission d’un engrenage. Influence des déformations des roues et interactions entre les couples de dents en prise",
+    "doi": "10.48550/arXiv.physics/0701043",
+    "url": "https://arxiv.org/abs/physics/0701043",
+    "uso": "Prioridad 1. Acoplamiento elástico entre dientes y deformación del cuerpo; antecedente del operador acoplado. Artículo 1998, depósito 2007: no confundir las fechas.",
+    "consulta": "2026-11-01",
+    "archivos": [
+      "R02_ficha.html",
+      "R02_fr.pdf",
+      "R02_texto.txt"
+    ],
+    "intentos": [
+      {
+        "url": "https://arxiv.org/abs/physics/0701043",
+        "status": 200
+      },
+      {
+        "url": "https://arxiv.org/pdf/physics/0701043",
+        "status": 200
+      }
+    ],
+    "pdf": "R02_fr.pdf",
+    "paginas": 11,
+    "sha256": "7aca895b8359f00d5c62cf71d1e0731763555e49e2a649bfcc0fed8218118e22",
+    "pdf_url": "https://arxiv.org/pdf/physics/0701043",
+    "caracteres_extraidos": 18988,
+    "primera_pagina": "Modélisation et analyse de l’erreur statique de transmission d’un engrenage.\nInfluence des déformations des roues et interactions entre les couples de dents en prise\nModelling and Analysis of Static Transmission Error of Gears.\nEffect of Wheel Body Deformation and Interactions between Adjacent Loaded Teeth\nEmmanuel RIGAUD* et Denis BARDAY**\n* Laboratoire de Tribologie et Dynamique des Systèmes. UMR 5513. Ecole Centrale de\nLyon.\n36, avenue Guy de Collongue. B.P. 163. 69131 Ecully Cedex.\n** Direction des Etudes et Recherches. RENAULT V. I.\n1, Avenue H. Germain. B.P. 310. 69802 Saint-Priest Cedex.\nRésumé : L’excitation vibratoire des transmissions résulte des écarts de géométrie et des\ndéformations élastiques des engrenages. Pour calculer ses caractéristiques, nous avons\nintroduit une modélisation par éléments finis 3D des roues dentées puis résolu le système\nd’équations non linéaires qui gère le contact entre les dentures. A partir de cette approche,\nnous avons pu mettre en évidence les interactions entre les couples de dents en prise et les\ncouplages élastiques entre les corps de roue et les dentures. Nous avons aussi analysé les\neffets des corrections de denture sur les fluctuations périodiques de l’erreur statique de\ntransmission sous charge et de la raideur d’engrènement.\nAbstract : We have developped a numerical tool in order to predict vibratory excitation of a\ngearbox induced by the meshing process. We propose a method based on a 3D Finite Element\nmodelling of each toothed wheel. A non linear algorithm computes the fluctuations of static\ntransmission error and mesh stiffness. Numerical simulations show the effect of wheel body\ndeformation and the interactions between adjacent loaded teeth. The method developped\nallows to analyse the effect of different tooth modifi",
+    "estado": "PDF descargado y abierto"
+  },
+  {
+    "id": "R03",
+    "idioma": "zh",
+    "titulo": "含误差的直齿轮的齿廓修形",
+    "doi": "",
+    "url": "https://qikan.cmes.org/jxgcxb/CN/Y2003/V39/I12/91",
+    "uso": "Prioridad 1. Sun, Zhang y Ge, 2003, 39(12), 91–94. Traducción de trabajo: modificación de perfil de engranajes rectos con errores. Relación carga-deformación-STE; no acredita identificabilidad inversa.",
+    "consulta": "2026-11-01",
+    "archivos": [],
+    "intentos": [
+      {
+        "url": "https://qikan.cmes.org/jxgcxb/CN/Y2003/V39/I12/91",
+        "error": "HTTPSConnectionPool(host='qikan.cmes.org', port=443): Max retries exceeded with url: /jxgcxb/CN/Y2003/V39/I12/91 (Caused by NameResolutionError(\"HTTPSConnection(host='qikan.cmes.org', port=443): Failed to resolve 'qikan.cmes.org' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ],
+    "estado": "Ficha/metadatos; PDF no obtenido"
+  },
+  {
+    "id": "R04",
+    "idioma": "zh",
+    "titulo": "齿廓修形机理及其对温度场的影响",
+    "doi": "10.12068/j.issn.1005-3026.2013.12.022",
+    "url": "https://xuebao.neu.edu.cn/natural/CN/10.12068/j.issn.1005-3026.2013.12.022",
+    "uso": "Prioridad 2. Xue y Li, 2013, 34(12), 1763–1767. Traducción: mecanismo de modificación de perfil y efecto sobre campos de temperatura. Comparación rigidez analítica/FE y reparto de carga; no trasplantar su óptimo a G0.",
+    "consulta": "2026-11-01",
+    "archivos": [
+      "R04_ficha.html",
+      "R04_zh.pdf",
+      "R04_texto.txt"
+    ],
+    "intentos": [
+      {
+        "url": "https://xuebao.neu.edu.cn/natural/CN/10.12068/j.issn.1005-3026.2013.12.022",
+        "status": 200
+      },
+      {
+        "url": "https://xuebao.neu.edu.cn/natural/CN/article/downloadArticleFile.do?attachType=PDF&id=5258",
+        "status": 200
+      }
+    ],
+    "pdf": "R04_zh.pdf",
+    "paginas": 5,
+    "sha256": "5df158d11f95a5b20470f21f894d248830b2933447c22c5fada519279e9cb238",
+    "pdf_url": "https://xuebao.neu.edu.cn/natural/CN/article/downloadArticleFile.do?attachType=PDF&id=5258",
+    "caracteres_extraidos": 9040,
+    "primera_pagina": "收稿日期：２０１３－０３－１１\n基金项目：国家自然科学基金资助项目（５１２７５０３５）．\n作者简介：薛建华（１９８６－），男，陕西洛南人，北京科技大学博士研究生；李　威（１９６７－），男，辽宁鞍山人，北京科技大学教授，博\n士生导师．\n第３４卷第１２期\n２０１３年１２月\n东\n北大学学报（自然科学版）\nＪｏｕｒｎａｌｏｆＮｏｒｔｈｅａｓｔｅｒｎＵｎｉｖｅｒｓｉｔｙ（ＮａｔｕｒａｌＳｃｉｅｎｃｅ）\nＶｏｌ．３４，Ｎｏ．１２\nＤｅｃ．　２０１３\n齿廓修形机理及其对温度场的影响\n薛建华，李　威\n（北京科技大学机械工程学院，北京　１０００８３）\n摘　　　要：通过解析法和有限元法计算了轮齿刚度，基于刚度研究了齿廓修形机理及加工误差对载荷分配\n系数、传动误差和温度场的影响．结果表明：长修形在减小啮合冲击上优于短修形，当长修形指数为１２２时传\n动误差波动最小，传动最平稳．轮齿修形可以改善轮齿本体温度和闪温分布，使本体温度和闪温的高温区域从\n齿根、齿顶移动到齿廓中部，降低齿顶和齿根的最高温度，提高了轮齿胶合承载能力．加工误差会减弱轮齿修\n形效果，引起动载荷和瞬时高温，因此确定修形量时应考虑加工误差、跑合磨损以及热弹变形．\n关　键　词：齿廓修形；温度场；啮合刚度；传动误差；载荷分配系数\n中图分类号：ＴＨ１３２４１３　　　文献标志码：Ａ　　　文章编号：１００５－３０２６（２０１３）１２－１７６３－０５\nＴｏｏｔｈＰｒｏｆｉｌｅＭｏｄｉｆｉｃａｔｉｏｎＭｅｃｈａｎｉｓｍａｎｄＩｔｓＩｎｆｌｕｅｎｃｅｏｎ\nＴｅｍｐｅｒａｔｕｒｅＦｉｅｌｄｓ　\nＸＵＥＪｉａｎｈｕａ，ＬＩＷｅｉ\n（ＳｃｈｏｏｌｏｆＭｅｃｈａｎｉｃａｌＥｎｇｉｎｅｅｒｉｎｇ，ＵｎｉｖｅｒｓｉｔｙｏｆＳｃｉｅｎｃｅａｎｄＴｅｃｈｎｏｌｏｇｙＢｅｉｊｉｎｇ，Ｂｅｉｊｉｎｇ１０００８３，Ｃｈｉｎａ．\nＣｏｒｒｅｓｐｏｎｄｉｎｇａｕｔｈｏｒ：ＸＵＥＪｉａｎｈｕａ，Ｅｍａｉｌ：ｘｊｈ１９８６８１８＠１６３．ｃｏｍ）\nＡｂｓｔｒａｃｔ：Ｔｈｅｔｏｏｔｈｓｔｉｆｆｎｅｓｓｗａｓｃａｌｃｕｌａｔｅｄｂｙｔｈｅａｎａｌｙｔｉｃａｌｍｅｔｈｏｄａｎｄｔｈｅｆｉｎｉｔｅｅｌｅｍｅｎｔ\nｍｅｔｈｏｄ．Ｔｈｅｔｏｏｔｈｐｒｏｆｉｌｅｍｏｄｉｆｉｃａｔｉｏｎｍｅｃｈａｎｉｓｍａｎｄｔｈｅｉｎｆｌｕｅｎｃｅｏｆｍａｃｈｉｎｉｎｇｅｒｒｏｒｓｏｎｌｏａｄ\nｓｈａｒｉｎｇｒａｔｉｏ，ｔｒａｎｓｍｉｓｓｉｏｎｅｒｒｏｒｓａｎｄｔｅｍｐｅｒａｔｕｒｅｆｉｅｌｄｓｗｅｒｅａｎａｌｙｚｅｄｂｙｓｔｉｆｆｎｅｓｓｍｅｔｈｏｄ．Ｔｈｅ\nｒｅｓｕｌｔｓｓｈｏｗｔｈａｔｔｈｅｌｏｎｇｍｏｄｉｆｉｃａｔｉｏｎｉｓｓｕｐｅｒｉｏｒｔｏｔｈｅｓｈｏｒｔｍｏｄｉｆｉｃａｔｉｏｎｉｎｒｅｄｕｃｉｎｇｍｅｓｈｉｎｇ\nｓｈｏｃｋ．Ｔｈｅｔｒａｎｓｍｉｓｓｉｏｎｅｒｒｏｒｓｆｌｕｃｔｕａｔｉｏｎｉｓｔｈｅｓｍａｌｌｅｓｔａｎｄｔｒａｎｓｍｉｓｓｉｏｎｉｓｔｈｅｓｍｏｏｔｈｅｓｔｗｈｅｎ\nｌｏｎｇｍｏｄｉｆｉｃａｔｉｏｎｉｎｄｅｘｅｑｕａｌｓ１２２．Ｔｈｅｐｒｏｆｉｌｅｍｏｄｉｆｉｃａｔｉｏｎｃａｎａｌｔｅｒｔｈｅｄｉｓｔｒｉｂｕｔｉｏｎｏｆｔｈｅｂｕｌｋ\nａｎｄｆｌａｓｈｔｅｍｐｅｒａｔｕｒｅ，ａｎｄｔｒａｎｓｌａｔｅｔｈｅｈｉｇｈｔｅｍｐｅｒａｔｕｒｅｚｏｎｅｆｒｏｍｔｏｏｔｈｒｏｏｔａｎｄａｄｄｅｎｄｕｍｔｏ\nｔｈｅｔｏｏｔｈｐｒｏｆｉｌｅｃｅｎｔｒａｌ．Ｔｈｕｓｔｈｅｈｉｇｈｅｓｔｔｅｍｐｅｒａｔｕｒｅｏｆｔｈｅｔｏｏｔｈｒｏｏｔａｎｄａｄｄｅｎｄｕｍｒｅｄｕｃｅｓａｎｄ\nｔｈｅｓｃｕｆｆｉｎｇｌｏａｄｃａｐａｃｉｔｙｉｓｉｍｐｒｏｖｅｄ．Ｔｈｅｍａｃｈｉｎｉｎｇｅｒｒｏｒｃａｎｗｅａｋｅｎｔｈｅｐｒｏｆｉｌｅｍｏｄｉｆｉｃａｔｉｏｎ\nｅｆｆｅｃｔａｎｄｃａｕｓｅｄｙｎａｍｉｃｌｏａｄａｎｄｉｎｓｔａｎｔａｎｅｏｕｓｈｉｇｈｔｅｍｐｅｒａｔｕｒｅ．Ｔｈｅｍａｃｈｉｎｉｎｇｅｒｒｏｒｓ，ｒｕｎｎｉｎｇ\nｗｅａｒ，ａｎｄｔｈｅｒｍａｌｅｌａｓｔｉｃｄｅｆｏｒｍａｔｉｏｎｓｈｏｕｌｄｂｅｃｏｎｓｉｄｅｒｅｄｗｈｅｎｓｅｔｔｉｎｇｔｈｅａｍｏｕｎｔｏｆｐｒｏｆｉｌｅ\nｍｏｄｉｆｉｃａｔｉｏｎ．\nＫｅｙｗｏｒｄｓ：ｔｏｏｔｈｐｒｏｆｉｌｅｍｏｄｉｆｉｃ",
+    "estado": "PDF descargado y abierto"
+  },
+  {
+    "id": "R05",
+    "idioma": "zh",
+    "titulo": "热弹耦合条件下的齿廓修形设计",
+    "doi": "10.11990/jheu.201612059",
+    "url": "https://html.rhhz.net/HEBGCDXXB/html/201612059.htm",
+    "uso": "Prioridad 2. Luo y Li, 2018, 39(6), 1059–1065. Traducción: modificación de perfil bajo acoplamiento termoelástico. Motivación para condiciones térmicas en trabajo futuro; no explica por sí sola la discrepancia actual.",
+    "consulta": "2026-11-01",
+    "archivos": [
+      "R05_ficha.html"
+    ],
+    "intentos": [
+      {
+        "url": "https://html.rhhz.net/HEBGCDXXB/html/201612059.htm",
+        "status": 200
+      },
+      {
+        "url": "https://heuxb.hrbeu.edu.cn/oa/pdfdow.aspx?Sid=201612059",
+        "error": "HTTPSConnectionPool(host='heuxb.hrbeu.edu.cn', port=443): Max retries exceeded with url: /oa/pdfdow.aspx?Sid=201612059 (Caused by NameResolutionError(\"HTTPSConnection(host='heuxb.hrbeu.edu.cn', port=443): Failed to resolve 'heuxb.hrbeu.edu.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "url": "http://heuxb.hrbeu.edu.cn/oa/pdfdow.aspx?Sid=201612059",
+        "error": "HTTPConnectionPool(host='heuxb.hrbeu.edu.cn', port=80): Max retries exceeded with url: /oa/pdfdow.aspx?Sid=201612059 (Caused by NameResolutionError(\"HTTPConnection(host='heuxb.hrbeu.edu.cn', port=80): Failed to resolve 'heuxb.hrbeu.edu.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ],
+    "estado": "Ficha/metadatos; PDF no obtenido"
+  },
+  {
+    "id": "R06",
+    "idioma": "en",
+    "titulo": "Study on the Parameter Influences of Gear Tooth Profile Modification and Transmission Error Analysis",
+    "doi": "10.3390/machines12050316",
+    "url": "https://www.mdpi.com/2075-1702/12/5/316",
+    "uso": "Prioridad 2. Sensibilidad directa a parámetros de modificación; distinguir influencia de unicidad inversa.",
+    "consulta": "2026-11-01",
+    "archivos": [
+      "R06_en.pdf",
+      "R06_texto.txt",
+      "R06_crossref.json"
+    ],
+    "intentos": [
+      {
+        "url": "https://www.mdpi.com/2075-1702/12/5/316",
+        "status": 403
+      },
+      {
+        "url": "https://mdpi-res.com/d_attachment/machines/machines-12-00316/article_deploy/machines-12-00316.pdf",
+        "status": 200
+      }
+    ],
+    "pdf": "R06_en.pdf",
+    "paginas": 23,
+    "sha256": "92ef5db0d47a53b5595cbeb9d64eb3489e252873b03b2cbd7654c2749c85c8ba",
+    "pdf_url": "https://mdpi-res.com/d_attachment/machines/machines-12-00316/article_deploy/machines-12-00316.pdf",
+    "caracteres_extraidos": 48811,
+    "primera_pagina": "Citation: Zhou, D.; Guo, Y.; Yang, J.;\nZhang, Y. Study on the Parameter\nInfluences of Gear Tooth Profile\nModification and Transmission Error\nAnalysis. Machines 2024, 12, 316.\nhttps://doi.org/10.3390/\nmachines12050316\nAcademic Editor: Kai Cheng\nReceived: 6 February 2024\nRevised: 23 April 2024\nAccepted: 2 May 2024\nPublished: 4 May 2024\nCopyright: © 2024 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\nmachines\nArticle\nStudy on the Parameter Influences of Gear Tooth Profile\nModification and Transmission Error Analysis\nDi Zhou 1,*, Yonglin Guo 1, Jian Yang 2 and Yimin Zhang 3\n1\nSchool of Mechanical Engineering, Donghua University, Shanghai 200051, China; 2231083@mail.dhu.edu.cn\n2\nVolkswagen (Anhui) Co., Ltd., Hefei 230091, China; jian.yang@volkswagen-tech.com\n3\nEquipment Reliability Institute, Shenyang University of Chemical Technology, Shenyang 110142, China;\nzhangyimin@syuct.edu.cn\n*\nCorrespondence: zhoudi@dhu.edu.cn\nAbstract: Gear transmission systems are widely used to transfer energy and motion and to guarantee\nthe accuracy of the entire machine system. The modification technique is a common method that\nimproves the gear profile and reduces the transmission error. Based on the parametric model,\na modified gear can be established for the evaluation of static and dynamic characteristics. The\ninfluences of profile modification parameters and gear parameters are investigated while changing\nthe rules of different kinds of factors. Based on sensitive parameters, a two-stage profile modification\ncurve is proposed to improve the performance of gear pairs. Thus, considering the time-varying mesh",
+    "metadata_crossref": true,
+    "estado": "PDF descargado y abierto"
+  },
+  {
+    "id": "R07",
+    "idioma": "en",
+    "titulo": "Determination of Mesh Stiffness of Gear—Analytical Approach vs. FEM Analysis",
+    "doi": "10.3390/app11114960",
+    "url": "https://www.mdpi.com/2076-3417/11/11/4960",
+    "uso": "Prioridad 1. Contrastar términos de rigidez y apoyos FE con las cuatro formulaciones; ya citado en v13, obtener texto completo.",
+    "consulta": "2026-11-01",
+    "archivos": [
+      "R07_en.pdf",
+      "R07_texto.txt"
+    ],
+    "intentos": [
+      {
+        "url": "https://www.mdpi.com/2076-3417/11/11/4960",
+        "status": 403
+      },
+      {
+        "url": "https://mdpi-res.com/d_attachment/applsci/applsci-11-04960/article_deploy/applsci-11-04960.pdf",
+        "status": 200
+      }
+    ],
+    "pdf": "R07_en.pdf",
+    "paginas": 13,
+    "sha256": "f75a8baecbad7baeaaeccd16a2dc83e45d7f2e68d0874b7dd48e32561ecce11f",
+    "pdf_url": "https://mdpi-res.com/d_attachment/applsci/applsci-11-04960/article_deploy/applsci-11-04960.pdf",
+    "caracteres_extraidos": 33887,
+    "primera_pagina": "applied  \nsciences\nReview\nDetermination of Mesh Stiffness of Gear—Analytical Approach\nvs. FEM Analysis\nJan Flek 1,*\n, Martin Dub 1\n, Josef Koláˇr 2\n, František Lopot 1\nand Karel Petr 1\n\u0001\u0002\u0003\u0001\u0004\u0005\u0006\u0007\b\n\u0001\u0002\u0003\u0004\u0005\u0006\u0007\nCitation: Flek, J.; Dub, M.; Koláˇr, J.;\nLopot, F.; Petr, K. Determination of\nMesh Stiffness of Gear—Analytical\nApproach vs. FEM Analysis. Appl. Sci.\n2021, 11, 4960. https://doi.org/\n10.3390/app11114960\nAcademic Editor: Roberto Citarella\nReceived: 29 April 2021\nAccepted: 24 May 2021\nPublished: 28 May 2021\nPublisher’s Note: MDPI stays neutral\nwith regard to jurisdictional claims in\npublished maps and institutional afﬁl-\niations.\nCopyright: © 2021 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\n1\nDepartment of Designing and Machine Components, Faculty of Mechanical Engineering, Czech Technical\nUniversity in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic; martin.dub@fs.cvut.cz (M.D.);\nfrantisek.lopot@fs.cvut.cz (F.L.); karel.petr@fs.cvut.cz (K.P.)\n2\nDepartment of Automotive, Combustion Engine and Railway Engineering, Faculty of Mechanical\nEngineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic;\njosef.kolar@fs.cvut.cz\n*\nCorrespondence: jan.ﬂek@fs.cvut.cz\nAbstract: This paper focuses on modeling the time-varying stiffness of spur gearings, which in\ndynamic models of transmission systems acts as an important element of the internal excitation of\nthe dynamic system. Here are introduced ways to approach the modeling of gear stiffness using\nanalytical calculations, which allow to model the course of mesh stiffness depending on its ro",
+    "estado": "PDF descargado y abierto"
+  },
+  {
+    "id": "R08",
+    "idioma": "en",
+    "titulo": "Review and benchmarking study of different gear contact analysis software in terms of the static transmission error response",
+    "doi": "10.1016/j.rineng.2024.102286",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590123024005413",
+    "uso": "Prioridad 1. Ya citado. Comparación entre operadores; sus discrepancias no dispensan validar el modelo propio. Los datos originales se declaran confidenciales.",
+    "consulta": "2026-11-01",
+    "archivos": [
+      "R08_crossref.json"
+    ],
+    "intentos": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S2590123024005413",
+        "status": 403
+      }
+    ],
+    "metadata_crossref": true,
+    "estado": "Ficha/metadatos; PDF no obtenido"
+  },
+  {
+    "id": "R09",
+    "idioma": "en",
+    "titulo": "Direct analytical solution of the inverse gear tooth contact analysis problem",
+    "doi": "10.1080/17415970701256486",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/17415970701256486",
+    "uso": "Prioridad 1. Ya citado. Novedad frente a síntesis inversa para respuesta prescrita; no afirmar que no existen problemas inversos de engranajes.",
+    "consulta": "2026-11-01",
+    "archivos": [
+      "R09_crossref.json"
+    ],
+    "intentos": [
+      {
+        "url": "https://www.tandfonline.com/doi/full/10.1080/17415970701256486",
+        "status": 403
+      },
+      {
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/17415970701256486",
+        "status": 403
+      }
+    ],
+    "metadata_crossref": true,
+    "estado": "Ficha/metadatos; PDF no obtenido"
+  },
+  {
+    "id": "R10",
+    "idioma": "en",
+    "titulo": "Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood",
+    "doi": "10.1093/bioinformatics/btp358",
+    "url": "https://academic.oup.com/bioinformatics/article/25/15/1923/213246",
+    "uso": "Prioridad 1. Ya citado. Justificar perfiles no lineales y límites de umbrales nominales; aplicación biológica no demuestra novedad mecánica.",
+    "consulta": "2026-11-01",
+    "archivos": [
+      "R10_crossref.json"
+    ],
+    "intentos": [
+      {
+        "url": "https://academic.oup.com/bioinformatics/article/25/15/1923/213246",
+        "status": 403
+      }
+    ],
+    "metadata_crossref": true,
+    "estado": "Ficha/metadatos; PDF no obtenido"
+  },
+  {
+    "id": "R11",
+    "idioma": "zh",
+    "titulo": "基于模糊综合决策的直齿圆柱齿轮齿廓最佳修形",
+    "doi": "10.13374/j.issn2095-9389.2016.10.015",
+    "url": "https://cje.ustb.edu.cn/cn/article/doi/10.13374/j.issn2095-9389.2016.10.015",
+    "uso": "Prioridad 2. Traducción: modificación óptima de perfil de engranajes cilíndricos rectos mediante decisión difusa. Antecedente de optimización directa, no de recuperación inversa.",
+    "consulta": "2026-11-01",
+    "archivos": [
+      "R11_ficha.html"
+    ],
+    "intentos": [
+      {
+        "url": "https://cje.ustb.edu.cn/cn/article/doi/10.13374/j.issn2095-9389.2016.10.015",
+        "status": 200
+      },
+      {
+        "url": "https://cje.ustb.edu.cn/cn/article/pdf/preview/10.13374/j.issn2095-9389.2016.10.015.pdf",
+        "status": 200
+      },
+      {
+        "url": "http://cje.ustb.edu.cn/cn/article/pdf/preview/10.13374/j.issn2095-9389.2016.10.015.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://cje.ustb.edu.cn/cn/article/doi/10.13374/{{basePath}}cn/article/pdf/preview/{{article.doi}}.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://cje.ustb.edu.cn/cn/article/doi/10.13374/{{basePath}}cn/article/pdf/preview/{{article.id}}.pdf",
+        "status": 200
+      }
+    ],
+    "estado": "Ficha/metadatos; PDF no obtenido"
+  },
+  {
+    "id": "R12",
+    "idioma": "zh",
+    "titulo": "齿条类刀具展成加工修形齿廓的理论设计",
+    "doi": "",
+    "url": "https://www.jxcd.net.cn/rc-pub/front/front-article/download/31572179/lowqualitypdf/齿条类刀具展成加工修形齿廓的理论设计.pdf",
+    "uso": "Prioridad 2. Traducción: diseño teórico de perfiles modificados generados con herramientas de cremallera. Revisar geometría manufacturable y contacto fuera de línea nominal; metadatos a verificar desde PDF.",
+    "consulta": "2026-11-01",
+    "archivos": [],
+    "intentos": [
+      {
+        "url": "https://www.jxcd.net.cn/rc-pub/front/front-article/download/31572179/lowqualitypdf/齿条类刀具展成加工修形齿廓的理论设计.pdf",
+        "error": "HTTPSConnectionPool(host='www.jxcd.net.cn', port=443): Max retries exceeded with url: /rc-pub/front/front-article/download/31572179/lowqualitypdf/%E9%BD%BF%E6%9D%A1%E7%B1%BB%E5%88%80%E5%85%B7%E5%B1%95%E6%88%90%E5%8A%A0%E5%B7%A5%E4%BF%AE%E5%BD%A2%E9%BD%BF%E5%BB%93%E7%9A%84%E7%90%86%E8%AE%BA%E8%AE%BE%E8%AE%A1.pdf (Caused by NameResolutionError(\"HTTPSConnection(host='www.jxcd.net.cn', port=443): Failed to resolve 'www.jxcd.net.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "url": "https://www.jxcd.net.cn/rc-pub/front/front-article/download/31572179/lowqualitypdf/齿条类刀具展成加工修形齿廓的理论设计.pdf",
+        "error": "HTTPSConnectionPool(host='www.jxcd.net.cn', port=443): Max retries exceeded with url: /rc-pub/front/front-article/download/31572179/lowqualitypdf/%E9%BD%BF%E6%9D%A1%E7%B1%BB%E5%88%80%E5%85%B7%E5%B1%95%E6%88%90%E5%8A%A0%E5%B7%A5%E4%BF%AE%E5%BD%A2%E9%BD%BF%E5%BB%93%E7%9A%84%E7%90%86%E8%AE%BA%E8%AE%BE%E8%AE%A1.pdf (Caused by NameResolutionError(\"HTTPSConnection(host='www.jxcd.net.cn', port=443): Failed to resolve 'www.jxcd.net.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ],
+    "estado": "Ficha/metadatos; PDF no obtenido"
+  }
+]

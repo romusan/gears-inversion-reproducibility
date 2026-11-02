@@ -1,0 +1,204 @@
+{
+  "results": [
+    {
+      "design": "interior",
+      "step_factor": 1.0,
+      "offset_estimated": true,
+      "projected_dedendum_singular_values": [
+        22.014373599977162,
+        1.575640455953657
+      ],
+      "logdet_dedendum_information": 7.092714827595662,
+      "linear_scaled_dedendum_bias": [
+        0.01628310534215428,
+        -0.09280887034471194
+      ],
+      "linear_dedendum_point": [
+        0.010162831053421542,
+        0.4721573388965864
+      ],
+      "projected_discrepancy_RMS_um": 0.03404546666698671,
+      "linear_residual_RMS_um": 0.014925584060979819,
+      "addendum_tangent_fraction": 0.9590440749366685
+    },
+    {
+      "design": "interior",
+      "step_factor": 1.0,
+      "offset_estimated": false,
+      "projected_dedendum_singular_values": [
+        25.948336697419258,
+        1.575655598119399
+      ],
+      "logdet_dedendum_information": 7.421557899123493,
+      "linear_scaled_dedendum_bias": [
+        0.11383011469114139,
+        0.18032784497081136
+      ],
+      "linear_dedendum_point": [
+        0.011138301146911413,
+        0.5540983534912434
+      ],
+      "projected_discrepancy_RMS_um": 0.24118266068632357,
+      "linear_residual_RMS_um": 0.21925830815001085,
+      "addendum_tangent_fraction": 0.9590440749366685
+    },
+    {
+      "design": "with_transitions",
+      "step_factor": 1.0,
+      "offset_estimated": true,
+      "projected_dedendum_singular_values": [
+        21.15167559035754,
+        1.9856727661368763
+      ],
+      "logdet_dedendum_information": 7.47535381641527,
+      "linear_scaled_dedendum_bias": [
+        -0.0781925273135064,
+        -0.048539632588834924
+      ],
+      "linear_dedendum_point": [
+        0.009218074726864936,
+        0.48543811022334954
+      ],
+      "projected_discrepancy_RMS_um": 0.034291729484043014,
+      "linear_residual_RMS_um": 0.013857576746714478,
+      "addendum_tangent_fraction": 0.9614502611207222
+    },
+    {
+      "design": "with_transitions",
+      "step_factor": 1.0,
+      "offset_estimated": false,
+      "projected_dedendum_singular_values": [
+        44.15953418831354,
+        1.9866483176904213
+      ],
+      "logdet_dedendum_information": 8.948515619891824,
+      "linear_scaled_dedendum_bias": [
+        0.14847254051640668,
+        0.13580124236554794
+      ],
+      "linear_dedendum_point": [
+        0.011484725405164067,
+        0.5407403727096644
+      ],
+      "projected_discrepancy_RMS_um": 0.1964398907655793,
+      "linear_residual_RMS_um": 0.12093365128879566,
+      "addendum_tangent_fraction": 0.9614502611207222
+    },
+    {
+      "design": "interior",
+      "step_factor": 0.5,
+      "offset_estimated": true,
+      "projected_dedendum_singular_values": [
+        22.003940514944535,
+        1.5741255649379402
+      ],
+      "logdet_dedendum_information": 7.089842945737711,
+      "linear_scaled_dedendum_bias": [
+        0.0168160544461018,
+        -0.09314240923474479
+      ],
+      "linear_dedendum_point": [
+        0.010168160544461019,
+        0.4720572772295766
+      ],
+      "projected_discrepancy_RMS_um": 0.034048413742166585,
+      "linear_residual_RMS_um": 0.014912371858914253,
+      "addendum_tangent_fraction": 0.9590453046458812
+    },
+    {
+      "design": "interior",
+      "step_factor": 0.5,
+      "offset_estimated": false,
+      "projected_dedendum_singular_values": [
+        25.936512554455526,
+        1.574141352129006
+      ],
+      "logdet_dedendum_information": 7.4187233548834985,
+      "linear_scaled_dedendum_bias": [
+        0.1137826993752776,
+        0.18045965767999417
+      ],
+      "linear_dedendum_point": [
+        0.011137826993752776,
+        0.5541378973039982
+      ],
+      "projected_discrepancy_RMS_um": 0.24118742773748514,
+      "linear_residual_RMS_um": 0.21926300904575738,
+      "addendum_tangent_fraction": 0.9590453046458812
+    },
+    {
+      "design": "with_transitions",
+      "step_factor": 0.5,
+      "offset_estimated": true,
+      "projected_dedendum_singular_values": [
+        21.14905705558433,
+        1.9859586936900617
+      ],
+      "logdet_dedendum_information": 7.47539417499718,
+      "linear_scaled_dedendum_bias": [
+        -0.07784195124005253,
+        -0.04877477086672739
+      ],
+      "linear_dedendum_point": [
+        0.009221580487599475,
+        0.48536756873998177
+      ],
+      "projected_discrepancy_RMS_um": 0.03429277419615825,
+      "linear_residual_RMS_um": 0.013844733934732229,
+      "addendum_tangent_fraction": 0.9614611712324899
+    },
+    {
+      "design": "with_transitions",
+      "step_factor": 0.5,
+      "offset_estimated": false,
+      "projected_dedendum_singular_values": [
+        44.15440533768608,
+        1.9869354241064756
+      ],
+      "logdet_dedendum_information": 8.948572334140481,
+      "linear_scaled_dedendum_bias": [
+        0.14889900940611192,
+        0.13558403330231655
+      ],
+      "linear_dedendum_point": [
+        0.01148899009406112,
+        0.540675209990695
+      ],
+      "projected_discrepancy_RMS_um": 0.19644882472062664,
+      "linear_residual_RMS_um": 0.12094186183147804,
+      "addendum_tangent_fraction": 0.9614611712324899
+    }
+  ],
+  "generator_contrasts": [
+    {
+      "design": "interior",
+      "component": "addendum",
+      "design_centered_RMS_um": 2.2985324227703776,
+      "global_centered_subset_RMS_um": 2.317956928272168,
+      "mean_raw_difference_um": 1.7756096288903898
+    },
+    {
+      "design": "interior",
+      "component": "dedendum",
+      "design_centered_RMS_um": 0.20635746992439663,
+      "global_centered_subset_RMS_um": 0.20942508313082994,
+      "mean_raw_difference_um": 0.16560018900912338
+    },
+    {
+      "design": "with_transitions",
+      "component": "addendum",
+      "design_centered_RMS_um": 3.180570738220599,
+      "global_centered_subset_RMS_um": 3.274190947311791,
+      "mean_raw_difference_um": 2.8524290394206573
+    },
+    {
+      "design": "with_transitions",
+      "component": "dedendum",
+      "design_centered_RMS_um": 0.3174889472045287,
+      "global_centered_subset_RMS_um": 0.32916684389200085,
+      "mean_raw_difference_um": 0.2882135972002818
+    }
+  ],
+  "source_sha256": "c6497bcd6ab6b5a3249220674a33e7a623fdb7b73d00f618f20a621931901ef8",
+  "scope": "Local central tangents at known truth, two finite-difference steps, unchanged nominal FE elasticity; no noisy refitting or coverage calibration."
+}

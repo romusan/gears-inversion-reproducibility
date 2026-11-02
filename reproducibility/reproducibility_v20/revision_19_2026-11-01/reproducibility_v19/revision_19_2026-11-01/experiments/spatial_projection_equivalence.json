@@ -1,0 +1,100 @@
+[
+  {
+    "phase": 0,
+    "sign": 1,
+    "candidates": 111,
+    "old_seconds": 0.22544499998912215,
+    "new_seconds": 0.032826800015755
+  },
+  {
+    "phase": 0,
+    "sign": -1,
+    "candidates": 111,
+    "old_seconds": 0.19754169997759163,
+    "new_seconds": 0.05098679999355227
+  },
+  {
+    "phase": 0.174048546,
+    "sign": 1,
+    "candidates": 159,
+    "old_seconds": 0.2003139000153169,
+    "new_seconds": 0.03994549997150898
+  },
+  {
+    "phase": 0.174048546,
+    "sign": -1,
+    "candidates": 158,
+    "old_seconds": 0.1843591999495402,
+    "new_seconds": 0.04837319999933243
+  },
+  {
+    "phase": 0.2,
+    "sign": 1,
+    "candidates": 161,
+    "old_seconds": 0.18616929999552667,
+    "new_seconds": 0.039118099957704544
+  },
+  {
+    "phase": 0.2,
+    "sign": -1,
+    "candidates": 166,
+    "old_seconds": 0.1681903999997303,
+    "new_seconds": 0.03456539998296648
+  },
+  {
+    "phase": 0.5,
+    "sign": 1,
+    "candidates": 206,
+    "old_seconds": 0.12378640007227659,
+    "new_seconds": 0.042361299972981215
+  },
+  {
+    "phase": 0.5,
+    "sign": -1,
+    "candidates": 206,
+    "old_seconds": 0.09418799995910376,
+    "new_seconds": 0.03781690006144345
+  },
+  {
+    "phase": 0.8,
+    "sign": 1,
+    "candidates": 166,
+    "old_seconds": 0.23928870004601777,
+    "new_seconds": 0.04283139994367957
+  },
+  {
+    "phase": 0.8,
+    "sign": -1,
+    "candidates": 161,
+    "old_seconds": 0.2305075000040233,
+    "new_seconds": 0.055990800028666854
+  },
+  {
+    "phase": 0.825951454,
+    "sign": 1,
+    "candidates": 158,
+    "old_seconds": 0.25301610003225505,
+    "new_seconds": 0.047850799979642034
+  },
+  {
+    "phase": 0.825951454,
+    "sign": -1,
+    "candidates": 159,
+    "old_seconds": 0.22813699999824166,
+    "new_seconds": 0.047748600016348064
+  },
+  {
+    "phase": 0.999,
+    "sign": 1,
+    "candidates": 111,
+    "old_seconds": 0.20653199998196214,
+    "new_seconds": 0.04445809999015182
+  },
+  {
+    "phase": 0.999,
+    "sign": -1,
+    "candidates": 110,
+    "old_seconds": 0.20259380002971739,
+    "new_seconds": 0.03892759990412742
+  }
+]

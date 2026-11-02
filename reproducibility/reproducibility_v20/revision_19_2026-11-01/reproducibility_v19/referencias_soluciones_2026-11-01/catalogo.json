@@ -1,0 +1,2528 @@
+[
+  {
+    "id": "R01",
+    "doi": "10.3390/machines9100223",
+    "language": "en",
+    "topic": "contacto",
+    "landing_url": "https://www.mdpi.com/2075-1702/9/10/223",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.3390/machines9100223",
+        "final_url": "https://api.crossref.org/works/10.3390/machines9100223",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 21475
+      },
+      {
+        "url": "https://www.mdpi.com/2075-1702/9/10/223",
+        "final_url": "https://www.mdpi.com/2075-1702/9/10/223",
+        "status": 403,
+        "content_type": "text/html",
+        "bytes": 400
+      },
+      {
+        "url": "https://iris.polito.it/retrieve/e384c434-58c7-d4b2-e053-9f05fe0a1d67/machines-09-00223.pdf",
+        "final_url": "https://iris.polito.it/retrieve/e384c434-58c7-d4b2-e053-9f05fe0a1d67/machines-09-00223.pdf",
+        "status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5859
+      },
+      {
+        "url": "https://mdpi-res.com/d_attachment/machines/machines-09-00223/article_deploy/machines-09-00223.pdf",
+        "final_url": "https://mdpi-res.com/d_attachment/machines/machines-09-00223/article_deploy/machines-09-00223.pdf",
+        "status": 200,
+        "bytes": 7307476,
+        "content_type": "application/pdf"
+      },
+      {
+        "url": "https://mdpi-res.com/d_attachment/machines/machines-09-00223/article_deploy/machines-09-00223.pdf",
+        "error": "machines\nArticle\nGear Teeth Deﬂection Model for Spur Gears: Proposal of a 3D\nNonlinear and Non-Hertzian Approach\nFabio Bruzzone 1,2,*,†\n, Tommaso Maggi 1,2,† , Claudio Marcellini 1,2 and Carlo Rosso 1"
+      },
+      {
+        "url": "https://mdpi-res.com/d_attachment/machines/machines-09-00223/article_deploy/machines-09-00223-v2.pdf",
+        "final_url": "https://mdpi-res.com/d_attachment/machines/machines-09-00223/article_deploy/machines-09-00223-v2.pdf",
+        "status": 200,
+        "bytes": 7319018,
+        "content_type": "application/pdf"
+      },
+      {
+        "url": "https://mdpi-res.com/d_attachment/machines/machines-09-00223/article_deploy/machines-09-00223-v2.pdf",
+        "error": "machines\nArticle\nGear Teeth Deﬂection Model for Spur Gears: Proposal of a 3D\nNonlinear and Non-Hertzian Approach\nFabio Bruzzone 1,2,*,†\n, Tommaso Maggi 1,2,†, Claudio Marcellini 1,2 and Carlo Rosso 1,"
+      },
+      {
+        "url": "https://mdpi-res.com/d_attachment/machines/machines-09-00223/article_deploy/machines-09-00223.pdf",
+        "final_url": "https://mdpi-res.com/d_attachment/machines/machines-09-00223/article_deploy/machines-09-00223.pdf",
+        "status": 200,
+        "bytes": 7307476,
+        "content_type": "application/pdf"
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R01_en.pdf",
+      "url": "https://mdpi-res.com/d_attachment/machines/machines-09-00223/article_deploy/machines-09-00223.pdf",
+      "pages": 24,
+      "sha256": "b966e3a15847627b8b5935aad3080b65e96dd88c80dae5bd9566b1593307b6de"
+    },
+    "metadata": {
+      "title": "Gear Teeth Deflection Model for Spur Gears: Proposal of a 3D Nonlinear and Non-Hertzian Approach",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1531-5406",
+          "authenticated-orcid": false,
+          "given": "Fabio",
+          "family": "Bruzzone",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., Via Vincenzo Vela 42, 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tommaso",
+          "family": "Maggi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., Via Vincenzo Vela 42, 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Claudio",
+          "family": "Marcellini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., Via Vincenzo Vela 42, 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4475-902X",
+          "authenticated-orcid": false,
+          "given": "Carlo",
+          "family": "Rosso",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., Via Vincenzo Vela 42, 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "Machines",
+      "year": 2021,
+      "volume": "9",
+      "issue": "10",
+      "page": "223"
+    },
+    "verified_citation": {
+      "title": "Gear Teeth Deflection Model for Spur Gears: Proposal of a 3D Nonlinear and Non-Hertzian Approach",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1531-5406",
+          "authenticated-orcid": false,
+          "given": "Fabio",
+          "family": "Bruzzone",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., Via Vincenzo Vela 42, 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tommaso",
+          "family": "Maggi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., Via Vincenzo Vela 42, 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Claudio",
+          "family": "Marcellini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., Via Vincenzo Vela 42, 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4475-902X",
+          "authenticated-orcid": false,
+          "given": "Carlo",
+          "family": "Rosso",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., Via Vincenzo Vela 42, 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "Machines",
+      "year": 2021,
+      "volume": "9",
+      "issue": "10",
+      "page": "223",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "1",
+    "focus": "Contacto sobre geometría deformada",
+    "reading_locator": "§§2.1, 2.3–2.4 y comparación FE",
+    "idea": "Actualizar localización, normal y pares activos; usar el tratamiento no hertziano de bordes como referencia, sin duplicar elasticidad al incorporarlo a nuestro FE.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R02",
+    "doi": "10.1016/j.mechmachtheory.2015.11.008",
+    "language": "en",
+    "topic": "contacto",
+    "landing_url": "https://www.sciencedirect.com/science/article/pii/S0094114X15002670",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.1016/j.mechmachtheory.2015.11.008",
+        "final_url": "https://api.crossref.org/works/10.1016/j.mechmachtheory.2015.11.008",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 11562
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0094114X15002670",
+        "final_url": "https://www.sciencedirect.com/science/article/pii/S0094114X15002670",
+        "status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 832981
+      }
+    ],
+    "pdf": null,
+    "metadata": {
+      "title": "A computerized method for loaded tooth contact analysis of high-contact-ratio spur gears with or without flank modification considering tip corner contact and shaft misalignment",
+      "authors": [
+        {
+          "given": "Siang-Yu",
+          "family": "Ye",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shyi-Jeng",
+          "family": "Tsai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Mechanism and Machine Theory",
+      "year": 2016,
+      "volume": "97",
+      "issue": null,
+      "page": "190-214"
+    },
+    "verified_citation": {
+      "title": "A computerized method for loaded tooth contact analysis of high-contact-ratio spur gears with or without flank modification considering tip corner contact and shaft misalignment",
+      "authors": [
+        {
+          "given": "Siang-Yu",
+          "family": "Ye",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shyi-Jeng",
+          "family": "Tsai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Mechanism and Machine Theory",
+      "year": 2016,
+      "volume": "97",
+      "issue": null,
+      "page": "190-214",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "1",
+    "focus": "Esquina de punta y desalineación",
+    "reading_locator": "Resumen y highlights del editor",
+    "idea": "Antecedente directo MMT de LTCA con contacto no hertziano de esquina. Casos HCR: no trasladar sus curvas como validación de G0.",
+    "reviewed_level": "Publisher abstract / bibliographic metadata only",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R03",
+    "doi": "10.1243/0954406991522347",
+    "language": "en",
+    "topic": "contacto",
+    "landing_url": "https://journals.sagepub.com/doi/10.1243/0954406991522347",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.1243/0954406991522347",
+        "final_url": "https://api.crossref.org/works/10.1243/0954406991522347",
+        "status": 429,
+        "content_type": "",
+        "bytes": 0
+      },
+      {
+        "url": "https://journals.sagepub.com/doi/10.1243/0954406991522347",
+        "final_url": "https://journals.sagepub.com/doi/10.1243/0954406991522347",
+        "status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5769
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1243/0954406991522347",
+        "status": 200
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1243/0954406991522347",
+        "status": 200
+      }
+    ],
+    "pdf": null,
+    "verified_citation": {
+      "title": "Gear transmission error outside the normal path of contact due to corner and top contact",
+      "authors": [
+        {
+          "given": "R. G.",
+          "family": "Munro",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Huddersfield School of Engineering UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "L",
+          "family": "Morrish",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Huddersfield School of Engineering UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D",
+          "family": "Palmer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Huddersfield School of Engineering UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science",
+      "year": 1999,
+      "volume": "213",
+      "issue": "4",
+      "page": "389-400",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "1",
+    "focus": "Contacto fuera de la trayectoria nominal",
+    "reading_locator": "Resumen del editor",
+    "idea": "Distingue corner y top contact y los relaciona con TE y mapas de Harris. Obtener el texto completo antes de programar sus ecuaciones aproximadas.",
+    "reviewed_level": "Publisher abstract / bibliographic metadata only",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R04",
+    "doi": null,
+    "language": "en",
+    "topic": "contacto",
+    "landing_url": "https://ntrs.nasa.gov/citations/19930019222",
+    "requests": [
+      {
+        "url": "https://ntrs.nasa.gov/citations/19930019222",
+        "final_url": "https://ntrs.nasa.gov/citations/19930019222",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 99179
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/19930019222/downloads/19930019222.pdf",
+        "final_url": "https://ntrs.nasa.gov/api/citations/19930019222/downloads/19930019222.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "bytes": 647042
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R04_en.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/19930019222/downloads/19930019222.pdf",
+      "pages": 14,
+      "sha256": "ed4e03d5b92c37150e77f304f5df40c9fa17933c752872a9112888e48a27d8f8"
+    },
+    "page_title": "Effect of extended tooth contact on the modeling of spur gear transmissions - NASA Technical Reports Server (NTRS)",
+    "pdf_links": [
+      {
+        "text": "19930019222.pdf",
+        "href": "/api/citations/19930019222/downloads/19930019222.pdf",
+        "onclick": ""
+      },
+      {
+        "text": "cloud_download",
+        "href": "/api/citations/19930019222/downloads/19930019222.pdf?attachment=true",
+        "onclick": ""
+      }
+    ],
+    "priority": "1",
+    "focus": "Contacto extendido y selección de dientes activos",
+    "reading_locator": "Informe NASA completo",
+    "idea": "Control de regresión para comprobar qué cambia al permitir entrada anticipada y salida tardía por flexibilidad.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "verified_citation": {
+      "title": "Effect of Extended Tooth Contact on the Modeling of Spur Gear Transmissions",
+      "authors": [
+        {
+          "family": "Lin",
+          "given": "Hsiang Hsi"
+        },
+        {
+          "family": "Wang",
+          "given": "Jifeng"
+        },
+        {
+          "family": "Oswald",
+          "given": "Fred B."
+        },
+        {
+          "family": "Coy",
+          "given": "John J."
+        }
+      ],
+      "journal": "NASA Technical Memorandum",
+      "year": 1993,
+      "number": "NASA-TM-106174; ARL-TR-159",
+      "source": "NASA NTRS record and report title page"
+    },
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R05",
+    "doi": "10.3969/j.issn.1004-132X.2021.18.005",
+    "language": "zh",
+    "topic": "contacto",
+    "landing_url": "https://www.cmemo.org.cn/CN/10.3969/j.issn.1004-132X.2021.18.005",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.3969/j.issn.1004-132X.2021.18.005",
+        "final_url": "https://api.crossref.org/works/10.3969/j.issn.1004-132X.2021.18.005",
+        "status": 404,
+        "content_type": "text/plain",
+        "bytes": 19
+      },
+      {
+        "url": "https://www.cmemo.org.cn/CN/10.3969/j.issn.1004-132X.2021.18.005",
+        "final_url": "https://www.cmemo.org.cn/CN/10.3969/j.issn.1004-132X.2021.18.005",
+        "status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 68223
+      },
+      {
+        "url": "https://www.cmemo.org.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=8555",
+        "final_url": "https://www.cmemo.org.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=8555",
+        "status": 200,
+        "content_type": "application/octet-stream",
+        "bytes": 6362868
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R05_zh.pdf",
+      "url": "https://www.cmemo.org.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=8555",
+      "pages": 7,
+      "sha256": "81c2aec4eb219c7a5027a9e63c83b6b5c95aa219f9989d164c789c4f7e863325"
+    },
+    "page_title": "基于差齿面拓扑的轮齿承载拟赫兹接触分析",
+    "pdf_links": [],
+    "priority": "1",
+    "focus": "Ease-off y contacto de borde",
+    "reading_locator": "PDF chino completo; comparación MASTA pp.5–6 del PDF",
+    "idea": "Separar topografía inicial, compatibilidad y reparto de presión; contraste con otro programa. No demuestra recuperación inversa.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "verified_citation": {
+      "title": "基于差齿面拓扑的轮齿承载拟赫兹接触分析",
+      "title_english": "Quasi-Hertz Loaded Tooth Contact Analysis of Gears Based on Ease-off Surface Topology",
+      "authors": [
+        {
+          "family": "Wei",
+          "given": "Bingyang"
+        },
+        {
+          "family": "Li",
+          "given": "Jiaqi"
+        },
+        {
+          "family": "Wang",
+          "given": "Wensheng"
+        }
+      ],
+      "journal": "中国机械工程",
+      "year": 2021,
+      "volume": "32",
+      "issue": "18",
+      "page": "2174-2180",
+      "source": "Publisher landing page and original PDF; DOI is not indexed by Crossref endpoint"
+    },
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R06",
+    "doi": "10.3901/JME.2008.03.075",
+    "language": "zh",
+    "topic": "contacto",
+    "landing_url": "https://qikan.cmes.org/jxgcxb/EN/Y2008/V44/I3/75",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.3901/JME.2008.03.075",
+        "final_url": "https://api.crossref.org/works/10.3901/JME.2008.03.075",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 1601
+      },
+      {
+        "url": "https://qikan.cmes.org/jxgcxb/EN/Y2008/V44/I3/75",
+        "final_url": "https://qikan.cmes.org/jxgcxb/EN/Y2008/V44/I3/75",
+        "status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 96519
+      },
+      {
+        "url": "https://qikan.cmes.org/jxgcxb/EN/PDF/23421",
+        "final_url": "https://qikan.cmes.org/jxgcxb/EN/PDF/23421",
+        "status": 200,
+        "content_type": "application/octet-stream;charset=UTF-8",
+        "bytes": 476346
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R06_zh.pdf",
+      "url": "https://qikan.cmes.org/jxgcxb/EN/PDF/23421",
+      "pages": 7,
+      "sha256": "83e692ce7d50feb3e948fc9f9920123513087a11177ac46a5c04982b4adb38fa"
+    },
+    "metadata": {
+      "title": "Corner contact and impact friction of gear drive",
+      "authors": [
+        {
+          "given": "Changjiang",
+          "family": "ZHOU",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "Chinese Journal of Mechanical Engineering",
+      "year": 2008,
+      "volume": "44",
+      "issue": "03",
+      "page": "75"
+    },
+    "page_title": "Corner Contact and Impact Friction of Gear Drive",
+    "pdf_links": [],
+    "verified_citation": {
+      "title": "齿轮传动的线外啮合与冲击摩擦",
+      "title_english": "Corner Contact and Impact Friction of Gear Drive",
+      "authors": [
+        {
+          "family": "Zhou",
+          "given": "Changjiang"
+        },
+        {
+          "family": "Tang",
+          "given": "Jinyuan"
+        },
+        {
+          "family": "Zhong",
+          "given": "Zhihua"
+        }
+      ],
+      "journal": "机械工程学报",
+      "year": 2008,
+      "volume": "44",
+      "issue": "3",
+      "page": "75-81",
+      "source": "Publisher and original PDF correct incomplete Crossref authors/pages"
+    },
+    "priority": "2",
+    "focus": "Inicio geométrico del contacto fuera de línea",
+    "reading_locator": "PDF chino completo",
+    "idea": "Criterio de localización del primer contacto con error y deformación. Su fricción de impacto es dinámica y no debe confundirse con nuestro caso cuasiestático.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R07",
+    "doi": "10.1038/s41598-025-90010-6",
+    "language": "en",
+    "topic": "validacion",
+    "landing_url": "https://www.nature.com/articles/s41598-025-90010-6",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.1038/s41598-025-90010-6",
+        "final_url": "https://api.crossref.org/works/10.1038/s41598-025-90010-6",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 21715
+      },
+      {
+        "url": "https://www.nature.com/articles/s41598-025-90010-6",
+        "final_url": "https://www.nature.com/articles/s41598-025-90010-6",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 454014
+      },
+      {
+        "url": "https://www.nature.com/articles/s41598-025-90010-6.pdf",
+        "final_url": "https://www.nature.com/articles/s41598-025-90010-6.pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "bytes": 3556095
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R07_en.pdf",
+      "url": "https://www.nature.com/articles/s41598-025-90010-6.pdf",
+      "pages": 16,
+      "sha256": "b85b461ce9955d3dc356ce21328f376db96eda6635352d4a08d54e31cbe56d39"
+    },
+    "metadata": {
+      "title": "Analysis of gear transmission error in helical gear using enhanced tooth contact analysis model considering measured tooth profile errors",
+      "authors": [
+        {
+          "given": "Dongu",
+          "family": "Im",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Woo-Jin",
+          "family": "Chung",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hyunggon",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "You-Jin",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hyunjoon",
+          "family": "Sung",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Minwook",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Young-Jun",
+          "family": "Park",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Scientific Reports",
+      "year": 2025,
+      "volume": "15",
+      "issue": "1",
+      "page": "5981"
+    },
+    "page_title": "Analysis of gear transmission error in helical gear using enhanced tooth contact analysis model considering measured tooth profile errors | Scientific Reports",
+    "pdf_links": [
+      {
+        "text": "Download PDF",
+        "href": "/articles/s41598-025-90010-6.pdf",
+        "onclick": ""
+      },
+      {
+        "text": "Download PDF",
+        "href": "/articles/s41598-025-90010-6.pdf",
+        "onclick": ""
+      },
+      {
+        "text": "Download PDF",
+        "href": "/articles/s41598-025-90010-6.pdf",
+        "onclick": ""
+      }
+    ],
+    "verified_citation": {
+      "title": "Analysis of gear transmission error in helical gear using enhanced tooth contact analysis model considering measured tooth profile errors",
+      "authors": [
+        {
+          "given": "Dongu",
+          "family": "Im",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Woo-Jin",
+          "family": "Chung",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hyunggon",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "You-Jin",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hyunjoon",
+          "family": "Sung",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Minwook",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Young-Jun",
+          "family": "Park",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Scientific Reports",
+      "year": 2025,
+      "volume": "15",
+      "issue": "1",
+      "page": "5981",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "1",
+    "focus": "Perfil medido más STE experimental",
+    "reading_locator": "Metrología p.6, Fig.9 p.11 y disponibilidad p.14 del PDF",
+    "idea": "Protocolo de validación con perfiles reales y armónicas, no solo amplitudes. Engranajes helicoidales; datos brutos disponibles a petición, no descargados.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R08",
+    "doi": "10.3390/vibration7010011",
+    "language": "en",
+    "topic": "medicion",
+    "landing_url": "https://www.mdpi.com/2571-631X/7/1/11",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.3390/vibration7010011",
+        "final_url": "https://api.crossref.org/works/10.3390/vibration7010011",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 14462
+      },
+      {
+        "url": "https://www.mdpi.com/2571-631X/7/1/11",
+        "final_url": "https://www.mdpi.com/2571-631X/7/1/11",
+        "status": 403,
+        "content_type": "text/html",
+        "bytes": 398
+      },
+      {
+        "url": "https://iris.polito.it/retrieve/handle/11583/2986559/af175e96-b530-4dc1-8d9c-2640cef96e2e/vibration-07-00011.pdf",
+        "final_url": "https://iris.polito.it/retrieve/handle/11583/2986559/af175e96-b530-4dc1-8d9c-2640cef96e2e/vibration-07-00011.pdf",
+        "status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5968
+      },
+      {
+        "url": "https://mdpi-res.com/d_attachment/vibration/vibration-07-00011/article_deploy/vibration-07-00011.pdf",
+        "final_url": "https://mdpi-res.com/d_attachment/vibration/vibration-07-00011/article_deploy/vibration-07-00011.pdf",
+        "status": 200,
+        "bytes": 5460253,
+        "content_type": "application/pdf"
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R08_en.pdf",
+      "url": "https://mdpi-res.com/d_attachment/vibration/vibration-07-00011/article_deploy/vibration-07-00011.pdf",
+      "pages": 16,
+      "sha256": "af87e5f29c0c87e9451f08d61bc6c1266602f17ef3d785d093c886a25552cc4d"
+    },
+    "metadata": {
+      "title": "A Methodology for Measuring Actual Mesh Stiffness in Gear Pairs",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4475-902X",
+          "authenticated-orcid": false,
+          "given": "Carlo",
+          "family": "Rosso",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1531-5406",
+          "authenticated-orcid": false,
+          "given": "Fabio",
+          "family": "Bruzzone",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4882-4554",
+          "authenticated-orcid": false,
+          "given": "Domenico",
+          "family": "Lisitano",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino, 10129 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4678-3165",
+          "authenticated-orcid": false,
+          "given": "Elvio",
+          "family": "Bonisoli",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino, 10129 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Vibration",
+      "year": 2024,
+      "volume": "7",
+      "issue": "1",
+      "page": "196-211"
+    },
+    "verified_citation": {
+      "title": "A Methodology for Measuring Actual Mesh Stiffness in Gear Pairs",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4475-902X",
+          "authenticated-orcid": false,
+          "given": "Carlo",
+          "family": "Rosso",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1531-5406",
+          "authenticated-orcid": false,
+          "given": "Fabio",
+          "family": "Bruzzone",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino, 10129 Torino, Italy"
+            },
+            {
+              "name": "GeDy TrAss s.r.l., 10128 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4882-4554",
+          "authenticated-orcid": false,
+          "given": "Domenico",
+          "family": "Lisitano",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino, 10129 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4678-3165",
+          "authenticated-orcid": false,
+          "given": "Elvio",
+          "family": "Bonisoli",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino, 10129 Torino, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Vibration",
+      "year": 2024,
+      "volume": "7",
+      "issue": "1",
+      "page": "196-211",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "1",
+    "focus": "Rigidez medida como observable adicional",
+    "reading_locator": "Banco y método modal; disponibilidad p.15 del PDF",
+    "idea": "Ensayar rigidez medida independientemente junto con TE. No tratar una rigidez derivada de la misma TE como información independiente.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R09",
+    "doi": "10.1115/1.4043586",
+    "language": "en",
+    "topic": "validacion",
+    "landing_url": "https://doi.org/10.1115/1.4043586",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.1115/1.4043586",
+        "final_url": "https://api.crossref.org/works/10.1115/1.4043586",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 15792
+      },
+      {
+        "url": "https://doi.org/10.1115/1.4043586",
+        "final_url": "https://asmedigitalcollection.asme.org/mechanicaldesign/article/doi/10.1115/1.4043586/727292/Static-and-Dynamic-Transmission-Error-Measurements",
+        "status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 6021
+      }
+    ],
+    "pdf": null,
+    "metadata": {
+      "title": "Static and Dynamic Transmission Error Measurements of Helical Gear Pairs With Various Tooth Modifications",
+      "authors": [
+        {
+          "given": "M.",
+          "family": "Benatar",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, The Ohio State University, 201 West 19th Avenue, Columbus, OH 43210 e-mail:"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Handschuh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, The Ohio State University, 201 West 19th Avenue, Columbus, OH 43210 e-mail:"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Kahraman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, The Ohio State University, 201 West 19th Avenue, Columbus, OH 43210 e-mail:"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D.",
+          "family": "Talbot",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, The Ohio State University, 201 West 19th Avenue, Columbus, OH 43210 e-mail:"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Journal of Mechanical Design",
+      "year": 2019,
+      "volume": "141",
+      "issue": "10",
+      "page": "103301"
+    },
+    "verified_citation": {
+      "title": "Static and Dynamic Transmission Error Measurements of Helical Gear Pairs With Various Tooth Modifications",
+      "authors": [
+        {
+          "given": "M.",
+          "family": "Benatar",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, The Ohio State University, 201 West 19th Avenue, Columbus, OH 43210 e-mail:"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Handschuh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, The Ohio State University, 201 West 19th Avenue, Columbus, OH 43210 e-mail:"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Kahraman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, The Ohio State University, 201 West 19th Avenue, Columbus, OH 43210 e-mail:"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D.",
+          "family": "Talbot",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical and Aerospace Engineering, The Ohio State University, 201 West 19th Avenue, Columbus, OH 43210 e-mail:"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Journal of Mechanical Design",
+      "year": 2019,
+      "volume": "141",
+      "issue": "10",
+      "page": "103301",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "2",
+    "focus": "Torque y modificaciones en engranajes ensayados",
+    "reading_locator": "Resumen del editor depositado en Crossref",
+    "idea": "Motiva medir STE contra torque para varias modificaciones y reconocer una carga de diseño. Casos helicoidales; no usar como regla universal de carga óptima inversa.",
+    "reviewed_level": "Publisher abstract / bibliographic metadata only",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R10",
+    "doi": "10.4271/2020-01-1324",
+    "language": "en",
+    "topic": "medicion",
+    "landing_url": "https://saemobilus.sae.org/papers/test-bench-static-transmission-error-evaluation-gears-2020-01-1324",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.4271/2020-01-1324",
+        "final_url": "https://api.crossref.org/works/10.4271/2020-01-1324",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 7783
+      },
+      {
+        "url": "https://saemobilus.sae.org/papers/test-bench-static-transmission-error-evaluation-gears-2020-01-1324",
+        "final_url": "https://saemobilus.sae.org/papers/test-bench-static-transmission-error-evaluation-gears-2020-01-1324",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 148498
+      },
+      {
+        "url": "https://saemobilus.sae.org/downloads/papers/2020-01-1324/Full%20Text%20PDF",
+        "final_url": "https://saemobilus.sae.org/papers/test-bench-static-transmission-error-evaluation-gears-2020-01-1324",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 148498
+      }
+    ],
+    "pdf": null,
+    "metadata": {
+      "title": "Test Bench for Static Transmission Error Evaluation in Gears",
+      "authors": [
+        {
+          "given": "Carlo",
+          "family": "Rosso",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tommaso",
+          "family": "Maggi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino / GeDy TrAss"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Claudio",
+          "family": "Marcellini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino / GeDy TrAss"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fabio",
+          "family": "Bruzzone",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino / GeDy TrAss"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "SAE Technical Paper Series",
+      "year": 2020,
+      "volume": "1",
+      "issue": null,
+      "page": "2020-01-1324"
+    },
+    "page_title": "2020-01-1324: Test Bench for Static Transmission Error Evaluation in Gears - Technical Paper",
+    "pdf_links": [],
+    "verified_citation": {
+      "title": "Test Bench for Static Transmission Error Evaluation in Gears",
+      "authors": [
+        {
+          "given": "Carlo",
+          "family": "Rosso",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tommaso",
+          "family": "Maggi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino / GeDy TrAss"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Claudio",
+          "family": "Marcellini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino / GeDy TrAss"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fabio",
+          "family": "Bruzzone",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Torino / GeDy TrAss"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "SAE Technical Paper Series",
+      "year": 2020,
+      "volume": "1",
+      "issue": null,
+      "page": "2020-01-1324",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "2",
+    "focus": "Banco cuasiestático de STE",
+    "reading_locator": "Resumen de SAE",
+    "idea": "Alternativa de banco por pesos/poleas y encoders. Referencia de construcción experimental; no acredita que tengamos el equipo o sus datos.",
+    "reviewed_level": "Publisher abstract / bibliographic metadata only",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R11",
+    "doi": "10.2493/jjspe.68.244",
+    "language": "ja",
+    "topic": "medicion",
+    "landing_url": "https://www.jstage.jst.go.jp/article/jjspe1986/68/2/68_2_244/_article/-char/ja/",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.2493/jjspe.68.244",
+        "final_url": "https://api.crossref.org/works/10.2493/jjspe.68.244",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 1906
+      },
+      {
+        "url": "https://www.jstage.jst.go.jp/article/jjspe1986/68/2/68_2_244/_article/-char/ja/",
+        "final_url": "https://www.jstage.jst.go.jp/article/jjspe1986/68/2/68_2_244/_article/-char/ja/",
+        "status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 69391
+      },
+      {
+        "url": "https://ars.eng.shizuoka.ac.jp/~oiwa/field/gear/gear_jspe.pdf",
+        "error": "HTTPSConnectionPool(host='ars.eng.shizuoka.ac.jp', port=443): Max retries exceeded with url: /~oiwa/field/gear/gear_jspe.pdf (Caused by NameResolutionError(\"HTTPSConnection(host='ars.eng.shizuoka.ac.jp', port=443): Failed to resolve 'ars.eng.shizuoka.ac.jp' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "url": "https://www.jstage.jst.go.jp/article/jjspe1986/68/2/68_2_244/_pdf/-char/ja",
+        "final_url": "https://www.jstage.jst.go.jp/article/jjspe1986/68/2/68_2_244/_pdf/-char/ja",
+        "status": 200,
+        "content_type": "application/pdf;charset=UTF-8",
+        "bytes": 1844823
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R11_ja.pdf",
+      "url": "https://www.jstage.jst.go.jp/article/jjspe1986/68/2/68_2_244/_pdf/-char/ja",
+      "pages": 4,
+      "sha256": "3c8bb81f1bafaf2410d508bd35106e9922e04d18187855f66f19a434ead0a103"
+    },
+    "metadata": {
+      "title": "In-process Measurement for Gear Eccentricity.",
+      "authors": [
+        {
+          "given": "Takaaki",
+          "family": "OIWA",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Osamu",
+          "family": "YOSHIDA",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "Journal of the Japan Society for Precision Engineering",
+      "year": 2002,
+      "volume": "68",
+      "issue": "2",
+      "page": "244-247"
+    },
+    "page_title": "歯車偏心誤差のインプロセス計測に関する研究",
+    "pdf_links": [],
+    "verified_citation": {
+      "title": "In-process Measurement for Gear Eccentricity.",
+      "authors": [
+        {
+          "given": "Takaaki",
+          "family": "OIWA",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Osamu",
+          "family": "YOSHIDA",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "Journal of the Japan Society for Precision Engineering",
+      "year": 2002,
+      "volume": "68",
+      "issue": "2",
+      "page": "244-247",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "1",
+    "focus": "Separación armónica de excentricidad",
+    "reading_locator": "PDF japonés completo; §§2–3",
+    "idea": "Medir varias vueltas y separar amplitud/fase de excentricidad. La fórmula de su montaje de tres engranajes no se aplica sin adaptación a un banco de dos.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "title_native": "歯車偏心誤差のインプロセス計測に関する研究",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R12",
+    "doi": "10.1088/0957-0233/9/3/006",
+    "language": "en",
+    "topic": "medicion",
+    "landing_url": "https://doi.org/10.1088/0957-0233/9/3/006",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.1088/0957-0233/9/3/006",
+        "final_url": "https://api.crossref.org/works/10.1088/0957-0233/9/3/006",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 3388
+      },
+      {
+        "url": "https://doi.org/10.1088/0957-0233/9/3/006",
+        "final_url": "https://iopscience.iop.org/article/10.1088/0957-0233/9/3/006",
+        "status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 149734
+      },
+      {
+        "url": "https://hal.science/hal-00692560/document",
+        "final_url": "https://hal.science/hal-00692560/document",
+        "status": 200,
+        "content_type": "application/pdf",
+        "bytes": 401082
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R12_en.pdf",
+      "url": "https://hal.science/hal-00692560/document",
+      "pages": 21,
+      "sha256": "9a033acc0dec40827f672185dac4c228890ecbe0c75a4a5ad6bacde0e7a23855"
+    },
+    "metadata": {
+      "title": "Practical performances of high-speed measurement of gear transmission error or torsional vibrations with optical encoders",
+      "authors": [
+        {
+          "given": "Didier",
+          "family": "Remond",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Measurement Science and Technology",
+      "year": 1998,
+      "volume": "9",
+      "issue": "3",
+      "page": "347-353"
+    },
+    "page_title": "Practical performances of high-speed measurement of gear transmission error or torsional vibrations with optical encoders - IOPscience",
+    "pdf_links": [],
+    "verified_citation": {
+      "title": "Practical performances of high-speed measurement of gear transmission error or torsional vibrations with optical encoders",
+      "authors": [
+        {
+          "given": "Didier",
+          "family": "Remond",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Measurement Science and Technology",
+      "year": 1998,
+      "volume": "9",
+      "issue": "3",
+      "page": "347-353",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "2",
+    "focus": "Calibración y error de encoders",
+    "reading_locator": "Manuscrito de autor en HAL",
+    "idea": "Usar presupuesto de incertidumbre y pruebas de calibración; no convertir una precisión espectral publicada en sigma IID por muestra.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R13",
+    "doi": "10.3390/machines13100941",
+    "language": "en",
+    "topic": "medicion",
+    "landing_url": "https://www.mdpi.com/2075-1702/13/10/941",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.3390/machines13100941",
+        "final_url": "https://api.crossref.org/works/10.3390/machines13100941",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 14991
+      },
+      {
+        "url": "https://www.mdpi.com/2075-1702/13/10/941",
+        "final_url": "https://www.mdpi.com/2075-1702/13/10/941",
+        "status": 403,
+        "content_type": "text/html",
+        "bytes": 401
+      },
+      {
+        "url": "https://mdpi-res.com/d_attachment/machines/machines-13-00941/article_deploy/machines-13-00941.pdf",
+        "final_url": "https://mdpi-res.com/d_attachment/machines/machines-13-00941/article_deploy/machines-13-00941.pdf",
+        "status": 200,
+        "bytes": 2928082,
+        "content_type": "application/pdf"
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R13_en.pdf",
+      "url": "https://mdpi-res.com/d_attachment/machines/machines-13-00941/article_deploy/machines-13-00941.pdf",
+      "pages": 18,
+      "sha256": "18bd0c700925d84e777caa2dd1cbb4501bea2dde4d8877adf2c6b5382e4044df"
+    },
+    "metadata": {
+      "title": "Research on Quasi-Static Transmission Error Measurement of Spur Gears Based on the Acceleration Method",
+      "authors": [
+        {
+          "given": "Chengcheng",
+          "family": "Ji",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Mechanical & Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "Jiangsu Key Laboratory of Precision and Micro-Manufacturing Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Mechanical & Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "Jiangsu Key Laboratory of Precision and Micro-Manufacturing Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiaxin",
+          "family": "Jian",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Mechanical & Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "Jiangsu Key Laboratory of Precision and Micro-Manufacturing Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chuanmao",
+          "family": "Lv",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Mechanical & Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "Jiangsu Key Laboratory of Precision and Micro-Manufacturing Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhengminqing",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Mechanical & Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "Jiangsu Key Laboratory of Precision and Micro-Manufacturing Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Machines",
+      "year": 2025,
+      "volume": "13",
+      "issue": "10",
+      "page": "941"
+    },
+    "verified_citation": {
+      "title": "Research on Quasi-Static Transmission Error Measurement of Spur Gears Based on the Acceleration Method",
+      "authors": [
+        {
+          "given": "Chengcheng",
+          "family": "Ji",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Mechanical & Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "Jiangsu Key Laboratory of Precision and Micro-Manufacturing Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Mechanical & Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "Jiangsu Key Laboratory of Precision and Micro-Manufacturing Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiaxin",
+          "family": "Jian",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Mechanical & Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "Jiangsu Key Laboratory of Precision and Micro-Manufacturing Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chuanmao",
+          "family": "Lv",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Mechanical & Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "Jiangsu Key Laboratory of Precision and Micro-Manufacturing Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhengminqing",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Mechanical & Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            },
+            {
+              "name": "Jiangsu Key Laboratory of Precision and Micro-Manufacturing Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Machines",
+      "year": 2025,
+      "volume": "13",
+      "issue": "10",
+      "page": "941",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "2",
+    "focus": "Observable por acelerometría tangencial",
+    "reading_locator": "Montajes de sensores y conclusiones; datos p.17 del PDF",
+    "idea": "Comparar configuración ortogonal de cuatro puntos con encoder. La integración y los errores a baja frecuencia deben validarse; no recupera automáticamente la componente DC.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R14",
+    "doi": "10.1371/journal.pone.0040052",
+    "language": "en",
+    "topic": "diseno",
+    "landing_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0040052",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.1371/journal.pone.0040052",
+        "final_url": "https://api.crossref.org/works/10.1371/journal.pone.0040052",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 6856
+      },
+      {
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0040052",
+        "final_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0040052",
+        "status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 188597
+      },
+      {
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0040052&type=printable",
+        "final_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0040052&type=printable",
+        "status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1012156
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R14_en.pdf",
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0040052&type=printable",
+      "pages": 11,
+      "sha256": "b15f1d7d19d20d302989054bf0bf4bfff49cd83a56341a8209582b536165b444"
+    },
+    "metadata": {
+      "title": "Experimental Design for Parameter Estimation of Gene Regulatory Networks",
+      "authors": [
+        {
+          "given": "Bernhard",
+          "family": "Steiert",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Raue",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jens",
+          "family": "Timmer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Clemens",
+          "family": "Kreutz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "PLoS ONE",
+      "year": 2012,
+      "volume": "7",
+      "issue": "7",
+      "page": "e40052"
+    },
+    "page_title": "Experimental Design for Parameter Estimation of Gene Regulatory Networks | PLOS One",
+    "pdf_links": [],
+    "verified_citation": {
+      "title": "Experimental Design for Parameter Estimation of Gene Regulatory Networks",
+      "authors": [
+        {
+          "given": "Bernhard",
+          "family": "Steiert",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Raue",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jens",
+          "family": "Timmer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Clemens",
+          "family": "Kreutz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "PLoS ONE",
+      "year": 2012,
+      "volume": "7",
+      "issue": "7",
+      "page": "e40052",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "1",
+    "focus": "Diseñar experimentos con perfiles de verosimilitud",
+    "reading_locator": "Sección de diseño; Fig.2 y ejemplo de elección",
+    "idea": "Usar parámetros alternativos sobre perfiles para buscar cargas/fases que separen predicciones. Método general, ejemplos biológicos, no evidencia mecánica de engranajes.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R15",
+    "doi": "10.3389/fmolb.2022.800856",
+    "language": "en",
+    "topic": "diseno",
+    "landing_url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2022.800856/full",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.3389/fmolb.2022.800856",
+        "final_url": "https://api.crossref.org/works/10.3389/fmolb.2022.800856",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 12382
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2022.800856/full",
+        "final_url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2022.800856/full",
+        "status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 758425
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2022.800856/pdf",
+        "final_url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2022.800856/pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "bytes": 2296647
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R15_en.pdf",
+      "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2022.800856/pdf",
+      "pages": 14,
+      "sha256": "5c016558e00befe618e992b1eef531dc4940ceb899e1c368a849d7a14cd452b7"
+    },
+    "metadata": {
+      "title": "Optimal Experimental Design Based on Two-Dimensional Likelihood Profiles",
+      "authors": [
+        {
+          "given": "Tim",
+          "family": "Litwin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jens",
+          "family": "Timmer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Clemens",
+          "family": "Kreutz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Frontiers in Molecular Biosciences",
+      "year": 2022,
+      "volume": "9",
+      "issue": null,
+      "page": "800856"
+    },
+    "page_title": "Frontiers | Optimal Experimental Design Based on Two-Dimensional Likelihood Profiles",
+    "pdf_links": [],
+    "verified_citation": {
+      "title": "Optimal Experimental Design Based on Two-Dimensional Likelihood Profiles",
+      "authors": [
+        {
+          "given": "Tim",
+          "family": "Litwin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jens",
+          "family": "Timmer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Clemens",
+          "family": "Kreutz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Frontiers in Molecular Biosciences",
+      "year": 2022,
+      "volume": "9",
+      "issue": null,
+      "page": "800856",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "1",
+    "focus": "Diseño con perfiles bidimensionales y nuisance",
+    "reading_locator": "§2.5, Fig.1; parámetro y posible resultado de medición",
+    "idea": "Adaptar la elección de carga/fase al parámetro de interés y reperfilar nuisance. El perfil 2D enlaza parámetro y resultado futuro, no es simplemente un mapa Cd–sd. No importar cobertura Wilks bajo discrepancia FE sin calibrarla.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "already_in_v18_45_references": false
+  },
+  {
+    "id": "R16",
+    "doi": "10.1371/journal.pcbi.1005227",
+    "language": "en",
+    "topic": "discrepancia",
+    "landing_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005227",
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.1371/journal.pcbi.1005227",
+        "final_url": "https://api.crossref.org/works/10.1371/journal.pcbi.1005227",
+        "status": 200,
+        "content_type": "application/json",
+        "bytes": 20129
+      },
+      {
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005227",
+        "final_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005227",
+        "status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 276320
+      },
+      {
+        "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005227&type=printable",
+        "final_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005227&type=printable",
+        "status": 200,
+        "content_type": "application/pdf",
+        "bytes": 3008846
+      }
+    ],
+    "pdf": {
+      "file": "pdf/R16_en.pdf",
+      "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005227&type=printable",
+      "pages": 26,
+      "sha256": "c87b0c8a4d6a1a41a7b73e34cb64c22c74c2078e98335df3599138f3961ba0c9"
+    },
+    "metadata": {
+      "title": "The Limitations of Model-Based Experimental Design and Parameter Estimation in Sloppy Systems",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7249-8950",
+          "authenticated-orcid": true,
+          "given": "Andrew",
+          "family": "White",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Malachi",
+          "family": "Tolman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Howard D.",
+          "family": "Thames",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hubert Rodney",
+          "family": "Withers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kathy A.",
+          "family": "Mason",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9529-9399",
+          "authenticated-orcid": true,
+          "given": "Mark K.",
+          "family": "Transtrum",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "PLOS Computational Biology",
+      "year": 2016,
+      "volume": "12",
+      "issue": "12",
+      "page": "e1005227"
+    },
+    "page_title": "The Limitations of Model-Based Experimental Design and Parameter Estimation in Sloppy Systems | PLOS Computational Biology",
+    "pdf_links": [],
+    "verified_citation": {
+      "title": "The Limitations of Model-Based Experimental Design and Parameter Estimation in Sloppy Systems",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7249-8950",
+          "authenticated-orcid": true,
+          "given": "Andrew",
+          "family": "White",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Malachi",
+          "family": "Tolman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Howard D.",
+          "family": "Thames",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hubert Rodney",
+          "family": "Withers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kathy A.",
+          "family": "Mason",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9529-9399",
+          "authenticated-orcid": true,
+          "given": "Mark K.",
+          "family": "Transtrum",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "PLOS Computational Biology",
+      "year": 2016,
+      "volume": "12",
+      "issue": "12",
+      "page": "e1005227",
+      "source": "Crossref publisher metadata"
+    },
+    "priority": "1",
+    "focus": "Diseño experimental bajo insuficiencia del modelo",
+    "reading_locator": "Hyper-model y ejemplos de diseño",
+    "idea": "No elegir datos solo por Fisher: comprobar que el operador representa la física que esas fases/cargas hacen relevante. Ejemplos biológicos; transferencia metodológica.",
+    "reviewed_level": "Full text: selected methods/results and limitations",
+    "already_in_v18_45_references": false
+  }
+]

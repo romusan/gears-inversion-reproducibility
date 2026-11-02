@@ -1,0 +1,10 @@
+VERSIÓN VIGENTE: v20 — 1 de noviembre de 2026
+
+El kit contiene artículo limpio, suplemento S1–S39, Highlights, carta y evidencia.
+Leer RESPUESTA_DIAGNOSTICO_v19.txt para lo incorporado y lo que sigue abierto.
+El archivo de reproducibilidad preserva v19 e incluye los nuevos datos crudos,
+intentos de ajuste, ejecuciones incompletas, auditorías y construcción documental.
+
+No se han asignado DOI ni enviado archivos a la revista. Las comprobaciones son
+numéricas y condicionales; no se afirma reconstrucción física ni cobertura de
+parámetros calibrada. Usar la declaración de datos que corresponda al depósito real.

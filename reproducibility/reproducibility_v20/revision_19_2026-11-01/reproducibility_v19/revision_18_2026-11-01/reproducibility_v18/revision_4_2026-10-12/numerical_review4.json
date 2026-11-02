@@ -1,0 +1,275 @@
+{
+  "common_flexibility": [
+    {
+      "bore_radius_mm": 20,
+      "incremental_proxy_um": 10.47763813420367,
+      "actual_phase_difference_um": 10.895773079194363,
+      "baseline_stiffer_percent": [
+        59.356204335973615,
+        86.1648392763856
+      ]
+    },
+    {
+      "bore_radius_mm": 25,
+      "incremental_proxy_um": 10.486672737437743,
+      "actual_phase_difference_um": 10.90513431717645,
+      "baseline_stiffer_percent": [
+        44.87127515304057,
+        63.72797709286555
+      ]
+    },
+    {
+      "bore_radius_mm": 35,
+      "incremental_proxy_um": 10.473481344282456,
+      "actual_phase_difference_um": 10.891268222364783,
+      "baseline_stiffer_percent": [
+        30.239178281801358,
+        41.19118018151904
+      ]
+    }
+  ],
+  "proxy_dispersion_relative": 0.0012588091171941687,
+  "actual_two_phase_dispersion_relative": 0.001272423252589051,
+  "convergence": [
+    {
+      "phase_fraction": 0,
+      "levels": [
+        {
+          "h_mm": 0.5,
+          "contact_step_mm": 0.02,
+          "k_N_um": 244.32257095082818,
+          "approach_um": 39.19855685620339,
+          "triangles": 50812
+        },
+        {
+          "h_mm": 0.35,
+          "contact_step_mm": 0.014,
+          "k_N_um": 241.53561434742787,
+          "approach_um": 39.67919016984013,
+          "triangles": 95618
+        },
+        {
+          "h_mm": 0.25,
+          "contact_step_mm": 0.01,
+          "k_N_um": 239.18250570570436,
+          "approach_um": 40.078054757125805,
+          "triangles": 169970
+        }
+      ],
+      "three_point_effective_order": 0.31982823268410676,
+      "interpretation": "Joint bulk/contact refinement on three nonuniform levels; descriptive order, not proof of asymptotic convergence or an error bound."
+    },
+    {
+      "phase_fraction": 0.5,
+      "levels": [
+        {
+          "h_mm": 0.5,
+          "contact_step_mm": 0.02,
+          "k_N_um": 332.95223740307745,
+          "approach_um": 28.640542942090292,
+          "triangles": 52332
+        },
+        {
+          "h_mm": 0.35,
+          "contact_step_mm": 0.014,
+          "k_N_um": 329.3587024069329,
+          "approach_um": 28.952918205721762,
+          "triangles": 98552
+        },
+        {
+          "h_mm": 0.25,
+          "contact_step_mm": 0.01,
+          "k_N_um": 327.0620921726795,
+          "approach_um": 29.172920439949355,
+          "triangles": 175218
+        }
+      ],
+      "three_point_effective_order": 1.1214386314126126,
+      "interpretation": "Joint bulk/contact refinement on three nonuniform levels; descriptive order, not proof of asymptotic convergence or an error bound."
+    }
+  ],
+  "matched_phases": [
+    {
+      "phase_fraction": 0,
+      "nominal_pairs": 1,
+      "fe_approach_um": 40.078054757125805,
+      "fe_k_per_width": 10.399239378508884,
+      "baseline_approach_um": 28.059656592715353,
+      "baseline_k_per_width": 15.065510693862954,
+      "edge_loaded": false,
+      "fe_k_N_um": 239.18250570570436
+    },
+    {
+      "phase_fraction": 0.24714731371212909,
+      "nominal_pairs": 1,
+      "fe_approach_um": 41.45128654016188,
+      "fe_k_per_width": 10.058320779443306,
+      "baseline_approach_um": 29.65466092802407,
+      "baseline_k_per_width": 14.22340279908804,
+      "edge_loaded": false,
+      "fe_k_N_um": 231.34137792719605
+    },
+    {
+      "phase_fraction": 0.2971473137121291,
+      "nominal_pairs": 2,
+      "fe_approach_um": 29.590676113611064,
+      "fe_k_per_width": 14.029215138301423,
+      "baseline_approach_um": 18.396305098201985,
+      "baseline_k_per_width": 22.78072443861498,
+      "edge_loaded": true,
+      "fe_k_N_um": 322.6719481809327
+    },
+    {
+      "phase_fraction": 0.3321473137121291,
+      "nominal_pairs": 2,
+      "fe_approach_um": 29.446058426919954,
+      "fe_k_per_width": 14.07982428327175,
+      "baseline_approach_um": 18.265433202712714,
+      "baseline_k_per_width": 22.9409890916109,
+      "edge_loaded": false,
+      "fe_k_N_um": 323.83595851525024
+    },
+    {
+      "phase_fraction": 0.5,
+      "nominal_pairs": 2,
+      "fe_approach_um": 29.172920439949355,
+      "fe_k_per_width": 14.220090964029543,
+      "baseline_approach_um": 17.99218843592849,
+      "baseline_k_per_width": 23.282267276170934,
+      "edge_loaded": false,
+      "fe_k_N_um": 327.0620921726795
+    },
+    {
+      "phase_fraction": 0.6678526862878709,
+      "nominal_pairs": 2,
+      "fe_approach_um": 29.446510902344485,
+      "fe_k_per_width": 14.07970280292445,
+      "baseline_approach_um": 18.265433202712714,
+      "baseline_k_per_width": 22.9409890916109,
+      "edge_loaded": false,
+      "fe_k_N_um": 323.83316446726235
+    },
+    {
+      "phase_fraction": 0.7028526862878709,
+      "nominal_pairs": 2,
+      "fe_approach_um": 29.595609376029405,
+      "fe_k_per_width": 14.027388667297176,
+      "baseline_approach_um": 18.396305098201985,
+      "baseline_k_per_width": 22.78072443861498,
+      "edge_loaded": true,
+      "fe_k_N_um": 322.62993934783503
+    },
+    {
+      "phase_fraction": 0.7528526862878709,
+      "nominal_pairs": 1,
+      "fe_approach_um": 41.44942890545441,
+      "fe_k_per_width": 10.059166163713202,
+      "baseline_approach_um": 29.65466092802407,
+      "baseline_k_per_width": 14.22340279908804,
+      "edge_loaded": false,
+      "fe_k_N_um": 231.36082176540364
+    }
+  ],
+  "support_edge": [
+    {
+      "variant": "legacy",
+      "torque_Nm": 50,
+      "sampled_min_xi": 0.2356851805943736,
+      "onset_xi": 0.23552691652088087,
+      "onset_phi_rad": 0.03294124996109854,
+      "bracket_width_rad": 1.2712053631958042e-13,
+      "force_threshold_N": 1e-08,
+      "sd_minus_onset": 0.014473083479119131
+    },
+    {
+      "variant": "legacy",
+      "torque_Nm": 300,
+      "sampled_min_xi": 0.23473342304814213,
+      "onset_xi": 0.23468152427946282,
+      "onset_phi_rad": 0.0324562832331791,
+      "bracket_width_rad": 1.2712053631958042e-13,
+      "force_threshold_N": 1e-08,
+      "sd_minus_onset": 0.015318475720537184
+    },
+    {
+      "variant": "shear-G",
+      "torque_Nm": 50,
+      "sampled_min_xi": 0.2356851805943736,
+      "onset_xi": 0.23548893986112873,
+      "onset_phi_rad": 0.032919464314726365,
+      "bracket_width_rad": 1.2712053631958042e-13,
+      "force_threshold_N": 1e-08,
+      "sd_minus_onset": 0.014511060138871268
+    },
+    {
+      "variant": "shear-G",
+      "torque_Nm": 300,
+      "sampled_min_xi": 0.23473342304814213,
+      "onset_xi": 0.23445374063830404,
+      "onset_phi_rad": 0.032325613135070486,
+      "bracket_width_rad": 1.2712053631958042e-13,
+      "force_threshold_N": 1e-08,
+      "sd_minus_onset": 0.015546259361695958
+    },
+    {
+      "variant": "projected-energy",
+      "torque_Nm": 50,
+      "sampled_min_xi": 0.2356851805943736,
+      "onset_xi": 0.23550729675522833,
+      "onset_phi_rad": 0.032929994909200844,
+      "bracket_width_rad": 1.2712053631958042e-13,
+      "force_threshold_N": 1e-08,
+      "sd_minus_onset": 0.01449270324477167
+    },
+    {
+      "variant": "projected-energy",
+      "torque_Nm": 300,
+      "sampled_min_xi": 0.23473342304814213,
+      "onset_xi": 0.23456379819020598,
+      "onset_phi_rad": 0.032388748622024066,
+      "bracket_width_rad": 1.2712747521348433e-13,
+      "force_threshold_N": 1e-08,
+      "sd_minus_onset": 0.01543620180979402
+    },
+    {
+      "variant": "centerline-energy",
+      "torque_Nm": 50,
+      "sampled_min_xi": 0.2356851805943736,
+      "onset_xi": 0.23550385978209415,
+      "onset_phi_rad": 0.03292802325919844,
+      "bracket_width_rad": 1.2712053631958042e-13,
+      "force_threshold_N": 1e-08,
+      "sd_minus_onset": 0.01449614021790585
+    },
+    {
+      "variant": "centerline-energy",
+      "torque_Nm": 300,
+      "sampled_min_xi": 0.23473342304814213,
+      "onset_xi": 0.23454320493071495,
+      "onset_phi_rad": 0.03237693511678559,
+      "bracket_width_rad": 1.2712053631958042e-13,
+      "force_threshold_N": 1e-08,
+      "sd_minus_onset": 0.015456795069285045
+    }
+  ],
+  "fe_sampled_range_um": 12.278366100212526,
+  "baseline_sampled_range_um": 11.662472492095581,
+  "baseline_full_pp_um": 11.949930685986672,
+  "published_fe_pp_um": 10.527,
+  "fe_sampled_range_difference_percent": 16.636896553743007,
+  "clipped_edge_refinement_k_change": -0.0047664335564943094,
+  "clipped_edge_refinement_approach_change": 0.004577514410622818,
+  "fe_matrix_eigenvalues": [
+    {
+      "phase_fraction": 0,
+      "min_eigenvalue_mm_N": 3.3078282405508555e-07,
+      "max_eigenvalue_mm_N": 0.00029252067577384747
+    },
+    {
+      "phase_fraction": 0.5,
+      "min_eigenvalue_mm_N": 3.2945626109735127e-07,
+      "max_eigenvalue_mm_N": 0.0004272683457783028
+    }
+  ],
+  "full_corner_contact_validation": false
+}

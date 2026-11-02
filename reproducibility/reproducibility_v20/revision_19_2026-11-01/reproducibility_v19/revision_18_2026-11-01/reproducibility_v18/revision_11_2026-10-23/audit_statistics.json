@@ -1,0 +1,187 @@
+{
+  "scope": "Independent metric and integrity audit of stored fits; not a rerun of the 1800 optimizations",
+  "campaigns": [
+    {
+      "path": "gear_inverse_identifiability\\results\\q1_revision_2026-10-12\\monte_carlo_records.jsonl",
+      "sha256": "a53672628b9d78f6815779552230fc26a834d33ccde0e240d919f3e6f874c5c6",
+      "records": 1200,
+      "failed": 45,
+      "max_parameter_metric_error": 0.0,
+      "max_profile_metric_error": 0.0,
+      "max_chi2_rmse_identity_error": 8.526512829121202e-14
+    },
+    {
+      "path": "gear_inverse_identifiability\\results\\q1_review5_2026-10-12\\complementary_monte_records.jsonl",
+      "sha256": "cad1c2483d81aad1d07b8716b28cca3178748bfb922740dc36dcb82209bbdf73",
+      "records": 600,
+      "failed": 20,
+      "max_parameter_metric_error": 0.0,
+      "max_profile_metric_error": 0,
+      "max_chi2_rmse_identity_error": 8.526512829121202e-14
+    }
+  ],
+  "cells": [
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.25,
+      "design": "multi50_300",
+      "sigma_um": 0.1,
+      "n": 100,
+      "success": 97,
+      "dedendum_median": 0.466773095317746
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.25,
+      "design": "multi50_300",
+      "sigma_um": 0.5,
+      "n": 100,
+      "success": 95,
+      "dedendum_median": 0.4327188299622955
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.25,
+      "design": "multi50_300",
+      "sigma_um": 1,
+      "n": 100,
+      "success": 89,
+      "dedendum_median": 0.44519773235438154
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.25,
+      "design": "single300",
+      "sigma_um": 0.1,
+      "n": 100,
+      "success": 94,
+      "dedendum_median": 0.3938916207539006
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.25,
+      "design": "single300",
+      "sigma_um": 0.5,
+      "n": 100,
+      "success": 96,
+      "dedendum_median": 0.2949499679873851
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.25,
+      "design": "single300",
+      "sigma_um": 1,
+      "n": 100,
+      "success": 92,
+      "dedendum_median": 0.3701848488275722
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.4,
+      "design": "multi50_300",
+      "sigma_um": 0.1,
+      "n": 100,
+      "success": 100,
+      "dedendum_median": 0.10664533709380157
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.4,
+      "design": "multi50_300",
+      "sigma_um": 0.5,
+      "n": 100,
+      "success": 100,
+      "dedendum_median": 0.31978628149978805
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.4,
+      "design": "multi50_300",
+      "sigma_um": 1,
+      "n": 100,
+      "success": 95,
+      "dedendum_median": 0.4949384414591512
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.4,
+      "design": "single300",
+      "sigma_um": 0.1,
+      "n": 100,
+      "success": 100,
+      "dedendum_median": 0.10581170394424864
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.4,
+      "design": "single300",
+      "sigma_um": 0.5,
+      "n": 100,
+      "success": 99,
+      "dedendum_median": 0.32461967836723604
+    },
+    {
+      "campaign": "q1_revision_2026-10-12",
+      "sd_true": 0.4,
+      "design": "single300",
+      "sigma_um": 1,
+      "n": 100,
+      "success": 98,
+      "dedendum_median": 0.33741834067489895
+    },
+    {
+      "campaign": "q1_review5_2026-10-12",
+      "sd_true": 0.25,
+      "design": "50_even_300_odd",
+      "sigma_um": 0.1,
+      "n": 100,
+      "success": 95,
+      "dedendum_median": 0.42184060495888176
+    },
+    {
+      "campaign": "q1_review5_2026-10-12",
+      "sd_true": 0.25,
+      "design": "50_even_300_odd",
+      "sigma_um": 0.5,
+      "n": 100,
+      "success": 96,
+      "dedendum_median": 0.34988359668762453
+    },
+    {
+      "campaign": "q1_review5_2026-10-12",
+      "sd_true": 0.25,
+      "design": "50_even_300_odd",
+      "sigma_um": 1,
+      "n": 100,
+      "success": 94,
+      "dedendum_median": 0.3864781710334381
+    },
+    {
+      "campaign": "q1_review5_2026-10-12",
+      "sd_true": 0.4,
+      "design": "50_even_300_odd",
+      "sigma_um": 0.1,
+      "n": 100,
+      "success": 100,
+      "dedendum_median": 0.11476182371872129
+    },
+    {
+      "campaign": "q1_review5_2026-10-12",
+      "sd_true": 0.4,
+      "design": "50_even_300_odd",
+      "sigma_um": 0.5,
+      "n": 100,
+      "success": 98,
+      "dedendum_median": 0.29424611066202044
+    },
+    {
+      "campaign": "q1_review5_2026-10-12",
+      "sd_true": 0.4,
+      "design": "50_even_300_odd",
+      "sigma_um": 1,
+      "n": 100,
+      "success": 97,
+      "dedendum_median": 0.44349821053981586
+    }
+  ]
+}

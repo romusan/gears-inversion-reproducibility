@@ -1,0 +1,20 @@
+[
+  {
+    "phase": 0.174048546,
+    "candidates": 159,
+    "old_seconds": 0.3955420999554917,
+    "new_seconds": 0.11093730002176017
+  },
+  {
+    "phase": 0.5,
+    "candidates": 206,
+    "old_seconds": 0.28388410003390163,
+    "new_seconds": 0.060297799995169044
+  },
+  {
+    "phase": 0.825951454,
+    "candidates": 158,
+    "old_seconds": 0.3657939999829978,
+    "new_seconds": 0.1144904000684619
+  }
+]

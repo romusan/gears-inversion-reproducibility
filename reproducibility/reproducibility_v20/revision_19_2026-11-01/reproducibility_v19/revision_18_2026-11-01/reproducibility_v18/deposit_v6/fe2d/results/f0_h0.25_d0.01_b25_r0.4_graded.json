@@ -1,0 +1,36 @@
+{
+  "phase_fraction": 0,
+  "nominal_pairs": 1,
+  "mesh_h_mm": 0.25,
+  "contact_step_mm": 0.01,
+  "bore_radius_mm": 25,
+  "root_trim_mm": 0.4,
+  "patch_halfwidth_mm": 0.35,
+  "nodes": [
+    45414,
+    45394
+  ],
+  "elements": [
+    84981,
+    84941
+  ],
+  "approach_um": 40.0790579038157,
+  "k_incremental_N_um": 239.17575763845414,
+  "k_fd_N_um": 239.1757576384659,
+  "tangent_relative_difference": 4.929390229335695e-14,
+  "k_secant_N_um": 232.9119802022105,
+  "pair_forces_N": [
+    9334.89274101677
+  ],
+  "normal_force_N": 9334.89274101677,
+  "force_residual_N": 0.0,
+  "contact_residual_mm": 2.0816681711721685e-17,
+  "elastic_residual_relative": 2.4746047694095135e-12,
+  "strain_energy_N_mm": 184.58841485093149,
+  "body_torques_Nmm": [
+    -650000.0756767094,
+    -649999.9244441648
+  ],
+  "torque_relative_error": 1.1642570685310716e-07,
+  "seconds": 15.932097434997559
+}

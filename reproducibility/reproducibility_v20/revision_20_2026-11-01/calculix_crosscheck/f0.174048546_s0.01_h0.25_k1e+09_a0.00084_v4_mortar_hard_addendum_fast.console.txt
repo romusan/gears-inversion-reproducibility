@@ -1,0 +1,628 @@
+
+************************************************************
+
+CalculiX Version 2.23, Copyright(C) 1998-2025 Guido Dhondt
+CalculiX comes with ABSOLUTELY NO WARRANTY. This is free
+software, and you are welcome to redistribute it under
+certain conditions, see gpl.htm
+
+************************************************************
+
+You are using an executable made on Sat Nov 15 08:20:30 2025
+ Decascading the MPC's
+
+ Determining the structure of the matrix:
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ increment 1 attempt 1 
+ increment size= 1.000000e+000
+ sum of previous increments=0.000000e+000
+ actual step time=1.000000e+000
+ actual total time=1.000000e+000
+
+ iteration 1
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 0.052715
+ time avg. forc= 0.052715
+ largest residual force= 0.338441 in node 52048 and dof 1
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 3.264588e-002 in node 76501 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.968910
+ time avg. forc= 7.968910
+ largest residual force= 4527.573777 in node 961 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 2.090867e-002 in node 49877 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.262225
+ time avg. forc= 7.262225
+ largest residual force= 2643.641934 in node 1061 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 8.889042e-003 in node 24885 and dof 2
+
+ no convergence
+
+ iteration 4
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.101291
+ time avg. forc= 7.101291
+ largest residual force= 1690.175871 in node 31660 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 4.166294e-003 in node 48935 and dof 2
+
+ no convergence
+
+ iteration 5
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.088114
+ time avg. forc= 7.088114
+ largest residual force= 1218.741507 in node 7740 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 2.204797e-003 in node 985 and dof 2
+
+ no convergence
+
+ iteration 6
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.099498
+ time avg. forc= 7.099498
+ largest residual force= 828.696697 in node 31665 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 9.792516e-004 in node 24916 and dof 2
+
+ no convergence
+
+ iteration 7
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.122087
+ time avg. forc= 7.122087
+ largest residual force= 656.184767 in node 24921 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 6.568522e-004 in node 31665 and dof 2
+
+ no convergence
+
+ iteration 8
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.132238
+ time avg. forc= 7.132238
+ largest residual force= 307.765743 in node 1000 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 4.846823e-004 in node 24921 and dof 2
+
+ no convergence
+
+ iteration 9
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.138290
+ time avg. forc= 7.138290
+ largest residual force= 155.666274 in node 31671 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 3.033070e-004 in node 1000 and dof 2
+
+ no convergence
+
+ iteration 10
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.141916
+ time avg. forc= 7.141916
+ largest residual force= 57.190201 in node 24928 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 6.772327e-005 in node 1003 and dof 2
+
+ no convergence
+
+ iteration 11
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.142251
+ time avg. forc= 7.142251
+ largest residual force= 0.239015 in node 24929 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 2.774589e-005 in node 24928 and dof 2
+
+ no convergence
+
+ iteration 12
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190632
+ number of nonzero lower triangular matrix elements
+ 2290556
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.142251
+ time avg. forc= 7.142251
+ largest residual force= 0.000002 in node 1005 and dof 2
+ largest increment of disp= 3.264588e-002
+ largest correction to disp= 2.882185e-008 in node 73109 and dof 2
+
+convergence
+
+ the increment size exceeds the remainder of the step and is decreased to 0.000000e+000
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Determining the structure of the matrix:
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190633
+ number of nonzero lower triangular matrix elements
+ 2291180
+
+ increment 1 attempt 1 
+ increment size= 1.000000e+000
+ sum of previous increments=0.000000e+000
+ actual step time=1.000000e+000
+ actual total time=2.000000e+000
+
+ iteration 1
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190633
+ number of nonzero lower triangular matrix elements
+ 2291180
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.165338
+ time avg. forc= 7.165338
+ largest residual force= 193.637025 in node 73995 and dof 2
+ largest increment of disp= 1.545304e-003
+ largest correction to disp= 1.545304e-003 in node 73995 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190633
+ number of nonzero lower triangular matrix elements
+ 2291180
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.189399
+ time avg. forc= 7.189399
+ largest residual force= 296.571291 in node 24924 and dof 2
+ largest increment of disp= 1.545304e-003
+ largest correction to disp= 1.389637e-003 in node 73995 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190633
+ number of nonzero lower triangular matrix elements
+ 2291180
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.176868
+ time avg. forc= 7.176868
+ largest residual force= 138.029155 in node 24927 and dof 2
+ largest increment of disp= 1.545304e-003
+ largest correction to disp= 2.742859e-004 in node 24924 and dof 2
+
+ no convergence
+
+ iteration 4
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190633
+ number of nonzero lower triangular matrix elements
+ 2291180
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.174540
+ time avg. forc= 7.174540
+ largest residual force= 59.893897 in node 1004 and dof 2
+ largest increment of disp= 1.545304e-003
+ largest correction to disp= 6.658895e-005 in node 24927 and dof 2
+
+ no convergence
+
+ iteration 5
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190633
+ number of nonzero lower triangular matrix elements
+ 2291180
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.173780
+ time avg. forc= 7.173780
+ largest residual force= 0.228012 in node 1005 and dof 2
+ largest increment of disp= 1.545304e-003
+ largest correction to disp= 2.799920e-005 in node 1004 and dof 2
+
+ no convergence
+
+ iteration 6
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 190633
+ number of nonzero lower triangular matrix elements
+ 2291180
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the unsymmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.173782
+ time avg. forc= 7.173782
+ largest residual force= 0.000001 in node 24929 and dof 2
+ largest increment of disp= 1.545304e-003
+ largest correction to disp= 2.921201e-008 in node 73109 and dof 2
+
+ convergence
+
+ the increment size exceeds the remainder of the step and is decreased to 0.000000e+000
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+
+  The numbers below are estimated upper bounds
+
+  number of:
+
+   nodes:        96860
+   elements:        78322
+   one-dimensional elements:            0
+   two-dimensional elements:            0
+   integration points per element:            2
+   degrees of freedom per node:            3
+   layers per element:            1
+
+   distributed facial loads:            0
+   distributed volumetric loads:            0
+   concentrated loads:            1
+   single point constraints:       192960
+   multiple point constraints:         2305
+   terms in all multiple point constraints:        13825
+   tie constraints:            1
+   dependent nodes tied by cyclic constraints:            0
+   dependent nodes in pre-tension constraints:            0
+
+   sets:            7
+   terms in all sets:       276490
+
+   materials:            2
+   constants per material and temperature:            2
+   temperature points per material:            1
+   plastic data points per material:            0
+
+   orientations:            0
+   amplitudes:            4
+   data points in all amplitudes:            4
+   print requests:            5
+   transformations:            0
+   property cards:            0
+
+
+ STEP            1
+
+ *INFO reading *STEP: nonlinear geometric
+       effects are turned on
+
+ *WARNING reading *STATIC:
+          the minimum increment    9.9999999999999995E-008
+          is smaller then 1.e-6 times the 
+          step time;
+          the minimum increment is changed
+          to    9.9999999999999995E-007
+          which is the minimum of the initial
+          increment time and 1.e-6 times the step time
+
+ *WARNING in calinput: no elastic constants 
+  were assigned to material FRICTIONLESS
+          in a (thermo)mechanical calculation
+
+ Static analysis was selected
+
+ Newton-Raphson iterative procedure is active
+
+ Nonlinear geometric effects are taken into account
+
+
+ STEP            2
+
+ *INFO reading *STEP: nonlinear geometric
+       effects are turned on
+
+ *WARNING reading *STATIC:
+          the minimum increment    9.9999999999999995E-008
+          is smaller then 1.e-6 times the 
+          step time;
+          the minimum increment is changed
+          to    9.9999999999999995E-007
+          which is the minimum of the initial
+          increment time and 1.e-6 times the step time
+
+ *WARNING in calinput: no elastic constants 
+  were assigned to material FRICTIONLESS
+          in a (thermo)mechanical calculation
+
+ Static analysis was selected
+
+ Newton-Raphson iterative procedure is active
+
+ Nonlinear geometric effects are taken into account
+
+
+ Job finished
+
+________________________________________
+
+Total CalculiX Time: 140.297937
+________________________________________

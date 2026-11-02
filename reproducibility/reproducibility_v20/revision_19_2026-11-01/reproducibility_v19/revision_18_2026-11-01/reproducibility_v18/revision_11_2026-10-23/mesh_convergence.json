@@ -1,0 +1,56 @@
+{
+  "scope": "P1 bulk refinement at fixed nodal interface and fixed nominal geometry; 102 common interior phases",
+  "rows": [
+    {
+      "h_mm": 0.5,
+      "step_mm": 0.02,
+      "n_phases": 102,
+      "isolated_dedendum_rms_um": 0.17898699986522773,
+      "estimate": [
+        0.01625686366113196,
+        0.8027822095054798,
+        0.01102731254235354,
+        0.23728371406391896
+      ],
+      "fit_rmse_um": 0.27775080461773366,
+      "success": true,
+      "profile_rmse_um": 1.9884013891968462,
+      "max_force_residual_N": 3.637978807091713e-12,
+      "max_contact_residual_mm": 2.0816681711721685e-17
+    },
+    {
+      "h_mm": 0.35,
+      "step_mm": 0.02,
+      "n_phases": 102,
+      "isolated_dedendum_rms_um": 0.17899379042655844,
+      "estimate": [
+        0.01611229930360966,
+        0.8121922164308217,
+        0.034673908440570195,
+        0.27534852143763716
+      ],
+      "fit_rmse_um": 0.3677590068437175,
+      "success": true,
+      "profile_rmse_um": 5.542533922951031,
+      "max_force_residual_N": 3.637978807091713e-12,
+      "max_contact_residual_mm": 2.0816681711721685e-17
+    },
+    {
+      "h_mm": 0.25,
+      "step_mm": 0.02,
+      "n_phases": 102,
+      "isolated_dedendum_rms_um": 0.17896928947178573,
+      "estimate": [
+        0.015935501274701638,
+        0.8169194055732324,
+        0.03436897729093501,
+        0.1768257535983505
+      ],
+      "fit_rmse_um": 0.4238862596557154,
+      "success": true,
+      "profile_rmse_um": 4.556098216905679,
+      "max_force_residual_N": 3.637978807091713e-12,
+      "max_contact_residual_mm": 1.3877787807814457e-17
+    }
+  ]
+}

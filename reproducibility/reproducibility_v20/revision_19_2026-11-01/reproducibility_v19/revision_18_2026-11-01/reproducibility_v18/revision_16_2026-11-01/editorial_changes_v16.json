@@ -1,0 +1,137 @@
+{
+  "source": "Accepted supplied v15 tracked document",
+  "changed_paragraphs": 15,
+  "edits": [
+    {
+      "before": "Transmission error is widely used to infer gear microgeometry, yet only the part of the flank that carries load can influence it. We prove that, for a quasistatic contact operator with fixed geometry and compliance, nonnegative dedendum relief outside the loaded support is exactly invisible to transmission error, and that this invariance persists under coupled elastic compliance. An implicit contact tangent links the invariance to local sensitivities and to the resolution of a discretized relief field. Profile-likelihood and Monte Carlo experiments separate exact invariance from weak practical identifiability as relief enters loaded support: for the nominal pair, the median scaled dedendum error falls from 0.394 to 0.106 when the relief start moves deeper into contact (100 realizations, 120 observations, 300 Nm, 0.1 µm Gaussian noise). Equal-budget controls reveal angular-sampling effects and no statistically resolved benefit of the tested two-load allocation. A finite-element contact comparison isolates a dedendum signal of 0.179 µm RMS, close to the analytical 0.197 µm, yet an addendum-only inverse attains the same residual and the dedendum profiles remain flat over the tested domains. An eight-phase material-removal control changes the centred response by only 0.4–2.1 nm outside contact, delimiting exact invariance to fixed compliance, and none of four compliance formulations meets the adopted 5% target on twelve external amplitude references. The results yield a pre-inversion support check and operator-conditioned limits on observability: sensitivity of transmission error to relief is not reliable recovery of the relief geometry.",
+      "after": "Inferring gear microgeometry from transmission error requires distinguishing contact sensitivity from geometrical recovery. For a quasistatic operator with fixed geometry and compliance, we prove that nonnegative dedendum relief outside loaded support is exactly invisible, and extend the result to coupled linear elastic contact. An implicit contact tangent connects invariance with local sensitivities and the resolution of a discretized relief field. Profile likelihood and Monte Carlo experiments separate exact invariance from weak practical identifiability: for the nominal pair, median scaled dedendum error falls from 0.394 to 0.106 when the relief start moves deeper into contact, using 100 realizations, 120 observations, 300 Nm and 0.1 µm Gaussian noise. Equal-budget controls reveal angular-sampling effects and no statistically resolved benefit of the tested two-load allocation. Same-operator restricted fits across four compliance formulations preserve the distinction between marginal and deeper support. A finite-element contact comparison isolates a dedendum response of 0.179 µm RMS, close to the analytical 0.197 µm, yet an addendum-only inverse attains the same residual and dedendum profiles remain flat. An eight-phase material-removal control gives 0.4–2.1 nm centred changes outside contact, delimiting exact invariance to fixed compliance. None of four formulations meets the adopted 5% research target on twelve external amplitude references. These results yield a pre-inversion support diagnostic and operator-conditioned limits on observability without establishing physical profile recovery.",
+      "reason": "Avoid universal physical invisibility and retain the v14 robustness control in the abstract."
+    },
+    {
+      "before": "Coupling between the wheel body and adjacent loaded teeth is an established mechanism in transmission-error prediction, including three-dimensional finite-element treatments [19]. Analytical and finite-element studies in Chinese also relate profile modification, machining errors and load-sharing transitions [20]. More recent direct parameter studies examine how modification settings influence transmission error [21]. These precedents motivate a precise distinction: a forward influence or a synthesis for a prescribed response does not establish which unknown relief coordinates can be inferred from a centred measured response. Our coupled-contact result concerns invariance under fixed compliance, rather than a new physical coupling model.",
+      "after": "Coupling between the wheel body and adjacent loaded teeth is an established mechanism in transmission-error prediction, including three-dimensional finite-element treatments [19]. Xue and Li [20] also derive load-sharing and transmission-error relations under profile and machining errors in Section 2.1 of their Chinese-language study, Eqs. (1)–(3), before analysing temperature fields. More recent direct parameter studies examine how modification settings influence transmission error [21]. These precedents motivate a precise distinction: a forward influence or a synthesis for a prescribed response does not establish which unknown relief coordinates can be inferred from a centred measured response. Our coupled-contact result concerns invariance under fixed compliance, rather than a new physical coupling model.",
+      "reason": "Reference 20 verified against the full text, page 1764; the thermal title does not invalidate its mechanical sections."
+    },
+    {
+      "before": "Proposition 1 (invisibility of unloaded relief). Fix the contact coordinates, normals and compliance, and assume that the load-controlled solution of Eqs. (2)–(4) is unique (Section 2.2). For a given phase and load, let (p⁰, δ⁰) be the solution at θ⁰=(Cₐ,sₐ,0,sd) and suppose that every contact with p⁰ₖ>0 satisfies ξ₁ₖ≥smax. Then, for every Cd≥0 and every sd≤smax, the solution at (Cₐ,sₐ,Cd,sd) is (p⁰, δ⁰). If the hypothesis holds at every observed phase, the mean-removed transmission error is therefore unchanged.",
+      "after": "Proposition 1 (invisibility of unloaded relief). Fix the contact coordinates, normals and compliance, and assume that the load-controlled solution of Eqs. (2)–(4) is unique (Section 2.2). For a given phase and load, let (p⁰, δ⁰) be the solution at θ⁰=(Cₐ,sₐ,0,s_d) and suppose that every contact with p⁰ₖ>0 satisfies ξ₁ₖ≥s_max. Then, for every admissible C_d≥0 and 0<s_d≤s_max, the solution at (Cₐ,sₐ,C_d,s_d) is (p⁰, δ⁰). If the hypothesis holds at every observed phase, the mean-removed transmission error is therefore unchanged.",
+      "reason": "Restrict the start to its admissible positive domain so the relief law remains defined."
+    },
+    {
+      "before": "Proposition 1 is sufficient, not necessary. It applies to every phase at which its support hypothesis holds. A finite angular grid verifies only those sampled phases, and a continuous-cycle claim requires a support bound over the whole cycle. Changes in section stiffness, normals or contact coordinates caused by physical material removal lie outside the hypotheses. Throughout, support is called marginal when the relief start lies only slightly above the smallest loaded coordinate, so that few loaded contacts overlap the relief (sd=0.25 for the nominal pair), and deeper when many do (sd=0.40).",
+      "after": "Proposition 1 is sufficient, not necessary. It applies to every phase at which its support hypothesis holds. A finite angular grid verifies only those sampled phases, and a continuous-cycle claim requires a support bound over the whole cycle. Changes in section stiffness, normals or contact coordinates caused by physical material removal lie outside the hypotheses. In the nominal geometry and declared sampling designs, we call the s_d=0.25 case marginal and the s_d=0.40 case deeper: the former has limited loaded-support overlap and the latter has more. These labels describe the tested cases, not universal thresholds in s_d.",
+      "reason": "Make marginal/deeper labels specific to the tested geometry and sampling."
+    },
+    {
+      "before": "Proposition 2 (coupled compliance). Proposition 1 remains valid if the pair compliances are replaced by a symmetric positive-definite matrix H that couples the candidate pairs, with the same fixed stations and normals. Proof. Because H is symmetric positive definite, the force-constrained contact solution uniquely minimizes the strictly convex potential",
+      "after": "Proposition 2 (fixed coupled linear compliance). Consider the frictionless, load-controlled contact system w=Hp+g−δ1≥0, p≥0, pᵀw=0 and 1ᵀp=F>0, with a fixed symmetric positive-definite H, fixed stations and normals. If Δg≥0 and Δg_i=0 wherever the original solution has p_i>0, the forces p and approach δ are unchanged. In particular, the support condition of Proposition 1 implies this gap condition. Proof. The force-constrained contact solution uniquely minimizes the strictly convex potential below.",
+      "reason": "The quadratic-potential proof applies to linear coupled contact, not automatically to an additional nonlinear Hertz law."
+    },
+    {
+      "before": "Pre-inversion diagnostic. The results above suggest a four-step check before any inversion. (1) Solve the zero-dedendum contact problem on the intended load and phase grid and compare the loaded-support minimum with the admissible relief starts; any region satisfying Proposition 1 is an invariant parameter set that the data cannot resolve, whatever the optimizer. (2) Where support overlaps relief, inspect the scaled tangent and the nonlinear profiles instead of equating nonzero rank with usable precision. (3) Compare the unrestricted fit with the addendum-only model. (4) Report the complete reconstructed profile together with the parameter errors. Each step refers to the same declared mechanical operator and retained observations; physical interpretation additionally requires an independent fidelity check.",
+      "after": "Diagnostic workflow. A support screen precedes inversion; sensitivity analysis, restricted fits and reporting then complete the assessment. (1) Solve the zero-dedendum contact problem on the intended load and phase grid and compare the loaded-support minimum with the admissible relief starts; a region satisfying Proposition 1 defines an invariant parameter set for those observations. (2) Where support overlaps relief, inspect the scaled tangent and nonlinear profiles rather than equating nonzero rank with usable precision. (3) Compare unrestricted and addendum-only fits. (4) Report the complete reconstructed profile and conditional uncertainty; where a generating or independently measured profile is available, also report parameter and profile errors. These steps concern the same declared mechanical operator and retained observations. Physical interpretation requires an independent fidelity check.",
+      "reason": "Separate the pre-inversion screen from subsequent fits; errors require an available independent truth."
+    },
+    {
+      "before": "Research question and contributions. We ask which coordinates of a pinion profile modification can be inferred from mean-removed quasistatic transmission error, and when. The paper makes four contributions. (i) A sufficient condition, with proof, under which nonnegative dedendum relief is exactly invisible to transmission error, for independent pair compliance and for symmetric positive-definite coupled compliance. (ii) An implicit contact tangent that connects this invariance with local rank, with sensitivity near the support boundary and with the null space of a discretized relief field. (iii) A comparison, through profile likelihood, Monte Carlo inversion, fixed-budget sampling controls and restricted addendum-only fits, of exact invariance and practical non-identifiability. (iv) A cross-operator assessment, with finite-element contact data, mesh, interface and material-removal controls and an external amplitude benchmark, of what these results imply for physical profile recovery. From them we derive a pre-inversion support check (Section 3.3) that can be applied before any microgeometry inversion.",
+      "after": "Research question and contributions. We ask which coordinates of a pinion profile modification can be inferred from mean-removed quasistatic transmission error, and when. The paper makes four contributions. (i) A sufficient condition, with proof, under which nonnegative dedendum relief is exactly invisible to transmission error, for independent pair compliance and for symmetric positive-definite coupled compliance. (ii) An implicit contact tangent that connects this invariance with local rank, with sensitivity near the support boundary and with the null space of a discretized relief field. (iii) A comparison, through profile likelihood, Monte Carlo inversion, fixed-budget sampling controls and restricted addendum-only fits, of exact invariance and practical non-identifiability. (iv) A cross-operator assessment, with finite-element contact data, mesh, interface and material-removal controls and an external amplitude benchmark, of what these results imply for physical profile recovery. From them we derive a pre-inversion support check (Section 3.3) for the declared contact model and intended observations.",
+      "reason": "Avoid presenting a sufficient support check as a universal diagnostic for every inverse gear model."
+    },
+    {
+      "before": "Table 9 Analytical inversion of the 57/57 interior FE observations. Depths are mm; residual and predicted versus FE sampled range are µm. The dedendum estimates retain their initial values because no dedendum signal is present.",
+      "after": "Table 9 Analytical inversion of the 57/57 interior FE observations at 650 Nm. Generating pinion θ=(Cₐ,sₐ,C_d,s_d) is (0.020,0.75,0,0.50) for addendum, (0.020,0.75,0.005,0.30) for dedendum and (0.020,0.75,0.005,0.45) for dedendum-deep; the wheel is unmodified. Depths are mm; residual and predicted versus FE sampled range are µm. The fitted dedendum coordinates retain their initial values because the retained observations have no dedendum signal.",
+      "reason": "Recover all three generating cases directly from archived 57/57 records."
+    },
+    {
+      "before": "A further same-operator experiment measures the part of an isolated dedendum response that remains after refitting the addendum-only model. For G0 at 300 Nm, θ=(0.020,0.75,0.005,sd) is evaluated at sd=0.25 and 0.40 with each of the four compliance formulations. Synthetic observations are noiseless. The restricted fit fixes Cd=0 and the redundant sd=0.50 and optimizes the two addendum coordinates with six bounded starts, including the true addendum coordinates and three fixed-seed random starts. Each formulation generates and fits its own response; this is an internal inferential control, not an independent validation.",
+      "after": "A further same-operator experiment measures the part of an isolated dedendum response that remains after refitting the addendum-only model. For G0 at 300 Nm, θ=(0.020,0.75,0.005,s_d) is evaluated at s_d=0.25 and 0.40 with each of the four compliance formulations. Synthetic observations are noiseless. The restricted fit fixes C_d=0 and the redundant s_d=0.50 and optimizes the two addendum coordinates with six bounded starts for (Cₐ,sₐ): the three fixed pairs (0.020,0.75), (0.030,0.65) and (0.015,0.85), plus three random pairs generated with NumPy default_rng seed 20261101 using independent uniform draws over Cₐ∈[0.001,0.090] mm and sₐ∈[0.31,0.94]. Their exact saved values are supplied with the numerical records. Each formulation generates and fits its own response; this is an internal inferential control, not an independent validation.",
+      "reason": "Describe all six archived starts, their generating intervals and fixed seed."
+    },
+    {
+      "before": "The results suggest three practical rules for inverse microgeometry work. First, the loaded-support range of the intended geometry and torque should be computed before inversion, because it fixes which relief coordinates the measured response can inform at all: at sd=0.25 the pair G2 has no loaded dedendum support and rank two, whereas G1 and G3 show appreciable dedendum sensitivity (Table 8). Second, a small transmission-error residual, a nonzero tangent rank or a close depth estimate must not be read as recovery of the relief shape; in the 24/24 test the near-true dedendum depth was one arbitrary value of an invariant fit set. Third, a restricted addendum-only fit and the complete reconstructed profile should be reported with the parameter estimates, since both exposed limits that the residual alone concealed. Table 10 summarizes what each group of experiments supports.",
+      "after": "The results suggest three practical rules for inverse microgeometry work. First, compute the loaded-support range for the intended geometry, torque and phase grid: the sufficient condition can identify invariant relief sets in a fixed-compliance gap model. At s_d=0.25, G2 has no loaded dedendum support and rank two, while G1 and G3 have appreciable dedendum sensitivity (Table 8). Second, a small transmission-error residual, nonzero tangent rank or close depth estimate does not by itself establish recovery of the relief shape; in the 24/24 test the near-true depth was one arbitrary value in an invariant fit set. Third, report a restricted addendum-only fit and the complete reconstructed profile together with parameter estimates and conditional uncertainty. Table 10 summarizes the scope of each evidence group.",
+      "reason": "Preserve the fixed-compliance and finite-observation qualifications in practical recommendations."
+    },
+    {
+      "before": "Limitations and outlook. All inversions use synthetic data, and the external reference is a published set of finite-element amplitudes rather than measured waveforms from gears with known modifications. The analytical operator reduces each candidate pair to one effective normal contact, and the finite-element generator is two-dimensional plane-strain; both are frictionless and quasistatic, with fixed sections, normals and contact coordinates. Dynamic effects, mounting deviations [17], wide-face effects [16] and the manufactured root fillet are outside this reduction. The finite-element tests share the nominal sections with the analytical model, and the omitted engagement-transition phases may carry information that cannot be counted until their contact is resolved. Profile-likelihood thresholds are nominal diagnostics because discrepancy is deterministic. Future work should (i) apply the support diagnostic to measured transmission error from gears with certified relief, (ii) resolve engagement transitions and fillet contact in the forward model, and (iii) replace the assumed noise scale and nominal likelihood thresholds by a calibrated discrepancy model within a Bayesian framework [40,41].",
+      "after": "Limitations and outlook. All inversions use synthetic data, and the external reference is a published set of finite-element amplitudes rather than measured waveforms from gears with known modifications. The analytical operator reduces each candidate pair to one effective normal contact, and the finite-element generator is two-dimensional plane-strain; both are frictionless and quasistatic. The gap-only inverse operators retain fixed sections, normals and contact coordinates; the separate material-removal control relaxes the fixed-section assumption by reassembling elasticity. Dynamic effects, mounting deviations [17], wide-face effects [16] and the manufactured root fillet are outside this reduction. The finite-element gap tests share the nominal sections with the analytical model, and the omitted engagement-transition phases may carry information that cannot be counted until their contact is resolved. Profile-likelihood thresholds are nominal diagnostics because discrepancy is deterministic. Future work should (i) apply the support diagnostic to measured transmission error from gears with certified relief, (ii) resolve engagement transitions and fillet contact in the forward model, and (iii) replace the assumed noise scale and nominal likelihood thresholds by a calibrated discrepancy model within a Bayesian framework [40,41].",
+      "reason": "Avoid describing the material-removal control as a fixed-section test."
+    },
+    {
+      "before": "For a fixed-geometry quasistatic contact operator, nonnegative relief outside the loaded contact support is exactly invisible to transmission error, for independent or for symmetric positive-definite coupled compliance (Propositions 1 and 2). An implicit contact tangent connects this invariance with local rank, with sensitivity near the support boundary and with the null space of a discretized relief field.",
+      "after": "For a fixed-geometry quasistatic contact operator, nonnegative relief outside the loaded contact support is exactly invisible to transmission error, under the independent-pair uniqueness condition or fixed symmetric positive-definite linear coupled compliance (Propositions 1 and 2). An implicit contact tangent connects this invariance with local rank, with sensitivity near the support boundary and with the null space of a discretized relief field.",
+      "reason": "Align the conclusion with the precise hypotheses of both propositions."
+    },
+    {
+      "before": "Data availability. The preceding version-13 source code and numerical records are publicly available at https://github.com/romusan/gears-inversion-reproducibility/tree/manuscript-v13. The accompanying MMT_reproducibility_v14.zip contains the current article sources, new deterministic restricted-distance controls, all attempted fits, software versions, source hashes and a SHA-256 manifest, together with the preceding evidence. The public version-13 location does not contain the version-14 controls; a DOI-bearing public deposit of the version-14 archive is to be added here before submission.",
+      "after": "Data availability. The source code, numerical records and editorial construction files supporting this version are supplied in the accompanying MMT_reproducibility_v16.zip, including the version-14 restricted-distance controls, all attempted fits, software versions, source hashes and a SHA-256 manifest. The preceding version-13 baseline is publicly available at https://github.com/romusan/gears-inversion-reproducibility/tree/manuscript-v13; that historical location does not include the subsequent controls or this editorial revision. No repository DOI is currently assigned.",
+      "reason": "Remove the unfilled DOI promise and accurately distinguish the supplied archive from the public historical baseline."
+    },
+    {
+      "before": "Deeper-support response stays distinguishable from the addendum-only set in four formulations (D₁₂₀ = 63–75, against 0.005–0.006 at marginal support)",
+      "after": "Positive six-start restricted residuals at deeper support in four formulations (D₁₂₀=63–75, versus 0.005–0.006 at marginal support)",
+      "reason": "A finite multistart search does not certify separation from an entire nonlinear set."
+    },
+    {
+      "before": "Rank 31 of 41 nodal coefficients; nine unloaded nodes are null; heterogeneous precision within support",
+      "after": "Rank 31 of 41 nodal coefficients; nine basis functions without loaded-support overlap have zero columns; heterogeneous conditional precision",
+      "reason": "A zero sensitivity column concerns interpolation support, not merely a nodal coordinate."
+    }
+  ],
+  "abstract_words": 216,
+  "exact_starts": [
+    [
+      0.02,
+      0.75
+    ],
+    [
+      0.03,
+      0.65
+    ],
+    [
+      0.015,
+      0.85
+    ],
+    [
+      0.053649793787402,
+      0.5355503528789719
+    ],
+    [
+      0.04406961331948213,
+      0.9315375316473882
+    ],
+    [
+      0.013098761598543354,
+      0.3106575507463541
+    ]
+  ],
+  "truths_57_57": {
+    "addendum": [
+      0.02,
+      0.75,
+      0.0,
+      0.5
+    ],
+    "dedendum": [
+      0.02,
+      0.75,
+      0.005,
+      0.3
+    ],
+    "dedendum-deep": [
+      0.02,
+      0.75,
+      0.005,
+      0.45
+    ]
+  },
+  "highlights": [
+    "Fixed-compliance contact can leave unloaded dedendum relief exactly invisible",
+    "Loaded-support invariance extends to fixed coupled linear elastic compliance",
+    "Profile likelihood separates exact invariance from weak practical identifiability",
+    "FE contact responses need not identify dedendum presence or geometry",
+    "A loaded-support check identifies invariant sets before profile inversion"
+  ],
+  "credit_roles_confirmed_by_user": true,
+  "new_experiments": false
+}

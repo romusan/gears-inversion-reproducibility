@@ -1,0 +1,27 @@
+{
+  "MMT_manuscript_Q1_revision_v16_clean.docx": {
+    "word_parts_compared": 21,
+    "content_identical": true,
+    "tracked_revision_timestamps_normalized": false
+  },
+  "MMT_manuscript_Q1_revision_v16_tracked.docx": {
+    "word_parts_compared": 21,
+    "content_identical": true,
+    "tracked_revision_timestamps_normalized": true
+  },
+  "MMT_supplementary_Q1_revision_v16.docx": {
+    "word_parts_compared": 21,
+    "content_identical": true,
+    "tracked_revision_timestamps_normalized": false
+  },
+  "Highlights_v16.docx": {
+    "word_parts_compared": 9,
+    "content_identical": true,
+    "tracked_revision_timestamps_normalized": false
+  },
+  "Cover_letter_MMT_v16.docx": {
+    "word_parts_compared": 9,
+    "content_identical": true,
+    "tracked_revision_timestamps_normalized": false
+  }
+}

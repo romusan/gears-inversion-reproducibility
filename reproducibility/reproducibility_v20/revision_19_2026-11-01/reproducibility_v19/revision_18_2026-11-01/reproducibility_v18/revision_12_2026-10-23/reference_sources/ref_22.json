@@ -1,0 +1,682 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T03:23:01Z",
+      "timestamp": 1792725781881,
+      "version": "4.5.0"
+    },
+    "reference-count": 46,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2007,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2007-10-05T00:00:00Z",
+          "timestamp": 1191542400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.ploscompbiol.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS Comput Biol"
+    ],
+    "DOI": "10.1371/journal.pcbi.0030189",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          9,
+          28
+        ]
+      ],
+      "date-time": "2007-09-28T16:15:45Z",
+      "timestamp": 1190996145000
+    },
+    "page": "e189",
+    "update-policy": "https://doi.org/10.1371/journal.pcbi.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1200,
+    "title": [
+      "Universally Sloppy Parameter Sensitivities in Systems Biology Models"
+    ],
+    "prefix": "10.1371",
+    "volume": "3",
+    "author": [
+      {
+        "given": "Ryan N",
+        "family": "Gutenkunst",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joshua J",
+        "family": "Waterfall",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fergal P",
+        "family": "Casey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kevin S",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher R",
+        "family": "Myers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James P",
+        "family": "Sethna",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2007,
+          10,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "pcbi-0030189-b001",
+        "doi-asserted-by": "crossref",
+        "first-page": "206",
+        "DOI": "10.1038/nature01254",
+        "article-title": "Computational systems biology.",
+        "volume": "420",
+        "year": "2002",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "pcbi-0030189-b002",
+        "first-page": "0013",
+        "article-title": "Extension of a genetic network model by iterative experimentation and mathematical analysis.",
+        "volume": "1",
+        "year": "2005",
+        "journal-title": "Mol Syst Biol"
+      },
+      {
+        "key": "pcbi-0030189-b003",
+        "doi-asserted-by": "crossref",
+        "first-page": "9452",
+        "DOI": "10.1073/pnas.0603337103",
+        "article-title": "The intricate side of systems biology.",
+        "volume": "103",
+        "year": "2006",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "pcbi-0030189-b004",
+        "doi-asserted-by": "crossref",
+        "first-page": "1195",
+        "DOI": "10.1038/ncb1497",
+        "article-title": "Physicochemical modelling of cell signalling pathways.",
+        "volume": "8",
+        "year": "2006",
+        "journal-title": "Nat Cell Biol"
+      },
+      {
+        "key": "pcbi-0030189-b005",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1186/1471-2164-7-108",
+        "article-title": "Network motifs: Structure does not determine function.",
+        "volume": "7",
+        "year": "2006",
+        "journal-title": "BMC Genomics"
+      },
+      {
+        "key": "pcbi-0030189-b006",
+        "article-title": "Plasticity of the cis-regulatory input function of a gene.",
+        "volume": "4",
+        "year": "2006",
+        "journal-title": "PLoS Biol"
+      },
+      {
+        "key": "pcbi-0030189-b007",
+        "doi-asserted-by": "crossref",
+        "first-page": "523",
+        "DOI": "10.1126/science.1105809",
+        "article-title": "Causal protein-signaling networks derived from multiparameter single-cell data.",
+        "volume": "308",
+        "year": "2005",
+        "journal-title": "Science"
+      },
+      {
+        "key": "pcbi-0030189-b008",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1126/science.1131007",
+        "article-title": "A systems approach to measuring the binding energy landscapes of transcription factors.",
+        "volume": "315",
+        "year": "2007",
+        "journal-title": "Science"
+      },
+      {
+        "key": "pcbi-0030189-b009",
+        "doi-asserted-by": "crossref",
+        "first-page": "10577",
+        "DOI": "10.1074/jbc.R100005200",
+        "article-title": "The influence of macromolecular crowding and macromolecular confinement on biochemical reactions in physiological media.",
+        "volume": "276",
+        "year": "2001",
+        "journal-title": "J Biol Chem"
+      },
+      {
+        "key": "pcbi-0030189-b010",
+        "doi-asserted-by": "crossref",
+        "first-page": "5313",
+        "DOI": "10.1046/j.1432-1327.2000.01527.x",
+        "article-title": "Can yeast glycolysis be understood in terms of in vitro kinetics of the constituent enzymes? Testing biochemistry.",
+        "volume": "267",
+        "year": "2000",
+        "journal-title": "Eur J Biochem"
+      },
+      {
+        "key": "pcbi-0030189-b011",
+        "doi-asserted-by": "crossref",
+        "first-page": "869",
+        "DOI": "10.1093/bioinformatics/14.10.869",
+        "article-title": "Nonlinear optimization of biochemical pathways: Applications to metabolic engineering and parameter estimation.",
+        "volume": "14",
+        "year": "1998",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "pcbi-0030189-b012",
+        "doi-asserted-by": "crossref",
+        "first-page": "813",
+        "DOI": "10.1038/nrm2030",
+        "article-title": "Linking data to models: Data regression.",
+        "volume": "7",
+        "year": "2006",
+        "journal-title": "Nat Rev Mol Cell Biol"
+      },
+      {
+        "key": "pcbi-0030189-b013",
+        "doi-asserted-by": "crossref",
+        "first-page": "487",
+        "DOI": "10.1111/j.1432-1033.1987.tb13636.x",
+        "article-title": "Characterization of binding equilibrium data by a variety of fitted isotherms.",
+        "volume": "169",
+        "year": "1987",
+        "journal-title": "Eur J Biochem"
+      },
+      {
+        "key": "pcbi-0030189-b014",
+        "doi-asserted-by": "crossref",
+        "first-page": "248",
+        "DOI": "10.1016/j.biosystems.2005.06.016",
+        "article-title": "A hybrid approach for efficient and robust parameter estimation in biochemical pathways.",
+        "volume": "83",
+        "year": "2006",
+        "journal-title": "Biosystems"
+      },
+      {
+        "key": "pcbi-0030189-b015",
+        "doi-asserted-by": "crossref",
+        "first-page": "726",
+        "DOI": "10.1177/0037549703040943",
+        "article-title": "Experimental design in systems biology, based on parameter sensitivity analysis using a Monte Carlo method: A case study for the TNFα mediated NF-κB signal transduction pathway.",
+        "volume": "79",
+        "year": "2003",
+        "journal-title": "Simulation"
+      },
+      {
+        "key": "pcbi-0030189-b016",
+        "unstructured": "FellD\n\t\t\t\t\t1997\n\t\t\t\t\tUnderstanding the control of metabolism\n\t\t\t\t\tLondon\n\t\t\t\t\tAshgate Publishing\n\t\t\t\t\t300"
+      },
+      {
+        "key": "pcbi-0030189-b017",
+        "doi-asserted-by": "crossref",
+        "first-page": "437",
+        "DOI": "10.1016/j.jtbi.2004.02.006",
+        "article-title": "Monte Carlo sampling can be used to determine the size and shape of the steady-state flux space.",
+        "volume": "228",
+        "year": "2004",
+        "journal-title": "J Theor Biol"
+      },
+      {
+        "key": "pcbi-0030189-b018",
+        "doi-asserted-by": "crossref",
+        "first-page": "1616",
+        "DOI": "10.1529/biophysj.104.050385",
+        "article-title": "k-Cone analysis: Determining all candidate values for kinetic parameters on a network scale.",
+        "volume": "88",
+        "year": "2005",
+        "journal-title": "Biophys J"
+      },
+      {
+        "key": "pcbi-0030189-b019",
+        "doi-asserted-by": "crossref",
+        "first-page": "503",
+        "DOI": "10.1038/89204",
+        "article-title": "Complex biology with no parameters.",
+        "volume": "19",
+        "year": "2001",
+        "journal-title": "Nat Biotechnol"
+      },
+      {
+        "key": "pcbi-0030189-b020",
+        "doi-asserted-by": "crossref",
+        "first-page": "021904",
+        "DOI": "10.1103/PhysRevE.68.021904",
+        "article-title": "Statistical mechanical approaches to models with many poorly known parameters.",
+        "volume": "68",
+        "year": "2003",
+        "journal-title": "Phys Rev E"
+      },
+      {
+        "key": "pcbi-0030189-b021",
+        "doi-asserted-by": "crossref",
+        "first-page": "184",
+        "DOI": "10.1088/1478-3967/1/3/006",
+        "article-title": "The statistical mechanics of complex signaling networks: Nerve growth factor signaling.",
+        "volume": "1",
+        "year": "2004",
+        "journal-title": "Phys Biol"
+      },
+      {
+        "key": "pcbi-0030189-b022",
+        "doi-asserted-by": "crossref",
+        "first-page": "165501",
+        "DOI": "10.1103/PhysRevLett.93.165501",
+        "article-title": "Bayesian ensemble approach to error estimation of interatomic potentials.",
+        "volume": "93",
+        "year": "2004",
+        "journal-title": "Phys Rev Lett"
+      },
+      {
+        "key": "pcbi-0030189-b023",
+        "doi-asserted-by": "crossref",
+        "first-page": "150601",
+        "DOI": "10.1103/PhysRevLett.97.150601",
+        "article-title": "Sloppy-model universality class and the Vandermonde matrix.",
+        "volume": "97",
+        "year": "2006",
+        "journal-title": "Phys Rev Lett"
+      },
+      {
+        "key": "pcbi-0030189-b024",
+        "doi-asserted-by": "crossref",
+        "first-page": "717",
+        "DOI": "10.1177/0037549703040937",
+        "article-title": "Simulation methods for optimal experimental design in systems biology.",
+        "volume": "79",
+        "year": "2003",
+        "journal-title": "Simulation"
+      },
+      {
+        "key": "pcbi-0030189-b025",
+        "doi-asserted-by": "crossref",
+        "first-page": "2396",
+        "DOI": "10.1101/gr.1198103",
+        "article-title": "Importance of input perturbations and stochastic gene expression in the reverse engineering of genetic regulatory networks: Insights from an identifiability analysis of an in silico network.",
+        "volume": "13",
+        "year": "2003",
+        "journal-title": "Genome Res"
+      },
+      {
+        "key": "pcbi-0030189-b026",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1049/sb:20045029",
+        "article-title": "Model identification of signal transduction networks from data using a state regulator problem.",
+        "volume": "2",
+        "year": "2005",
+        "journal-title": "IEEE Syst Biol"
+      },
+      {
+        "key": "pcbi-0030189-b027",
+        "doi-asserted-by": "crossref",
+        "first-page": "190",
+        "DOI": "10.1049/iet-syb:20060065",
+        "article-title": "Optimal experimental design in an epidermal growth factor receptor signalling and downregulation model.",
+        "volume": "1",
+        "year": "2007",
+        "journal-title": "IET Syst Biol"
+      },
+      {
+        "key": "pcbi-0030189-b028",
+        "doi-asserted-by": "crossref",
+        "first-page": "7328",
+        "DOI": "10.1073/pnas.88.16.7328",
+        "article-title": "Modeling the cell division cycle: cdc2 and cyclin interactions.",
+        "volume": "88",
+        "year": "1991",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "pcbi-0030189-b029",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1049/ip-syb:20045032",
+        "article-title": "Globally optimised parameters for a model of mitotic control in frog egg extracts.",
+        "volume": "152",
+        "year": "2005",
+        "journal-title": "Syst Biol (Stevenage)"
+      },
+      {
+        "key": "pcbi-0030189-b030",
+        "doi-asserted-by": "crossref",
+        "first-page": "9107",
+        "DOI": "10.1073/pnas.88.20.9107",
+        "article-title": "A minimal cascade model for the mitotic oscillator involving cyclin and cdc2 kinase.",
+        "volume": "88",
+        "year": "1991",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "pcbi-0030189-b031",
+        "doi-asserted-by": "crossref",
+        "first-page": "5988",
+        "DOI": "10.1073/pnas.092133899",
+        "article-title": "Mechanisms of noise-resistance in genetic oscillators.",
+        "volume": "99",
+        "year": "2002",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "pcbi-0030189-b032",
+        "doi-asserted-by": "crossref",
+        "first-page": "361",
+        "DOI": "10.1007/s004220050302",
+        "article-title": "A kinetic mechanism for nicotinic acetylcholine receptors based on multiple allosteric transitions.",
+        "volume": "75",
+        "year": "1996",
+        "journal-title": "Biol Cybern"
+      },
+      {
+        "key": "pcbi-0030189-b033",
+        "doi-asserted-by": "crossref",
+        "first-page": "1583",
+        "DOI": "10.1046/j.1432-1327.2000.01197.x",
+        "article-title": "Negative feedback and ultrasensitivity can bring about oscillations in the mitogen activated protein kinase cascades.",
+        "volume": "267",
+        "year": "2000",
+        "journal-title": "Eur J Biochem"
+      },
+      {
+        "key": "pcbi-0030189-b034",
+        "article-title": "The roles of APC and Axin derived from experimental and theoretical analysis of the Wnt pathway.",
+        "volume": "1",
+        "year": "2003",
+        "journal-title": "PLoS Biol"
+      },
+      {
+        "key": "pcbi-0030189-b035",
+        "doi-asserted-by": "crossref",
+        "first-page": "445",
+        "DOI": "10.1006/jtbi.1999.0924",
+        "article-title": "Chaos and birhythmicity in a model for circadian oscillations of the PER and TIM proteins in drosophila.",
+        "volume": "198",
+        "year": "1999",
+        "journal-title": "J Theor Biol"
+      },
+      {
+        "key": "pcbi-0030189-b036",
+        "doi-asserted-by": "crossref",
+        "first-page": "188",
+        "DOI": "10.1038/35018085",
+        "article-title": "The segment polarity network is a robust developmental module.",
+        "volume": "406",
+        "year": "2000",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "pcbi-0030189-b037",
+        "doi-asserted-by": "crossref",
+        "first-page": "401",
+        "DOI": "10.1006/jtbi.2000.2226",
+        "article-title": "Robust oscillations within the interlocked feedback model of Drosophila circadian rhythm.",
+        "volume": "210",
+        "year": "2001",
+        "journal-title": "J Theor Biol"
+      },
+      {
+        "key": "pcbi-0030189-b038",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/S0025-5564(98)10001-9",
+        "article-title": "Mathematical models of purine metabolism in man.",
+        "volume": "151",
+        "year": "1998",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "key": "pcbi-0030189-b039",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1002/bit.10288",
+        "article-title": "Dynamic modeling of the central carbon metabolism of Escherichia coli.",
+        "volume": "79",
+        "year": "2002",
+        "journal-title": "Biotechnol Bioeng"
+      },
+      {
+        "key": "pcbi-0030189-b040",
+        "doi-asserted-by": "crossref",
+        "first-page": "3841",
+        "DOI": "10.1091/mbc.e03-11-0794",
+        "article-title": "Integrative analysis of cell cycle control in budding yeast.",
+        "volume": "15",
+        "year": "2004",
+        "journal-title": "Mol Biol Cell"
+      },
+      {
+        "key": "pcbi-0030189-b041",
+        "doi-asserted-by": "crossref",
+        "first-page": "365",
+        "DOI": "10.1038/ncb1233",
+        "article-title": "Prediction and validation of the distinct dynamics of transient and sustained ERK activation.",
+        "volume": "7",
+        "year": "2005",
+        "journal-title": "Nat Cell Biol"
+      },
+      {
+        "key": "pcbi-0030189-b042",
+        "doi-asserted-by": "crossref",
+        "first-page": "D689",
+        "DOI": "10.1093/nar/gkj092",
+        "article-title": "BioModels Database: A free, centralized database of curated, published, quantitative kinetic models of biochemical and cellular systems.",
+        "volume": "34",
+        "year": "2006",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "pcbi-0030189-b043",
+        "doi-asserted-by": "crossref",
+        "first-page": "524",
+        "DOI": "10.1093/bioinformatics/btg015",
+        "article-title": "The systems biology markup language (SBML): A medium for representation and exchange of biochemical network models.",
+        "volume": "19",
+        "year": "2003",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "pcbi-0030189-b044",
+        "unstructured": "GutenkunstRNCaseyFPWaterfallJJAtlasJCKuczenskiRS\n\t\t\t\t\tSloppyCell\n\t\t\t\t\tAvailable: http://sloppycell.sourceforge.net. Accessed 5 September 2007."
+      },
+      {
+        "key": "pcbi-0030189-b045",
+        "unstructured": "MehtaML\n\t\t\t\t\t2004\n\t\t\t\t\tRandom Matrices. 3rd edition\n\t\t\t\t\tAmsterdam\n\t\t\t\t\tAcademic Press\n\t\t\t\t\t706"
+      },
+      {
+        "key": "pcbi-0030189-b046",
+        "unstructured": "WaterfallJJ\n\t\t\t\t\t2006\n\t\t\t\t\tUniversality in multiparameter fitting: Sloppy models [Ph.D. thesis]\n\t\t\t\t\tIthaca (New York)\n\t\t\t\t\tCornell University"
+      }
+    ],
+    "container-title": [
+      "PLoS Computational Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dx.plos.org/10.1371/journal.pcbi.0030189",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2020-05-06T18:24:05Z",
+      "timestamp": 1588789445000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pcbi.0030189"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Adam P",
+        "family": "Arkin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          10,
+          5
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2007,
+            10,
+            5
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pcbi.0030189",
+    "relation": {
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.3410/f.1100227.556403",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "1553-7358"
+    ],
+    "issn-type": [
+      {
+        "value": "1553-7358",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          10,
+          5
+        ]
+      ]
+    }
+  }
+}

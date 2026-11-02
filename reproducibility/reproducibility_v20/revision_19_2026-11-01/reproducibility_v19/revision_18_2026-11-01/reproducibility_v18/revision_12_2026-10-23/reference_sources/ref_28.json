@@ -1,0 +1,258 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2026-10-20T16:32:06Z",
+      "timestamp": 1792513926742,
+      "version": "4.5.0"
+    },
+    "reference-count": 10,
+    "publisher": "ASME International",
+    "issue": "4",
+    "content-domain": {
+      "domain": [
+        "asmedigitalcollection.asme.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2004,
+          7,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1115/1.1758252",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2004,
+          8,
+          12
+        ]
+      ],
+      "date-time": "2004-08-12T18:01:28Z",
+      "timestamp": 1092333688000
+    },
+    "page": "748-752",
+    "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+    "source": "Crossref",
+    "is-referenced-by-count": 616,
+    "title": [
+      "Contribution of Gear Body to Tooth Deflections—A New Bidimensional Analytical Formula"
+    ],
+    "prefix": "10.1115",
+    "volume": "126",
+    "author": [
+      {
+        "given": "P.",
+        "family": "Sainsot and",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Contact and Solid Mechanics Laboratory, UMR CNRS 5514 INSA de Lyon, 20 Avenue Albert Einstein, 69 621 Villeurbanne Cedex, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Velex",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Contact and Solid Mechanics Laboratory, UMR CNRS 5514 INSA de Lyon, 20 Avenue Albert Einstein, 69 621 Villeurbanne Cedex, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "O.",
+        "family": "Duverger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Po^le Machines et Commandes, CETIM Senlis, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "33",
+    "published-online": {
+      "date-parts": [
+        [
+          2004,
+          8,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2019100522553278300_r1",
+        "unstructured": "Weber, C., 1949, “The Deflection of Loaded Gears and the Effects on their Load Carrying Capacity,” Dept. of Scientific and Industrial Research, Sponsored Research, Germany, Report no 3."
+      },
+      {
+        "key": "2019100522553278300_r2",
+        "unstructured": "Weber, C., and Banaschek, K., 1953, “Forma¨nderung und Profilru¨cknahme bei Gerad-und Schra¨gverzahnten Antriebstechnik,” Heft 11, F. Vieweg und Sohn, Braunschweig, Germany."
+      },
+      {
+        "key": "2019100522553278300_r3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O’Donnell, W. J.\n          , 1960, “The Additional Deflection of a Cantilever Due to the Elasticity of the Support,” ASME J. Appl. Mech., 27, September, pp. 461–464.",
+        "DOI": "10.1115/1.3644025"
+      },
+      {
+        "key": "2019100522553278300_r4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O’Donnell, W. J.\n          , 1963, “Stresses and Deflections in Built-In Beams,” ASME J. Eng. Ind., 85, August, pp. 265–273.",
+        "DOI": "10.1115/1.3669856"
+      },
+      {
+        "key": "2019100522553278300_r5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Attia, A. Y.\n          , 1964, “Deflection of Spur Gear Teeth Cut in Thin Rims,” ASME J. Eng. Ind., 86, November, pp. 333–342.",
+        "DOI": "10.1115/1.3670554"
+      },
+      {
+        "key": "2019100522553278300_r6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cornell, R. W.\n          , 1981, “Compliance and Stress Sensitivity of Spur Gear Teeth,” ASME J. Mech. Des., 103, pp. 447–459.",
+        "DOI": "10.1115/1.3254939"
+      },
+      {
+        "key": "2019100522553278300_r7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lundberg, G.\n          , 1939, “Elastische Beru¨hrung zweier Halbrau¨me,” Forsch. Ing.-Wes., 10(5), pp. 201–211.",
+        "DOI": "10.1007/BF02584950"
+      },
+      {
+        "key": "2019100522553278300_r8",
+        "unstructured": "ISO/DIS 6336-1.2, 1990, “Calculation of Load Capacity of Spur and Helical Gears-Part I: Basic Principles and Influence Factors,” Draft International Standard, pp. 87–95."
+      },
+      {
+        "key": "2019100522553278300_r9",
+        "unstructured": "Muskhelishvili, N. L., 1975, Some Basic Problems of the Mathematical Theory of Elasticity, 2nd English Edition, P. Noordhoff Limited, The Netherlands, pp. 230–235."
+      },
+      {
+        "key": "2019100522553278300_r10",
+        "unstructured": "Seager, D. L., 1967, “Some Elastic Effects in Helical Gear Teeth,” PhD dissertation, University of Cambridge, pp. 180–183."
+      }
+    ],
+    "container-title": [
+      "Journal of Mechanical Design"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/126/4/748/5488724/748_1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/126/4/748/5488724/748_1.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2019-10-05T22:55:40Z",
+      "timestamp": 1570316140000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://asmedigitalcollection.asme.org/mechanicaldesign/article/126/4/748/458739/Contribution-of-Gear-Body-to-Tooth-DeflectionsA"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          7,
+          1
+        ]
+      ]
+    },
+    "references-count": 10,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2004,
+            7,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1115/1.1758252",
+    "relation": {},
+    "ISSN": [
+      "1050-0472",
+      "1528-9001"
+    ],
+    "issn-type": [
+      {
+        "value": "1050-0472",
+        "type": "print"
+      },
+      {
+        "value": "1528-9001",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2004,
+          7,
+          1
+        ]
+      ]
+    }
+  }
+}

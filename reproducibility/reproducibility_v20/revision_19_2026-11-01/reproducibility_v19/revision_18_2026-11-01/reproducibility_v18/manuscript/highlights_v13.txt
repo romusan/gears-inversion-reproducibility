@@ -1,0 +1,7 @@
+Highlights
+
+• Loaded contact support defines exactly invisible relief sets in a fixed-gap model
+• Weak support overlap separates local rank from practical profile recovery
+• Mean-removed transmission error leaves an additive relief gauge unresolved
+• Restricted fits distinguish dedendum response from geometrical reconstruction
+• External amplitude discrepancy limits physical interpretation of inverse fits

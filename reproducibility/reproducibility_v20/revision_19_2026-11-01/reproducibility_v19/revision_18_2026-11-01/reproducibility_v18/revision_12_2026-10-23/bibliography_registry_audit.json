@@ -1,0 +1,5770 @@
+[
+  {
+    "old_number": 1,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.mechmachtheory.2016.11.015",
+    "retrieved_utc": "2026-10-23T20:57:21.993863+00:00",
+    "title_matches": true,
+    "old_title": "Multi-objective micro-geometry optimization of gear tooth supported by response surface methodology",
+    "metadata": {
+      "title": [
+        "Multi-objective micro-geometry optimization of gear tooth supported by response surface methodology"
+      ],
+      "author": [
+        {
+          "given": "Jakub A.",
+          "family": "Korta",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Domenico",
+          "family": "Mundo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Mechanism and Machine Theory"
+      ],
+      "volume": "109",
+      "page": "278-295",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            3
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            3
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            3
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Elsevier BV",
+      "URL": "https://doi.org/10.1016/j.mechmachtheory.2016.11.015",
+      "DOI": "10.1016/j.mechmachtheory.2016.11.015",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0094114X16305821?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0094114X16305821?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 2,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1115%2F1.3260791",
+    "retrieved_utc": "2026-10-23T20:57:24.627268+00:00",
+    "title_matches": true,
+    "old_title": "Optimum Profile Modifications for the Minimization of Static Transmission Errors of Spur Gears",
+    "metadata": {
+      "title": [
+        "Optimum Profile Modifications for the Minimization of Static Transmission Errors of Spur Gears"
+      ],
+      "author": [
+        {
+          "given": "M. S.",
+          "family": "Tavakoli",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Gear Dynamics and Gear Noise Research Laboratory, The Ohio State University, 206 W. 18th Avenue, Columbus, Ohio 43210"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D. R.",
+          "family": "Houser",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Gear Dynamics and Gear Noise Research Laboratory, The Ohio State University, 206 W. 18th Avenue, Columbus, Ohio 43210"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Mechanisms, Transmissions, and Automation in Design"
+      ],
+      "volume": "108",
+      "issue": "1",
+      "page": "86-94",
+      "published": {
+        "date-parts": [
+          [
+            1986,
+            3,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1986,
+            3,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            1986,
+            3,
+            1
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1986,
+            3,
+            1
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "ASME International",
+      "URL": "https://doi.org/10.1115/1.3260791",
+      "DOI": "10.1115/1.3260791",
+      "link": [
+        {
+          "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/108/1/86/5481945/86_1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/108/1/86/5481945/86_1.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 3,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1080%2F08839510590901903",
+    "retrieved_utc": "2026-10-23T20:57:24.654207+00:00",
+    "title_matches": true,
+    "old_title": "A genetic algorithm approach to minimize transmission error of automotive spur gear sets",
+    "metadata": {
+      "title": [
+        "A GENETIC ALGORITHM APPROACH TO MINIMIZE TRANSMISSION ERROR OF AUTOMOTIVE SPUR GEAR SETS"
+      ],
+      "author": [
+        {
+          "given": "D. J.",
+          "family": "Fonseca",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Shishoo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "T. C.",
+          "family": "Lim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "D. S.",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Applied Artificial Intelligence"
+      ],
+      "volume": "19",
+      "issue": "2",
+      "page": "153-179",
+      "published": {
+        "date-parts": [
+          [
+            2005,
+            1,
+            26
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2005,
+            1,
+            26
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2005,
+            1,
+            26
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Informa UK Limited",
+      "URL": "https://doi.org/10.1080/08839510590901903",
+      "DOI": "10.1080/08839510590901903",
+      "link": [
+        {
+          "URL": "http://www.tandfonline.com/doi/pdf/10.1080/08839510590901903",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 4,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1155%2F2016%2F6347987",
+    "retrieved_utc": "2026-10-23T20:57:24.666435+00:00",
+    "title_matches": true,
+    "old_title": "The Optimal Design Method and Standardized Mathematical Model of Tooth Profile Modification of Spur Gear",
+    "metadata": {
+      "title": [
+        "The Optimal Design Method and Standardized Mathematical Model of Tooth Profile Modification of Spur Gear"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6964-9797",
+          "authenticated-orcid": true,
+          "given": "Wenjie",
+          "family": "Mei",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Engineering and Technology, Southwest University, Chongqing 400715, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jingzhou",
+          "family": "Na",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Mathematical Sciences, Capital Normal University, Beijing 100048, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fan",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Semiconductors, Chinese Academy of Sciences, Beijing 100083, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guike",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Engineering and Technology, Southwest University, Chongqing 400715, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiawei",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Mathematics and Statistics, Southwest University, Chongqing 400715, China"
+            },
+            {
+              "name": "College of Computer Science, Chongqing University, Chongqing 400044, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Mathematical Problems in Engineering"
+      ],
+      "volume": "2016",
+      "page": "1-7",
+      "published": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Wiley",
+      "URL": "https://doi.org/10.1155/2016/6347987",
+      "DOI": "10.1155/2016/6347987",
+      "link": [
+        {
+          "URL": "http://downloads.hindawi.com/journals/mpe/2016/6347987.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/mpe/2016/6347987.xml",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/mpe/2016/6347987.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 5,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1007%2Fs10010-025-00786-2",
+    "retrieved_utc": "2026-10-23T20:57:24.694339+00:00",
+    "title_matches": true,
+    "old_title": "Design of profile corrections and tolerances in cylindrical gears for noise-sensitive applications in line with production efforts",
+    "metadata": {
+      "title": [
+        "Design of profile corrections and tolerances in cylindrical gears for noise-sensitive applications in line with production efforts",
+        "Auslegung von Profilkorrekturen und Toleranzen bei Stirnrädern für geräuschkritische Anwendungen im Einklang mit Fertigungsaufwänden"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9310-3508",
+          "authenticated-orcid": false,
+          "given": "Laurenz",
+          "family": "Roth",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7750-7825",
+          "authenticated-orcid": false,
+          "given": "Christian",
+          "family": "Westphal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8049-3364",
+          "authenticated-orcid": false,
+          "given": "Christian",
+          "family": "Brecher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Forschung im Ingenieurwesen"
+      ],
+      "volume": "89",
+      "issue": "1",
+      "article-number": "11",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            11
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "URL": "https://doi.org/10.1007/s10010-025-00786-2",
+      "DOI": "10.1007/s10010-025-00786-2",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10010-025-00786-2.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s10010-025-00786-2",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10010-025-00786-2.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 6,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.2174%2F2212797614666210415111613",
+    "retrieved_utc": "2026-10-23T20:57:24.699224+00:00",
+    "title_matches": true,
+    "old_title": "Recent Progress and Prospect on Tooth Modification of Involute Cylindrical\nGear",
+    "metadata": {
+      "title": [
+        "Recent Progress and Prospect on Tooth Modification of Involute Cylindrical\nGear"
+      ],
+      "author": [
+        {
+          "given": "Lin",
+          "family": "Han",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Mechanical Engineering, Tianjin University of Technology and Education, 1310#, Dagu South Road, Jinnan\nDistrict, Tianjin City 300222, P.R. China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yang",
+          "family": "Qi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Mechanical Engineering, Tianjin University of Technology and Education, 1310#, Dagu South Road, Jinnan\nDistrict, Tianjin City 300222, P.R. China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Recent Patents on Mechanical Engineering"
+      ],
+      "volume": "15",
+      "issue": "2",
+      "page": "163-177",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            4
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            4
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Bentham Science Publishers Ltd.",
+      "URL": "https://doi.org/10.2174/2212797614666210415111613",
+      "DOI": "10.2174/2212797614666210415111613",
+      "link": [
+        {
+          "URL": "https://www.eurekaselect.com/article/download?doi=10.2174/2212797614666210415111613",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.eurekaselect.com/192857/article",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.eurekaselect.com/article/download?doi=10.2174/2212797614666210415111613",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 7,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.ymssp.2026.114142",
+    "retrieved_utc": "2026-10-23T20:57:24.723567+00:00",
+    "title_matches": true,
+    "old_title": "Inverse modeling with physical constraints and uncertainty correction for mesh stiffness identification in gear crack fault",
+    "metadata": {
+      "title": [
+        "Inverse modeling with physical constraints and uncertainty correction for mesh stiffness identification in gear crack fault"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9296-2968",
+          "authenticated-orcid": false,
+          "given": "Bo",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5652-3746",
+          "authenticated-orcid": false,
+          "given": "Wei",
+          "family": "Teng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dikang",
+          "family": "Peng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "ShaoFeng",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9218-8108",
+          "authenticated-orcid": false,
+          "given": "Yibing",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Mechanical Systems and Signal Processing"
+      ],
+      "volume": "250",
+      "page": "114142",
+      "article-number": "114142",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Elsevier BV",
+      "URL": "https://doi.org/10.1016/j.ymssp.2026.114142",
+      "DOI": "10.1016/j.ymssp.2026.114142",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0888327026002992?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0888327026002992?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 8,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1299%2Fjsmekansai.2000.75._4-31_",
+    "retrieved_utc": "2026-10-23T20:57:27.218318+00:00",
+    "title_matches": false,
+    "old_title": "A study on meshing transmission error of spur gear used inverse problems",
+    "metadata": {
+      "title": [
+        "419 A study on meshing transmission error of spur gear used inverse problems"
+      ],
+      "author": [
+        {
+          "given": "Eiichi",
+          "family": "AOYAMA",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Faculty of Eng., Doshisha Univ."
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Toshiki",
+          "family": "HIROGAKI",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Eng., School of Shiga Pref."
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yasuhiro",
+          "family": "UENISHI",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Mitsubishi Motors Co."
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zaigaku",
+          "family": "KOU",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Kouyou Lindberg Co."
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jun",
+          "family": "KOJIMA",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Doshisha Univ."
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Proceedings of Conference of Kansai Branch"
+      ],
+      "volume": "2000.75",
+      "issue": "0",
+      "page": "_4-31_-_4-32_",
+      "published": {
+        "date-parts": [
+          [
+            2000
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2000
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2000
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Japan Society of Mechanical Engineers",
+      "URL": "https://doi.org/10.1299/jsmekansai.2000.75._4-31_",
+      "DOI": "10.1299/jsmekansai.2000.75._4-31_",
+      "link": [
+        {
+          "URL": "https://www.jstage.jst.go.jp/article/jsmekansai/2000.75/0/2000.75__4-31_/_pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 9,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.3390%2Fapp11114960",
+    "retrieved_utc": "2026-10-23T20:57:29.730749+00:00",
+    "title_matches": true,
+    "old_title": "Determination of Mesh Stiffness of Gear—Analytical Approach vs. FEM Analysis",
+    "metadata": {
+      "title": [
+        "Determination of Mesh Stiffness of Gear—Analytical Approach vs. FEM Analysis"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4495-1206",
+          "authenticated-orcid": false,
+          "given": "Jan",
+          "family": "Flek",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Designing and Machine Components, Faculty of Mechanical Engineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4027-0465",
+          "authenticated-orcid": false,
+          "given": "Martin",
+          "family": "Dub",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Designing and Machine Components, Faculty of Mechanical Engineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4648-6515",
+          "authenticated-orcid": false,
+          "given": "Josef",
+          "family": "Kolář",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Automotive, Combustion Engine and Railway Engineering, Faculty of Mechanical Engineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5731-6784",
+          "authenticated-orcid": false,
+          "given": "František",
+          "family": "Lopot",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Designing and Machine Components, Faculty of Mechanical Engineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9789-5709",
+          "authenticated-orcid": false,
+          "given": "Karel",
+          "family": "Petr",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Designing and Machine Components, Faculty of Mechanical Engineering, Czech Technical University in Prague, Technická 4, Prague 6, 160 00 Dejvice, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Applied Sciences"
+      ],
+      "volume": "11",
+      "issue": "11",
+      "page": "4960",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            28
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            28
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            28
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "MDPI AG",
+      "URL": "https://doi.org/10.3390/app11114960",
+      "DOI": "10.3390/app11114960",
+      "link": [
+        {
+          "URL": "https://www.mdpi.com/2076-3417/11/11/4960/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 10,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.rineng.2024.102286",
+    "retrieved_utc": "2026-10-23T20:57:32.582402+00:00",
+    "title_matches": true,
+    "old_title": "Review and benchmarking study of different gear contact analysis software in terms of the static transmission error response",
+    "metadata": {
+      "title": [
+        "Review and benchmarking study of different gear contact analysis software in terms of the static transmission error response"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-8379-8684",
+          "authenticated-orcid": false,
+          "given": "Firas",
+          "family": "Bejar",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jöel",
+          "family": "Perret-Liaudet",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Olivier",
+          "family": "Bareille",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohamed",
+          "family": "Ichchou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mauro",
+          "family": "Fontana",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Results in Engineering"
+      ],
+      "volume": "22",
+      "page": "102286",
+      "article-number": "102286",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Elsevier BV",
+      "URL": "https://doi.org/10.1016/j.rineng.2024.102286",
+      "DOI": "10.1016/j.rineng.2024.102286",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2590123024005413?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2590123024005413?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 11,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1007%2Fs40430-026-06384-9",
+    "retrieved_utc": "2026-10-23T20:57:37.120090+00:00",
+    "title_matches": true,
+    "old_title": "Efficient nonlinear spur gear analysis using an interpolated analytical model",
+    "metadata": {
+      "title": [
+        "Efficient nonlinear spur gear analysis using an interpolated analytical model"
+      ],
+      "author": [
+        {
+          "given": "Pablo",
+          "family": "Riera",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matheus",
+          "family": "Vieira",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ronnie",
+          "family": "Rego",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Josu",
+          "family": "Aguirrebeitia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luis Maria",
+          "family": "Macareno",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of the Brazilian Society of Mechanical Sciences and Engineering"
+      ],
+      "volume": "48",
+      "issue": "6",
+      "article-number": "437",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            16
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            16
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            16
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "URL": "https://doi.org/10.1007/s40430-026-06384-9",
+      "DOI": "10.1007/s40430-026-06384-9",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s40430-026-06384-9.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s40430-026-06384-9",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s40430-026-06384-9.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 12,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.mechmachtheory.2019.05.014",
+    "retrieved_utc": "2026-10-23T20:57:39.622528+00:00",
+    "title_matches": false,
+    "old_title": "Influence of profile modifications on meshing stiffness, load sharing, and transmission error of involute spur gears",
+    "metadata": {
+      "title": [
+        "Influence of profile modifications on meshing stiffness, load sharing, and trasnsmission error of involute spur gears"
+      ],
+      "author": [
+        {
+          "given": "Miryam B.",
+          "family": "Sánchez",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Miguel",
+          "family": "Pleguezuelos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "José I.",
+          "family": "Pedrero",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Mechanism and Machine Theory"
+      ],
+      "volume": "139",
+      "page": "506-525",
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            9
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            9
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Elsevier BV",
+      "URL": "https://doi.org/10.1016/j.mechmachtheory.2019.05.014",
+      "DOI": "10.1016/j.mechmachtheory.2019.05.014",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0094114X19308791?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0094114X19308791?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 13,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.mechmachtheory.2024.105752",
+    "retrieved_utc": "2026-10-23T20:57:42.133852+00:00",
+    "title_matches": true,
+    "old_title": "The effect of different profile modifications on the static and dynamic transmission error of spur gears",
+    "metadata": {
+      "title": [
+        "The effect of different profile modifications on the static and dynamic transmission error of spur gears"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6467-4771",
+          "authenticated-orcid": false,
+          "given": "Matteo",
+          "family": "Autiero",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Giovanni",
+          "family": "Paoli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0700-3752",
+          "authenticated-orcid": false,
+          "given": "Marco",
+          "family": "Cirelli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pier Paolo",
+          "family": "Valentini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Mechanism and Machine Theory"
+      ],
+      "volume": "201",
+      "page": "105752",
+      "article-number": "105752",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Elsevier BV",
+      "URL": "https://doi.org/10.1016/j.mechmachtheory.2024.105752",
+      "DOI": "10.1016/j.mechmachtheory.2024.105752",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0094114X24001794?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0094114X24001794?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 14,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.mechmachtheory.2003.06.001",
+    "retrieved_utc": "2026-10-23T20:57:42.145847+00:00",
+    "title_matches": true,
+    "old_title": "A model for simulating the quasi-static and dynamic behaviour of solid wide-faced spur and helical gears",
+    "metadata": {
+      "title": [
+        "A model for simulating the quasi-static and dynamic behaviour of solid wide-faced spur and helical gears"
+      ],
+      "author": [
+        {
+          "given": "M.",
+          "family": "Ajmi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P.",
+          "family": "Velex",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Mechanism and Machine Theory"
+      ],
+      "volume": "40",
+      "issue": "2",
+      "page": "173-190",
+      "published": {
+        "date-parts": [
+          [
+            2005,
+            2
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2005,
+            2
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2005,
+            2
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Elsevier BV",
+      "URL": "https://doi.org/10.1016/j.mechmachtheory.2003.06.001",
+      "DOI": "10.1016/j.mechmachtheory.2003.06.001",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0094114X04001223?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0094114X04001223?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 15,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1006%2Fjsvi.1996.0148",
+    "retrieved_utc": "2026-10-23T20:57:44.578761+00:00",
+    "title_matches": true,
+    "old_title": "A mathematical model for analyzing the influence of shape deviations and mounting errors on gear dynamic behaviour",
+    "metadata": {
+      "title": [
+        "A MATHEMATICAL MODEL FOR ANALYZING THE INFLUENCE OF SHAPE DEVIATIONS AND MOUNTING ERRORS ON GEAR DYNAMIC BEHAVIOUR"
+      ],
+      "author": [
+        {
+          "given": "P.",
+          "family": "Velex",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Maatar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Sound and Vibration"
+      ],
+      "volume": "191",
+      "issue": "5",
+      "page": "629-660",
+      "published": {
+        "date-parts": [
+          [
+            1996,
+            4
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1996,
+            4
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1996,
+            4
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Elsevier BV",
+      "URL": "https://doi.org/10.1006/jsvi.1996.0148",
+      "DOI": "10.1006/jsvi.1996.0148",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0022460X96901480?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0022460X96901480?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 16,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1115%2F1.1462044",
+    "retrieved_utc": "2026-10-23T20:57:47.010693+00:00",
+    "title_matches": true,
+    "old_title": "Static and Dynamic Tooth Loading in Spur and Helical Geared Systems-Experiments and Model Validation",
+    "metadata": {
+      "title": [
+        "Static and Dynamic Tooth Loading in Spur and Helical Geared Systems-Experiments and Model Validation"
+      ],
+      "author": [
+        {
+          "given": "S.",
+          "family": "Baud",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Laboratoire de Me´canique des Contacts, UMR CNRS 5514, INSA Lyon, Ba^t. 113 20, Avenue Albert Einstein 69 621 VILLEURBANNE Cedex France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P.",
+          "family": "Velex",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratoire de Me´canique des Contacts, UMR CNRS 5514, INSA Lyon, Ba^t. 113 20, Avenue Albert Einstein 69 621 VILLEURBANNE Cedex France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Mechanical Design"
+      ],
+      "volume": "124",
+      "issue": "2",
+      "page": "334-346",
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            5,
+            16
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2002,
+            6,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2002,
+            5,
+            16
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2002,
+            5,
+            16
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "ASME International",
+      "URL": "https://doi.org/10.1115/1.1462044",
+      "DOI": "10.1115/1.1462044",
+      "link": [
+        {
+          "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/124/2/334/5799005/334_1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/124/2/334/5799005/334_1.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 17,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.2307%2F1913267",
+    "retrieved_utc": "2026-10-23T20:57:49.474024+00:00",
+    "title_matches": true,
+    "old_title": "Identification in Parametric Models",
+    "metadata": {
+      "title": [
+        "Identification in Parametric Models"
+      ],
+      "author": [
+        {
+          "given": "Thomas J.",
+          "family": "Rothenberg",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "volume": "39",
+      "issue": "3",
+      "page": "577",
+      "published": {
+        "date-parts": [
+          [
+            1971,
+            5
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1971,
+            5
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1971,
+            5
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "JSTOR",
+      "URL": "https://doi.org/10.2307/1913267",
+      "DOI": "10.2307/1913267",
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 18,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1016%2F0025-5564%2870%2990132-x",
+    "retrieved_utc": "2026-10-23T20:57:49.498845+00:00",
+    "title_matches": true,
+    "old_title": "On structural identifiability",
+    "metadata": {
+      "title": [
+        "On structural identifiability"
+      ],
+      "author": [
+        {
+          "given": "R.",
+          "family": "Bellman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K.J.",
+          "family": "Åström",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Mathematical Biosciences"
+      ],
+      "volume": "7",
+      "issue": "3-4",
+      "page": "329-339",
+      "published": {
+        "date-parts": [
+          [
+            1970,
+            4
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1970,
+            4
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1970,
+            4
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Elsevier BV",
+      "URL": "https://doi.org/10.1016/0025-5564(70)90132-x",
+      "DOI": "10.1016/0025-5564(70)90132-x",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:002555647090132X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:002555647090132X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 19,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtp358",
+    "retrieved_utc": "2026-10-23T20:57:49.514070+00:00",
+    "title_matches": true,
+    "old_title": "Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood",
+    "metadata": {
+      "title": [
+        "Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood"
+      ],
+      "author": [
+        {
+          "given": "A.",
+          "family": "Raue",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "1 Physics Institute, University of Freiburg, 79104 Freiburg, Germany, 2 Department of Systems Biology, Harvard Medical School, 02115 Boston, MA, USA, 3 Division of Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance, German Cancer Research Center, 69120 Heidelberg and 4 Freiburg Institute for Advanced Studies, University of Freiburg, 79104 Freiburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Kreutz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Physics Institute, University of Freiburg, 79104 Freiburg, Germany, 2 Department of Systems Biology, Harvard Medical School, 02115 Boston, MA, USA, 3 Division of Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance, German Cancer Research Center, 69120 Heidelberg and 4 Freiburg Institute for Advanced Studies, University of Freiburg, 79104 Freiburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "T.",
+          "family": "Maiwald",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Physics Institute, University of Freiburg, 79104 Freiburg, Germany, 2 Department of Systems Biology, Harvard Medical School, 02115 Boston, MA, USA, 3 Division of Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance, German Cancer Research Center, 69120 Heidelberg and 4 Freiburg Institute for Advanced Studies, University of Freiburg, 79104 Freiburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J.",
+          "family": "Bachmann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Physics Institute, University of Freiburg, 79104 Freiburg, Germany, 2 Department of Systems Biology, Harvard Medical School, 02115 Boston, MA, USA, 3 Division of Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance, German Cancer Research Center, 69120 Heidelberg and 4 Freiburg Institute for Advanced Studies, University of Freiburg, 79104 Freiburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Schilling",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Physics Institute, University of Freiburg, 79104 Freiburg, Germany, 2 Department of Systems Biology, Harvard Medical School, 02115 Boston, MA, USA, 3 Division of Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance, German Cancer Research Center, 69120 Heidelberg and 4 Freiburg Institute for Advanced Studies, University of Freiburg, 79104 Freiburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "U.",
+          "family": "Klingmüller",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Physics Institute, University of Freiburg, 79104 Freiburg, Germany, 2 Department of Systems Biology, Harvard Medical School, 02115 Boston, MA, USA, 3 Division of Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance, German Cancer Research Center, 69120 Heidelberg and 4 Freiburg Institute for Advanced Studies, University of Freiburg, 79104 Freiburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J.",
+          "family": "Timmer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Physics Institute, University of Freiburg, 79104 Freiburg, Germany, 2 Department of Systems Biology, Harvard Medical School, 02115 Boston, MA, USA, 3 Division of Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance, German Cancer Research Center, 69120 Heidelberg and 4 Freiburg Institute for Advanced Studies, University of Freiburg, 79104 Freiburg, Germany"
+            },
+            {
+              "name": "1 Physics Institute, University of Freiburg, 79104 Freiburg, Germany, 2 Department of Systems Biology, Harvard Medical School, 02115 Boston, MA, USA, 3 Division of Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance, German Cancer Research Center, 69120 Heidelberg and 4 Freiburg Institute for Advanced Studies, University of Freiburg, 79104 Freiburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Bioinformatics"
+      ],
+      "volume": "25",
+      "issue": "15",
+      "page": "1923-1929",
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            6,
+            8
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            8,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2009,
+            6,
+            8
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2009,
+            6,
+            8
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "URL": "https://doi.org/10.1093/bioinformatics/btp358",
+      "DOI": "10.1093/bioinformatics/btp358",
+      "link": [
+        {
+          "URL": "https://academic.oup.com/bioinformatics/article-pdf/25/15/1923/48992533/bioinformatics_25_15_1923.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://academic.oup.com/bioinformatics/article-pdf/25/15/1923/48992533/bioinformatics_25_15_1923.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 20,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0027755",
+    "retrieved_utc": "2026-10-23T20:57:49.528014+00:00",
+    "title_matches": true,
+    "old_title": "Structural Identifiability of Systems Biology Models: A Critical Comparison of Methods",
+    "metadata": {
+      "title": [
+        "Structural Identifiability of Systems Biology Models: A Critical Comparison of Methods"
+      ],
+      "author": [
+        {
+          "given": "Oana-Teodora",
+          "family": "Chis",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Julio R.",
+          "family": "Banga",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eva",
+          "family": "Balsa-Canto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "PLoS ONE"
+      ],
+      "volume": "6",
+      "issue": "11",
+      "page": "e27755",
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            11,
+            22
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2011,
+            11,
+            22
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2011,
+            11,
+            22
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Public Library of Science (PLoS)",
+      "URL": "https://doi.org/10.1371/journal.pone.0027755",
+      "DOI": "10.1371/journal.pone.0027755",
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 21,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1371%2Fjournal.pcbi.1005153",
+    "retrieved_utc": "2026-10-23T20:57:52.048213+00:00",
+    "title_matches": true,
+    "old_title": "Structural Identifiability of Dynamic Systems Biology Models",
+    "metadata": {
+      "title": [
+        "Structural Identifiability of Dynamic Systems Biology Models"
+      ],
+      "author": [
+        {
+          "given": "Alejandro F.",
+          "family": "Villaverde",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2862-1840",
+          "authenticated-orcid": true,
+          "given": "Antonio",
+          "family": "Barreiro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3565-8967",
+          "authenticated-orcid": true,
+          "given": "Antonis",
+          "family": "Papachristodoulou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "PLOS Computational Biology"
+      ],
+      "volume": "12",
+      "issue": "10",
+      "page": "e1005153",
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            10,
+            28
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2016,
+            10,
+            28
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2016,
+            10,
+            28
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Public Library of Science (PLoS)",
+      "URL": "https://doi.org/10.1371/journal.pcbi.1005153",
+      "DOI": "10.1371/journal.pcbi.1005153",
+      "link": [
+        {
+          "URL": "http://dx.plos.org/10.1371/journal.pcbi.1005153",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 22,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1371%2Fjournal.pcbi.0030189",
+    "retrieved_utc": "2026-10-23T20:57:54.600761+00:00",
+    "title_matches": true,
+    "old_title": "Universally Sloppy Parameter Sensitivities in Systems Biology Models",
+    "metadata": {
+      "title": [
+        "Universally Sloppy Parameter Sensitivities in Systems Biology Models"
+      ],
+      "author": [
+        {
+          "given": "Ryan N",
+          "family": "Gutenkunst",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joshua J",
+          "family": "Waterfall",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fergal P",
+          "family": "Casey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kevin S",
+          "family": "Brown",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christopher R",
+          "family": "Myers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James P",
+          "family": "Sethna",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "PLoS Computational Biology"
+      ],
+      "volume": "3",
+      "issue": "10",
+      "page": "e189",
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            10,
+            5
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2007,
+            10,
+            5
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2007,
+            10,
+            5
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Public Library of Science (PLoS)",
+      "URL": "https://doi.org/10.1371/journal.pcbi.0030189",
+      "DOI": "10.1371/journal.pcbi.0030189",
+      "link": [
+        {
+          "URL": "https://dx.plos.org/10.1371/journal.pcbi.0030189",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.1100227.556403",
+            "asserted-by": "object"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "old_number": 23,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.coisb.2021.03.005",
+    "retrieved_utc": "2026-10-23T20:57:57.196892+00:00",
+    "title_matches": true,
+    "old_title": "On structural and practical identifiability",
+    "metadata": {
+      "title": [
+        "On structural and practical identifiability"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5629-8622",
+          "authenticated-orcid": false,
+          "given": "Franz-Georg",
+          "family": "Wieland",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3053-5124",
+          "authenticated-orcid": false,
+          "given": "Adrian L.",
+          "family": "Hauber",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7234-1328",
+          "authenticated-orcid": false,
+          "given": "Marcus",
+          "family": "Rosenblatt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christian",
+          "family": "Tönsing",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4517-1383",
+          "authenticated-orcid": false,
+          "given": "Jens",
+          "family": "Timmer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Current Opinion in Systems Biology"
+      ],
+      "volume": "25",
+      "page": "60-69",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            3
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            3
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            3
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Elsevier BV",
+      "URL": "https://doi.org/10.1016/j.coisb.2021.03.005",
+      "DOI": "10.1016/j.coisb.2021.03.005",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S245231002100007X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S245231002100007X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 24,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1017%2Fcbo9780511547126",
+    "retrieved_utc": "2026-10-23T20:57:59.685721+00:00",
+    "title_matches": true,
+    "old_title": "Gear Geometry and Applied Theory",
+    "metadata": {
+      "title": [
+        "Gear Geometry and Applied Theory"
+      ],
+      "author": [
+        {
+          "given": "Faydor L.",
+          "family": "Litvin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alfonso",
+          "family": "Fuentes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [],
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            9,
+            6
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2004,
+            9,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2009,
+            9,
+            4
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2004,
+            9,
+            6
+          ]
+        ]
+      },
+      "type": "monograph",
+      "publisher": "Cambridge University Press",
+      "URL": "https://doi.org/10.1017/cbo9780511547126",
+      "DOI": "10.1017/cbo9780511547126",
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 25,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1017%2Fcbo9781139171731",
+    "retrieved_utc": "2026-10-23T20:57:59.708651+00:00",
+    "title_matches": true,
+    "old_title": "Contact Mechanics",
+    "metadata": {
+      "title": [
+        "Contact Mechanics"
+      ],
+      "author": [
+        {
+          "given": "K. L.",
+          "family": "Johnson",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [],
+      "published": {
+        "date-parts": [
+          [
+            1985,
+            5,
+            16
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1985,
+            5,
+            16
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            6,
+            5
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1985,
+            5,
+            16
+          ]
+        ]
+      },
+      "type": "monograph",
+      "publisher": "Cambridge University Press",
+      "URL": "https://doi.org/10.1017/cbo9781139171731",
+      "DOI": "10.1017/cbo9781139171731",
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 26,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1515%2Fcrll.1882.92.156",
+    "retrieved_utc": "2026-10-23T20:57:59.718667+00:00",
+    "title_matches": true,
+    "old_title": "Ueber die Berührung fester elastischer Körper.",
+    "metadata": {
+      "title": [
+        "Ueber die Berührung fester elastischer Körper."
+      ],
+      "author": [
+        {
+          "given": "Heinrich",
+          "family": "Hertz",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "crll"
+      ],
+      "volume": "1882",
+      "issue": "92",
+      "page": "156-171",
+      "published": {
+        "date-parts": [
+          [
+            1882
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1882
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2009,
+            12,
+            9
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1882
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Walter de Gruyter GmbH",
+      "URL": "https://doi.org/10.1515/crll.1882.92.156",
+      "DOI": "10.1515/crll.1882.92.156",
+      "link": [
+        {
+          "URL": "http://www.degruyter.com/view/j/crll.1882.1882.issue-92/crll.1882.92.156/crll.1882.92.156.xml",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.degruyter.com/document/doi/10.1515/crll.1882.92.156/xml",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.degruyter.com/document/doi/10.1515/crll.1882.92.156/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 27,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1115%2F1.3267437",
+    "retrieved_utc": "2026-10-23T20:57:59.745468+00:00",
+    "title_matches": true,
+    "old_title": "Hertzian Damping, Tooth Friction and Bending Elasticity in Gear Impact Dynamics",
+    "metadata": {
+      "title": [
+        "Hertzian Damping, Tooth Friction and Bending Elasticity in Gear Impact Dynamics"
+      ],
+      "author": [
+        {
+          "given": "D. C. H.",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Mechanical Aerospace and Nuclear Engineering Department, University of California, Los Angeles, CA 90024"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J. Y.",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Mechanical Aerospace and Nuclear Engineering Department, University of California, Los Angeles, CA 90024"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Mechanisms, Transmissions, and Automation in Design"
+      ],
+      "volume": "109",
+      "issue": "2",
+      "page": "189-196",
+      "published": {
+        "date-parts": [
+          [
+            1987,
+            6,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1987,
+            6,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            1987,
+            6,
+            1
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1987,
+            6,
+            1
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "ASME International",
+      "URL": "https://doi.org/10.1115/1.3267437",
+      "DOI": "10.1115/1.3267437",
+      "link": [
+        {
+          "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/109/2/189/5560695/189_1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/109/2/189/5560695/189_1.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 28,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1115%2F1.1758252",
+    "retrieved_utc": "2026-10-23T20:57:59.760642+00:00",
+    "title_matches": true,
+    "old_title": "Contribution of Gear Body to Tooth Deflections—A New Bidimensional Analytical Formula",
+    "metadata": {
+      "title": [
+        "Contribution of Gear Body to Tooth Deflections—A New Bidimensional Analytical Formula"
+      ],
+      "author": [
+        {
+          "given": "P.",
+          "family": "Sainsot and",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Contact and Solid Mechanics Laboratory, UMR CNRS 5514 INSA de Lyon, 20 Avenue Albert Einstein, 69 621 Villeurbanne Cedex, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P.",
+          "family": "Velex",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Contact and Solid Mechanics Laboratory, UMR CNRS 5514 INSA de Lyon, 20 Avenue Albert Einstein, 69 621 Villeurbanne Cedex, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "O.",
+          "family": "Duverger",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Po^le Machines et Commandes, CETIM Senlis, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Mechanical Design"
+      ],
+      "volume": "126",
+      "issue": "4",
+      "page": "748-752",
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            7,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2004,
+            7,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2004,
+            8,
+            12
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2004,
+            7,
+            1
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "ASME International",
+      "URL": "https://doi.org/10.1115/1.1758252",
+      "DOI": "10.1115/1.1758252",
+      "link": [
+        {
+          "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/126/4/748/5488724/748_1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/126/4/748/5488724/748_1.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 29,
+    "url": "https://www.iso.org/standard/63819.html",
+    "status": "standard_requires_primary_page"
+  },
+  {
+    "old_number": 30,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1155%2F2005%2F205291",
+    "retrieved_utc": "2026-10-23T20:58:02.312123+00:00",
+    "title_matches": true,
+    "old_title": "From Transmission Error Measurements to Angular Sampling in Rotating Machines with Discrete Geometry",
+    "metadata": {
+      "title": [
+        "From Transmission Error Measurements to Angular Sampling in Rotating Machines with Discrete Geometry"
+      ],
+      "author": [
+        {
+          "given": "Didier",
+          "family": "Remond",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jarir",
+          "family": "Mahfoudh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Shock and Vibration"
+      ],
+      "volume": "12",
+      "issue": "2",
+      "page": "149-161",
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            6,
+            23
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2005,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2004,
+            6,
+            23
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2004,
+            6,
+            23
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Wiley",
+      "URL": "https://doi.org/10.1155/2005/205291",
+      "DOI": "10.1155/2005/205291",
+      "link": [
+        {
+          "URL": "http://downloads.hindawi.com/journals/sv/2005/205291.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2005/205291",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 31,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1137%2Fs1064827595289108",
+    "retrieved_utc": "2026-10-23T20:58:02.339151+00:00",
+    "title_matches": true,
+    "old_title": "A Subspace, Interior, and Conjugate Gradient Method for Large-Scale Bound-Constrained Minimization Problems",
+    "metadata": {
+      "title": [
+        "A Subspace, Interior, and Conjugate Gradient Method for Large-Scale Bound-Constrained Minimization Problems"
+      ],
+      "author": [
+        {
+          "given": "Mary Ann",
+          "family": "Branch",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas F.",
+          "family": "Coleman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuying",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "SIAM Journal on Scientific Computing"
+      ],
+      "volume": "21",
+      "issue": "1",
+      "page": "1-23",
+      "published": {
+        "date-parts": [
+          [
+            1999,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1999,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2006,
+            7,
+            25
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1999,
+            1
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Society for Industrial & Applied Mathematics (SIAM)",
+      "URL": "https://doi.org/10.1137/s1064827595289108",
+      "DOI": "10.1137/s1064827595289108",
+      "link": [
+        {
+          "URL": "https://epubs.siam.org/doi/pdf/10.1137/S1064827595289108",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 32,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1038%2Fs41592-019-0686-2",
+    "retrieved_utc": "2026-10-23T20:58:02.363656+00:00",
+    "title_matches": true,
+    "old_title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+    "metadata": {
+      "title": [
+        "SciPy 1.0: fundamental algorithms for scientific computing in Python"
+      ],
+      "author": [
+        {
+          "given": "Pauli",
+          "family": "Virtanen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0300-3333",
+          "authenticated-orcid": false,
+          "given": "Ralf",
+          "family": "Gommers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Travis E.",
+          "family": "Oliphant",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4806-3601",
+          "authenticated-orcid": false,
+          "given": "Matt",
+          "family": "Haberland",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2364-6157",
+          "authenticated-orcid": false,
+          "given": "Tyler",
+          "family": "Reddy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Cournapeau",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evgeni",
+          "family": "Burovski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pearu",
+          "family": "Peterson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Warren",
+          "family": "Weckesser",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan",
+          "family": "Bright",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9276-1891",
+          "authenticated-orcid": false,
+          "given": "Stéfan J.",
+          "family": "van der Walt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew",
+          "family": "Brett",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joshua",
+          "family": "Wilson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5263-5070",
+          "authenticated-orcid": false,
+          "given": "K. Jarrod",
+          "family": "Millman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nikolay",
+          "family": "Mayorov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4548-3558",
+          "authenticated-orcid": false,
+          "given": "Andrew R. J.",
+          "family": "Nelson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eric",
+          "family": "Jones",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert",
+          "family": "Kern",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eric",
+          "family": "Larson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C J",
+          "family": "Carey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "İlhan",
+          "family": "Polat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Feng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eric W.",
+          "family": "Moore",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jake",
+          "family": "VanderPlas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5540-4825",
+          "authenticated-orcid": false,
+          "given": "Denis",
+          "family": "Laxalde",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Josef",
+          "family": "Perktold",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert",
+          "family": "Cimrman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ian",
+          "family": "Henriksen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "E. A.",
+          "family": "Quintero",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Charles R.",
+          "family": "Harris",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anne M.",
+          "family": "Archibald",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3632-8529",
+          "authenticated-orcid": false,
+          "given": "Antônio H.",
+          "family": "Ribeiro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fabian",
+          "family": "Pedregosa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2382-8308",
+          "authenticated-orcid": false,
+          "given": "Paul",
+          "family": "van Mulbregt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "name": "SciPy 1.0 Contributors",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aditya",
+          "family": "Vijaykumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alessandro Pietro",
+          "family": "Bardelli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alex",
+          "family": "Rothberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Hilboll",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Kloeckner",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anthony",
+          "family": "Scopatz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Antony",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ariel",
+          "family": "Rokem",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C. Nathan",
+          "family": "Woods",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chad",
+          "family": "Fulton",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Charles",
+          "family": "Masson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christian",
+          "family": "Häggström",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Clark",
+          "family": "Fitzgerald",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David A.",
+          "family": "Nicholson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David R.",
+          "family": "Hagen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dmitrii V.",
+          "family": "Pasechnik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emanuele",
+          "family": "Olivetti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eric",
+          "family": "Martin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eric",
+          "family": "Wieser",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fabrice",
+          "family": "Silva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Felix",
+          "family": "Lenders",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Florian",
+          "family": "Wilhelm",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "G.",
+          "family": "Young",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gavin A.",
+          "family": "Price",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gert-Ludwig",
+          "family": "Ingold",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gregory E.",
+          "family": "Allen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gregory R.",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hervé",
+          "family": "Audren",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Irvin",
+          "family": "Probst",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jörg P.",
+          "family": "Dietrich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jacob",
+          "family": "Silterra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James T",
+          "family": "Webber",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Janko",
+          "family": "Slavič",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joel",
+          "family": "Nothman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Johannes",
+          "family": "Buchner",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Johannes",
+          "family": "Kulick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Johannes L.",
+          "family": "Schönberger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "José Vinícius",
+          "family": "de Miranda Cardoso",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joscha",
+          "family": "Reimer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joseph",
+          "family": "Harrington",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Juan Luis Cano",
+          "family": "Rodríguez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Juan",
+          "family": "Nunez-Iglesias",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Justin",
+          "family": "Kuczynski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kevin",
+          "family": "Tritz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Martin",
+          "family": "Thoma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew",
+          "family": "Newville",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthias",
+          "family": "Kümmerer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maximilian",
+          "family": "Bolingbroke",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Tartre",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mikhail",
+          "family": "Pak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nathaniel J.",
+          "family": "Smith",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nikolai",
+          "family": "Nowaczyk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nikolay",
+          "family": "Shebanov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Oleksandr",
+          "family": "Pavlyk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Per A.",
+          "family": "Brodtkorb",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Perry",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert T.",
+          "family": "McGibbon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Roman",
+          "family": "Feldbauer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sam",
+          "family": "Lewis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sam",
+          "family": "Tygier",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Scott",
+          "family": "Sievert",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sebastiano",
+          "family": "Vigna",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stefan",
+          "family": "Peterson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Surhud",
+          "family": "More",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tadeusz",
+          "family": "Pudlik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Takuya",
+          "family": "Oshima",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas J.",
+          "family": "Pingel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas P.",
+          "family": "Robitaille",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas",
+          "family": "Spura",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thouis R.",
+          "family": "Jones",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tim",
+          "family": "Cera",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tim",
+          "family": "Leslie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tiziano",
+          "family": "Zito",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tom",
+          "family": "Krauss",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Utkarsh",
+          "family": "Upadhyay",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yaroslav O.",
+          "family": "Halchenko",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yoshiki",
+          "family": "Vázquez-Baeza",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nature Methods"
+      ],
+      "volume": "17",
+      "issue": "3",
+      "page": "261-272",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            3
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            2
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            3
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            3
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "URL": "https://doi.org/10.1038/s41592-019-0686-2",
+      "DOI": "10.1038/s41592-019-0686-2",
+      "link": [
+        {
+          "URL": "http://www.nature.com/articles/s41592-019-0686-2.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://www.nature.com/articles/s41592-019-0686-2",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://www.nature.com/articles/s41592-019-0686-2.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {
+        "has-part": [
+          {
+            "id-type": "doi",
+            "id": "10.5194/hess-26-2181-2022",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/wcd-6-113-2025",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/se-14-515-2023",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/os-17-997-2021",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/jsss-12-163-2023",
+            "asserted-by": "object"
+          }
+        ],
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.14293/S2199-1006.1.SOR-LIFE.A7056644.v1.RYSREG",
+            "asserted-by": "object"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "old_number": 33,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1007%2F978-94-009-1740-8",
+    "retrieved_utc": "2026-10-23T20:58:04.881812+00:00",
+    "title_matches": true,
+    "old_title": "Regularization of Inverse Problems",
+    "metadata": {
+      "title": [
+        "Regularization of Inverse Problems"
+      ],
+      "author": [
+        {
+          "given": "Heinz W.",
+          "family": "Engl",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Martin",
+          "family": "Hanke",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Neubauer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [],
+      "published": {
+        "date-parts": [
+          [
+            1996
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1996
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1996
+          ]
+        ]
+      },
+      "type": "book",
+      "publisher": "Springer Netherlands",
+      "URL": "https://doi.org/10.1007/978-94-009-1740-8",
+      "DOI": "10.1007/978-94-009-1740-8",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/978-94-009-1740-8.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/978-94-009-1740-8",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 34,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1137%2F1.9780898718836",
+    "retrieved_utc": "2026-10-23T20:58:04.897340+00:00",
+    "title_matches": false,
+    "old_title": "Discrete Inverse Problems: Insight and Algorithms",
+    "metadata": {
+      "title": [
+        "Discrete Inverse Problems"
+      ],
+      "author": [
+        {
+          "given": "Per Christian",
+          "family": "Hansen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Technical University of Denmark",
+              "place": [
+                "Denmark"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            5,
+            25
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ]
+      },
+      "type": "monograph",
+      "publisher": "Society for Industrial and Applied Mathematics",
+      "URL": "https://doi.org/10.1137/1.9780898718836",
+      "DOI": "10.1137/1.9780898718836",
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 35,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1017%2Fs0962492910000061",
+    "retrieved_utc": "2026-10-23T20:58:07.473014+00:00",
+    "title_matches": true,
+    "old_title": "Inverse problems: A Bayesian perspective",
+    "metadata": {
+      "title": [
+        "Inverse problems: A Bayesian perspective"
+      ],
+      "author": [
+        {
+          "given": "A. M.",
+          "family": "Stuart",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Acta Numerica"
+      ],
+      "volume": "19",
+      "page": "451-559",
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            5
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            5
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2010,
+            5,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2010,
+            5
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Cambridge University Press (CUP)",
+      "URL": "https://doi.org/10.1017/s0962492910000061",
+      "DOI": "10.1017/s0962492910000061",
+      "link": [
+        {
+          "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0962492910000061",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 36,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1111%2F1467-9868.00294",
+    "retrieved_utc": "2026-10-23T20:58:09.956096+00:00",
+    "title_matches": true,
+    "old_title": "Bayesian Calibration of Computer Models",
+    "metadata": {
+      "title": [
+        "Bayesian Calibration of Computer Models"
+      ],
+      "author": [
+        {
+          "given": "Marc C.",
+          "family": "Kennedy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Sheffield , UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anthony",
+          "family": "O'Hagan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Sheffield , UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+      ],
+      "volume": "63",
+      "issue": "3",
+      "page": "425-464",
+      "published": {
+        "date-parts": [
+          [
+            2001,
+            9,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2001,
+            9,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2002,
+            1,
+            6
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2001,
+            9,
+            1
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "URL": "https://doi.org/10.1111/1467-9868.00294",
+      "DOI": "10.1111/1467-9868.00294",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1467-9868.00294",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1467-9868.00294",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://academic.oup.com/jrsssb/article-pdf/63/3/425/49590547/jrsssb_63_3_425.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://academic.oup.com/jrsssb/article-pdf/63/3/425/49590547/jrsssb_63_3_425.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 37,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1137%2F1.9780898719109",
+    "retrieved_utc": "2026-10-23T20:58:12.429878+00:00",
+    "title_matches": true,
+    "old_title": "Optimal Design of Experiments",
+    "metadata": {
+      "title": [
+        "Optimal Design of Experiments"
+      ],
+      "author": [
+        {
+          "given": "Friedrich",
+          "family": "Pukelsheim",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Augsburg",
+              "place": [
+                "Germany"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [],
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            1,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            1,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            5,
+            25
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2006,
+            1,
+            1
+          ]
+        ]
+      },
+      "type": "monograph",
+      "publisher": "Society for Industrial and Applied Mathematics",
+      "URL": "https://doi.org/10.1137/1.9780898719109",
+      "DOI": "10.1137/1.9780898719109",
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 38,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1214%2Faos%2F1176342810",
+    "retrieved_utc": "2026-10-23T20:58:14.941673+00:00",
+    "title_matches": true,
+    "old_title": "General Equivalence Theory for Optimum Designs (Approximate Theory)",
+    "metadata": {
+      "title": [
+        "General Equivalence Theory for Optimum Designs (Approximate Theory)"
+      ],
+      "author": [
+        {
+          "given": "J.",
+          "family": "Kiefer",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Annals of Statistics"
+      ],
+      "volume": "2",
+      "issue": "5",
+      "page": "849-879",
+      "published": {
+        "date-parts": [
+          [
+            1974,
+            9,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1974,
+            9,
+            1
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1974,
+            9,
+            1
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Institute of Mathematical Statistics",
+      "URL": "https://doi.org/10.1214/aos/1176342810",
+      "DOI": "10.1214/aos/1176342810",
+      "link": [
+        {
+          "URL": "http://projecteuclid.org/download/pdf_1/euclid.aos/1176342810",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 39,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.4153%2Fcjm-1960-030-4",
+    "retrieved_utc": "2026-10-23T20:58:17.381573+00:00",
+    "title_matches": true,
+    "old_title": "The Equivalence of Two Extremum Problems",
+    "metadata": {
+      "title": [
+        "The Equivalence of Two Extremum Problems"
+      ],
+      "author": [
+        {
+          "given": "J.",
+          "family": "Kiefer",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J.",
+          "family": "Wolfowitz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Canadian Journal of Mathematics"
+      ],
+      "volume": "12",
+      "page": "363-366",
+      "published": {
+        "date-parts": [
+          [
+            1960
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1960
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            11,
+            20
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1960
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Canadian Mathematical Society",
+      "URL": "https://doi.org/10.4153/cjm-1960-030-4",
+      "DOI": "10.4153/cjm-1960-030-4",
+      "link": [
+        {
+          "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0008414X00010002",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 40,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1214%2Fss%2F1177009939",
+    "retrieved_utc": "2026-10-23T20:58:17.420331+00:00",
+    "title_matches": true,
+    "old_title": "Bayesian Experimental Design: A Review",
+    "metadata": {
+      "title": [
+        "Bayesian Experimental Design: A Review"
+      ],
+      "author": [
+        {
+          "given": "Kathryn",
+          "family": "Chaloner",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Isabella",
+          "family": "Verdinelli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Statistical Science"
+      ],
+      "volume": "10",
+      "issue": "3",
+      "page": "273-304",
+      "published": {
+        "date-parts": [
+          [
+            1995,
+            8,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1995,
+            8,
+            1
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1995,
+            8,
+            1
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Institute of Mathematical Statistics",
+      "URL": "https://doi.org/10.1214/ss/1177009939",
+      "DOI": "10.1214/ss/1177009939",
+      "link": [
+        {
+          "URL": "http://projecteuclid.org/download/pdf_1/euclid.ss/1177009939",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 41,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1080%2F17415970701256486",
+    "retrieved_utc": "2026-10-23T20:58:19.862665+00:00",
+    "title_matches": true,
+    "old_title": "Direct analytical solution of the inverse gear tooth contact analysis problem",
+    "metadata": {
+      "title": [
+        "Direct analytical solution of the inverse gear tooth contact analysis problem"
+      ],
+      "author": [
+        {
+          "given": "C.",
+          "family": "Spitas",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Machine Elements Laboratory, Mechanical Engineering Department, National Technical University of Athens, Zografou, Athens 15780, Greece"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Th.",
+          "family": "Costopoulos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Machine Elements Laboratory, Mechanical Engineering Department, National Technical University of Athens, Zografou, Athens 15780, Greece"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "V.",
+          "family": "Spitas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Machine Elements Laboratory, Mechanical Engineering Department, National Technical University of Athens, Zografou, Athens 15780, Greece"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Inverse Problems in Science and Engineering"
+      ],
+      "volume": "16",
+      "issue": "2",
+      "page": "171-186",
+      "published": {
+        "date-parts": [
+          [
+            2008,
+            3,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            3,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2008,
+            3,
+            17
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2008,
+            3,
+            1
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Informa UK Limited",
+      "URL": "https://doi.org/10.1080/17415970701256486",
+      "DOI": "10.1080/17415970701256486",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/17415970701256486",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    }
+  },
+  {
+    "old_number": 42,
+    "status": "verified_registry",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.simpat.2023.102757",
+    "retrieved_utc": "2026-10-23T20:58:22.440498+00:00",
+    "title_matches": true,
+    "old_title": "Exploiting double-flank roll testing spur gear measurements to determine gear parameter deviations through numerical simulation of free-form meshing gears",
+    "metadata": {
+      "title": [
+        "Exploiting double-flank roll testing spur gear measurements to determine gear parameter deviations through numerical simulation of free-form meshing gears"
+      ],
+      "author": [
+        {
+          "given": "Christos",
+          "family": "Kalligeros",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9194-2858",
+          "authenticated-orcid": false,
+          "given": "Christos",
+          "family": "Papalexis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3496-0619",
+          "authenticated-orcid": false,
+          "given": "Georgios",
+          "family": "Vasileiou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1877-7489",
+          "authenticated-orcid": false,
+          "given": "Panteleimon",
+          "family": "Tzouganakis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christos",
+          "family": "Spitas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vasilios",
+          "family": "Spitas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Simulation Modelling Practice and Theory"
+      ],
+      "volume": "126",
+      "page": "102757",
+      "article-number": "102757",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "publisher": "Elsevier BV",
+      "URL": "https://doi.org/10.1016/j.simpat.2023.102757",
+      "DOI": "10.1016/j.simpat.2023.102757",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1569190X23000345?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1569190X23000345?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "relation": {}
+    }
+  }
+]

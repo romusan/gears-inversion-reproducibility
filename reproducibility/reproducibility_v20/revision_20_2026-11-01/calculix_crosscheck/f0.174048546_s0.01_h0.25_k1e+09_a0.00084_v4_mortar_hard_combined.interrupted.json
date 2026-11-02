@@ -1,0 +1,5 @@
+{
+  "status": "interrupted before final equilibrium",
+  "reason": "After the addendum job exceeded its 600-second wall limit, stop the same slow continuation for the paired case and retry both with a declared full initial increment. Preserve all original inputs and partial output; no result is accepted from this run.",
+  "utc": "2026-11-01T22:43:59.962452+00:00"
+}

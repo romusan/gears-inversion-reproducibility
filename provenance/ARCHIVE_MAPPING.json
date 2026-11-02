@@ -1,0 +1,1078 @@
+{
+  "original_archive": "RINENG_reproducibility_v27.zip",
+  "sha256": "010c2b5c42bc1487c7592e8ca566d977070327a0fed5c48d22856e07d0847a26",
+  "expanded_nested_archives": [
+    {
+      "archive": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip",
+      "sha256": "a6665c66ecaf3f9f1a1e923712cd96af7990e2bfeda3637eb3f82f18aff2d081",
+      "expanded_at": "reproducibility/reproducibility_v20/revision_19_2026-11-01"
+    },
+    {
+      "archive": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip",
+      "sha256": "59bd8d7e17a4a86b74736e79003e288ed5551d0a1c6cb05e62979e5f2df67ff5",
+      "expanded_at": "reproducibility/reproducibility_v20/revision_19_2026-11-01/reproducibility_v19/companions"
+    },
+    {
+      "archive": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip",
+      "sha256": "f2600c416e98d63ed27cfd03f851552c6824df0f6f2742561889cc46cd13c0dd",
+      "expanded_at": "reproducibility/reproducibility_v20/revision_19_2026-11-01/reproducibility_v19/revision_18_2026-11-01"
+    }
+  ],
+  "omitted": [
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/manuscript/render_word_v11.ps1",
+      "bytes": 938,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/Cover_letter_MMT_v19.docx",
+      "bytes": 37781,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/Highlights_v19.docx",
+      "bytes": 36759,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_manuscript_Q1_revision_v19_clean.docx",
+      "bytes": 3495675,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/bilateral_campaign.log",
+      "bytes": 344682,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/bilateral_campaign_coldstart.log",
+      "bytes": 36053,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_entry.log",
+      "bytes": 162,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_entry_k1e8.log",
+      "bytes": 159,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_entry_k1e9_torque.log",
+      "bytes": 160,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_entry_torque.log",
+      "bytes": 283,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_entry_v2.log",
+      "bytes": 159,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_interior_exit.log",
+      "bytes": 319,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_mortar_entry.log",
+      "bytes": 158,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_mortar_entry_refined.log",
+      "bytes": 159,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/diagnostico_sin_fabricacion.png",
+      "bytes": 141073,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/extended_campaign.log",
+      "bytes": 24250,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/extended_campaign_dense_patch2.log",
+      "bytes": 5326,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/extended_campaign_onepass_stopped.log",
+      "bytes": 24250,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/extended_campaign_patch1.log",
+      "bytes": 59826,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/extended_campaign_pre_spatial_filter.log",
+      "bytes": 15530,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/final_audit.log",
+      "bytes": 82,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/twopass_entry.log",
+      "bytes": 20220,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/updated_contact_entry.log",
+      "bytes": 17117,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/updated_nominal_campaign.log",
+      "bytes": 103395,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/updated_reverse_entry.log",
+      "bytes": 17211,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.02_h0.35_k1e+09_a0.000837_v4_mortar_hard.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.02_h0.35_k1e+09_a0.000837_v4_mortar_hard.frd",
+      "bytes": 17594311,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+07_a0.0008285.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+07_a0.0008285.frd",
+      "bytes": 80,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+07_a0.0008285_v2.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+07_a0.0008285_v2.frd",
+      "bytes": 6849494,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+08_a0.0008285_v2.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+08_a0.0008285_v2.frd",
+      "bytes": 6849359,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+08_a0.0008285_v3_torque.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+08_a0.0008285_v3_torque.frd",
+      "bytes": 9967487,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+09_a0.0008285_v3_torque.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+09_a0.0008285_v3_torque.frd",
+      "bytes": 9966689,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+09_a0.0008285_v4_mortar_hard.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.174048546_s0.04_h0.5_k1e+09_a0.0008285_v4_mortar_hard.frd",
+      "bytes": 10258486,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.500000000_s0.04_h0.5_k1e+09_a0.000766392897_v3_torque.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.500000000_s0.04_h0.5_k1e+09_a0.000766392897_v3_torque.frd",
+      "bytes": 9772493,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.825951454_s0.04_h0.5_k1e+09_a0.000817297427_v3_torque.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/companions/EVIDENCIA_SIN_FABRICACION.zip!gears_inversion/objetivos_numericos_2026-11-01/calculix_crosscheck/f0.825951454_s0.04_h0.5_k1e+09_a0.000817297427_v3_torque.frd",
+      "bytes": 9970861,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/manuscript/render_word_v11.ps1",
+      "bytes": 938,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/Cover_letter_MMT_v18.docx",
+      "bytes": 37851,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/Highlights_v18.docx",
+      "bytes": 36744,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_manuscript_Q1_revision_v18_clean.docx",
+      "bytes": 2960442,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/.gitignore",
+      "bytes": 32,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/gear_inverse_identifiability/results/q1_review2_2026-10-12/forward_ablation.png",
+      "bytes": 188465,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/gear_inverse_identifiability/results/q1_review2_2026-10-12/plateau_stiffness.png",
+      "bytes": 112144,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/gear_inverse_identifiability/results/q1_review2_2026-10-12/transition_resolution.png",
+      "bytes": 34757,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/gear_inverse_identifiability/results/q1_review3_2026-10-12/common_grid.png",
+      "bytes": 93955,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/gear_inverse_identifiability/results/q1_revision_2026-10-12/analytic_spectra.png",
+      "bytes": 129484,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/gear_inverse_identifiability/results/q1_revision_2026-10-12/angular_peak_convergence.png",
+      "bytes": 81261,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/gear_inverse_identifiability/results/q1_revision_2026-10-12/forward_ablation.png",
+      "bytes": 190127,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/gear_inverse_identifiability/results/q1_revision_2026-10-12/monte_carlo.png",
+      "bytes": 64039,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/gear_inverse_identifiability/results/q1_revision_2026-10-12/profile_likelihood.png",
+      "bytes": 102460,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/gear_inverse_identifiability/results/q1_revision_2026-10-12/support_transition.png",
+      "bytes": 92418,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/reports/phase2_run.log",
+      "bytes": 6266,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/results/independent_validation/07_resolution.png",
+      "bytes": 109240,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/revision_5_2026-10-12/analytic_spectra_v5.png",
+      "bytes": 136398,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/deposit_v6/revision_5_2026-10-12/separated_convergence.png",
+      "bytes": 73002,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/corrections_2026-10-12/E03_sampling_audit.png",
+      "bytes": 80381,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/corrections_2026-10-12/E05_fixed_budget.png",
+      "bytes": 132121,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/corrections_2026-10-12/parameter_block_errors.png",
+      "bytes": 95964,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/corrections_2026-10-12/V06_korta_mundo.png",
+      "bytes": 164307,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E01_TE_with_relief.png",
+      "bytes": 46767,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E01_validation.png",
+      "bytes": 127060,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E02_recovery.png",
+      "bytes": 68438,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E03_grid_search.png",
+      "bytes": 70211,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E03_nonuniqueness.png",
+      "bytes": 165663,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E04_bias.png",
+      "bytes": 62412,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E04_noise_recovery.png",
+      "bytes": 119950,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E05_condition_number.png",
+      "bytes": 103709,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E05_fisher_optimal.png",
+      "bytes": 53788,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E07_model_discrepancy.png",
+      "bytes": 168048,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/E08_generalization.png",
+      "bytes": 124770,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/q1_review2_2026-10-12/forward_ablation.png",
+      "bytes": 188465,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/q1_review2_2026-10-12/plateau_stiffness.png",
+      "bytes": 112144,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/q1_review2_2026-10-12/transition_resolution.png",
+      "bytes": 34757,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/q1_review3_2026-10-12/common_grid.png",
+      "bytes": 93955,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/q1_revision_2026-10-12/analytic_spectra.png",
+      "bytes": 129484,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/q1_revision_2026-10-12/angular_peak_convergence.png",
+      "bytes": 81261,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/q1_revision_2026-10-12/forward_ablation.png",
+      "bytes": 190127,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/q1_revision_2026-10-12/monte_carlo.png",
+      "bytes": 64039,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/q1_revision_2026-10-12/profile_likelihood.png",
+      "bytes": 102460,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/q1_revision_2026-10-12/support_transition.png",
+      "bytes": 92418,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/gear_inverse_identifiability/results/V06_korta_mundo.png",
+      "bytes": 143730,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/E01_validation.png",
+      "bytes": 127060,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/E02_recovery.png",
+      "bytes": 68438,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/E03_nonuniqueness.png",
+      "bytes": 165663,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/E04_bias.png",
+      "bytes": 47961,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/E04_noise_recovery.png",
+      "bytes": 100973,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/E05_condition_number.png",
+      "bytes": 103709,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/E05_fisher_optimal.png",
+      "bytes": 53788,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/E07_model_discrepancy.png",
+      "bytes": 124523,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/E08_generalization.png",
+      "bytes": 117746,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_benchmark_v11.png",
+      "bytes": 194502,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_controls_v12.png",
+      "bytes": 208205,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_fe_inverse_v11.png",
+      "bytes": 218208,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_monte_v11.png",
+      "bytes": 126267,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_profiles_v11.png",
+      "bytes": 215309,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_resolution.png",
+      "bytes": 109240,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_resolution_v11.png",
+      "bytes": 169738,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_restricted_distance_v14.png",
+      "bytes": 114232,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_spectra_v11.png",
+      "bytes": 220311,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_stiffness_v11.png",
+      "bytes": 155014,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_transition_v11.png",
+      "bytes": 135948,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/fig_waveforms_v12.png",
+      "bytes": 455830,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/assets/V06_korta_mundo.png",
+      "bytes": 143730,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/Cover_letter_MMT_v14.docx",
+      "bytes": 37738,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/Highlights_v12.docx",
+      "bytes": 36902,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/Highlights_v13.docx",
+      "bytes": 36902,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/Highlights_v14.docx",
+      "bytes": 36771,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/MMT_manuscript_Q1_revision_v12.docx",
+      "bytes": 2028910,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/MMT_manuscript_Q1_revision_v13.docx",
+      "bytes": 2029653,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/MMT_manuscript_Q1_revision_v14.docx",
+      "bytes": 2131503,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/MMT_supplementary_Q1_revision_v12.docx",
+      "bytes": 2000617,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/MMT_supplementary_Q1_revision_v13.docx",
+      "bytes": 2001430,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/MMT_supplementary_Q1_revision_v14.docx",
+      "bytes": 2103188,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/render_markup_v16.ps1",
+      "bytes": 1116,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/manuscript/render_word_v11.ps1",
+      "bytes": 938,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision/MMT_manuscript_Q1_revision_v15_clean.docx",
+      "bytes": 2138664,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision/MMT_manuscript_Q1_revision_v15_tracked.docx",
+      "bytes": 2141973,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_11_2026-10-23/audit_inverse.png",
+      "bytes": 229247,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_14_2026-11-01/portable_build_v14.log",
+      "bytes": 253,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_14_2026-11-01/unit_tests_v14.log",
+      "bytes": 102,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_16_2026-11-01/Cover_letter_MMT_v16.docx",
+      "bytes": 37745,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_16_2026-11-01/editorial_sources/v15_accepted_OMML.docx",
+      "bytes": 2136026,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_16_2026-11-01/Highlights_v16.docx",
+      "bytes": 36736,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_16_2026-11-01/MMT_manuscript_Q1_revision_v16_clean.docx",
+      "bytes": 2135937,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_16_2026-11-01/MMT_manuscript_Q1_revision_v16_tracked.docx",
+      "bytes": 2137935,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_16_2026-11-01/MMT_supplementary_Q1_revision_v16.docx",
+      "bytes": 2103286,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_16_2026-11-01/portable_build_v16.log",
+      "bytes": 83,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_16_2026-11-01/unit_tests_v16.log",
+      "bytes": 102,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_17_final_2026-11-01/Cover_letter_MMT_v17.docx",
+      "bytes": 37844,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_17_final_2026-11-01/Highlights_v17.docx",
+      "bytes": 36744,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_17_final_2026-11-01/MMT_manuscript_Q1_revision_v17_clean.docx",
+      "bytes": 2414340,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_17_final_2026-11-01/MMT_supplementary_Q1_revision_v17.docx",
+      "bytes": 2108324,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_17_final_2026-11-01/portable_audit_v17.py.log",
+      "bytes": 906,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_17_final_2026-11-01/portable_build_v17.py.log",
+      "bytes": 50,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_17_final_2026-11-01/stress_v17.png",
+      "bytes": 300131,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_17_final_2026-11-01/unit_tests_v17.log",
+      "bytes": 104,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_18_2026-11-01/Cover_letter_MMT_v18.docx",
+      "bytes": 37851,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_18_2026-11-01/Highlights_v18.docx",
+      "bytes": 36744,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_18_2026-11-01/MMT_manuscript_Q1_revision_v18_clean.docx",
+      "bytes": 2960442,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_18_2026-11-01/MMT_supplementary_Q1_revision_v18.docx",
+      "bytes": 2115003,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_18_2026-11-01/portable_audit_v18.py.log",
+      "bytes": 794,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_18_2026-11-01/portable_build_v18.py.log",
+      "bytes": 46,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_18_2026-11-01/stress_v18.png",
+      "bytes": 569379,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_18_2026-11-01/unit_tests_v18.log",
+      "bytes": 104,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_reproducibility_v18.zip!reproducibility_v18/revision_5_2026-10-12/analytic_spectra_v5.png",
+      "bytes": 136398,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_18_2026-11-01/MMT_supplementary_Q1_revision_v18.docx",
+      "bytes": 2115003,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/analysis.log",
+      "bytes": 3708,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/audit_cycle.log",
+      "bytes": 160,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/Cover_letter_MMT_v19.docx",
+      "bytes": 37781,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/cycle_coarse.log",
+      "bytes": 16765,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/cycle_coarse_damped_initial.log",
+      "bytes": 1837,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/cycle_fine.log",
+      "bytes": 17224,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/cycle_fine_damped_initial.log",
+      "bytes": 500,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/cycle_v19.png",
+      "bytes": 554968,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/final_acceleration_equivalence.log",
+      "bytes": 743,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/Highlights_v19.docx",
+      "bytes": 36759,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/inverse_analytic.log",
+      "bytes": 33,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/inverse_moving.log",
+      "bytes": 5921,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/MMT_manuscript_Q1_revision_v19_clean.docx",
+      "bytes": 3495675,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/MMT_supplementary_Q1_revision_v19.docx",
+      "bytes": 2119818,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/prepare_inverse_coarse.log",
+      "bytes": 44,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/prepare_inverse_fine.log",
+      "bytes": 45,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/reference_truth.log",
+      "bytes": 80,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_reproducibility_v19.zip!reproducibility_v19/revision_19_2026-11-01/render_generic_diagnostic.log",
+      "bytes": 1229,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_19_2026-11-01/MMT_supplementary_Q1_revision_v19.docx",
+      "bytes": 2119818,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/audit_ccx.log",
+      "bytes": 12626,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/audit_shared_mesh.log",
+      "bytes": 1020,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/audit_starts.log",
+      "bytes": 52,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix.log",
+      "bytes": 1729,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_addendum.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_addendum.frd",
+      "bytes": 22686604,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_addendum_fast.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_addendum_fast.frd",
+      "bytes": 33177027,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_combined.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_combined.frd",
+      "bytes": 80,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_combined_fast.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_combined_fast.frd",
+      "bytes": 33115360,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_addendum.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_addendum.frd",
+      "bytes": 17579528,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_addendum_fast.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_addendum_fast.frd",
+      "bytes": 17577273,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined.frd",
+      "bytes": 17584970,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined_fast.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_crosscheck/f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined_fast.frd",
+      "bytes": 17586244,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_cycle.log",
+      "bytes": 320,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_cycle_crosscheck/f0.225000000_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_addendum.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_cycle_crosscheck/f0.225000000_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_addendum.frd",
+      "bytes": 21801466,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_cycle_crosscheck/f0.225000000_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_cycle_crosscheck/f0.225000000_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined.frd",
+      "bytes": 21829036,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_cycle_crosscheck/f0.500000000_s0.02_h0.35_k1e+09_a0.00079_v4_mortar_hard_addendum.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_cycle_crosscheck/f0.500000000_s0.02_h0.35_k1e+09_a0.00079_v4_mortar_hard_addendum.frd",
+      "bytes": 21680348,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_cycle_crosscheck/f0.500000000_s0.02_h0.35_k1e+09_a0.00079_v4_mortar_hard_combined.12d",
+      "bytes": 0,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_cycle_crosscheck/f0.500000000_s0.02_h0.35_k1e+09_a0.00079_v4_mortar_hard_combined.frd",
+      "bytes": 21706382,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_cycle_interior.log",
+      "bytes": 320,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/calculix_fast.log",
+      "bytes": 2412,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/Cover_letter_MMT_v20.docx",
+      "bytes": 37809,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/design_diagnostic.log",
+      "bytes": 8041,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/Highlights_v20.docx",
+      "bytes": 36757,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/MMT_manuscript_Q1_revision_v20_clean.docx",
+      "bytes": 3497742,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/MMT_supplementary_Q1_revision_v20.docx",
+      "bytes": 2125173,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/render_generic_diagnostic.log",
+      "bytes": 1229,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/starts_interior.log",
+      "bytes": 2749,
+      "reason": "Outside the code and numerical-record subset"
+    },
+    {
+      "source": "RINENG_reproducibility_v27.zip!reproducibility_v20/revision_20_2026-11-01/starts_with_transitions.log",
+      "bytes": 3387,
+      "reason": "Outside the code and numerical-record subset"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "screened_sources": [
+    {
+      "id": "P01",
+      "title": "Transmission Error Compensation for Industrial Robots Using Fourier Series",
+      "url": "https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/DARUS-5760",
+      "language": "English",
+      "evidence": "Repository API metadata + original experimental CSV sample(s)",
+      "measured_TE": "yes",
+      "relief_of_same_gear_documented": "not established",
+      "decision": "INELIGIBLE for direct spur-relief inversion: robot gearbox system, no verified matching spur geometry or relief truth. Useful only as a separate signal-processing dataset.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "P02",
+      "title": "Data/code: profile-shift coefficients and nonlinear dynamic spur-gear response",
+      "url": "https://data.mendeley.com/datasets/82xmwb5pvs/1",
+      "language": "English",
+      "evidence": "Primary repository description",
+      "measured_TE": "no: numerical data",
+      "relief_of_same_gear_documented": "not dedendum relief",
+      "decision": "INELIGIBLE for experimental validation; numerical cross-model resource only.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "P03",
+      "title": "Analysis of gear TE considering measured tooth profile errors",
+      "url": "https://doi.org/10.1038/s41598-025-90010-6",
+      "language": "English",
+      "evidence": "Downloaded full text R07; Data availability section",
+      "measured_TE": "published experimental comparisons",
+      "relief_of_same_gear_documented": "helical measured profiles in publication; no downloaded raw profile/TE pairing",
+      "decision": "PROMISING reference, but raw data are available on reasonable request, not a verified public download. Helical operator required.",
+      "license": "See article and any future data licence separately"
+    },
+    {
+      "id": "P04",
+      "title": "Static/dynamic TE of helical pairs with various tooth modifications",
+      "url": "https://doi.org/10.1115/1.4043586",
+      "language": "English",
+      "evidence": "Verified metadata/abstract only; no full text or raw dataset obtained",
+      "measured_TE": "reported in abstract",
+      "relief_of_same_gear_documented": "reported modifications; raw pairing not obtained",
+      "decision": "PROMISING lead; cannot digitize or claim raw experimental validation from an abstract.",
+      "license": "Not verified for underlying data"
+    },
+    {
+      "id": "P05",
+      "title": "Laboratory Scale Gear Faults Data",
+      "url": "https://zenodo.org/records/15265237",
+      "language": "English",
+      "evidence": "Primary repository description: fault conditions, load conditions and sensor locations",
+      "measured_TE": "not established from metadata",
+      "relief_of_same_gear_documented": "not established",
+      "decision": "INELIGIBLE at screening stage: fault/vibration data are not a verified relief + TE pair.",
+      "license": "Not used/downloaded"
+    },
+    {
+      "id": "P06",
+      "title": "High-precision herringbone mesh excitation and tooth-surface modification design data",
+      "url": "https://www.nbsdc.cn/general/dataSetHome?searchKey=%E4%BA%BA%E5%AD%97%E9%BD%BF",
+      "language": "Mandarin",
+      "evidence": "Indexed Chinese repository description; dynamic detail/download not obtained",
+      "measured_TE": "not verified; description includes LTCA simulations and vibration experiments",
+      "relief_of_same_gear_documented": "not verified from downloaded files",
+      "decision": "UNRESOLVED lead: no raw data obtained; herringbone geometry differs from spur test. Not a validated dataset.",
+      "license": "Access/use conditions require verification"
+    },
+    {
+      "id": "P07",
+      "title": "Reduction of gear pair TE with tooth profile modification (ISMA 2008)",
+      "url": "https://bura.brunel.ac.uk/handle/2438/3622",
+      "language": "English",
+      "evidence": "Primary repository abstract: static FE parametric study",
+      "measured_TE": "not established: described results are FE",
+      "relief_of_same_gear_documented": "model modifications, not certified measurements",
+      "decision": "INELIGIBLE as experimental evidence; potentially useful numerical comparison.",
+      "license": "Not used/downloaded"
+    },
+    {
+      "id": "P08",
+      "title": "Conceptual modular gear-pair validation rig framework",
+      "url": "https://zenodo.org/records/18921850",
+      "language": "English",
+      "evidence": "Primary repository expressly states initial conceptual release; datasets are future work",
+      "measured_TE": "no measurement dataset in this release",
+      "relief_of_same_gear_documented": "no",
+      "decision": "INELIGIBLE: a test-rig design is not measured validation data.",
+      "license": "Not used/downloaded"
+    }
+  ],
+  "downloaded_experimental_samples": [
+    {
+      "file": "darus_identification_axis2_vneg.csv",
+      "rows": 116801,
+      "columns": [
+        "theta",
+        "q_set",
+        "theta_TE"
+      ],
+      "units": "radians as repository metadata; no radius conversion",
+      "theta_range_rad": [
+        -1.7418744846576,
+        1.65570106046975
+      ],
+      "TE_range_rad": [
+        -0.0172226339780536,
+        0.0117470056168993
+      ],
+      "sha256": "7720258272f5c36593bf618a3736f4d3d449f7120697db66d411f7fabeef704a"
+    },
+    {
+      "file": "darus_validation_axis2_vneg.csv",
+      "rows": 116801,
+      "columns": [
+        "theta",
+        "q_set",
+        "theta_TE"
+      ],
+      "units": "radians as repository metadata; no radius conversion",
+      "theta_range_rad": [
+        -1.75198548423917,
+        1.67311491264493
+      ],
+      "TE_range_rad": [
+        -0.00246471185098964,
+        0.00201188422278431
+      ],
+      "sha256": "6e316403ad4ecf86cce0616a4ae02c64df82b806356cef2bb2e916536de217cb"
+    }
+  ],
+  "eligible_public_relief_TE_pairs_found": 0,
+  "conclusion": "No eligible public pairing has been obtained in this search. This does not prove no such dataset exists. No relief parameters were fitted to the unrelated robot data.",
+  "future_eligibility": [
+    "same physical pair with profile/relief metrology",
+    "sufficient geometry, material and supports",
+    "loaded TE waveform and measurement definition",
+    "torque, speed and phase indexing",
+    "uncertainty/repeats and data-use permission"
+  ]
+}

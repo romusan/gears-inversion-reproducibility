@@ -1,0 +1,10 @@
+{
+  "error": "TimeoutExpired(['C:\\\\Users\\\\claudia.parra\\\\Documents\\\\Materias_romulo\\\\investigacion\\\\gears_inversion\\\\objetivos_numericos_2026-11-01\\\\calculix\\\\CalculiX-2.23.0-win-x64\\\\bin\\\\ccx_MT.exe', '-i', 'f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_addendum'], 600.0)",
+  "normal_termination": false,
+  "case": "addendum",
+  "step": 0.01,
+  "h": 0.25,
+  "method": "mortar",
+  "input": "f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_addendum.inp",
+  "runner_sha256": "0023ee90f7c6b5569bbde95de5ce9354194f2b03000b289983ec91aca95e3ee6"
+}

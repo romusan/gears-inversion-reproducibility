@@ -1,0 +1,7 @@
+{
+  "records_sha256": "0c3ae31558f7c1964818ad04e8bb07c9463919c3f587b7f6cae5e510e5fa6416",
+  "plot_source_sha256": "b052daffcaca96f8bb65d654ec20e53900436674cdb2df3905887f1a02226cb2",
+  "image_sha256": "f284de76ac2f2d136a2e34e4f1024a9f818879f869734ddc5f7bfda310dfd8b5",
+  "log_scale": true,
+  "numbers_in_labels": "selected case count"
+}

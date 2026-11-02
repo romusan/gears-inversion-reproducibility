@@ -1,0 +1,21 @@
+{
+  "scope": "Same-operator noiseless analytical controls. Distance at fixed 120-observation normalization is descriptive, not a significance test. Six bounded local starts including truth addendum; no global minimum certificate.",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "seed": 20261101,
+  "source_sha256": {
+    "manuscript/experiment_v14.py": "7721eb3844306ce87ee18026c7ace261e06bcbd07060ee5d33f1a651128d6ff8",
+    "deposit_v6/gear_inverse_identifiability/src/mechanics/batched_operator.py": "ebedddfa67371d9dcbe8eff130fdc7d79433c70f0845dc1f99e8b74100d570f0",
+    "deposit_v6/gear_inverse_identifiability/src/mechanics/compliance.py": "3da402e31c8bc692c8df0e51264cdba19fdb3fcb89215425d013aa1ae017f515",
+    "deposit_v6/gear_inverse_identifiability/src/geometry/microgeometry.py": "e06c4e4ec3e5669e7418972f73fac034db0b4fbccd9396bba9b00a09b24a17a8"
+  },
+  "cells": 32,
+  "attempts": 192,
+  "failed_attempts": 0,
+  "max_force_residual_N": 1.999251253437251e-08,
+  "max_engine_difference_rms_um": 1.525230122789315e-11,
+  "max_jacobian_relative_error": 1.8814401917555346e-07,
+  "elapsed_seconds": 95.43741416931152
+}

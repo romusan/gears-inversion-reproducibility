@@ -1,0 +1,177 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T13:05:57Z",
+      "timestamp": 1792760757543,
+      "version": "4.5.0"
+    },
+    "reference-count": 0,
+    "publisher": "Walter de Gruyter GmbH",
+    "issue": "92",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          1882
+        ]
+      ]
+    },
+    "DOI": "10.1515/crll.1882.92.156",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2009,
+          12,
+          9
+        ]
+      ],
+      "date-time": "2009-12-09T08:47:20Z",
+      "timestamp": 1260348440000
+    },
+    "page": "156-171",
+    "source": "Crossref",
+    "is-referenced-by-count": 3945,
+    "title": [
+      "Ueber die Berührung fester elastischer Körper."
+    ],
+    "prefix": "10.1515",
+    "volume": "1882",
+    "author": [
+      {
+        "given": "Heinrich",
+        "family": "Hertz",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "374",
+    "published-online": {
+      "date-parts": [
+        [
+          2009,
+          12,
+          9
+        ]
+      ]
+    },
+    "container-title": [
+      "crll"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.degruyter.com/view/j/crll.1882.1882.issue-92/crll.1882.92.156/crll.1882.92.156.xml",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.degruyter.com/document/doi/10.1515/crll.1882.92.156/xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.degruyter.com/document/doi/10.1515/crll.1882.92.156/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          15
+        ]
+      ],
+      "date-time": "2022-03-15T02:13:48Z",
+      "timestamp": 1647310428000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.degruyter.com/document/doi/10.1515/crll.1882.92.156/html"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1882
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "92",
+      "published-online": {
+        "date-parts": [
+          [
+            2009,
+            12,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1882
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1515/crll.1882.92.156"
+    ],
+    "URL": "https://doi.org/10.1515/crll.1882.92.156",
+    "relation": {},
+    "ISSN": [
+      "0075-4102",
+      "1435-5345"
+    ],
+    "issn-type": [
+      {
+        "value": "0075-4102",
+        "type": "print"
+      },
+      {
+        "value": "1435-5345",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1882
+        ]
+      ]
+    }
+  }
+}

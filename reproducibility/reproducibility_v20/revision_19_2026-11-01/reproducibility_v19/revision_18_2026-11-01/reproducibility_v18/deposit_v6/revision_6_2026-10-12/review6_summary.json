@@ -1,0 +1,650 @@
+{
+  "quadratic": {
+    "records": [
+      {
+        "phase_fraction": 0,
+        "nominal_pairs": 1,
+        "mesh_h_mm": 0.25,
+        "contact_step_mm": 0.01,
+        "bore_radius_mm": 25,
+        "root_trim_mm": 0.4,
+        "patch_halfwidth_mm": 0.35,
+        "geometry_factor": 1,
+        "traction_discretization": "weak_hat",
+        "local_contact_mesh_mm": 0.01,
+        "element_degree": 2,
+        "restricted_nominal_window": false,
+        "tooth_edge_loaded": false,
+        "clipped_contact_domains": [
+          false
+        ],
+        "nodes": [
+          45473,
+          45352
+        ],
+        "elements": [
+          85099,
+          84857
+        ],
+        "approach_um": 40.575175733545954,
+        "k_incremental_N_um": 236.34936278885473,
+        "k_fd_N_um": 236.34936278887926,
+        "tangent_relative_difference": 1.0369483049998962e-13,
+        "k_secant_N_um": 230.0641358232997,
+        "pair_forces_N": [
+          9334.89274101677
+        ],
+        "normal_force_N": 9334.89274101677,
+        "force_residual_N": 0.0,
+        "contact_residual_mm": 2.0816681711721685e-17,
+        "elastic_residual_relative": 8.966103951372767e-12,
+        "strain_energy_N_mm": 186.7830623457208,
+        "body_torques_Nmm": [
+          -650000.00032333,
+          -649999.9996781098
+        ],
+        "torque_relative_error": 4.97430763246598e-10,
+        "seconds": 89.56326651573181
+      },
+      {
+        "phase_fraction": 0.24714731371212909,
+        "nominal_pairs": 1,
+        "mesh_h_mm": 0.25,
+        "contact_step_mm": 0.01,
+        "bore_radius_mm": 25,
+        "root_trim_mm": 0.4,
+        "patch_halfwidth_mm": 0.35,
+        "geometry_factor": 1,
+        "traction_discretization": "weak_hat",
+        "local_contact_mesh_mm": 0.01,
+        "element_degree": 2,
+        "restricted_nominal_window": true,
+        "tooth_edge_loaded": false,
+        "clipped_contact_domains": [
+          false
+        ],
+        "nodes": [
+          45318,
+          45325
+        ],
+        "elements": [
+          84783,
+          84818
+        ],
+        "approach_um": 41.96242579802572,
+        "k_incremental_N_um": 228.95533279671835,
+        "k_fd_N_um": 228.95533279672884,
+        "tangent_relative_difference": 4.574118861455645e-14,
+        "k_secant_N_um": 222.45836753927523,
+        "pair_forces_N": [
+          9334.89274101677
+        ],
+        "normal_force_N": 9334.89274101677,
+        "force_residual_N": 0.0,
+        "contact_residual_mm": 2.0816681711721685e-17,
+        "elastic_residual_relative": 9.7773913880206e-12,
+        "strain_energy_N_mm": 193.16664315495564,
+        "body_torques_Nmm": [
+          -649783.5366443337,
+          -650216.4633720316
+        ],
+        "torque_relative_error": 0.00033302057235617966,
+        "seconds": 74.23129320144653
+      },
+      {
+        "phase_fraction": 0.2971473137121291,
+        "nominal_pairs": 2,
+        "mesh_h_mm": 0.25,
+        "contact_step_mm": 0.01,
+        "bore_radius_mm": 25,
+        "root_trim_mm": 0.4,
+        "patch_halfwidth_mm": 0.35,
+        "geometry_factor": 1,
+        "traction_discretization": "weak_hat",
+        "local_contact_mesh_mm": 0.01,
+        "element_degree": 2,
+        "restricted_nominal_window": true,
+        "tooth_edge_loaded": true,
+        "clipped_contact_domains": [
+          true,
+          false
+        ],
+        "nodes": [
+          46392,
+          46402
+        ],
+        "elements": [
+          86751,
+          86744
+        ],
+        "approach_um": 29.908811470605595,
+        "k_incremental_N_um": 319.4053193134903,
+        "k_fd_N_um": 319.40531931349994,
+        "tangent_relative_difference": 3.019806626980426e-14,
+        "k_secant_N_um": 312.11179187749104,
+        "pair_forces_N": [
+          3905.8798798028956,
+          5429.012861213874
+        ],
+        "normal_force_N": 9334.89274101677,
+        "force_residual_N": 0.0,
+        "contact_residual_mm": 1.0408340855860843e-17,
+        "elastic_residual_relative": 1.1488272735656318e-11,
+        "strain_energy_N_mm": 138.08929740006016,
+        "body_torques_Nmm": [
+          -650091.9026858419,
+          -649908.0972433389
+        ],
+        "torque_relative_error": 0.00014138885640158083,
+        "seconds": 81.74595975875854
+      },
+      {
+        "phase_fraction": 0.3321473137121291,
+        "nominal_pairs": 2,
+        "mesh_h_mm": 0.25,
+        "contact_step_mm": 0.01,
+        "bore_radius_mm": 25,
+        "root_trim_mm": 0.4,
+        "patch_halfwidth_mm": 0.35,
+        "geometry_factor": 1,
+        "traction_discretization": "weak_hat",
+        "local_contact_mesh_mm": 0.01,
+        "element_degree": 2,
+        "restricted_nominal_window": true,
+        "tooth_edge_loaded": false,
+        "clipped_contact_domains": [
+          true,
+          false
+        ],
+        "nodes": [
+          46709,
+          46468
+        ],
+        "elements": [
+          87330,
+          86888
+        ],
+        "approach_um": 29.764193364300976,
+        "k_incremental_N_um": 320.861204178742,
+        "k_fd_N_um": 320.76628987953154,
+        "tangent_relative_difference": 0.0002958110796018598,
+        "k_secant_N_um": 313.6282790116864,
+        "pair_forces_N": [
+          4042.7910857126503,
+          5292.101655304121
+        ],
+        "normal_force_N": 9334.89274101677,
+        "force_residual_N": 0.0,
+        "contact_residual_mm": 1.734723475976807e-17,
+        "elastic_residual_relative": 1.1430966191132419e-11,
+        "strain_energy_N_mm": 137.44684431184828,
+        "body_torques_Nmm": [
+          -650055.4441257286,
+          -649944.5558596561
+        ],
+        "torque_relative_error": 8.529867745221686e-05,
+        "seconds": 93.54843091964722
+      },
+      {
+        "phase_fraction": 0.5,
+        "nominal_pairs": 2,
+        "mesh_h_mm": 0.25,
+        "contact_step_mm": 0.01,
+        "bore_radius_mm": 25,
+        "root_trim_mm": 0.4,
+        "patch_halfwidth_mm": 0.35,
+        "geometry_factor": 1,
+        "traction_discretization": "weak_hat",
+        "local_contact_mesh_mm": 0.01,
+        "element_degree": 2,
+        "restricted_nominal_window": false,
+        "tooth_edge_loaded": false,
+        "clipped_contact_domains": [
+          false,
+          false
+        ],
+        "nodes": [
+          46833,
+          46879
+        ],
+        "elements": [
+          87544,
+          87636
+        ],
+        "approach_um": 29.49915552832788,
+        "k_incremental_N_um": 323.6308146329434,
+        "k_fd_N_um": 323.63081463297254,
+        "tangent_relative_difference": 9.015010959956271e-14,
+        "k_secant_N_um": 316.4461007045617,
+        "pair_forces_N": [
+          4667.3904727112185,
+          4667.502268305553
+        ],
+        "normal_force_N": 9334.89274101677,
+        "force_residual_N": 0.0,
+        "contact_residual_mm": 1.3877787807814457e-17,
+        "elastic_residual_relative": 1.1505625571149978e-11,
+        "strain_energy_N_mm": 136.24584045675988,
+        "body_torques_Nmm": [
+          -649999.9142775828,
+          -650000.0857289969
+        ],
+        "torque_relative_error": 1.3189076453201665e-07,
+        "seconds": 97.8659279346466
+      },
+      {
+        "phase_fraction": 0.6678526862878709,
+        "nominal_pairs": 2,
+        "mesh_h_mm": 0.25,
+        "contact_step_mm": 0.01,
+        "bore_radius_mm": 25,
+        "root_trim_mm": 0.4,
+        "patch_halfwidth_mm": 0.35,
+        "geometry_factor": 1,
+        "traction_discretization": "weak_hat",
+        "local_contact_mesh_mm": 0.01,
+        "element_degree": 2,
+        "restricted_nominal_window": true,
+        "tooth_edge_loaded": false,
+        "clipped_contact_domains": [
+          false,
+          true
+        ],
+        "nodes": [
+          46650,
+          46604
+        ],
+        "elements": [
+          87252,
+          87120
+        ],
+        "approach_um": 29.764137571081942,
+        "k_incremental_N_um": 320.8618885649772,
+        "k_fd_N_um": 320.7468465067512,
+        "tangent_relative_difference": 0.00035854073770047457,
+        "k_secant_N_um": 313.62886691151124,
+        "pair_forces_N": [
+          5292.111359371574,
+          4042.781381645198
+        ],
+        "normal_force_N": 9334.89274101677,
+        "force_residual_N": 0.0,
+        "contact_residual_mm": 1.734723475976807e-17,
+        "elastic_residual_relative": 1.1344564297628505e-11,
+        "strain_energy_N_mm": 137.44680156179246,
+        "body_torques_Nmm": [
+          -649944.6416042782,
+          -650055.3584606014
+        ],
+        "torque_relative_error": 8.516686246373695e-05,
+        "seconds": 92.73453307151794
+      },
+      {
+        "phase_fraction": 0.7028526862878709,
+        "nominal_pairs": 2,
+        "mesh_h_mm": 0.25,
+        "contact_step_mm": 0.01,
+        "bore_radius_mm": 25,
+        "root_trim_mm": 0.4,
+        "patch_halfwidth_mm": 0.35,
+        "geometry_factor": 1,
+        "traction_discretization": "weak_hat",
+        "local_contact_mesh_mm": 0.01,
+        "element_degree": 2,
+        "restricted_nominal_window": true,
+        "tooth_edge_loaded": true,
+        "clipped_contact_domains": [
+          false,
+          true
+        ],
+        "nodes": [
+          46382,
+          46345
+        ],
+        "elements": [
+          86704,
+          86657
+        ],
+        "approach_um": 29.908694857103363,
+        "k_incremental_N_um": 319.40685429392454,
+        "k_fd_N_um": 319.40685429395455,
+        "tangent_relative_difference": 9.392486788328824e-14,
+        "k_secant_N_um": 312.1130087961601,
+        "pair_forces_N": [
+          5429.017833378302,
+          3905.874907638472
+        ],
+        "normal_force_N": 9334.89274101677,
+        "force_residual_N": 3.637978807091713e-12,
+        "contact_residual_mm": 2.0816681711721685e-17,
+        "elastic_residual_relative": 1.1777342519211025e-11,
+        "strain_energy_N_mm": 138.08913860550695,
+        "body_torques_Nmm": [
+          -649908.2311642504,
+          -650091.7688318813
+        ],
+        "torque_relative_error": 0.00014118282423014605,
+        "seconds": 83.79393482208252
+      },
+      {
+        "phase_fraction": 0.7528526862878709,
+        "nominal_pairs": 1,
+        "mesh_h_mm": 0.25,
+        "contact_step_mm": 0.01,
+        "bore_radius_mm": 25,
+        "root_trim_mm": 0.4,
+        "patch_halfwidth_mm": 0.35,
+        "geometry_factor": 1,
+        "traction_discretization": "weak_hat",
+        "local_contact_mesh_mm": 0.01,
+        "element_degree": 2,
+        "restricted_nominal_window": true,
+        "tooth_edge_loaded": false,
+        "clipped_contact_domains": [
+          false
+        ],
+        "nodes": [
+          45351,
+          45427
+        ],
+        "elements": [
+          84870,
+          85001
+        ],
+        "approach_um": 41.962446500533815,
+        "k_incremental_N_um": 228.95498366320385,
+        "k_fd_N_um": 228.9549836632191,
+        "tangent_relative_difference": 6.661338147750939e-14,
+        "k_secant_N_um": 222.45825778766306,
+        "pair_forces_N": [
+          9334.89274101677
+        ],
+        "normal_force_N": 9334.89274101677,
+        "force_residual_N": 0.0,
+        "contact_residual_mm": 2.0816681711721685e-17,
+        "elastic_residual_relative": 9.939653530651512e-12,
+        "strain_energy_N_mm": 193.1668546877333,
+        "body_torques_Nmm": [
+          -650216.5885779752,
+          -649783.4114384496
+        ],
+        "torque_relative_error": 0.00033321319688495166,
+        "seconds": 72.4636447429657
+      }
+    ],
+    "sampled_range_um": 12.463290972205936,
+    "scope": "Eight original phases; quadratic displacements and averaged pressure constraints. Restricted nominal contact windows, approximate tip/root and fixed normals. Not a converged continuous corner-contact cycle."
+  },
+  "monte_carlo_seed_comparisons": [
+    {
+      "sd": 0.25,
+      "sigma_um": 0.1,
+      "pair_better_percent": 43,
+      "pair_worse_percent": 56,
+      "exact_ties": 1,
+      "improved_beyond_1e_8": 41,
+      "worse_beyond_1e_8": 51,
+      "ties_within_1e_8": 8
+    },
+    {
+      "sd": 0.25,
+      "sigma_um": 0.5,
+      "pair_better_percent": 38,
+      "pair_worse_percent": 56,
+      "exact_ties": 6,
+      "improved_beyond_1e_8": 37,
+      "worse_beyond_1e_8": 50,
+      "ties_within_1e_8": 13
+    },
+    {
+      "sd": 0.25,
+      "sigma_um": 1,
+      "pair_better_percent": 49,
+      "pair_worse_percent": 48,
+      "exact_ties": 3,
+      "improved_beyond_1e_8": 45,
+      "worse_beyond_1e_8": 45,
+      "ties_within_1e_8": 10
+    },
+    {
+      "sd": 0.4,
+      "sigma_um": 0.1,
+      "pair_better_percent": 50,
+      "pair_worse_percent": 50,
+      "exact_ties": 0,
+      "improved_beyond_1e_8": 50,
+      "worse_beyond_1e_8": 50,
+      "ties_within_1e_8": 0
+    },
+    {
+      "sd": 0.4,
+      "sigma_um": 0.5,
+      "pair_better_percent": 59,
+      "pair_worse_percent": 38,
+      "exact_ties": 3,
+      "improved_beyond_1e_8": 57,
+      "worse_beyond_1e_8": 36,
+      "ties_within_1e_8": 7
+    },
+    {
+      "sd": 0.4,
+      "sigma_um": 1,
+      "pair_better_percent": 44,
+      "pair_worse_percent": 53,
+      "exact_ties": 3,
+      "improved_beyond_1e_8": 38,
+      "worse_beyond_1e_8": 50,
+      "ties_within_1e_8": 12
+    }
+  ],
+  "angular": {
+    "period_deg": 6.315789473684211,
+    "step_deg": 0.21,
+    "sampling": "Grid offset in [0,0.21 deg); crop to one fixed mesh cycle, 30 or 31 samples. Cycles do not have an integer number of 0.21-degree steps.",
+    "results": [
+      {
+        "min_pp_um": 11.706350518065381,
+        "max_pp_um": 11.955461646686423,
+        "minimum_offset_deg": 0.11289473684210533,
+        "partition_intervals": 3841,
+        "sample_counts": [
+          30,
+          31
+        ],
+        "method": "All offset intervals partitioned at shifted interpolation knots and the sample-count change. Range is convex within each interval; interval maxima occur at endpoints and minima use 70 ternary steps. Bounds apply to this periodic piecewise-linear interpolant, not the unknown exact waveform.",
+        "model": "baseline",
+        "nodes": 3840,
+        "dense_pp_um": 11.955470817743379
+      },
+      {
+        "min_pp_um": 11.706350163155385,
+        "max_pp_um": 11.95546172353911,
+        "minimum_offset_deg": 0.11289473684210283,
+        "partition_intervals": 7681,
+        "sample_counts": [
+          30,
+          31
+        ],
+        "method": "All offset intervals partitioned at shifted interpolation knots and the sample-count change. Range is convex within each interval; interval maxima occur at endpoints and minima use 70 ternary steps. Bounds apply to this periodic piecewise-linear interpolant, not the unknown exact waveform.",
+        "model": "baseline",
+        "nodes": 7680,
+        "dense_pp_um": 11.955470817743379
+      },
+      {
+        "min_pp_um": 11.706350138054884,
+        "max_pp_um": 11.955461761965427,
+        "minimum_offset_deg": 0.11289473684210533,
+        "partition_intervals": 15361,
+        "sample_counts": [
+          30,
+          31
+        ],
+        "method": "All offset intervals partitioned at shifted interpolation knots and the sample-count change. Range is convex within each interval; interval maxima occur at endpoints and minima use 70 ternary steps. Bounds apply to this periodic piecewise-linear interpolant, not the unknown exact waveform.",
+        "model": "baseline",
+        "nodes": 15360,
+        "dense_pp_um": 11.955470817743379
+      },
+      {
+        "min_pp_um": 12.269918152881932,
+        "max_pp_um": 12.4425314857051,
+        "minimum_offset_deg": 0.11290498090445819,
+        "partition_intervals": 9,
+        "sample_counts": [
+          30,
+          31
+        ],
+        "method": "All offset intervals partitioned at shifted interpolation knots and the sample-count change. Range is convex within each interval; interval maxima occur at endpoints and minima use 70 ternary steps. Bounds apply to this periodic piecewise-linear interpolant, not the unknown exact waveform.",
+        "model": "FE eight-phase linear interpolant",
+        "nodes": 8,
+        "sampled_range_um": 12.463290972205936
+      }
+    ],
+    "warning": "Baseline envelopes are refined interpolation diagnostics. FE envelope is a sensitivity illustration of an eight-phase interpolant; it cannot measure the unresolved FE transition ramp or attribute the benchmark mismatch to angular sampling."
+  },
+  "FE_checks": [
+    {
+      "phase": 0,
+      "minimum_eigenvalue_mm_N": 6.565533528886854e-08,
+      "symmetry_residual_mm_N": 0.0,
+      "torque_relative_error": 4.97430763246598e-10,
+      "tangent_perturbations": [
+        {
+          "relative_force_step": 0.001,
+          "k_fd_N_um": 236.34936278887926,
+          "relative_difference": 1.0369483049998962e-13,
+          "active_sets_match": true
+        }
+      ]
+    },
+    {
+      "phase": 0.24714731371212909,
+      "minimum_eigenvalue_mm_N": 6.568689440115626e-08,
+      "symmetry_residual_mm_N": 0.0,
+      "torque_relative_error": 0.00033302057235617966,
+      "tangent_perturbations": [
+        {
+          "relative_force_step": 0.001,
+          "k_fd_N_um": 228.95533279672884,
+          "relative_difference": 4.574118861455645e-14,
+          "active_sets_match": true
+        }
+      ]
+    },
+    {
+      "phase": 0.2971473137121291,
+      "minimum_eigenvalue_mm_N": 6.596723160205433e-08,
+      "symmetry_residual_mm_N": 0.0,
+      "torque_relative_error": 0.00014138885640158083,
+      "tangent_perturbations": [
+        {
+          "relative_force_step": 0.001,
+          "k_fd_N_um": 319.40531931349994,
+          "relative_difference": 3.019806626980426e-14,
+          "active_sets_match": true
+        }
+      ]
+    },
+    {
+      "phase": 0.3321473137121291,
+      "minimum_eigenvalue_mm_N": 6.573296700070579e-08,
+      "symmetry_residual_mm_N": 0.0,
+      "torque_relative_error": 8.529867745221686e-05,
+      "tangent_perturbations": [
+        {
+          "relative_force_step": 0.001,
+          "k_fd_N_um": 320.76628987953154,
+          "relative_difference": 0.0002958110796018598,
+          "active_sets_match": false
+        },
+        {
+          "relative_force_step": 0.0003,
+          "k_fd_N_um": 320.86120417885013,
+          "relative_difference": 3.3706371027619753e-13,
+          "active_sets_match": true
+        }
+      ]
+    },
+    {
+      "phase": 0.5,
+      "minimum_eigenvalue_mm_N": 6.573653347895896e-08,
+      "symmetry_residual_mm_N": 0.0,
+      "torque_relative_error": 1.3189076453201665e-07,
+      "tangent_perturbations": [
+        {
+          "relative_force_step": 0.001,
+          "k_fd_N_um": 323.63081463297254,
+          "relative_difference": 9.015010959956271e-14,
+          "active_sets_match": true
+        }
+      ]
+    },
+    {
+      "phase": 0.6678526862878709,
+      "minimum_eigenvalue_mm_N": 6.566488526283129e-08,
+      "symmetry_residual_mm_N": 0.0,
+      "torque_relative_error": 8.516686246373695e-05,
+      "tangent_perturbations": [
+        {
+          "relative_force_step": 0.001,
+          "k_fd_N_um": 320.7468465067512,
+          "relative_difference": 0.00035854073770047457,
+          "active_sets_match": false
+        },
+        {
+          "relative_force_step": 0.0003,
+          "k_fd_N_um": 320.83413896533176,
+          "relative_difference": 8.648456122217762e-05,
+          "active_sets_match": false
+        },
+        {
+          "relative_force_step": 0.0001,
+          "k_fd_N_um": 320.86188856534767,
+          "relative_difference": 1.1546319456101628e-12,
+          "active_sets_match": true
+        }
+      ]
+    },
+    {
+      "phase": 0.7028526862878709,
+      "minimum_eigenvalue_mm_N": 6.56924630666709e-08,
+      "symmetry_residual_mm_N": 0.0,
+      "torque_relative_error": 0.00014118282423014605,
+      "tangent_perturbations": [
+        {
+          "relative_force_step": 0.001,
+          "k_fd_N_um": 319.40685429395455,
+          "relative_difference": 9.392486788328824e-14,
+          "active_sets_match": true
+        }
+      ]
+    },
+    {
+      "phase": 0.7528526862878709,
+      "minimum_eigenvalue_mm_N": 6.567684272584047e-08,
+      "symmetry_residual_mm_N": 0.0,
+      "torque_relative_error": 0.00033321319688495166,
+      "tangent_perturbations": [
+        {
+          "relative_force_step": 0.001,
+          "k_fd_N_um": 228.9549836632191,
+          "relative_difference": 6.661338147750939e-14,
+          "active_sets_match": true
+        }
+      ]
+    }
+  ],
+  "original_linear_range_um": 12.278,
+  "baseline_matched_range_um": 11.662,
+  "quadratic_reference_difference_percent": 18.393568653993885,
+  "maximum_torque_error_percent": 0.033321319688495166,
+  "source_sha256": {
+    "fe2d/run_fe2d.py": "0c941a1807e3cf350fff281bb9f9a7f641b9db34b984210db0bf10fb850115d9",
+    "fe2d/quadratic_eight_phases.py": "3ae9a28f6d220b9cc65a0628f40581a7adc293201d5dc0e223237bb7c9091bac",
+    "gear_inverse_identifiability/experiments/Q1_review6_angular.py": "09ac13d5dc78c3817aab393248482d4620233b0cac5850662839bbb89f653161"
+  },
+  "source_sha256_observed_local": {
+    "fe2d\\run_fe2d.py": "0c941a1807e3cf350fff281bb9f9a7f641b9db34b984210db0bf10fb850115d9",
+    "fe2d\\quadratic_eight_phases.py": "3ae9a28f6d220b9cc65a0628f40581a7adc293201d5dc0e223237bb7c9091bac",
+    "gear_inverse_identifiability\\experiments\\Q1_review6_angular.py": "09ac13d5dc78c3817aab393248482d4620233b0cac5850662839bbb89f653161"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "fresh_portable_builder_passed": true,
+  "checks": {
+    "MMT_manuscript_Q1_revision_v12.docx": {
+      "document_xml_identical": true,
+      "images_identical": true
+    },
+    "MMT_supplementary_Q1_revision_v12.docx": {
+      "document_xml_identical": true,
+      "images_identical": true
+    },
+    "Highlights_v12.docx": {
+      "document_xml_identical": true,
+      "images_identical": true
+    }
+  },
+  "baseline_files_byte_identical": 260
+}

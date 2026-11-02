@@ -1,0 +1,13 @@
+{
+  "new_observations_verified": 600,
+  "selected_objectives_recomputed_for_new_cases": 600,
+  "pilot_covariance_estimates_verified": 100,
+  "all_1100_objectives_checked_by_analysis": true,
+  "transfer_records_independently_recomputed": 32,
+  "bootstrap_reference": "scipy.stats.bootstrap paired=True, percentile, 10000",
+  "bootstrap_reference_agrees": true,
+  "stored_bootstrap_intervals_checked": 21,
+  "cell_counts_and_medians_verified": 16,
+  "source_hashes_verified": true,
+  "max_observation_difference_mm": 0.0
+}

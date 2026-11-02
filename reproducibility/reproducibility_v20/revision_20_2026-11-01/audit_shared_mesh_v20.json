@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "tag": "profile_068f6d98583c_s0.02_h0.35",
+      "nodes": 15729,
+      "triangles": 26424,
+      "sampled_columns": [
+        0,
+        943,
+        1887,
+        2831,
+        3775,
+        4719,
+        5663,
+        6607
+      ],
+      "contour_coordinate_error_mm": 5.028866212342109e-11,
+      "compliance_column_relative_error": 1.0812414711913109e-10,
+      "input_sha256": "eb1233ec7ba7593e3c9adeac5403b1298c78927ccb30471db22f93baf0112367"
+    },
+    {
+      "tag": "nominal_s0.02_h0.35",
+      "nodes": 15757,
+      "triangles": 26475,
+      "sampled_columns": [
+        0,
+        945,
+        1890,
+        2835,
+        3781,
+        4726,
+        5671,
+        6617
+      ],
+      "contour_coordinate_error_mm": 4.932054764594795e-10,
+      "compliance_column_relative_error": 1.1553699517313295e-10,
+      "input_sha256": "eb1233ec7ba7593e3c9adeac5403b1298c78927ccb30471db22f93baf0112367"
+    },
+    {
+      "tag": "profile_cdb858c7282c_s0.02_h0.35",
+      "nodes": 15767,
+      "triangles": 26500,
+      "sampled_columns": [
+        0,
+        943,
+        1887,
+        2831,
+        3775,
+        4719,
+        5663,
+        6607
+      ],
+      "contour_coordinate_error_mm": 5.028866212342109e-11,
+      "compliance_column_relative_error": 1.104644171176035e-10,
+      "input_sha256": "19c9e479bab6ec0ff2293c4c2a173e703d60ac9eb3986f86ea9460a8c8c81438"
+    }
+  ],
+  "source_sha256": "d50076082d7cf8cbb033559f3245377961238fa831ee35b192354d4f1d47bb20"
+}

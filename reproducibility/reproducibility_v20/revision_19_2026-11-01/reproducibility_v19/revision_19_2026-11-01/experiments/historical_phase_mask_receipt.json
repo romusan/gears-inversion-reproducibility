@@ -1,0 +1,24 @@
+{
+  "source": "gears_inversion\\deposit_v6\\results\\independent_validation\\11_fe_cycle_24_24.jsonl",
+  "source_file_sha256": "1dd246b897b25bf6b2e4e5eb6fe17b2439d291d85ff4ea5cb04b4fcb8984bece",
+  "excluded_indices": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
+  ]
+}

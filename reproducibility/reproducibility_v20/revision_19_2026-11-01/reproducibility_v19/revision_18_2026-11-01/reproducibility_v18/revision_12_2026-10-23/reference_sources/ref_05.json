@@ -1,0 +1,617 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          16
+        ]
+      ],
+      "date-time": "2026-06-16T12:22:53Z",
+      "timestamp": 1781612573482,
+      "version": "3.54.5"
+    },
+    "reference-count": 36,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2025-02-11T00:00:00Z",
+          "timestamp": 1739232000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/deed.de"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2025-02-11T00:00:00Z",
+          "timestamp": 1739232000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/deed.de"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100021130",
+        "name": "Bundesministerium für Wirtschaft und Klimaschutz",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "IGF 21248N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "IGF 21248N"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100021130",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100007210",
+        "name": "RWTH Aachen University",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/501100007210",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Forsch Ingenieurwes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10010-025-00786-2",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          11
+        ]
+      ],
+      "date-time": "2025-02-11T08:30:52Z",
+      "timestamp": 1739262652000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Design of profile corrections and tolerances in cylindrical gears for noise-sensitive applications in line with production efforts",
+      "Auslegung von Profilkorrekturen und Toleranzen bei Stirnrädern für geräuschkritische Anwendungen im Einklang mit Fertigungsaufwänden"
+    ],
+    "prefix": "10.1007",
+    "volume": "89",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9310-3508",
+        "authenticated-orcid": false,
+        "given": "Laurenz",
+        "family": "Roth",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7750-7825",
+        "authenticated-orcid": false,
+        "given": "Christian",
+        "family": "Westphal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8049-3364",
+        "authenticated-orcid": false,
+        "given": "Christian",
+        "family": "Brecher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "786_CR1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-18141-2",
+        "volume-title": "Zahnradtechnik Stirnrad-Evolventenverzahnungen: Geometrische Grundlagen, Profilverschiebungen, Toleranzen, Festigkeit",
+        "author": "K Roth",
+        "year": "2001",
+        "unstructured": "Roth K (2001) Zahnradtechnik Stirnrad-Evolventenverzahnungen: Geometrische Grundlagen, Profilverschiebungen, Toleranzen, Festigkeit, 2nd edn. Springer, Berlin",
+        "edition": "2"
+      },
+      {
+        "key": "786_CR2",
+        "volume-title": "Zahnrad- und Getriebetechnik: Auslegung, Herstellung, Untersuchung, Simulation",
+        "author": "F Klocke",
+        "year": "2024",
+        "unstructured": "Klocke F, Brecher C (2024) Zahnrad- und Getriebetechnik: Auslegung, Herstellung, Untersuchung, Simulation, 2nd edn. Hanser, Munich",
+        "edition": "2"
+      },
+      {
+        "key": "786_CR3",
+        "series-title": "Maschinenelemente",
+        "volume-title": "Getriebe allgemein, Zahnradgetriebe – Grundlagen, Stirnradgetriebe",
+        "author": "G Niemann",
+        "year": "2003",
+        "unstructured": "Niemann G, Winter H (2003) Getriebe allgemein, Zahnradgetriebe – Grundlagen, Stirnradgetriebe, 2nd edn. Maschinenelemente, vol 2. Springer, Berlin, Heidelberg",
+        "edition": "2"
+      },
+      {
+        "key": "786_CR4",
+        "volume-title": "Anforderungs- und fertigungsgerechte Auslegung von Stirnradverzahnungen durch Zahnkontaktanalyse mit Hilfe der FEM",
+        "author": "J Cao",
+        "year": "2002",
+        "unstructured": "Cao J (2002) Anforderungs- und fertigungsgerechte Auslegung von Stirnradverzahnungen durch Zahnkontaktanalyse mit Hilfe der FEM. RWTH Aachen University (Doctoral Thesis)"
+      },
+      {
+        "key": "786_CR5",
+        "volume-title": "Der fehlerhafte Zahneingriff und seine Auswirkungen auf die Geräuschabstrahlung",
+        "author": "F Tesch",
+        "year": "1969",
+        "unstructured": "Tesch F (1969) Der fehlerhafte Zahneingriff und seine Auswirkungen auf die Geräuschabstrahlung. RWTH Aachen University (Doctoral Thesis)"
+      },
+      {
+        "key": "786_CR6",
+        "volume-title": "Begriffe und Bestimmungsgrößen für Stirnräder (Zylinderräder) und Stirnradpaare (Zylinderradpaare) mit Evolventenverzahnung DK 621.833.1:001.4 (DIN 3960)",
+        "author": "Normenausschuß Antriebstechnik (NAN) im DIN Deutsches Institut für Normung e. V.",
+        "year": "1987",
+        "unstructured": "Normenausschuß Antriebstechnik (NAN) im DIN Deutsches Institut für Normung e. V. (1987) Begriffe und Bestimmungsgrößen für Stirnräder (Zylinderräder) und Stirnradpaare (Zylinderradpaare) mit Evolventenverzahnung DK 621.833.1:001.4 (DIN 3960)"
+      },
+      {
+        "key": "786_CR7",
+        "volume-title": "Zylinderräder – ISO-Toleranzsystem – Teil&nbsp;1: Definitionen und zulässige Werte für Abweichungen an Zahnflanken ICS 21.200 (ISO 1328-1)",
+        "author": "Normenausschuss Maschinenbau",
+        "year": "2018",
+        "unstructured": "Normenausschuss Maschinenbau (2018) Zylinderräder – ISO-Toleranzsystem – Teil 1: Definitionen und zulässige Werte für Abweichungen an Zahnflanken ICS 21.200 (ISO 1328-1)"
+      },
+      {
+        "key": "786_CR8",
+        "volume-title": "Zahnräder: Zylinderräder und Zylinderradpaare mit Evolventenverzahnung – Begriffe und Geometrie 21.200 (ISO 21771)",
+        "author": "Normenausschuss Maschinenbau",
+        "year": "2014",
+        "unstructured": "Normenausschuss Maschinenbau (2014) Zahnräder: Zylinderräder und Zylinderradpaare mit Evolventenverzahnung – Begriffe und Geometrie 21.200 (ISO 21771)"
+      },
+      {
+        "key": "786_CR9",
+        "volume-title": "Semi-Annual Meeting 109.16",
+        "author": "H Sigg",
+        "year": "1965",
+        "unstructured": "Sigg H (1965) Profile and longitudinal corrections on involute gears. In: American Gear Manufacturers Association (ed) Semi-Annual Meeting 109.16 Chicago, October 24–27"
+      },
+      {
+        "key": "786_CR10",
+        "volume-title": "Calculation of load capacity of spur and helical gears: Part&nbsp;1: Basic principles, introduction and general influence factors ISO 6336-1:2019(E) (ISO 6336-1)",
+        "author": "International Organization for Standardization",
+        "year": "2019",
+        "unstructured": "International Organization for Standardization (2019) Calculation of load capacity of spur and helical gears: Part 1: Basic principles, introduction and general influence factors ISO 6336-1:2019(E) (ISO 6336-1)"
+      },
+      {
+        "key": "786_CR11",
+        "first-page": "64",
+        "volume": "34",
+        "author": "P Konowalczyk",
+        "year": "2017",
+        "unstructured": "Konowalczyk P, Löpenhaus C, Brecher C (2017) FE-based approaches for tip relief design. Gear Technol 34:64–74",
+        "journal-title": "Gear Technol"
+      },
+      {
+        "key": "786_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hertz H (1882) Über die Berührung fester elastischer Körper. J Reine Angew Math: 156–171",
+        "DOI": "10.1515/crll.1882.92.156"
+      },
+      {
+        "key": "786_CR13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3139/9783446435445",
+        "volume-title": "Toleranzmanagement im Automobilbau",
+        "author": "M Bohn",
+        "year": "2013",
+        "unstructured": "Bohn M, Hetsch K (2013) Toleranzmanagement im Automobilbau, 1st edn. Hanser, Munich",
+        "edition": "1"
+      },
+      {
+        "key": "786_CR14",
+        "volume-title": "Statistische Tolerierung. Qualitätsmanagement in der Bosch-Gruppe",
+        "author": "Bosch",
+        "year": "2022",
+        "unstructured": "Bosch (2022) Statistische Tolerierung. Qualitätsmanagement in der Bosch-Gruppe. Karlsruhe"
+      },
+      {
+        "key": "786_CR15",
+        "volume-title": "7th VDI Symposium on Vibrations of Wind Turbines",
+        "author": "C Brecher",
+        "year": "2016",
+        "unstructured": "Brecher C, Löpenhaus C, Piel D et al (2016) Reduktion der Anregung in Getrieben von Windenergieanlagen durch eine toleranzfeldbasierte Mikrogeometrieauslegung. In: Vibration Technology VDI (ed) 7th VDI Symposium on Vibrations of Wind Turbines"
+      },
+      {
+        "key": "786_CR16",
+        "volume-title": "Dresdner Maschinenelemente Kolloquium – DMK 2015",
+        "author": "C Brecher",
+        "year": "2015",
+        "unstructured": "Brecher C, Löpenhaus C, Piel D (2015) Auslegung und Untersuchung eines Forschungsgetriebes für Windkraftanlagen mit einer dynamischen FE-basierten Zahnkontaktanalyse. In: Schlecht B (ed) Dresdner Maschinenelemente Kolloquium – DMK 2015. TUDpress, Dresden"
+      },
+      {
+        "key": "786_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "51",
+        "DOI": "10.1016/j.procir.2018.01.005",
+        "volume": "75",
+        "author": "M Hallmann",
+        "year": "2018",
+        "unstructured": "Hallmann M, Schleich B, Heling B et al (2018) Comparison of different methods for scrap rate estimation in sampling-based tolerance-cost-optimization. Procedia CIRP 75:51–56. https://doi.org/10.1016/j.procir.2018.01.005",
+        "journal-title": "Procedia CIRP"
+      },
+      {
+        "key": "786_CR18",
+        "volume-title": "Skin model shapes: a new paradigm for the tolerance analysis and the geometrical variations modelling in mechanical engineering",
+        "author": "B Schleich",
+        "year": "2017",
+        "unstructured": "Schleich B (2017) Skin model shapes: a new paradigm for the tolerance analysis and the geometrical variations modelling in mechanical engineering. University Erlangen-Nuremberg (Doctoral Thesis)"
+      },
+      {
+        "key": "786_CR19",
+        "series-title": "Oxford series on advanced manufacturing",
+        "volume-title": "Mechanical assemblies: their design, manufacture, and role in product development",
+        "author": "DE Whitney",
+        "year": "2004",
+        "unstructured": "Whitney DE (2004) Mechanical assemblies: their design, manufacture, and role in product development. Oxford series on advanced manufacturing. Oxford University Press, New York"
+      },
+      {
+        "key": "786_CR20",
+        "volume-title": "Statistische Tolerierung: Begriffe, Anwendungsrichtlinien und Zeichnungsangaben DK621.753.1: 519.2: 001.4 (DIN 7186-1)",
+        "author": "Ausschuß Toleranzen und Passungen (ATP) im Deutschen Normenausschuß",
+        "year": "1974",
+        "unstructured": "Ausschuß Toleranzen und Passungen (ATP) im Deutschen Normenausschuß (1974) Statistische Tolerierung: Begriffe, Anwendungsrichtlinien und Zeichnungsangaben DK621.753.1: 519.2: 001.4 (DIN 7186-1)"
+      },
+      {
+        "key": "786_CR21",
+        "volume-title": "Computer Aided Robust Design – Verknüpfung rechnergestützter Entwicklung und virtueller Fertigung als Baustein des Toleranzmanagements",
+        "author": "A Stockinger",
+        "year": "2010",
+        "unstructured": "Stockinger A (2010) Computer Aided Robust Design – Verknüpfung rechnergestützter Entwicklung und virtueller Fertigung als Baustein des Toleranzmanagements. University Erlangen-Nuremberg (Doctoral Thesis)"
+      },
+      {
+        "key": "786_CR22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3139/9783446460645",
+        "volume-title": "Form- und Lagetoleranzen: Geometrische Produktspezifikationen (ISO GPS) in Studium und Praxis",
+        "author": "W Jorden",
+        "year": "2020",
+        "unstructured": "Jorden W, Schütte W (2020) Form- und Lagetoleranzen: Geometrische Produktspezifikationen (ISO GPS) in Studium und Praxis, 10th edn. Hanser, Munich",
+        "edition": "10"
+      },
+      {
+        "key": "786_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.1016/j.procir.2018.04.030",
+        "volume": "75",
+        "author": "S Goetz",
+        "year": "2018",
+        "unstructured": "Goetz S, Schleich B, Wartzack S (2018) A new approach to first tolerance evaluations in the conceptual design stage based on tolerance graphs. Procedia CIRP 75:167–172. https://doi.org/10.1016/j.procir.2018.04.030",
+        "journal-title": "Procedia CIRP"
+      },
+      {
+        "key": "786_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "148",
+        "DOI": "10.1016/j.mechmachtheory.2014.02.013",
+        "volume": "77",
+        "author": "B Schleich",
+        "year": "2014",
+        "unstructured": "Schleich B, Wartzack S (2014) A discrete geometry approach for tolerance analysis of mechanism. Mech Mach Theory 77:148–163. https://doi.org/10.1016/j.mechmachtheory.2014.02.013",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "786_CR25",
+        "volume-title": "Fundamental rating factors and calculation methods for involute spur and helical gear teeth (ANSI/AGMA 2001‑C 95)",
+        "author": "Norm",
+        "year": "1999",
+        "unstructured": "American Gear Manufacturers Association (AGMA) (1999) Fundamental rating factors and calculation methods for involute spur and helical gear teeth (ANSI/AGMA 2001‑C 95)"
+      },
+      {
+        "key": "786_CR26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CEC.2002.1004388",
+        "volume-title": "MOPSO: a proposal for multiple objective particle swarm optimization",
+        "author": "CA Coello Coello",
+        "year": "2002",
+        "unstructured": "Coello Coello CA, Lechuga MS (2002) MOPSO: a proposal for multiple objective particle swarm optimization. Proceedings of the 2002 Congress on Evolutionary Computation. CEC’02 (Cat. No.02TH8600):1051–1056. https://doi.org/10.1109/CEC.2002.1004388"
+      },
+      {
+        "key": "786_CR27",
+        "volume-title": "Simulation des lastfreien und belasteten Zahneingriffs zur Analyse der Drehübertragung von Zahnradgetrieben",
+        "author": "JE Hemmelmann",
+        "year": "2007",
+        "unstructured": "Hemmelmann JE (2007) Simulation des lastfreien und belasteten Zahneingriffs zur Analyse der Drehübertragung von Zahnradgetrieben. RWTH Aachen University (Doctoral Thesis)"
+      },
+      {
+        "key": "786_CR28",
+        "volume-title": "Gehörbezogene Auslegung zweistufiger Getriebe unter Berücksichtigung dynamischer Anregungseffekte",
+        "author": "MG Schroers",
+        "year": "2022",
+        "unstructured": "Schroers MG (2022) Gehörbezogene Auslegung zweistufiger Getriebe unter Berücksichtigung dynamischer Anregungseffekte. RWTH Aachen University (Doctoral Thesis)"
+      },
+      {
+        "key": "786_CR29",
+        "volume-title": "The Brazilian Gear Conference ITA-WZL 2023 Proceedings",
+        "author": "L Roth",
+        "year": "2023",
+        "unstructured": "Roth L (2023) Influence of the System Tolerance Chain on the Operational Behavior Using the Example of a High-Speed Transmission for Electric Vehicles. In: Rego RR, Brimmers J, Brecher C et al (eds) The Brazilian Gear Conference ITA-WZL 2023 Proceedings. Instituto Tecnológico de Aeronáutica (ITA), São José dos Campos"
+      },
+      {
+        "key": "786_CR30",
+        "volume-title": "Dresdner Maschinenelemente Kolloquium",
+        "author": "L Roth",
+        "year": "2022",
+        "unstructured": "Roth L, Brimmers J, Brecher C (2022) Analysis of the impact of the tolerance chain on the excitation behavior in series gearboxes. In: Schlecht B (ed) Dresdner Maschinenelemente Kolloquium DMK 2022. sierke, Göttingen"
+      },
+      {
+        "key": "786_CR31",
+        "first-page": "761",
+        "volume": "44",
+        "author": "B Kaiser",
+        "year": "1999",
+        "unstructured": "Kaiser B, Nowack HMW (1999) Nur scheinbar instabil: Neue Gesichtspunkte zur Prozeßbeurteilung und Qualitätsregelkartentechnik. Qual Zuverlässigkeit 44:761–765",
+        "journal-title": "Qual Zuverlässigkeit"
+      },
+      {
+        "key": "786_CR32",
+        "volume-title": "Aachen Forum on Gear Production—Gears for Electromobility",
+        "author": "C Brecher",
+        "year": "2023",
+        "unstructured": "Brecher C, Brimmers J, Roth L (2023) Influence of the manufacturing scatter on the excitation behavior in series production of an E‑motive cylindrical gear stage. In: Bergs T (ed) Aachen Forum on Gear Production—Gears for Electromobility, 1st edn. Apprimus, Aachen",
+        "edition": "1"
+      },
+      {
+        "key": "786_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "431",
+        "DOI": "10.1007/s10010-023-00647-w",
+        "volume": "87",
+        "author": "M Willecke",
+        "year": "2023",
+        "unstructured": "Willecke M, Brimmers J, Brecher C (2023) Surrogate model based prediction of transmission error characteristics based on generalized topography deviations. Forsch Ingenieurwes 87:431–440. https://doi.org/10.1007/s10010-023-00647-w",
+        "journal-title": "Forsch Ingenieurwes"
+      },
+      {
+        "key": "786_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "103",
+        "DOI": "10.1016/j.jmsy.2013.03.003",
+        "volume": "33",
+        "author": "L Andolfatto",
+        "year": "2014",
+        "unstructured": "Andolfatto L, Thiébaut F, Lartigue C et al (2014) Quality- and cost-driven assembly technique selection and geometrical tolerance allocation for mechanical structure assembly. J Manuf Syst 33:103–115. https://doi.org/10.1016/j.jmsy.2013.03.003",
+        "journal-title": "J Manuf Syst"
+      },
+      {
+        "key": "786_CR35",
+        "volume-title": "Auslegung wirtschaftlich-technologisch optimierter Fertigungsprozessfolgen mittels prozessübergreifender Modellierung",
+        "author": "A Beckers",
+        "year": "2023",
+        "unstructured": "Beckers A (2023) Auslegung wirtschaftlich-technologisch optimierter Fertigungsprozessfolgen mittels prozessübergreifender Modellierung. RWTH Aachen University (Doctoral Thesis)"
+      },
+      {
+        "key": "786_CR36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-658-30967-1",
+        "volume-title": "Praxis der Zerspantechnik: Verfahren, Prozesse, Werkzeuge",
+        "author": "J Dietrich",
+        "year": "2020",
+        "unstructured": "Dietrich J, Richter A (2020) Praxis der Zerspantechnik: Verfahren, Prozesse, Werkzeuge, 13th edn. Springer Vieweg, Wiesbaden, Heidelberg",
+        "edition": "13"
+      }
+    ],
+    "container-title": [
+      "Forschung im Ingenieurwesen"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10010-025-00786-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s10010-025-00786-2",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10010-025-00786-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2025-12-18T15:52:09Z",
+      "timestamp": 1766073129000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s10010-025-00786-2"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          11
+        ]
+      ]
+    },
+    "references-count": 36,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "786"
+    ],
+    "URL": "https://doi.org/10.1007/s10010-025-00786-2",
+    "relation": {},
+    "ISSN": [
+      "0015-7899",
+      "1434-0860"
+    ],
+    "issn-type": [
+      {
+        "value": "0015-7899",
+        "type": "print"
+      },
+      {
+        "value": "1434-0860",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "20 September 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "29 January 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "11 February 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare that they have no known competing financial interests or personal\n\t    relationships that could have appeared to influence the work reported in this paper.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ],
+    "article-number": "11"
+  }
+}

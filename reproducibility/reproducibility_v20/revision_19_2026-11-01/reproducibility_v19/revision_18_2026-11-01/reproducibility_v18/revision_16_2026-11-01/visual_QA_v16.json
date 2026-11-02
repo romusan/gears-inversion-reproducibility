@@ -1,0 +1,30 @@
+{
+  "pages": {
+    "main": 31,
+    "supplement": 8,
+    "highlights": 1,
+    "cover": 1,
+    "tracked": 33
+  },
+  "renderer": "Native Microsoft Word; tracked PDF exported with markup; bundled Python pdf2image and Poppler at 122 dpi",
+  "review": "All final pages reviewed on contact sheets, with full-page checks of equations, revised prose, Highlights and cover",
+  "layout_corrections": [
+    "Caption paragraphs kept together",
+    "Figure 10 floated within section 4.6 without altering image or data",
+    "Edited summary-table cells match 8.5 pt body size"
+  ],
+  "docx_sha256": {
+    "Cover_letter_MMT_v16.docx": "1884eb96904996a8e75927b14be35ed897ce095ed6af238cdf713f426099d19c",
+    "Highlights_v16.docx": "40555cc0b173ce27ece6e0766d68c09cf1f6e2f320e8adc0b4a9a908b905274d",
+    "MMT_manuscript_Q1_revision_v16_clean.docx": "8cb8fa5efb00b220c2ca89dd42e225c729047b0eff726aa20bbe2a5a965c9eed",
+    "MMT_manuscript_Q1_revision_v16_tracked.docx": "90f7ba8ea433360d884e7a83f71d7ed4338b349299f2295470070a95c163e252",
+    "MMT_supplementary_Q1_revision_v16.docx": "0467d644de149822d245707e7570231f273d122c750adec1e935365d63c45ac3"
+  },
+  "pdf_sha256": {
+    "render_cover/Cover_letter_MMT_v16.pdf": "7ffb369418e5a6b4bbc0e656082f6bf5152f8e8a1bfe94f4586a479ce4a8d0c8",
+    "render_highlights/Highlights_v16.pdf": "23e94fdeabdcd95a2e27867fbe90779c25884dbcc17195fb2cf54ee11843bccc",
+    "render_main/MMT_manuscript_Q1_revision_v16_clean.pdf": "ffbe2a9e997e85a5d1a371cda3c66647e9cb360080a03b620f94d8472187a52a",
+    "render_supplement/MMT_supplementary_Q1_revision_v16.pdf": "835945b214caf50fca3c20a9bc25bf3fed032153cae3b091afe71de22a54861f",
+    "render_tracked/MMT_manuscript_Q1_revision_v16_tracked.pdf": "3566547ea8c0b205a63756b4f9d7705ecccf8bae528f9834e4aaa5d9f04f3845"
+  }
+}

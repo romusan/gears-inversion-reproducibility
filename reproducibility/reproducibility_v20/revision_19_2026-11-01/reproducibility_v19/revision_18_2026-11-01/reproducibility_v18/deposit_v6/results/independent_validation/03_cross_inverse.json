@@ -1,0 +1,205 @@
+{
+ "rows": [
+  {
+   "variant": "legacy",
+   "case": "addendum",
+   "truth": [
+    0.02,
+    0.75,
+    0.0,
+    0.5
+   ],
+   "estimate": [
+    0.017457946533471387,
+    0.7413247683455226,
+    0.02,
+    0.45
+   ],
+   "addendum_scaled_error": 0.05084106933057227,
+   "dedendum_scaled_error": 2.0,
+   "full_profile_rmse_um": 6.035477185878224,
+   "rmse_TE_at_observed_phases_um": 0.10874448072056642,
+   "pp_pred_um": 12.29979567056545,
+   "pp_fe_um": 12.424865025478578,
+   "e_pp_percent": 1.0066053406347624,
+   "analytic_min_loaded_xi": 0.6953275618776631,
+   "analytic_signal_rms_um": 2.2957958622560906,
+   "chi2": 22.468187965652724,
+   "fit_rmse_um": 0.10874448072056642,
+   "success": true
+  },
+  {
+   "variant": "legacy",
+   "case": "dedendum",
+   "truth": [
+    0.02,
+    0.75,
+    0.005,
+    0.3
+   ],
+   "estimate": [
+    0.017457946533471387,
+    0.7413247683455226,
+    0.02,
+    0.45
+   ],
+   "addendum_scaled_error": 0.05084106933057227,
+   "dedendum_scaled_error": 1.5,
+   "full_profile_rmse_um": 4.861059793322109,
+   "rmse_TE_at_observed_phases_um": 0.10874448072056642,
+   "pp_pred_um": 12.29979567056545,
+   "pp_fe_um": 12.424865025478578,
+   "e_pp_percent": 1.0066053406347624,
+   "analytic_min_loaded_xi": 0.6953275618776631,
+   "analytic_signal_rms_um": 2.2957958622560906,
+   "chi2": 22.468187965652724,
+   "fit_rmse_um": 0.10874448072056642,
+   "success": true
+  },
+  {
+   "variant": "legacy",
+   "case": "dedendum-deep",
+   "truth": [
+    0.02,
+    0.75,
+    0.005,
+    0.45
+   ],
+   "estimate": [
+    0.017457946533471387,
+    0.7413247683455226,
+    0.02,
+    0.45
+   ],
+   "addendum_scaled_error": 0.05084106933057227,
+   "dedendum_scaled_error": 1.5,
+   "full_profile_rmse_um": 4.539292570380615,
+   "rmse_TE_at_observed_phases_um": 0.10874448072056642,
+   "pp_pred_um": 12.29979567056545,
+   "pp_fe_um": 12.424865025478578,
+   "e_pp_percent": 1.0066053406347624,
+   "analytic_min_loaded_xi": 0.6953275618776631,
+   "analytic_signal_rms_um": 2.2957958622560906,
+   "chi2": 22.468187965652724,
+   "fit_rmse_um": 0.10874448072056642,
+   "success": true
+  },
+  {
+   "variant": "projected-energy",
+   "case": "addendum",
+   "truth": [
+    0.02,
+    0.75,
+    0.0,
+    0.5
+   ],
+   "estimate": [
+    0.020637425879372354,
+    0.7721970807462206,
+    0.01,
+    0.35
+   ],
+   "addendum_scaled_error": 0.02219708074622062,
+   "dedendum_scaled_error": 1.0,
+   "full_profile_rmse_um": 2.668028250766363,
+   "rmse_TE_at_observed_phases_um": 0.1506700297238891,
+   "pp_pred_um": 12.896759150046362,
+   "pp_fe_um": 12.424865025478578,
+   "e_pp_percent": 3.797981898395778,
+   "analytic_min_loaded_xi": 0.6953275618776631,
+   "analytic_signal_rms_um": 2.30534347237036,
+   "chi2": 43.132769928295474,
+   "fit_rmse_um": 0.1506700297238891,
+   "success": true
+  },
+  {
+   "variant": "projected-energy",
+   "case": "dedendum",
+   "truth": [
+    0.02,
+    0.75,
+    0.005,
+    0.3
+   ],
+   "estimate": [
+    0.020637425879372354,
+    0.7721970807462206,
+    0.01,
+    0.35
+   ],
+   "addendum_scaled_error": 0.02219708074622062,
+   "dedendum_scaled_error": 0.5,
+   "full_profile_rmse_um": 1.4617801926761467,
+   "rmse_TE_at_observed_phases_um": 0.1506700297238891,
+   "pp_pred_um": 12.896759150046362,
+   "pp_fe_um": 12.424865025478578,
+   "e_pp_percent": 3.797981898395778,
+   "analytic_min_loaded_xi": 0.6953275618776631,
+   "analytic_signal_rms_um": 2.30534347237036,
+   "chi2": 43.132769928295474,
+   "fit_rmse_um": 0.1506700297238891,
+   "success": true
+  },
+  {
+   "variant": "projected-energy",
+   "case": "dedendum-deep",
+   "truth": [
+    0.02,
+    0.75,
+    0.005,
+    0.45
+   ],
+   "estimate": [
+    0.020637425879372354,
+    0.7721970807462206,
+    0.01,
+    0.35
+   ],
+   "addendum_scaled_error": 0.02219708074622062,
+   "dedendum_scaled_error": 0.5,
+   "full_profile_rmse_um": 1.2251673365713742,
+   "rmse_TE_at_observed_phases_um": 0.1506700297238891,
+   "pp_pred_um": 12.896759150046362,
+   "pp_fe_um": 12.424865025478578,
+   "e_pp_percent": 3.797981898395778,
+   "analytic_min_loaded_xi": 0.6953275618776631,
+   "analytic_signal_rms_um": 2.30534347237036,
+   "chi2": 43.132769928295474,
+   "fit_rmse_um": 0.1506700297238891,
+   "success": true
+  }
+ ],
+ "reference_pp_interior": {
+  "legacy": {
+   "analytic_pp_interior_um": 11.565411311495254,
+   "fe_pp_interior_um": 11.818027901003378
+  },
+  "projected-energy": {
+   "analytic_pp_interior_um": 12.639693523638897,
+   "fe_pp_interior_um": 11.818027901003378
+  }
+ },
+ "interior_phases": [
+  0.0,
+  0.04,
+  0.08,
+  0.12,
+  0.16,
+  0.2,
+  0.24,
+  0.4,
+  0.44,
+  0.48,
+  0.52,
+  0.56,
+  0.6,
+  0.76,
+  0.8,
+  0.84,
+  0.88,
+  0.92,
+  0.96
+ ],
+ "benchmark_pp_650Nm_um": 10.527,
+ "note": "FE phases interior-only; phi = fraction*2*pi/57; pinion relief p=2; generator=FE2D run_fe2d (bore 25 mm assumed, root_trim 0.4 mm, P1 nodal h=0.5); inverse=analytical beam+Hertz model (two compliance variants)."
+}

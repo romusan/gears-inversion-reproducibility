@@ -1,0 +1,283 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T11:57:04Z",
+      "timestamp": 1792670224105,
+      "version": "4.5.0"
+    },
+    "reference-count": 20,
+    "publisher": "Society for Industrial & Applied Mathematics (SIAM)",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "SIAM J. Sci. Comput."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1999,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1137/s1064827595289108",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2003,
+          6,
+          11
+        ]
+      ],
+      "date-time": "2003-06-11T11:12:06Z",
+      "timestamp": 1055329926000
+    },
+    "page": "1-23",
+    "source": "Crossref",
+    "is-referenced-by-count": 959,
+    "title": [
+      "A Subspace, Interior, and Conjugate Gradient Method for Large-Scale Bound-Constrained Minimization Problems"
+    ],
+    "prefix": "10.1137",
+    "volume": "21",
+    "author": [
+      {
+        "given": "Mary Ann",
+        "family": "Branch",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas F.",
+        "family": "Coleman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuying",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "351",
+    "published-online": {
+      "date-parts": [
+        [
+          2006,
+          7,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0806023"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01582221"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/S1052623494240456"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0904038"
+      },
+      {
+        "key": "R5",
+        "unstructured": "D. C. Sorensen,\n                      Minimization of a Large scale Quadratic Function Subject to an Ellipsoidal Constraint\n                      , Technical report TR94‐27, Department of Computational and Applied Mathematics, Rice University, Houston, TX, 1994."
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0720042"
+      },
+      {
+        "key": "R7",
+        "unstructured": "M. A. Branch,\n                      Inexact Reflective Newton Methods for Large‐Scale Optimization Subject to Bound Constraints\n                      , Ph.D. thesis, Department of Computer Science, Cornell University, Ithaca, NY, 1996."
+      },
+      {
+        "key": "R8",
+        "unstructured": "M. A. Branch, T. F. Coleman, and Y. Li,\n                      A Computational Study of Two Approximations to the Trust‐Region Subproblem\n                      , Technical report, Cornell University, Ithaca, NY, 1998, in progress."
+      },
+      {
+        "key": "R9",
+        "first-page": "747",
+        "volume": "174",
+        "author": "Dikin I.",
+        "year": "1967",
+        "journal-title": "Dokl. Akad. Nauk SSSR"
+      },
+      {
+        "key": "R10",
+        "unstructured": "A. R. Conn, N. I. M. Gould, and P. L. Toint.\n                      LANCELOT: A Fortran Package for Large‐Scale Nonlinear Optimization (Release A)\n                      , Springer‐Verlag, Berlin, New York, 1992."
+      },
+      {
+        "key": "R11",
+        "unstructured": "B. A. Hendrickson,\n                      The Molecule Problem: Determining Conformation from Pairwise Distances\n                      , Ph.D. thesis, Cornell University, Ithaca, NY, 1991."
+      },
+      {
+        "key": "R12",
+        "unstructured": "T. F. Coleman,\n                      Large‐scale numerical optimization: Introduction and overview\n                      , in Encyclopedia of Computer Science and Technology, A. Kent and J. G. Williams, eds., Marcel Dekker, New York, 1993, pp. 167–195."
+      },
+      {
+        "key": "R13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0722003"
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01580735"
+      },
+      {
+        "key": "R15",
+        "unstructured": "G. H. Golub and C. F. Van Loan,\n                      Matrix Computations\n                      , The Johns Hopkins University Press, Baltimore, MD, 1989."
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. K. Cullum and R. A. Willoughby,\n                      Lanczos Algorithms for Large symmetric eigenvalue computations. Vol. 1: Theory\n                      , Birkhaüser, Boston‐Basel‐Stuttgart, 1985.",
+        "DOI": "10.1007/978-1-4684-9178-4_1"
+      },
+      {
+        "key": "R17",
+        "unstructured": "P. E. Gill, W. Murray, and M. H. Wright,\n                      Practical Optimization\n                      , Academic Press, New York, 1981."
+      },
+      {
+        "key": "R18",
+        "unstructured": "MATLAB 4.2c for Unix\n                      , The MathWorks, Natick, MA."
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1090/S0025-5718-1988-0929544-3"
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/200979.201043"
+      }
+    ],
+    "container-title": [
+      "SIAM Journal on Scientific Computing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://epubs.siam.org/doi/pdf/10.1137/S1064827595289108",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2026-08-21T17:52:47Z",
+      "timestamp": 1787334767000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://epubs.siam.org/doi/10.1137/S1064827595289108"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1999,
+          1
+        ]
+      ]
+    },
+    "references-count": 20,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            1999,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1137/S1064827595289108"
+    ],
+    "URL": "https://doi.org/10.1137/s1064827595289108",
+    "relation": {},
+    "ISSN": [
+      "1064-8275",
+      "1095-7197"
+    ],
+    "issn-type": [
+      {
+        "value": "1064-8275",
+        "type": "print"
+      },
+      {
+        "value": "1095-7197",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1999,
+          1
+        ]
+      ]
+    }
+  }
+}

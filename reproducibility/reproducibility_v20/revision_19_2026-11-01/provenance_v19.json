@@ -1,0 +1,30 @@
+{
+  "recorded_source_versions": 13,
+  "all_resolved": true,
+  "source_hash_ledger": {
+    "43036cbdfb7a5c60ad8190d229a4111da8614430a3184f6a1d75aaf3a59e01ff": "fe2d/cycle_contact_v19.py",
+    "4aa0deeafc67e2d666a4188064352332699424b1ba10ebdc98ac298b81617be8": "revision_19_2026-11-01/source_history/fast_inverse_contact_v19_pre_spatial.py",
+    "0530f109e2a88027f079c7baa964d128371003a6a11b5ba70491fde058d0e12b": "fe2d/fast_inverse_contact_v19.py",
+    "f5be6b6ed408eb3b752a3a6d2558c1b6c269c8b3afb4f2b90f4e9a1568a6cf3f": "fe2d/spatial_projection_v19.py",
+    "a7a70b1f771c00c27cc312feaf751cff9d9457766067151d4cd64488fd5a54e0": "revision_19_2026-11-01/source_history/reduced_cycle_contact_v19_pre_matvec.py",
+    "617bf64eb265319813596a3c45198fcadbced322c2e8e0194fc9cdf59050beef": "revision_19_2026-11-01/source_history/contact_reduced_qp_v19_pre_matvec.py",
+    "9021ad1680890ced5fd8d562c3cb0a27b1bddb73a68a6118325aaee2e0a40e4c": "revision_19_2026-11-01/source_history/reduced_cycle_contact_v19_pre_vectorized.py",
+    "5074686cdc40a9738741304cd9d9c237503662f1e50949972b77bc486e680f44": "revision_19_2026-11-01/source_history/contact_reduced_qp_v19_pre_sparse_columns.py",
+    "bad39eead9d8cd1c9426a6b82af500763031e6e67d2ff6d003c8e66d525f5491": "revision_19_2026-11-01/source_history/contact_reduced_qp_v19_pre_vectorized.py",
+    "540a6aa98d04e139993883c79ae30ee40750ddefa722cf0b150977809ff36ff4": "fe2d/reduced_cycle_contact_v19.py",
+    "623d7883a6c6f1324a14d8f9e1d14453219719497bc62acec09daaf15f8c99ce": "fe2d/contact_reduced_qp_v19.py",
+    "0a4e9c241af8e7b710373fcba0d4c4dd0a102488b0aebc3710b2d913bd2d4299": "fe2d/vectorized_projection_v19.py",
+    "a29f1686610a5ba91776b85ab9ec231f6c9fb3817ba0b19c3b7be22dc6cd9742": "manuscript/inverse_moving_v19.py"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "versions": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "gmsh": "4.15.2",
+    "scikit-fem": "12.0.2",
+    "meshio": "5.3.5",
+    "shapely": "2.1.2"
+  }
+}

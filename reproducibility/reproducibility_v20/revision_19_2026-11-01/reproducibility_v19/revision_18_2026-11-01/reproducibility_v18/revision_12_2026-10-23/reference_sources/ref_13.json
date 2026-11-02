@@ -1,0 +1,836 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2026-10-14T22:19:09Z",
+      "timestamp": 1792016349037,
+      "version": "4.4.0"
+    },
+    "reference-count": 50,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2024-10-01T00:00:00Z",
+          "timestamp": 1727740800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2024-10-01T00:00:00Z",
+          "timestamp": 1727740800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2024-10-01T00:00:00Z",
+          "timestamp": 1727740800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2024-10-01T00:00:00Z",
+          "timestamp": 1727740800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2024-10-01T00:00:00Z",
+          "timestamp": 1727740800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2024-10-01T00:00:00Z",
+          "timestamp": 1727740800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2024-10-01T00:00:00Z",
+          "timestamp": 1727740800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100024370",
+        "name": "MIUR",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100024370",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Mechanism and Machine Theory"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.mechmachtheory.2024.105752",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          26
+        ]
+      ],
+      "date-time": "2024-07-26T13:56:30Z",
+      "timestamp": 1722002190000
+    },
+    "page": "105752",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 46,
+    "special_numbering": "C",
+    "title": [
+      "The effect of different profile modifications on the static and dynamic transmission error of spur gears"
+    ],
+    "prefix": "10.1016",
+    "volume": "201",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6467-4771",
+        "authenticated-orcid": false,
+        "given": "Matteo",
+        "family": "Autiero",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Giovanni",
+        "family": "Paoli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0700-3752",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "Cirelli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pier Paolo",
+        "family": "Valentini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b1",
+        "series-title": "Gear Noise and Vibration",
+        "author": "Smith",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2021.104472",
+        "article-title": "Mesh stiffness models for cylindrical gears: A detailed review",
+        "volume": "166",
+        "author": "Marafona",
+        "year": "2021",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "793",
+        "DOI": "10.1243/0954406011524153",
+        "article-title": "An experimental method to measure gear tooth stiffness throughout and beyond the path of contact",
+        "volume": "215",
+        "author": "Munro",
+        "year": "2001",
+        "journal-title": "Proc. Inst. Mech. Eng. C"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b4",
+        "doi-asserted-by": "crossref",
+        "first-page": "196",
+        "DOI": "10.3390/vibration7010011",
+        "article-title": "A methodology for measuring actual mesh stiffness in gear pairs",
+        "volume": "7",
+        "author": "Rosso",
+        "year": "2024",
+        "journal-title": "Vibration"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b5",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1016/j.measurement.2017.07.034",
+        "article-title": "Experimental measurement of spur gear mesh stiffness using digital image correlation technique",
+        "volume": "111",
+        "author": "Raghuwanshi",
+        "year": "2017",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b6",
+        "series-title": "Optimal tooth modifications for spur and helical gears",
+        "author": "Simon",
+        "year": "1989"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2024.105669",
+        "article-title": "Linear complementarity formulations for contact analysis and wear prediction in gears",
+        "volume": "198",
+        "author": "Pathak",
+        "year": "2024",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b8",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2021.104319",
+        "article-title": "A critical review on FE-based methods for mesh stiffness estimation in spur gears",
+        "volume": "161",
+        "author": "Natali",
+        "year": "2021",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b9",
+        "doi-asserted-by": "crossref",
+        "first-page": "424",
+        "DOI": "10.1016/j.ymssp.2017.09.005",
+        "article-title": "Three new models for evaluation of standard involute spur gear mesh stiffness",
+        "volume": "101",
+        "author": "Liang",
+        "year": "2018",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engfailanal.2020.104383",
+        "article-title": "Influence of finite element model, load-sharing and load distribution on crack propagation path in spur gear drive",
+        "volume": "110",
+        "author": "Thirumurugan",
+        "year": "2020",
+        "journal-title": "Eng. Fail. Anal."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b11",
+        "unstructured": "P.P. Valentini, O. Giannini, M. Cera, M. Cirelli, E. Pennestrì, A. Cellupica, Dynamic analysis of lightweight gears through multibody models with movable teeth, Mater. Res. Proc. 26."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1016/j.mechmachtheory.2014.11.019",
+        "article-title": "A robust model for determining the mesh stiffness of cylindrical gears",
+        "volume": "87",
+        "author": "Chang",
+        "year": "2015",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b13",
+        "series-title": "Beam Structures: Classical and Advanced Theories",
+        "author": "Carrera",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b14",
+        "series-title": "Hertzian damping, tooth friction and bending elasticity in gear impact dynamics",
+        "author": "Yang",
+        "year": "1987"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "748",
+        "DOI": "10.1115/1.1758252",
+        "article-title": "Contribution of gear body to tooth deflections—a new bidimensional analytical formula",
+        "volume": "126",
+        "author": "Sainsot and",
+        "year": "2004",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "174",
+        "DOI": "10.1016/j.ijmecsci.2018.08.022",
+        "article-title": "Analytical formulas for gear body-induced tooth deflections of spur gears considering structure coupling effect",
+        "volume": "148",
+        "author": "Xie",
+        "year": "2018",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b17",
+        "series-title": "The Deformation of Loaded Gears and the Effect on Their Load-Carrying Capacity",
+        "author": "Weber",
+        "year": "1949"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "527",
+        "DOI": "10.1007/s11012-012-9612-8",
+        "article-title": "Enhanced model of load distribution along the line of contact for non-standard involute external gears",
+        "volume": "48",
+        "author": "Sánchez",
+        "year": "2013",
+        "journal-title": "Meccanica"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b19",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.1016/j.mechmachtheory.2016.11.014",
+        "article-title": "Approximate equations for the meshing stiffness and the load sharing ratio of spur gears including hertzian effects",
+        "volume": "109",
+        "author": "Sánchez",
+        "year": "2017",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b20",
+        "doi-asserted-by": "crossref",
+        "first-page": "506",
+        "DOI": "10.1016/j.mechmachtheory.2019.05.014",
+        "article-title": "Influence of profile modifications on meshing stiffness, load sharing, and trasnsmission error of involute spur gears",
+        "volume": "139",
+        "author": "Sánchez",
+        "year": "2019",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2023.105369",
+        "article-title": "Symmetry preserving neural network models for spur gear static transmission error curves",
+        "volume": "187",
+        "author": "Sakaridis",
+        "year": "2023",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b22",
+        "series-title": "Experiments on nonlinear dynamic behavior of an oscillator with clearance and periodically time-varying parameters",
+        "author": "Kahraman",
+        "year": "1997"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b23",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2021.104247",
+        "article-title": "Dynamic behavior of a power re-circulating gear test rig including periodic variation of mesh stiffness and static transmission error",
+        "volume": "159",
+        "author": "Abruzzo",
+        "year": "2021",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b24",
+        "doi-asserted-by": "crossref",
+        "first-page": "435",
+        "DOI": "10.1006/jsvi.2000.3067",
+        "article-title": "Non-linear dynamic response of a spur gear pair: modelling and experimental comparisons",
+        "volume": "237",
+        "author": "Parker",
+        "year": "2000",
+        "journal-title": "J. Sound Vibr."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b25",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1016/S0022-460X(88)80365-1",
+        "article-title": "Mathematical models used in gear dynamics—a review",
+        "volume": "121",
+        "author": "Özgüven",
+        "year": "1988",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b26",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.1016/j.jsv.2019.01.019",
+        "article-title": "A study of the non-linear dynamic response of spur gear using a multibody contact based model with flexible teeth",
+        "volume": "445",
+        "author": "Cirelli",
+        "year": "2019",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b27",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2020.103948",
+        "article-title": "Influence of tip relief in spur gears dynamic using multibody models with movable teeth",
+        "volume": "152",
+        "author": "Cirelli",
+        "year": "2020",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b28",
+        "first-page": "255",
+        "article-title": "Multibody dynamics of gear pairs: comparison among different models",
+        "volume": "vol. 2017",
+        "author": "Cirelli",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b29",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.1016/j.mechmachtheory.2019.03.012",
+        "article-title": "Non-linear modeling of gear drive dynamics incorporating intermittent tooth contact analysis and tooth eigenvibrations",
+        "volume": "136",
+        "author": "Sakaridis",
+        "year": "2019",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b30",
+        "series-title": "Reduced-Order Modeling (ROM) for Simulation and Optimization: Powerful Algorithms As Key Enablers for Scientific Computing",
+        "first-page": "167",
+        "article-title": "Model order reduction a key technology for digital twins",
+        "author": "Hartmann",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b31",
+        "first-page": "1",
+        "article-title": "Impulse dynamics and augmented reality for real-time interactive digital twin exploration and interrogation",
+        "author": "Cirelli",
+        "year": "2024",
+        "journal-title": "Int. J. Interact. Des. Manuf."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b32",
+        "doi-asserted-by": "crossref",
+        "first-page": "2110",
+        "DOI": "10.1016/j.jsv.2011.12.025",
+        "article-title": "Nonlinear damping calculation in cylindrical gear dynamic modeling",
+        "volume": "331",
+        "author": "Guilbault",
+        "year": "2012",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "issue": "7–8",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1222",
+        "DOI": "10.1177/0954406216628898",
+        "article-title": "Modelling of damping in lubricated line contacts – Applications to spur gear dynamic simulations",
+        "volume": "230",
+        "author": "Ankouni",
+        "year": "2016",
+        "journal-title": "Proc. Inst. Mech. Eng. C"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b34",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.mechmachtheory.2021.104686",
+        "article-title": "Study on the mesh stiffness and nonlinear dynamics accounting for centrifugal effect of high-speed spur gears",
+        "volume": "170",
+        "author": "Zheng",
+        "year": "2022",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b35",
+        "article-title": "A comparison of several sdof models of gear dynamics",
+        "volume": "vol. 50206",
+        "author": "Yu",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b36",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1115/1.2359470",
+        "article-title": "A study of the relationship between the dynamic factors and the dynamic transmission error of spur gear pairs",
+        "volume": "129",
+        "author": "Tamminana",
+        "year": "2007",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1115",
+        "DOI": "10.1016/0094-114X(94)90003-5",
+        "article-title": "Dynamic loading of spur gears with linear or parabolic tooth profile modifications",
+        "volume": "29",
+        "author": "Hsi Lin",
+        "year": "1994",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b38",
+        "doi-asserted-by": "crossref",
+        "first-page": "344",
+        "DOI": "10.1016/j.apm.2021.03.051",
+        "article-title": "Analytical model for meshing stiffness, load sharing, and transmission error for spur gears with profile modification under non-nominal load conditions",
+        "volume": "97",
+        "author": "Pleguezuelos",
+        "year": "2021",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b39",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1016/j.mechmachtheory.2015.11.017",
+        "article-title": "An improved analytical method for mesh stiffness calculation of spur gears with tip relief",
+        "volume": "98",
+        "author": "Ma",
+        "year": "2016",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b40",
+        "doi-asserted-by": "crossref",
+        "first-page": "316",
+        "DOI": "10.3390/machines12050316",
+        "article-title": "Study on the parameter influences of gear tooth profile modification and transmission error analysis",
+        "volume": "12",
+        "author": "Zhou",
+        "year": "2024",
+        "journal-title": "Machines"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b41",
+        "doi-asserted-by": "crossref",
+        "first-page": "138",
+        "DOI": "10.1016/j.apacoust.2013.05.014",
+        "article-title": "Gear transmission dynamic: Effects of tooth profile deviations and support flexibility",
+        "volume": "77",
+        "author": "Fernández",
+        "year": "2014",
+        "journal-title": "Appl. Acoust."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b42",
+        "doi-asserted-by": "crossref",
+        "first-page": "303",
+        "DOI": "10.3390/lubricants11070303",
+        "article-title": "A data-driven approach to estimate the power loss and thermal behaviour of cylindrical gearboxes under transient operating conditions",
+        "volume": "11",
+        "author": "Autiero",
+        "year": "2023",
+        "journal-title": "Lubricants"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b43",
+        "series-title": "Mechanics of Materials",
+        "author": "Goodno",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b44",
+        "doi-asserted-by": "crossref",
+        "first-page": "344",
+        "DOI": "10.1016/j.apm.2021.03.051",
+        "article-title": "Analytical model for meshing stiffness, load sharing, and transmission error for spur gears with profile modification under non-nominal load conditions",
+        "volume": "97",
+        "author": "Pleguezuelos",
+        "year": "2021",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "issue": "4–8",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b45",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1016/S0895-7177(98)00128-9",
+        "article-title": "A Lagrange multiplier method for the finite element solution of frictionless contact problems",
+        "volume": "28",
+        "author": "Papadopoulos",
+        "year": "1998",
+        "journal-title": "Math. Comput. Modell."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b46",
+        "article-title": "A critical analysis of finite-element modeling procedures for radial bearing stiffness estimation",
+        "volume": "2021",
+        "author": "Gabrielli",
+        "year": "2021",
+        "journal-title": "Math. Probl. Eng."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b47",
+        "unstructured": "G.W. Blankenship, A. Kahraman, Gear dynamics experiments, part-I: characterization of forced response, in: ASME Power Transmission and Gearing Conference, San Diego, 1996."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b48",
+        "doi-asserted-by": "crossref",
+        "first-page": "313",
+        "DOI": "10.1115/1.2829460",
+        "article-title": "Effect of Involute Tip Relief on Dynamic Response of Spur Gear Pairs",
+        "volume": "121",
+        "author": "Kahraman",
+        "year": "1999",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2024.105752_b49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Tavakoli, D. Houser, Optimum profile modifications for the minimization of static transmission errors of spur gears, 1986.",
+        "DOI": "10.1115/1.3260791"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.mechmachtheory.2024.105752_b50",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1016/j.cirp.2017.04.046",
+        "article-title": "Future gear metrology based on areal measurements and improved holistic evaluations",
+        "volume": "66",
+        "author": "Goch",
+        "year": "2017",
+        "journal-title": "CIRP Ann"
+      }
+    ],
+    "container-title": [
+      "Mechanism and Machine Theory"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0094114X24001794?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0094114X24001794?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          12
+        ]
+      ],
+      "date-time": "2024-08-12T08:39:16Z",
+      "timestamp": 1723451956000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X24001794"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "references-count": 50,
+    "alternative-id": [
+      "S0094114X24001794"
+    ],
+    "URL": "https://doi.org/10.1016/j.mechmachtheory.2024.105752",
+    "relation": {},
+    "ISSN": [
+      "0094-114X"
+    ],
+    "issn-type": [
+      {
+        "value": "0094-114X",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "The effect of different profile modifications on the static and dynamic transmission error of spur gears",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Mechanism and Machine Theory",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.mechmachtheory.2024.105752",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "105752"
+  }
+}

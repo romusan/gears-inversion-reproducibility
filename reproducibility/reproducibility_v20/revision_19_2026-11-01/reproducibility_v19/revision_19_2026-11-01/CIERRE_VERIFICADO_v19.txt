@@ -1,0 +1,74 @@
+CIERRE DEL PROYECTO SIN FABRICACIÓN — VERSIÓN 19
+
+QUÉ INVESTIGAMOS
+Queremos determinar qué partes del relieve de un engranaje pueden inferirse
+a partir del error de transmisión, y cuándo un buen ajuste de esa señal permite
+recuperar el perfil. Son preguntas diferentes: detectar un efecto, ajustar la
+señal y recuperar de manera única la geometría no son equivalentes.
+
+OBJETIVOS ALCANZADOS
+1. Resultado matemático: condición suficiente de invisibilidad del relieve
+   fuera del soporte cargado bajo geometría y rigidez fijas, también con
+   acoplamiento elástico entre pares de dientes.
+2. Diagnóstico numérico: sensibilidad, perfiles de objetivo, alternativas sin
+   dedendum y controles sintéticos de ruido, ganancia, muestreo y formulación.
+   Se conservan los 1100 casos de estrés anteriores, incluidos los fallidos.
+3. Nuevo problema directo: tres perfiles virtuales, dos mallas y 120 estaciones
+   por perfil. Son 720 observaciones, más seis controles de cierre. Las 18
+   estaciones antes excluidas están resueltas en este operador nuevo.
+4. Auditoría de 726 estados: reproyección por ambos sentidos, no penetración,
+   equilibrio, energía positiva, consistencia elástica y solape de contornos.
+5. Comprobación con otro código: seis controles nominales seleccionados con
+   CalculiX. No son una validación independiente del ciclo o del problema inverso.
+6. Comparación inversa: diseños de igual tamaño (30 observaciones), con y sin
+   las estaciones antes excluidas; inversores analítico y de contacto móvil;
+   contraste de mallas y ajuste restringido sin dedendum. Todos los intentos se
+   conservan. El inversor móvil conserva rigidez nominal; el generador sí cambia
+   la geometría y reensambla la rigidez. Esa discrepancia está cuantificada.
+
+RESULTADOS NUEVOS
+Señal aislada del dedendum, centrada: 0.243389 µm RMS.
+Diferencia entre mallas de esa señal: 0.0150486 µm RMS.
+Diferencia entre mallas del TE combinado: 0.0516709 µm RMS.
+Nuevos intentos de inversión: 18; con indicador de no convergencia: 0.
+
+En las 18 estaciones antes excluidas, el cambio entre mallas del TE centrado es 0.0389 µm RMS; el cambio de aproximación sin centrar es 0.226198 µm RMS. Solo el primero queda por debajo de la escala histórica de 0,18 µm. Es un criterio empírico de dos mallas, no una cota certificada de error.
+
+inverse_reference_s0.08.json, interior: mejor θ=[0.0197369087244324, 0.7602820669546336, 0.005867881138916861, 0.5995279344094984]; RMS ajuste=0.0384707 µm; RMS ciclo=0.0384668 µm; indicador convergencia=True.
+inverse_reference_s0.08.json, with_transitions: mejor θ=[0.01967659244169524, 0.7593461303949722, 0.005845085068600997, 0.5962881438521365]; RMS ajuste=0.0392918 µm; RMS ciclo=0.0386635 µm; indicador convergencia=True.
+inverse_reference_s0.04.json, interior: mejor θ=[0.019669372068971142, 0.7521099831898879, 0.010154736670894131, 0.47348039727817126]; RMS ajuste=0.0149626 µm; RMS ciclo=0.0180284 µm; indicador convergencia=True.
+inverse_reference_s0.04.json, with_transitions: mejor θ=[0.019662118469388423, 0.7526348638181756, 0.00934915474294604, 0.48210534549997935]; RMS ajuste=0.0136945 µm; RMS ciclo=0.0178774 µm; indicador convergencia=True.
+inverse_analytic.json, interior: mejor θ=[0.016841785974956065, 0.7805211297153302, 0.0024631360522309733, 0.24749215185672338]; RMS ajuste=1.53341 µm; RMS ciclo=1.6697 µm; indicador convergencia=True.
+inverse_analytic.json, with_transitions: mejor θ=[0.01814971105373449, 0.7528212269677361, 0.011089781679270999, 0.44526645967159867]; RMS ajuste=1.208 µm; RMS ciclo=1.6755 µm; indicador convergencia=True.
+
+QUÉ NO PODEMOS AFIRMAR
+No hemos demostrado recuperación física de relieve certificado, unicidad global
+de los parámetros, convergencia de la inversión al continuo, cobertura estadística
+calibrada ni validez tridimensional. La convergencia del optimizador es una bandera
+numérica: distintos perfiles pueden dar residuos próximos. Los controles de malla
+y de otro código no sustituyen mediciones físicas. El estudio deja esos límites
+explícitos y no necesita inventar una fabricación o un ensayo para cerrarse como
+trabajo computacional.
+
+La búsqueda de datos públicos revisó ocho pistas y descargó dos archivos de TE
+de un repositorio; no se verificó un par utilizable de TE y relieve certificado
+para este problema. No se reutilizaron como si fueran esa validación. El registro
+de selección y las atribuciones se conservan en la evidencia mecánica adjunta.
+
+DOCUMENTOS
+MMT_manuscript_Q1_revision_v19_clean.docx — artículo vigente.
+MMT_supplementary_Q1_revision_v19.docx — Tablas S1–S36.
+Highlights_v19.docx — cinco puntos, cada uno con 85 caracteres o menos.
+Cover_letter_MMT_v19.docx — carta.
+MMT_reproducibility_v19.zip — evidencia, código y manifiesto de integridad.
+MMT_submission_kit_v19.zip — paquete de carga con los cinco archivos anteriores.
+
+Los PDF en render_main/render_supplement son copias de lectura y revisión visual.
+Se conservaron las 15 ecuaciones nativas y las tablas numéricas históricas.
+CRediT conserva la confirmación de los tres autores para los mismos roles.
+
+ESTADO EDITORIAL
+Esta preparación no envía el artículo a la revista. Tampoco publica datos ni
+asigna DOI. El repositorio público v13 es histórico y no contiene la evidencia
+posterior. El depósito público de la versión actual y la carga editorial quedan
+como gestiones externas. La aceptación y el nivel editorial no están garantizados.

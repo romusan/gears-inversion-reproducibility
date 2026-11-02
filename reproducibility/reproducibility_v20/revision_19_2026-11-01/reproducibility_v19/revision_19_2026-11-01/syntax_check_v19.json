@@ -1,0 +1,24 @@
+{
+  "files": [
+    "gears_inversion\\fe2d\\contact_reduced_qp_v19.py",
+    "gears_inversion\\fe2d\\cycle_contact_v19.py",
+    "gears_inversion\\fe2d\\fast_inverse_contact_v19.py",
+    "gears_inversion\\fe2d\\reduced_cycle_contact_v19.py",
+    "gears_inversion\\fe2d\\run_cycle_fast_v19.py",
+    "gears_inversion\\fe2d\\run_cycle_reduced_v19.py",
+    "gears_inversion\\fe2d\\spatial_projection_v19.py",
+    "gears_inversion\\fe2d\\vectorized_projection_v19.py",
+    "gears_inversion\\manuscript\\analytic_inverse_v19.py",
+    "gears_inversion\\manuscript\\analyze_v19.py",
+    "gears_inversion\\manuscript\\audit_cycle_v19.py",
+    "gears_inversion\\manuscript\\audit_v19.py",
+    "gears_inversion\\manuscript\\build_v19.py",
+    "gears_inversion\\manuscript\\check_reference_v19.py",
+    "gears_inversion\\manuscript\\inverse_moving_v19.py",
+    "gears_inversion\\manuscript\\package_v19.py",
+    "gears_inversion\\manuscript\\provenance_v19.py",
+    "gears_inversion\\manuscript\\render_v19.py",
+    "gears_inversion\\manuscript\\run_inverse_v19.py"
+  ],
+  "all_parsed": true
+}

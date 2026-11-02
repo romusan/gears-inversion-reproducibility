@@ -1,0 +1,556 @@
+{
+  "provenance": {
+    "campaign": "corrections-2026-10-12",
+    "created_utc": "2026-10-12T20:07:22.561975+00:00",
+    "source_sha256": "a5e8bf73131d7fbeab97592b1f889caf2f7d82da2a6b1bd4c2ff830ff529a521",
+    "files_sha256": {
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/involute.py": "9f968dd5d179fc4f63316b45360d88d80e603b58f1b7f4cf4328e6b840bd52b9",
+      "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+      "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+      "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/inverse/reconstruction.py": "752c23d2565fdf8b72d48e61797b4e09726137fec39b334959d7d3d218026d72",
+      "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/mechanics/alt_models.py": "b44d5682d0678492492c7a94596f883f033648bdef7eb25823f55f4558b0a6a7",
+      "src/mechanics/batched_operator.py": "be71de425988a52037eddb68fa53017a3df946953b1444bd6e13a8dc04e80e2f",
+      "src/mechanics/compliance.py": "57d4960e3355e1eed0c7cc17fea1122d21c4c65f22d12234f43381c2a0728f95",
+      "src/mechanics/contact_solver.py": "2cc1c5ca71c0e68aec9d34b9d94ee930b990fd65bad5625cf5c8cbddd72209fb",
+      "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+      "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/audit_solver_equivalence.py": "587c15ebba13ae3934243fdd3e5f9953892663e7ba5db7cffacfb993f040a99f",
+      "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+      "experiments/complete_correction_runs.py": "dab1b0582008d696bfd87a087957924f781b198e0da937bddbd2e864076039c7",
+      "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+      "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+      "experiments/E01_verification_audit.py": "8bea45340d04120ef0698ed154228384dba05b062125f3ca2f81c7c8bc8b7517",
+      "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+      "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+      "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+      "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+      "experiments/E04_noise_bias.py": "89b37222b2b801bbea7d470bf3a63ff8cb8725f00ae2bcb5ca8a24542cbd77de",
+      "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+      "experiments/E05_optimal_load_selection.py": "ed10305d4eb26772654084fc8c11017677f7941060eb07a23b0beb7b5b0ad193",
+      "experiments/E07_model_discrepancy.py": "4fb4e10df60ca2a4863e1e5711778ca4598b0ff883041c613b3e4fc8f5ee8539",
+      "experiments/E08_contact_support_audit.py": "35d689068650edf0396491db4c8ee5ea7975113338c611debbc59997a77d5487",
+      "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+      "experiments/Q1_angular_peaks.py": "a3f3af7b7697c125b6f5f8bff398ba79ad59bf18742b28d648888d96963b725b",
+      "experiments/Q1_forward_campaign.py": "5158af053e1057bd1779650bcebd05646a157af742446c5c59df30591a7dced4",
+      "experiments/Q1_geometry_transfer.py": "5e9f74b64674a1e57e6dcd2eba9de245c6aa20c70c95ddc1a1a2b4ae2434037c",
+      "experiments/Q1_identifiability_campaign.py": "81252471f4d628f2d5eb44bb6b14cf7c6ab1d12d4a93a9ee524d1189ce00b0c3",
+      "experiments/summarize_correction_campaign.py": "997d4cefd18d1bbeef8a5a09f647e73dd645f974c0ea3f0154f28124ea307604",
+      "experiments/V06_korta_mundo_reproduction.py": "1949a007e7b391c3f38c35f10bf51794cc7c78383692a72fc4ee9d1594431b73"
+    },
+    "python": "3.12.10",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0"
+  },
+  "bounds_note": "Common physical bounds, Ca<=0.100 mm Cd<=0.050 mm; relief truth depths scaled with module.",
+  "records": [
+    {
+      "geometry": "G0",
+      "z1": 24,
+      "z2": 48,
+      "module_mm": 3.0,
+      "width_mm": 20.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.674705148191977,
+      "sd_true": 0.25,
+      "torques_Nm": [
+        300
+      ],
+      "theta_true": [
+        0.02,
+        0.75,
+        0.005,
+        0.25
+      ],
+      "theta": [
+        0.02,
+        0.75,
+        0.00499999999999921,
+        0.2499999999999984
+      ],
+      "chi2": 1.2037062152420224e-27,
+      "success": true,
+      "nfev": 13,
+      "optimality": 5.70948293881258e-13,
+      "fit_rmse_um": 3.1671572627542275e-16
+    },
+    {
+      "geometry": "G0",
+      "z1": 24,
+      "z2": 48,
+      "module_mm": 3.0,
+      "width_mm": 20.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.674705148191977,
+      "sd_true": 0.25,
+      "torques_Nm": [
+        50,
+        300
+      ],
+      "theta_true": [
+        0.02,
+        0.75,
+        0.005,
+        0.25
+      ],
+      "theta": [
+        0.019999999999999993,
+        0.75,
+        0.004999999999997856,
+        0.25000000000000505
+      ],
+      "chi2": 1.8017977409404023e-26,
+      "success": true,
+      "nfev": 23,
+      "optimality": 5.2750112547493986e-11,
+      "fit_rmse_um": 1.2253563226467373e-15
+    },
+    {
+      "geometry": "G0",
+      "z1": 24,
+      "z2": 48,
+      "module_mm": 3.0,
+      "width_mm": 20.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.674705148191977,
+      "sd_true": 0.4,
+      "torques_Nm": [
+        300
+      ],
+      "theta_true": [
+        0.02,
+        0.75,
+        0.005,
+        0.4
+      ],
+      "theta": [
+        0.020000000000000004,
+        0.75,
+        0.004999999999999998,
+        0.4000000000000003
+      ],
+      "chi2": 1.7453740121009325e-26,
+      "success": true,
+      "nfev": 12,
+      "optimality": 6.56459819900025e-12,
+      "fit_rmse_um": 1.20601755518626e-15
+    },
+    {
+      "geometry": "G0",
+      "z1": 24,
+      "z2": 48,
+      "module_mm": 3.0,
+      "width_mm": 20.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.674705148191977,
+      "sd_true": 0.4,
+      "torques_Nm": [
+        50,
+        300
+      ],
+      "theta_true": [
+        0.02,
+        0.75,
+        0.005,
+        0.4
+      ],
+      "theta": [
+        0.02,
+        0.75,
+        0.004999999999999999,
+        0.39999999999999986
+      ],
+      "chi2": 1.5234406786656846e-27,
+      "success": true,
+      "nfev": 11,
+      "optimality": 2.333046339946795e-12,
+      "fit_rmse_um": 3.5630519205985066e-16
+    },
+    {
+      "geometry": "G1",
+      "z1": 20,
+      "z2": 60,
+      "module_mm": 2.5,
+      "width_mm": 15.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.6707764325273977,
+      "sd_true": 0.25,
+      "torques_Nm": [
+        300
+      ],
+      "theta_true": [
+        0.016666666666666666,
+        0.75,
+        0.004166666666666667,
+        0.25
+      ],
+      "theta": [
+        0.016666666666666607,
+        0.7500000000000012,
+        0.004166666666676216,
+        0.24999999999979736
+      ],
+      "chi2": 7.481034127729169e-23,
+      "success": true,
+      "nfev": 10,
+      "optimality": 2.816290884739384e-10,
+      "fit_rmse_um": 7.895691930692948e-14
+    },
+    {
+      "geometry": "G1",
+      "z1": 20,
+      "z2": 60,
+      "module_mm": 2.5,
+      "width_mm": 15.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.6707764325273977,
+      "sd_true": 0.25,
+      "torques_Nm": [
+        50,
+        300
+      ],
+      "theta_true": [
+        0.016666666666666666,
+        0.75,
+        0.004166666666666667,
+        0.25
+      ],
+      "theta": [
+        0.016666666666666663,
+        0.75,
+        0.004166666666666656,
+        0.24999999999999986
+      ],
+      "chi2": 1.0005807914199311e-26,
+      "success": true,
+      "nfev": 9,
+      "optimality": 2.7763195664378368e-11,
+      "fit_rmse_um": 9.131359844969838e-16
+    },
+    {
+      "geometry": "G1",
+      "z1": 20,
+      "z2": 60,
+      "module_mm": 2.5,
+      "width_mm": 15.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.6707764325273977,
+      "sd_true": 0.4,
+      "torques_Nm": [
+        300
+      ],
+      "theta_true": [
+        0.016666666666666666,
+        0.75,
+        0.004166666666666667,
+        0.4
+      ],
+      "theta": [
+        0.016666666666666653,
+        0.7499999999999994,
+        0.004166666666666779,
+        0.3999999999999916
+      ],
+      "chi2": 2.0824117523686988e-25,
+      "success": true,
+      "nfev": 11,
+      "optimality": 3.6109754771310254e-11,
+      "fit_rmse_um": 4.165744983762107e-15
+    },
+    {
+      "geometry": "G1",
+      "z1": 20,
+      "z2": 60,
+      "module_mm": 2.5,
+      "width_mm": 15.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.6707764325273977,
+      "sd_true": 0.4,
+      "torques_Nm": [
+        50,
+        300
+      ],
+      "theta_true": [
+        0.016666666666666666,
+        0.75,
+        0.004166666666666667,
+        0.4
+      ],
+      "theta": [
+        0.016666666666666632,
+        0.7499999999999983,
+        0.004166666666666975,
+        0.39999999999997804
+      ],
+      "chi2": 1.0200657857791614e-24,
+      "success": true,
+      "nfev": 11,
+      "optimality": 8.580554364563174e-11,
+      "fit_rmse_um": 9.21984176373236e-15
+    },
+    {
+      "geometry": "G2",
+      "z1": 30,
+      "z2": 45,
+      "module_mm": 4.0,
+      "width_mm": 25.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.6946813192706967,
+      "sd_true": 0.25,
+      "torques_Nm": [
+        300
+      ],
+      "theta_true": [
+        0.02666666666666667,
+        0.75,
+        0.006666666666666667,
+        0.25
+      ],
+      "theta": [
+        0.02666666666666667,
+        0.75,
+        0.024663032973215808,
+        0.34012675642529855
+      ],
+      "chi2": 1.221178221604848e-20,
+      "success": true,
+      "nfev": 22,
+      "optimality": 4.3952437295249395e-09,
+      "fit_rmse_um": 1.0087856650468622e-12
+    },
+    {
+      "geometry": "G2",
+      "z1": 30,
+      "z2": 45,
+      "module_mm": 4.0,
+      "width_mm": 25.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.6946813192706967,
+      "sd_true": 0.25,
+      "torques_Nm": [
+        50,
+        300
+      ],
+      "theta_true": [
+        0.02666666666666667,
+        0.75,
+        0.006666666666666667,
+        0.25
+      ],
+      "theta": [
+        0.02666666666666667,
+        0.75,
+        0.010203914861594814,
+        0.3405712263774325
+      ],
+      "chi2": 1.9543387445477392e-20,
+      "success": true,
+      "nfev": 22,
+      "optimality": 5.124464773114193e-09,
+      "fit_rmse_um": 1.2761722534424768e-12
+    },
+    {
+      "geometry": "G2",
+      "z1": 30,
+      "z2": 45,
+      "module_mm": 4.0,
+      "width_mm": 25.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.6946813192706967,
+      "sd_true": 0.4,
+      "torques_Nm": [
+        300
+      ],
+      "theta_true": [
+        0.02666666666666667,
+        0.75,
+        0.006666666666666667,
+        0.4
+      ],
+      "theta": [
+        0.02666666666666667,
+        0.75,
+        0.006666666666666631,
+        0.4000000000000003
+      ],
+      "chi2": 7.52316384526264e-29,
+      "success": true,
+      "nfev": 14,
+      "optimality": 3.435406479860505e-13,
+      "fit_rmse_um": 7.917893156885569e-17
+    },
+    {
+      "geometry": "G2",
+      "z1": 30,
+      "z2": 45,
+      "module_mm": 4.0,
+      "width_mm": 25.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.6946813192706967,
+      "sd_true": 0.4,
+      "torques_Nm": [
+        50,
+        300
+      ],
+      "theta_true": [
+        0.02666666666666667,
+        0.75,
+        0.006666666666666667,
+        0.4
+      ],
+      "theta": [
+        0.02666666666666667,
+        0.75,
+        0.006666666666666495,
+        0.4000000000000007
+      ],
+      "chi2": 4.984096047486499e-28,
+      "success": true,
+      "nfev": 12,
+      "optimality": 3.434575145800363e-13,
+      "fit_rmse_um": 2.0379924859786447e-16
+    },
+    {
+      "geometry": "G3",
+      "z1": 18,
+      "z2": 64,
+      "module_mm": 2.0,
+      "width_mm": 12.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.662176564954035,
+      "sd_true": 0.25,
+      "torques_Nm": [
+        300
+      ],
+      "theta_true": [
+        0.013333333333333334,
+        0.75,
+        0.0033333333333333335,
+        0.25
+      ],
+      "theta": [
+        0.01333333333333334,
+        0.7500000000000001,
+        0.0033333333333333353,
+        0.2499999999999992
+      ],
+      "chi2": 7.703719777548943e-26,
+      "success": true,
+      "nfev": 10,
+      "optimality": 1.4472743512605695e-11,
+      "fit_rmse_um": 2.533725810203382e-15
+    },
+    {
+      "geometry": "G3",
+      "z1": 18,
+      "z2": 64,
+      "module_mm": 2.0,
+      "width_mm": 12.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.662176564954035,
+      "sd_true": 0.25,
+      "torques_Nm": [
+        50,
+        300
+      ],
+      "theta_true": [
+        0.013333333333333334,
+        0.75,
+        0.0033333333333333335,
+        0.25
+      ],
+      "theta": [
+        0.013333333333333334,
+        0.75,
+        0.003333333333333334,
+        0.24999999999999975
+      ],
+      "chi2": 1.1209514129441334e-26,
+      "success": true,
+      "nfev": 9,
+      "optimality": 5.271464319081983e-12,
+      "fit_rmse_um": 9.665020317896101e-16
+    },
+    {
+      "geometry": "G3",
+      "z1": 18,
+      "z2": 64,
+      "module_mm": 2.0,
+      "width_mm": 12.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.662176564954035,
+      "sd_true": 0.4,
+      "torques_Nm": [
+        300
+      ],
+      "theta_true": [
+        0.013333333333333334,
+        0.75,
+        0.0033333333333333335,
+        0.4
+      ],
+      "theta": [
+        0.013333333333333336,
+        0.7500000000000002,
+        0.0033333333333333266,
+        0.4000000000000015
+      ],
+      "chi2": 8.666684749742561e-26,
+      "success": true,
+      "nfev": 10,
+      "optimality": 1.830233257715721e-11,
+      "fit_rmse_um": 2.6874220530932863e-15
+    },
+    {
+      "geometry": "G3",
+      "z1": 18,
+      "z2": 64,
+      "module_mm": 2.0,
+      "width_mm": 12.0,
+      "alpha_deg": 20.0,
+      "theoretical_min_teeth": 17.09726434082606,
+      "contact_ratio": 1.662176564954035,
+      "sd_true": 0.4,
+      "torques_Nm": [
+        50,
+        300
+      ],
+      "theta_true": [
+        0.013333333333333334,
+        0.75,
+        0.0033333333333333335,
+        0.4
+      ],
+      "theta": [
+        0.013333333333333334,
+        0.7499999999999999,
+        0.0033333333333333422,
+        0.39999999999999963
+      ],
+      "chi2": 3.317715255760824e-26,
+      "success": true,
+      "nfev": 10,
+      "optimality": 6.12346385474515e-12,
+      "fit_rmse_um": 1.6627575629459696e-15
+    }
+  ]
+}

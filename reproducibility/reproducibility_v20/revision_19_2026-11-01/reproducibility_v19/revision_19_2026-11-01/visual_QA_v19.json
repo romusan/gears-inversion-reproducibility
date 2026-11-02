@@ -1,0 +1,49 @@
+{
+  "application": "Microsoft Word native COM export; Poppler rasterization",
+  "dpi": 122,
+  "all_final_pages_visually_reviewed": true,
+  "pages": {
+    "main": 37,
+    "supplement": 17,
+    "highlights": 1,
+    "cover": 1
+  },
+  "total_pages": 56,
+  "contact_sheets": [
+    "contact_cover_01.png",
+    "contact_highlights_01.png",
+    "contact_main_01.png",
+    "contact_main_02.png",
+    "contact_main_03.png",
+    "contact_main_04.png",
+    "contact_main_05.png",
+    "contact_main_06.png",
+    "contact_main_07.png",
+    "contact_main_08.png",
+    "contact_main_09.png",
+    "contact_main_10.png",
+    "contact_supplement_01.png",
+    "contact_supplement_02.png",
+    "contact_supplement_03.png",
+    "contact_supplement_04.png",
+    "contact_supplement_05.png"
+  ],
+  "zoom_review": [
+    "main page 28",
+    "supplement page 16",
+    "standalone Figure 13"
+  ],
+  "issues_fixed": [
+    "wrapped table flags and two-digit row numbers",
+    "duplicate cover-letter paragraph",
+    "S27 table cross-reference and follow-up status"
+  ],
+  "generic_renderer_unavailable": "LibreOffice soffice.exe absent; diagnostic log retained",
+  "no_clipping_or_overlap_observed": true,
+  "pdf_sha256": {
+    "main": "861a94e526c09d3ea93dbfd2426605025c9491f447c13a8a29d5d84ea9455d78",
+    "supplement": "a63644786bdff3ded82e19504347a61d82b5251cb7d4fdc6edd51574a375911f",
+    "highlights": "d53f973a4e97c51a5a1805290aa9f416388353c2911a333b07d7d5263cb2253e",
+    "cover": "e3da9e0d06a874908836ee98d320d993a16d9c0a9b895418a6d2381e62fbcb38"
+  }
+}

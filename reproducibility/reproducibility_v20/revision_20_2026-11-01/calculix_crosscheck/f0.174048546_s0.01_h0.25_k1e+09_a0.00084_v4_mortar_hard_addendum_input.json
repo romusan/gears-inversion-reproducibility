@@ -1,0 +1,39 @@
+{
+  "phase": 0.174048546,
+  "angle_rad": 0.00084,
+  "step": 0.01,
+  "h": 0.25,
+  "penalty": 1000000000.0,
+  "case": "addendum",
+  "theta": [
+    0.02,
+    0.75,
+    0.0,
+    0.5
+  ],
+  "mesh": [
+    {
+      "nodes_2d": 23924,
+      "triangles": 38980,
+      "contact_faces": 3513
+    },
+    {
+      "nodes_2d": 24118,
+      "triangles": 39342,
+      "contact_faces": 3251
+    }
+  ],
+  "control_nodes": [
+    [
+      96085,
+      96086
+    ],
+    [
+      96087,
+      96088
+    ]
+  ],
+  "total_mesh_nodes": 96084,
+  "contact_method": "hard mortar",
+  "source_sha256": "237edd61311bd8fc01f2afbe1c1916263b7b77fb9849ddec3e42a58f7cc0c8d5"
+}

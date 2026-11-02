@@ -1,0 +1,33 @@
+La v19 es un salto grande: cierra el hueco central que veníamos discutiendo (las 18 estaciones de transición) con un generador de contacto bilateral actualizado, añade controles con CalculiX, y refuerza la 4.8 con 200 semillas pareadas, bootstrap del efecto de ganancia, FGLS, armónicos y el *screening* por Q. Antes de más crítica, conviene notar algo importante: **la v19 cambia el mensaje científico del artículo**, y vale la pena hacerlo explícito.
+
+## El cambio de narrativa (y por qué debe ser explícito)
+
+Hasta la v17, el resultado era "el dedendum no es identificable en datos FE". La v19 muestra que con contacto actualizado y malla fina, la inversa *sí* recupera (C_d = 10.2/9.35 µm vs. verdad 10; s_d = 0.473/0.482 vs. 0.50), mientras el operador analítico no separa (fit RMS ≈ null RMS ≈ 1.53 µm en la Tabla 10). Es decir: **la identificabilidad del dedendum depende de la fidelidad del modelo de contacto, no solo del soporte cargado**. Y esto es *exactamente* lo que predice la Prop. 1: la invariancia se sostiene bajo estaciones y normales fijas; el contacto móvil viola esa hipótesis y la información del dedendum se activa. Conectar estos dos resultados en la Discusión (una frase) convierte dos secciones aparentemente contradictorias en una sola historia coherente y más fuerte: el teorema no solo delimita, *predice dónde aparece la información*.
+
+## Crítica de la Sección 4.9 (lo nuevo grande)
+
+**1. El resultado más interesante está enterrado: el diseño "mixed" no mejora al "interior".** Con la malla fina, el diseño de 30 estaciones interiores da error de campo 0.151 µm; el diseño con las 18 omisiones + 12 anclas da 0.288 µm (y con la gruesa, s_d = 0.596 vs. 0.600 en igualdad). Esto contradice la hipótesis natural de que las estaciones de transición son las que hacen identificable el dedendum. Hipótesis a verificar con los datos archivados: esas estaciones dominan la señal del *addendum* (contacto de punta), diluyendo la información del dedendum a cuenta fija; o la eliminación del offset por diseño interactúa con las transiciones. Cualquiera sea la causa, merece un párrafo propio — un resultado negativo sobre diseño de muestreo es publicable y útil.
+
+**2. Todo es determinístico.** Los inversos de la Tabla 10 usan observaciones sin ruido. La maquinaria de la 4.8 ya existe: agregar σ = 0.1 µm a los dos diseños de 30 estaciones y reportar error de perfil bajo ruido. Es el experimento que responde "¿sobrevive la recuperación cuando el residual ya no es 0.015 µm?". Dado que la discrepancia nominal-elástica en la verdad es 0.0565–0.0601 µm (¡~25% de la señal de 0.243!), el sesgo bajo ruido podría ser relevante.
+
+**3. Dos mallas no definen un criterio de refinamiento.** El texto dice que 0.0389 µm "cumple un criterio empírico de últimas dos mallas" pero dos niveles no pueden acreditar ni siquiera ese criterio de forma creíble, y el propio texto lo advierte. Un tercer nivel (p. ej., 0.01/0.25 mm) en el generador convertiría "estabilidad observada" en "tendencia" — costoso pero es el cuello de botella de credibilidad de toda la 4.9.
+
+**4. CalculiX difiere 0.100 µm en entrada — eso es ~40% de tu señal.** El control independiente muestra 0.100 y 0.0635 µm de diferencia en aproximación de entrada respecto a tu implementación bilateral. El texto lo minimiza como "selected nominal contact checks", pero la magnitud es del orden del contraste dedendum aislado (0.243 µm). Se debe cuantificar: ¿cuánto cambia el contraste dedendum si se calcula con CalculiX? Si la diferencia se concentra en las transiciones, afecta directamente la conclusión del punto 1. Al menos un contraste aislado en las fases de entrada con CalculiX.
+
+**5. Solo 2 starts en los inversos caros.** El texto dice "inverse estimates shift with reference resolution" descansando en ajustes con 2 puntos iniciales (el fino inicializado desde el grueso). Para un titular sobre instabilidad, eso es delgado. Cuantifiquen sensibilidad al start en el modelo 0.04 (aunque sea con 4–6 starts en una sola resolución) o suavicen el lenguaje.
+
+**6. Coherencia de "criterio empírico".** Si lo retienen, defínalo (umbral sobre diferencia de refinamiento relativa a la señal) o llámelo "umbral ad hoc declarado" para que no parezca estándar.
+
+## Sobre la 4.8 extendida (bien encaminada)
+
+El bootstrap pareado del efecto de ganancia [1.44, 3.32] responde exactamente la objeción que quedaba de la v17. El análisis de GLS con *bound hits* (16/50 vs. 7/50) y el subconjunto interior pareado (0.489 vs. 0.211) es el diagnóstico correcto. El *screening* Q > χ²₀.₉₅ con 200/200 flags en ganancia es un resultado práctico muy vendible (un detector de incompatibilidad operador-error-optimización). Dos cosas: (i) el screening usa 120 grados de libertad sin descontar parámetros ajustados — declárenlo conservador (ya lo hacen, bien) pero reporten también la tasa de flag bajo IID puro como falsa alarma empírica (4/200 aparece en el texto; llévenlo a una tabla); (ii) sigue pendiente la calibración de cobertura del umbral Δχ² = 3.841 de los perfiles — ahora tienen toda la maquinaria de bootstrap para hacerlo.
+
+## Lo que sigue abierto (sin cambio respecto a revisiones anteriores)
+
+1. **Validación experimental** (medición de relieve + TE en par certificado) — sigue siendo el único camino a "physical profile recovery"; la frase nueva del Limitations lo reconoce honestamente.
+2. **Diseño de carga que barra el soporte** (D-óptimo sobre torque, fases comunes) — la confusión muestreo/torque de la 4.4 sigue sin deshacerse del todo.
+3. **TOST** para la equivalencia de asignaciones de carga.
+4. **Mapa global de identificabilidad** — ahora más valioso que nunca: la 4.9 muestra que la frontera identificable se mueve con la fidelidad del operador; un barrido (soporte ξ_min vs. s_d, por resolución de modelo) sería el producto práctico del "diagnóstico pre-inversión".
+5. **Tercer nivel de malla en 4.9** (ver punto 3 arriba).
+
+Prioridad si solo pueden hacer tres cosas antes de enviar: (a) párrafo que conecte Prop. 1 con la activación de información en contacto móvil; (b) diagnóstico del resultado mixed-interior y sensibilidad a starts en la Tabla 10; (c) cuantificar el efecto de la diferencia CalculiX sobre el contraste dedendum. Con eso la v19 queda narrativamente sólida; el resto es robustez adicional.

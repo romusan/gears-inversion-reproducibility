@@ -1,0 +1,442 @@
+[
+  {
+    "new_number": 1,
+    "old_number": 1,
+    "title": "Multi-objective micro-geometry optimization of gear tooth supported by response surface methodology",
+    "doi": "10.1016/j.mechmachtheory.2016.11.015",
+    "source": "https://api.crossref.org/works/10.1016%2Fj.mechmachtheory.2016.11.015",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 2,
+    "old_number": 2,
+    "title": "Optimum Profile Modifications for the Minimization of Static Transmission Errors of Spur Gears",
+    "doi": "10.1115/1.3260791",
+    "source": "https://api.crossref.org/works/10.1115%2F1.3260791",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 3,
+    "old_number": 3,
+    "title": "A genetic algorithm approach to minimize transmission error of automotive spur gear sets",
+    "doi": "10.1080/08839510590901903",
+    "source": "https://api.crossref.org/works/10.1080%2F08839510590901903",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 4,
+    "old_number": 4,
+    "title": "The Optimal Design Method and Standardized Mathematical Model of Tooth Profile Modification of Spur Gear",
+    "doi": "10.1155/2016/6347987",
+    "source": "https://api.crossref.org/works/10.1155%2F2016%2F6347987",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 5,
+    "old_number": 5,
+    "title": "Design of profile corrections and tolerances in cylindrical gears for noise-sensitive applications in line with production efforts",
+    "doi": "10.1007/s10010-025-00786-2",
+    "source": "https://api.crossref.org/works/10.1007%2Fs10010-025-00786-2",
+    "status": "Crossref DOI metadata verified",
+    "notes": [
+      "Se incorpora número de artículo 11, confirmado por Springer."
+    ],
+    "semantic_scope": "Publisher abstract/highlights inspected"
+  },
+  {
+    "new_number": 6,
+    "old_number": 6,
+    "title": "Recent Progress and Prospect on Tooth Modification of Involute Cylindrical\nGear",
+    "doi": "10.2174/2212797614666210415111613",
+    "source": "https://api.crossref.org/works/10.2174%2F2212797614666210415111613",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 7,
+    "old_number": 7,
+    "title": "Inverse modeling with physical constraints and uncertainty correction for mesh stiffness identification in gear crack fault",
+    "doi": "10.1016/j.ymssp.2026.114142",
+    "source": "https://api.crossref.org/works/10.1016%2Fj.ymssp.2026.114142",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Publisher abstract/highlights inspected"
+  },
+  {
+    "new_number": 8,
+    "old_number": 8,
+    "title": "419 A study on meshing transmission error of spur gear used inverse problems",
+    "doi": "10.1299/jsmekansai.2000.75._4-31_",
+    "source": "https://api.crossref.org/works/10.1299%2Fjsmekansai.2000.75._4-31_",
+    "status": "Crossref DOI metadata verified",
+    "notes": [
+      "Se conserva prefijo 419 del título registrado; se normalizan páginas tipográficas, no el DOI."
+    ],
+    "semantic_scope": "Publisher abstract/highlights inspected"
+  },
+  {
+    "new_number": 9,
+    "old_number": 41,
+    "title": "Direct analytical solution of the inverse gear tooth contact analysis problem",
+    "doi": "10.1080/17415970701256486",
+    "source": "https://api.crossref.org/works/10.1080%2F17415970701256486",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Publisher abstract/highlights inspected"
+  },
+  {
+    "new_number": 10,
+    "old_number": 42,
+    "title": "Exploiting double-flank roll testing spur gear measurements to determine gear parameter deviations through numerical simulation of free-form meshing gears",
+    "doi": "10.1016/j.simpat.2023.102757",
+    "source": "https://api.crossref.org/works/10.1016%2Fj.simpat.2023.102757",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Publisher abstract/highlights inspected"
+  },
+  {
+    "new_number": 11,
+    "old_number": 9,
+    "title": "Determination of Mesh Stiffness of Gear—Analytical Approach vs. FEM Analysis",
+    "doi": "10.3390/app11114960",
+    "source": "https://api.crossref.org/works/10.3390%2Fapp11114960",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Publisher abstract/highlights inspected"
+  },
+  {
+    "new_number": 12,
+    "old_number": 10,
+    "title": "Review and benchmarking study of different gear contact analysis software in terms of the static transmission error response",
+    "doi": "10.1016/j.rineng.2024.102286",
+    "source": "https://api.crossref.org/works/10.1016%2Fj.rineng.2024.102286",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 13,
+    "old_number": 11,
+    "title": "Efficient nonlinear spur gear analysis using an interpolated analytical model",
+    "doi": "10.1007/s40430-026-06384-9",
+    "source": "https://api.crossref.org/works/10.1007%2Fs40430-026-06384-9",
+    "status": "Crossref DOI metadata verified",
+    "notes": [
+      "Se incorpora número de artículo 437, confirmado por Springer."
+    ],
+    "semantic_scope": "Publisher abstract/highlights inspected"
+  },
+  {
+    "new_number": 14,
+    "old_number": 12,
+    "title": "Influence of profile modifications on meshing stiffness, load sharing, and trasnsmission error of involute spur gears",
+    "doi": "10.1016/j.mechmachtheory.2019.05.014",
+    "source": "https://api.crossref.org/works/10.1016%2Fj.mechmachtheory.2019.05.014",
+    "status": "Crossref DOI metadata verified",
+    "notes": [
+      "Se conserva la errata trasnsmission del título publicado; confirmada en ScienceDirect."
+    ],
+    "semantic_scope": "Publisher abstract/highlights inspected"
+  },
+  {
+    "new_number": 15,
+    "old_number": 13,
+    "title": "The effect of different profile modifications on the static and dynamic transmission error of spur gears",
+    "doi": "10.1016/j.mechmachtheory.2024.105752",
+    "source": "https://api.crossref.org/works/10.1016%2Fj.mechmachtheory.2024.105752",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 16,
+    "old_number": 14,
+    "title": "A model for simulating the quasi-static and dynamic behaviour of solid wide-faced spur and helical gears",
+    "doi": "10.1016/j.mechmachtheory.2003.06.001",
+    "source": "https://api.crossref.org/works/10.1016%2Fj.mechmachtheory.2003.06.001",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 17,
+    "old_number": 15,
+    "title": "A mathematical model for analyzing the influence of shape deviations and mounting errors on gear dynamic behaviour",
+    "doi": "10.1006/jsvi.1996.0148",
+    "source": "https://api.crossref.org/works/10.1006%2Fjsvi.1996.0148",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 18,
+    "old_number": 16,
+    "title": "Static and Dynamic Tooth Loading in Spur and Helical Geared Systems-Experiments and Model Validation",
+    "doi": "10.1115/1.1462044",
+    "source": "https://api.crossref.org/works/10.1115%2F1.1462044",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 19,
+    "old_number": 17,
+    "title": "Identification in Parametric Models",
+    "doi": "10.2307/1913267",
+    "source": "https://api.crossref.org/works/10.2307%2F1913267",
+    "status": "Crossref DOI metadata verified",
+    "notes": [
+      "Se conserva rango completo 577–591; Crossref sólo registra página inicial 577."
+    ],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 20,
+    "old_number": 18,
+    "title": "On structural identifiability",
+    "doi": "10.1016/0025-5564(70)90132-x",
+    "source": "https://api.crossref.org/works/10.1016%2F0025-5564%2870%2990132-x",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 21,
+    "old_number": 19,
+    "title": "Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood",
+    "doi": "10.1093/bioinformatics/btp358",
+    "source": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtp358",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 22,
+    "old_number": 20,
+    "title": "Structural Identifiability of Systems Biology Models: A Critical Comparison of Methods",
+    "doi": "10.1371/journal.pone.0027755",
+    "source": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0027755",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 23,
+    "old_number": 21,
+    "title": "Structural Identifiability of Dynamic Systems Biology Models",
+    "doi": "10.1371/journal.pcbi.1005153",
+    "source": "https://api.crossref.org/works/10.1371%2Fjournal.pcbi.1005153",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 24,
+    "old_number": 22,
+    "title": "Universally Sloppy Parameter Sensitivities in Systems Biology Models",
+    "doi": "10.1371/journal.pcbi.0030189",
+    "source": "https://api.crossref.org/works/10.1371%2Fjournal.pcbi.0030189",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 25,
+    "old_number": 23,
+    "title": "On structural and practical identifiability",
+    "doi": "10.1016/j.coisb.2021.03.005",
+    "source": "https://api.crossref.org/works/10.1016%2Fj.coisb.2021.03.005",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 26,
+    "old_number": 24,
+    "title": "Gear Geometry and Applied Theory",
+    "doi": "10.1017/cbo9780511547126",
+    "source": "https://api.crossref.org/works/10.1017%2Fcbo9780511547126",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 27,
+    "old_number": 25,
+    "title": "Contact Mechanics",
+    "doi": "10.1017/cbo9781139171731",
+    "source": "https://api.crossref.org/works/10.1017%2Fcbo9781139171731",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 28,
+    "old_number": 26,
+    "title": "Ueber die Berührung fester elastischer Körper.",
+    "doi": "10.1515/crll.1882.92.156",
+    "source": "https://api.crossref.org/works/10.1515%2Fcrll.1882.92.156",
+    "status": "Crossref DOI metadata verified",
+    "notes": [
+      "Se normaliza a volumen histórico 92 (Band 92, confirmado por De Gruyter); Crossref usa año 1882 como volumen e issue 92."
+    ],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 29,
+    "old_number": 27,
+    "title": "Hertzian Damping, Tooth Friction and Bending Elasticity in Gear Impact Dynamics",
+    "doi": "10.1115/1.3267437",
+    "source": "https://api.crossref.org/works/10.1115%2F1.3267437",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 30,
+    "old_number": 28,
+    "title": "Contribution of Gear Body to Tooth Deflections—A New Bidimensional Analytical Formula",
+    "doi": "10.1115/1.1758252",
+    "source": "https://api.crossref.org/works/10.1115%2F1.1758252",
+    "status": "Crossref DOI metadata verified",
+    "notes": [
+      "Se conserva apellido Sainsot; la cadena Sainsot and del registro es un artefacto de autoría, no un apellido."
+    ],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 31,
+    "old_number": 29,
+    "title": "ISO 6336-1:2019 Calculation of load capacity of spur and helical gears — Part 1: Basic principles, introduction and general influence factors",
+    "doi": null,
+    "source": "https://www.iso.org/standard/63819.html",
+    "status": "ISO primary catalogue verified",
+    "notes": [
+      "Ficha ISO primaria: edición 3 (2019), confirmada en 2025; no se verifica texto normativo de pago."
+    ],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 32,
+    "old_number": 30,
+    "title": "From Transmission Error Measurements to Angular Sampling in Rotating Machines with Discrete Geometry",
+    "doi": "10.1155/2005/205291",
+    "source": "https://api.crossref.org/works/10.1155%2F2005%2F205291",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 33,
+    "old_number": 31,
+    "title": "A Subspace, Interior, and Conjugate Gradient Method for Large-Scale Bound-Constrained Minimization Problems",
+    "doi": "10.1137/s1064827595289108",
+    "source": "https://api.crossref.org/works/10.1137%2Fs1064827595289108",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 34,
+    "old_number": 32,
+    "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+    "doi": "10.1038/s41592-019-0686-2",
+    "source": "https://api.crossref.org/works/10.1038%2Fs41592-019-0686-2",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 35,
+    "old_number": 33,
+    "title": "Regularization of Inverse Problems",
+    "doi": "10.1007/978-94-009-1740-8",
+    "source": "https://api.crossref.org/works/10.1007%2F978-94-009-1740-8",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 36,
+    "old_number": 34,
+    "title": "Discrete Inverse Problems: Insight and Algorithms",
+    "doi": "10.1137/1.9780898718836",
+    "source": "https://api.crossref.org/works/10.1137%2F1.9780898718836",
+    "status": "Crossref DOI metadata verified",
+    "notes": [
+      "Se conserva subtítulo Insight and Algorithms confirmado en SIAM, ausente del título corto Crossref."
+    ],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 37,
+    "old_number": 35,
+    "title": "Inverse problems: A Bayesian perspective",
+    "doi": "10.1017/s0962492910000061",
+    "source": "https://api.crossref.org/works/10.1017%2Fs0962492910000061",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 38,
+    "old_number": 36,
+    "title": "Bayesian Calibration of Computer Models",
+    "doi": "10.1111/1467-9868.00294",
+    "source": "https://api.crossref.org/works/10.1111%2F1467-9868.00294",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 39,
+    "old_number": 37,
+    "title": "Optimal Design of Experiments",
+    "doi": "10.1137/1.9780898719109",
+    "source": "https://api.crossref.org/works/10.1137%2F1.9780898719109",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 40,
+    "old_number": 38,
+    "title": "General Equivalence Theory for Optimum Designs (Approximate Theory)",
+    "doi": "10.1214/aos/1176342810",
+    "source": "https://api.crossref.org/works/10.1214%2Faos%2F1176342810",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 41,
+    "old_number": 39,
+    "title": "The Equivalence of Two Extremum Problems",
+    "doi": "10.4153/cjm-1960-030-4",
+    "source": "https://api.crossref.org/works/10.4153%2Fcjm-1960-030-4",
+    "status": "Crossref DOI metadata verified",
+    "notes": [],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  },
+  {
+    "new_number": 42,
+    "old_number": 40,
+    "title": "Bayesian Experimental Design: A Review",
+    "doi": "10.1214/ss/1177009939",
+    "source": "https://api.crossref.org/works/10.1214%2Fss%2F1177009939",
+    "status": "Crossref DOI metadata verified",
+    "notes": [
+      "Se completa el rango 273–304 registrado para la revisión de diseño bayesiano."
+    ],
+    "semantic_scope": "Bibliographic verification; full text not independently reread"
+  }
+]

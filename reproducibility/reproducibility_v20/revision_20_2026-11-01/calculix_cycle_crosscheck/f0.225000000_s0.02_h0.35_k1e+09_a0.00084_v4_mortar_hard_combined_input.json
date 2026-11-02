@@ -1,0 +1,41 @@
+{
+  "phase": 0.225,
+  "angle_rad": 0.00084,
+  "step": 0.02,
+  "h": 0.35,
+  "penalty": 1000000000.0,
+  "case": "combined",
+  "theta": [
+    0.02,
+    0.75,
+    0.01,
+    0.5
+  ],
+  "mesh_rule": "same complete-five-tooth near field as v19 cycle",
+  "initial_increment": 1.0,
+  "mesh": [
+    {
+      "nodes_2d": 15767,
+      "triangles": 26500,
+      "contact_faces": 2040
+    },
+    {
+      "nodes_2d": 15757,
+      "triangles": 26475,
+      "contact_faces": 1690
+    }
+  ],
+  "control_nodes": [
+    [
+      63049,
+      63050
+    ],
+    [
+      63051,
+      63052
+    ]
+  ],
+  "total_mesh_nodes": 63048,
+  "contact_method": "hard mortar",
+  "source_sha256": "0ed08100f60b1d5148133e813fef95abfefe078fe6cb01c2fc1b198958ab110d"
+}

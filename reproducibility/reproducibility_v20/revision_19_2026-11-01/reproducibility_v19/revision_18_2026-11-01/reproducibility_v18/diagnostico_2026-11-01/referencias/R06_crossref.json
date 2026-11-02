@@ -1,0 +1,757 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2026-10-01T09:25:35Z",
+      "timestamp": 1790846735153,
+      "version": "4.1.0"
+    },
+    "reference-count": 36,
+    "publisher": "MDPI AG",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              4
+            ]
+          ],
+          "date-time": "2024-05-04T00:00:00Z",
+          "timestamp": 1714780800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Foundation of Key Laboratory of Vibration and Control of Aero-Propulsion System, Ministry of Education",
+        "award": [
+          "VCAME202104"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "VCAME202104"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Foundation of Key Laboratory of Vibration and Control of Aero-Propulsion System, Ministry of Education",
+        "award": [
+          "2232023D-17"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2232023D-17"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Foundation of Key Laboratory of Vibration and Control of Aero-Propulsion System, Ministry of Education",
+        "award": [
+          "52005327"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "52005327"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fundamental Research Funds for the Central Universities",
+        "award": [
+          "VCAME202104"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "VCAME202104"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fundamental Research Funds for the Central Universities",
+        "award": [
+          "2232023D-17"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2232023D-17"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fundamental Research Funds for the Central Universities",
+        "award": [
+          "52005327"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "52005327"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "VCAME202104"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "VCAME202104"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2232023D-17"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2232023D-17"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "52005327"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "52005327"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Machines"
+    ],
+    "abstract": "<jats:p>Gear transmission systems are widely used to transfer energy and motion and to guarantee the accuracy of the entire machine system. The modification technique is a common method that improves the gear profile and reduces the transmission error. Based on the parametric model, a modified gear can be established for the evaluation of static and dynamic characteristics. The influences of profile modification parameters and gear parameters are investigated while changing the rules of different kinds of factors. Based on sensitive parameters, a two-stage profile modification curve is proposed to improve the performance of gear pairs. Thus, considering the time-varying mesh stiffness and backlash, a novel, dynamic modified gear model is established to analyze the dynamic performance, such as the dynamic transmission error. Based on the proposed curve, the range and amplitude of the transmission error can be decreased. Additionally, the vibration displacement and noise can be reduced to improve the running characteristics.</jats:p>",
+    "DOI": "10.3390/machines12050316",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2024-05-06T14:26:11Z",
+      "timestamp": 1715005571000
+    },
+    "page": "316",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 23,
+    "title": [
+      "Study on the Parameter Influences of Gear Tooth Profile Modification and Transmission Error Analysis"
+    ],
+    "prefix": "10.3390",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Di",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Mechanical Engineering, Donghua University, Shanghai 200051, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yonglin",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mechanical Engineering, Donghua University, Shanghai 200051, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jian",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Volkswagen (Anhui) Co., Ltd., Hefei 230091, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yimin",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Equipment Reliability Institute, Shenyang University of Chemical Technology, Shenyang 110142, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "107762",
+        "DOI": "10.1016/j.ymssp.2021.107762",
+        "article-title": "Multi-objective optimal design of modification for helical gear",
+        "volume": "157",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "294",
+        "DOI": "10.1016/j.ymssp.2016.01.020",
+        "article-title": "Effects of tooth profile modification on dynamic responses of a high speed gear-rotor-bearing system",
+        "volume": "76–77",
+        "author": "Hu",
+        "year": "2016",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1194",
+        "DOI": "10.1016/j.apm.2020.11.003",
+        "article-title": "A new mesh stiffness model for modified spur gears with coupling tooth and body flexibility effects",
+        "volume": "91",
+        "author": "Xie",
+        "year": "2021",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, M., Xiong, X., and Zhuang, W. (2021). Design and simulation of meshing performance of modified straight bevel gears. Metals, 11.",
+        "DOI": "10.3390/met11010033"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, J., and Lv, H. (2023). Modification and optimization of cycloidal gear tooth profile based on machining error compensation. Appl. Sci., 13.",
+        "DOI": "10.3390/app13042581"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "845",
+        "DOI": "10.1016/j.apm.2020.08.046",
+        "article-title": "A mesh stiffness method using slice coupling for spur gear pairs with misalignment and lead crown relief",
+        "volume": "90",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "298",
+        "DOI": "10.1016/j.mechmachtheory.2013.07.018",
+        "article-title": "Analytical investigation of tooth profile modification effects on planetary gear dynamics",
+        "volume": "70",
+        "author": "Bahk",
+        "year": "2013",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "105247",
+        "DOI": "10.1016/j.mechmachtheory.2023.105247",
+        "article-title": "Influence of gear-shaft interference fit assembly on the meshing characteristics of cylindrical gears considering comprehensive modifications",
+        "volume": "182",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1409",
+        "DOI": "10.1007/s12206-011-1028-1",
+        "article-title": "Static/dynamic contact FEA and experimental study for tooth profile modification of helical gears",
+        "volume": "26",
+        "author": "Wu",
+        "year": "2012",
+        "journal-title": "J. Mech. Sci. Technol."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "105139",
+        "DOI": "10.1016/j.mechmachtheory.2022.105139",
+        "article-title": "A dynamic model combining the average and the local meshing stiffnesses and based on the static transmission error for spur gears with profile modification",
+        "volume": "180",
+        "author": "Abruzzo",
+        "year": "2023",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "109530",
+        "DOI": "10.1016/j.ymssp.2022.109530",
+        "article-title": "Research on application of dynamic optimization modification for an involute spur gear in a fixed-shaft gear transmission system",
+        "volume": "181",
+        "author": "Gao",
+        "year": "2022",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "533",
+        "DOI": "10.1007/s42417-023-00857-0",
+        "article-title": "Optimization of Geometrical Features of Spur Gear Pair Teeth for Minimization of Vibration Generation",
+        "volume": "12",
+        "author": "Raut",
+        "year": "2023",
+        "journal-title": "J. Vib. Eng. Technol."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/j.mechmachtheory.2018.04.022",
+        "article-title": "An improved model for dynamic analysis of a double-helical gear reduction unit by hybrid user-defined elements: Experimental and numerical validation",
+        "volume": "127",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "108023",
+        "DOI": "10.1016/j.triboint.2022.108023",
+        "article-title": "Gear tribodynamic modeling and analysis considering tooth profile modification",
+        "volume": "178",
+        "author": "Jiang",
+        "year": "2023",
+        "journal-title": "Tribol. Int."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1016/j.mechmachtheory.2016.06.008",
+        "article-title": "On optimal tooth profile modification for reduction of vibration and noise in spur gear pairs",
+        "volume": "105",
+        "author": "Ghosh",
+        "year": "2016",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "104888",
+        "DOI": "10.1016/j.mechmachtheory.2022.104888",
+        "article-title": "On the stability analysis of gear pairs with tooth profile modification",
+        "volume": "174",
+        "author": "Hajjaj",
+        "year": "2022",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1016/j.mechmachtheory.2018.08.003",
+        "article-title": "A revised time-varying mesh stiffness model of spur gear pairs with tooth modifications",
+        "volume": "129",
+        "author": "Sun",
+        "year": "2018",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "344",
+        "DOI": "10.1016/j.apm.2021.03.051",
+        "article-title": "Analytical model for meshing stiffness, load sharing, and transmission error for spur gears with profile modification under non-nominal load conditions",
+        "volume": "97",
+        "author": "Pleguezuelos",
+        "year": "2021",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1016/j.jsv.2016.05.044",
+        "article-title": "On transmission errors and profile modifications minimising dynamic tooth loads in multi-mesh gears",
+        "volume": "379",
+        "author": "Velex",
+        "year": "2016",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "105340",
+        "DOI": "10.1016/j.mechmachtheory.2023.105340",
+        "article-title": "Analytical model for meshing stiffness, load sharing, and transmission error for helical gears with profile modification",
+        "volume": "185",
+        "author": "Pedrero",
+        "year": "2023",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "3903",
+        "DOI": "10.1177/0954406220917424",
+        "article-title": "Reliability sensitivity analysis of tooth modification on dynamic transmission error of helical planetary gears",
+        "volume": "234",
+        "author": "Jun",
+        "year": "2020",
+        "journal-title": "Proc. Inst. Mech. Eng. Part C J. Mech. Eng. Sci."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "117437",
+        "DOI": "10.1016/j.jsv.2022.117437",
+        "article-title": "Mesh stiffness and dynamic response analysis of modified gear system with thin web and weight reduction holes",
+        "volume": "546",
+        "author": "Sun",
+        "year": "2023",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "345",
+        "DOI": "10.1016/S0168-874X(97)81968-3",
+        "article-title": "A method for calculating static transmission errors of plastic spur gears using FEM evaluation",
+        "volume": "27",
+        "author": "Tsai",
+        "year": "1997",
+        "journal-title": "Finite Elem. Anal. Des."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1311",
+        "DOI": "10.1007/s12206-019-0232-2",
+        "article-title": "Tooth friction force and transmission error of spur gears due to sliding friction",
+        "volume": "33",
+        "author": "Park",
+        "year": "2019",
+        "journal-title": "J. Mech. Sci. Technol."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1016/j.mechmachtheory.2019.03.044",
+        "article-title": "A novel approach for calculating no-load static transmission error based on measured discrete tooth surfaces",
+        "volume": "138",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "444",
+        "DOI": "10.1016/j.apm.2019.03.026",
+        "article-title": "Nonlinear dynamic response of a spur gear pair based on the modeling of periodic mesh stiffness and static transmission error",
+        "volume": "72",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2051",
+        "DOI": "10.1007/s00170-020-06334-2",
+        "article-title": "Reliability sensitivity analysis of ball-end milling accuracy",
+        "volume": "112",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Int. J. Adv. Manuf. Technol."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "103301",
+        "DOI": "10.1115/1.4043586",
+        "article-title": "Talbot Static and dynamic transmission error measurements of helical gear pairs with various tooth modifications",
+        "volume": "141",
+        "author": "Benatar",
+        "year": "2019",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "3334",
+        "DOI": "10.1007/s11771-020-4550-4",
+        "article-title": "A novel method to predict static transmission error for spur gear pair based on accuracy grade",
+        "volume": "27",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "J. Cent. South Univ."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1071",
+        "DOI": "10.1007/s11012-019-00973-w",
+        "article-title": "Nonlinear vibration of the spiral bevel gear with a novel tooth surface modification method",
+        "volume": "54",
+        "author": "Samani",
+        "year": "2019",
+        "journal-title": "Meccanica"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1016/j.apm.2022.03.020",
+        "article-title": "Dynamic statistical responses of gear drive based on improved stochastic iteration method",
+        "volume": "108",
+        "author": "Zhou",
+        "year": "2022",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "3225",
+        "DOI": "10.1007/s00170-016-8672-7",
+        "article-title": "Probabilistic analysis of chatter stability in turning",
+        "volume": "87",
+        "author": "Huang",
+        "year": "2016",
+        "journal-title": "Int. J. Adv. Manuf. Technol."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "244",
+        "DOI": "10.1016/j.mechmachtheory.2016.07.007",
+        "article-title": "Dynamic reliability analysis for planetary gear system in shearer mechanisms",
+        "volume": "105",
+        "author": "Zhou",
+        "year": "2016",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.mechmachtheory.2016.10.007",
+        "article-title": "Research on the dynamic transmission error of a spur gear pair with eccentricities by finite element method",
+        "volume": "109",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1410",
+        "DOI": "10.1016/j.wear.2019.01.017",
+        "article-title": "Vibration-based updating of wear prediction for spur gears",
+        "volume": "426",
+        "author": "Feng",
+        "year": "2019",
+        "journal-title": "Wear"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "JAMDSM0068",
+        "DOI": "10.1299/jamdsm.2021jamdsm0068",
+        "article-title": "Research on nonlinear dynamic model and characteristics of a spur gear pair considering the meshing state of multiple pairs of teeth",
+        "volume": "15",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "J. Adv. Mech. Des. Syst. Manuf."
+      }
+    ],
+    "container-title": [
+      "Machines"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2075-1702/12/5/316/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T14:39:31Z",
+      "timestamp": 1760107171000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2075-1702/12/5/316"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          4
+        ]
+      ]
+    },
+    "references-count": 36,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "machines12050316"
+    ],
+    "URL": "https://doi.org/10.3390/machines12050316",
+    "relation": {},
+    "ISSN": [
+      "2075-1702"
+    ],
+    "issn-type": [
+      {
+        "value": "2075-1702",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          4
+        ]
+      ]
+    }
+  }
+}

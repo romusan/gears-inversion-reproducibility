@@ -1,0 +1,467 @@
+{
+  "null_space": {
+    "rank": 31,
+    "n_nodes": 41,
+    "zero_columns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "first_sensitive_node": 0.225,
+    "minimum_loaded_coordinate": 0.23562919485635994,
+    "global_constant_relative_residual": 5.489975118152635e-16,
+    "sensitive_constant_relative_residual": 5.489975118152635e-16,
+    "direction_std_um": [
+      0.04132587334146796,
+      0.04238659195535581,
+      0.0467217327851431,
+      0.050400682281620965,
+      0.05626418699885935,
+      0.05647277782714737,
+      0.058612634622025234,
+      0.05951939245222033,
+      0.06297918265479643,
+      0.06356912606423326,
+      0.06707193091450028,
+      0.07034308769033253,
+      0.07541502204558885,
+      0.08099036164697998,
+      0.08761864816058851,
+      0.09447937810133475,
+      0.10077305315013717,
+      0.1813204352300196,
+      0.23341837762990117,
+      0.2509043826292421,
+      0.290749047701629,
+      0.35036526377325333,
+      0.4090344447359769,
+      0.45030441560085305,
+      0.5739514317901728,
+      0.7785432913038202,
+      1.0677150142460536,
+      1.603378194697237,
+      2.6657470900558438,
+      5.258962157923571,
+      14.694196265181928
+    ],
+    "finite_perturbations": [
+      {
+        "direction": "global_constant",
+        "change_rms_um": [
+          9.942435554063063e-12,
+          9.942418185900369e-12
+        ]
+      },
+      {
+        "direction": "below_support_node",
+        "change_rms_um": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "direction": "sensitive_constant",
+        "change_rms_um": [
+          9.942435554063063e-12,
+          9.942418185900369e-12
+        ]
+      }
+    ]
+  },
+  "benchmark": [
+    {
+      "variant": "legacy",
+      "case": "unmodified",
+      "torque_Nm": 350.0,
+      "model_pp_um": 6.620650689965877,
+      "reference_pp_um": 6.078,
+      "relative_error_percent": 8.928112700985135
+    },
+    {
+      "variant": "legacy",
+      "case": "unmodified",
+      "torque_Nm": 500.0,
+      "model_pp_um": 9.304475907742786,
+      "reference_pp_um": 8.276,
+      "relative_error_percent": 12.42721009839036
+    },
+    {
+      "variant": "legacy",
+      "case": "unmodified",
+      "torque_Nm": 650.0,
+      "model_pp_um": 11.948940684482393,
+      "reference_pp_um": 10.527,
+      "relative_error_percent": 13.507558511279507
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol1",
+      "torque_Nm": 350.0,
+      "model_pp_um": 4.058047897979311,
+      "reference_pp_um": 3.542,
+      "relative_error_percent": 14.569392941256659
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol1",
+      "torque_Nm": 500.0,
+      "model_pp_um": 6.67121129538642,
+      "reference_pp_um": 5.689,
+      "relative_error_percent": 17.265095717813672
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol1",
+      "torque_Nm": 650.0,
+      "model_pp_um": 9.24655561293334,
+      "reference_pp_um": 7.96,
+      "relative_error_percent": 16.162758956449
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol2",
+      "torque_Nm": 350.0,
+      "model_pp_um": 3.3387701101874194,
+      "reference_pp_um": 2.434,
+      "relative_error_percent": 37.172149144922734
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol2",
+      "torque_Nm": 500.0,
+      "model_pp_um": 5.913531738287854,
+      "reference_pp_um": 4.462,
+      "relative_error_percent": 32.53096679264577
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol2",
+      "torque_Nm": 650.0,
+      "model_pp_um": 8.451483488630899,
+      "reference_pp_um": 6.67,
+      "relative_error_percent": 26.70889788052322
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol3",
+      "torque_Nm": 350.0,
+      "model_pp_um": 4.217305786814837,
+      "reference_pp_um": 3.775,
+      "relative_error_percent": 11.716709584498993
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol3",
+      "torque_Nm": 500.0,
+      "model_pp_um": 6.812842471651273,
+      "reference_pp_um": 5.93,
+      "relative_error_percent": 14.887731393782019
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol3",
+      "torque_Nm": 650.0,
+      "model_pp_um": 9.370556633174553,
+      "reference_pp_um": 8.162,
+      "relative_error_percent": 14.807113859036418
+    },
+    {
+      "variant": "shear-G",
+      "case": "unmodified",
+      "torque_Nm": 350.0,
+      "model_pp_um": 8.426412328296307,
+      "reference_pp_um": 6.078,
+      "relative_error_percent": 38.63791260770494
+    },
+    {
+      "variant": "shear-G",
+      "case": "unmodified",
+      "torque_Nm": 500.0,
+      "model_pp_um": 11.884135294790557,
+      "reference_pp_um": 8.276,
+      "relative_error_percent": 43.597574852471695
+    },
+    {
+      "variant": "shear-G",
+      "case": "unmodified",
+      "torque_Nm": 650.0,
+      "model_pp_um": 15.23491883777139,
+      "reference_pp_um": 10.527,
+      "relative_error_percent": 44.7223220078977
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol1",
+      "torque_Nm": 350.0,
+      "model_pp_um": 5.77074570591032,
+      "reference_pp_um": 3.542,
+      "relative_error_percent": 62.92336832044948
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol1",
+      "torque_Nm": 500.0,
+      "model_pp_um": 9.136412982160818,
+      "reference_pp_um": 5.689,
+      "relative_error_percent": 60.597872774843
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol1",
+      "torque_Nm": 650.0,
+      "model_pp_um": 12.46382209957613,
+      "reference_pp_um": 7.96,
+      "relative_error_percent": 56.580679642916216
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol2",
+      "torque_Nm": 350.0,
+      "model_pp_um": 5.001334502853855,
+      "reference_pp_um": 2.434,
+      "relative_error_percent": 105.4779992955569
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol2",
+      "torque_Nm": 500.0,
+      "model_pp_um": 8.31750055663013,
+      "reference_pp_um": 4.462,
+      "relative_error_percent": 86.40745308449418
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol2",
+      "torque_Nm": 650.0,
+      "model_pp_um": 11.596087307604524,
+      "reference_pp_um": 6.67,
+      "relative_error_percent": 73.85438242285643
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol3",
+      "torque_Nm": 350.0,
+      "model_pp_um": 5.917406358615661,
+      "reference_pp_um": 3.775,
+      "relative_error_percent": 56.752486320944676
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol3",
+      "torque_Nm": 500.0,
+      "model_pp_um": 9.259949397564592,
+      "reference_pp_um": 5.93,
+      "relative_error_percent": 56.15429000952094
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol3",
+      "torque_Nm": 650.0,
+      "model_pp_um": 12.60809383546293,
+      "reference_pp_um": 8.162,
+      "relative_error_percent": 54.47309281380701
+    },
+    {
+      "variant": "projected-energy",
+      "case": "unmodified",
+      "torque_Nm": 350.0,
+      "model_pp_um": 7.161454025144277,
+      "reference_pp_um": 6.078,
+      "relative_error_percent": 17.82583127910952
+    },
+    {
+      "variant": "projected-energy",
+      "case": "unmodified",
+      "torque_Nm": 500.0,
+      "model_pp_um": 10.077051920146733,
+      "reference_pp_um": 8.276,
+      "relative_error_percent": 21.762347995973094
+    },
+    {
+      "variant": "projected-energy",
+      "case": "unmodified",
+      "torque_Nm": 650.0,
+      "model_pp_um": 12.953289324363928,
+      "reference_pp_um": 10.527,
+      "relative_error_percent": 23.048250445178383
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol1",
+      "torque_Nm": 350.0,
+      "model_pp_um": 4.498719006391101,
+      "reference_pp_um": 3.542,
+      "relative_error_percent": 27.01070034983347
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol1",
+      "torque_Nm": 500.0,
+      "model_pp_um": 7.332053584416523,
+      "reference_pp_um": 5.689,
+      "relative_error_percent": 28.881237201907595
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol1",
+      "torque_Nm": 650.0,
+      "model_pp_um": 10.127424063098994,
+      "reference_pp_um": 7.96,
+      "relative_error_percent": 27.22894551631902
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol2",
+      "torque_Nm": 350.0,
+      "model_pp_um": 3.726996043812391,
+      "reference_pp_um": 2.434,
+      "relative_error_percent": 53.122269671831994
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol2",
+      "torque_Nm": 500.0,
+      "model_pp_um": 6.516226341280109,
+      "reference_pp_um": 4.462,
+      "relative_error_percent": 46.038241624386124
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol2",
+      "torque_Nm": 650.0,
+      "model_pp_um": 9.26843677666078,
+      "reference_pp_um": 6.67,
+      "relative_error_percent": 38.957073113355015
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol3",
+      "torque_Nm": 350.0,
+      "model_pp_um": 4.650616591649684,
+      "reference_pp_um": 3.775,
+      "relative_error_percent": 23.19514150065389
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol3",
+      "torque_Nm": 500.0,
+      "model_pp_um": 7.463784944500052,
+      "reference_pp_um": 5.93,
+      "relative_error_percent": 25.86483886172095
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol3",
+      "torque_Nm": 650.0,
+      "model_pp_um": 10.258881268724387,
+      "reference_pp_um": 8.162,
+      "relative_error_percent": 25.690777612403657
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "unmodified",
+      "torque_Nm": 350.0,
+      "model_pp_um": 7.306587919349326,
+      "reference_pp_um": 6.078,
+      "relative_error_percent": 20.21368738646472
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "unmodified",
+      "torque_Nm": 500.0,
+      "model_pp_um": 10.284386051801388,
+      "reference_pp_um": 8.276,
+      "relative_error_percent": 24.267593666039
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "unmodified",
+      "torque_Nm": 650.0,
+      "model_pp_um": 13.222823692513659,
+      "reference_pp_um": 10.527,
+      "relative_error_percent": 25.60866051594623
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "Sol1",
+      "torque_Nm": 350.0,
+      "model_pp_um": 4.640049021540675,
+      "reference_pp_um": 3.542,
+      "relative_error_percent": 31.000819354620994
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "Sol1",
+      "torque_Nm": 500.0,
+      "model_pp_um": 7.534904074310674,
+      "reference_pp_um": 5.689,
+      "relative_error_percent": 32.446898827749585
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "Sol1",
+      "torque_Nm": 650.0,
+      "model_pp_um": 10.39174836754602,
+      "reference_pp_um": 7.96,
+      "relative_error_percent": 30.54960260736206
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "Sol2",
+      "torque_Nm": 350.0,
+      "model_pp_um": 3.865984497130489,
+      "reference_pp_um": 2.434,
+      "relative_error_percent": 58.83255945482697
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "Sol2",
+      "torque_Nm": 500.0,
+      "model_pp_um": 6.71636798631611,
+      "reference_pp_um": 4.462,
+      "relative_error_percent": 50.523711033530034
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "Sol2",
+      "torque_Nm": 650.0,
+      "model_pp_um": 9.529647456634125,
+      "reference_pp_um": 6.67,
+      "relative_error_percent": 42.87327521190592
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "Sol3",
+      "torque_Nm": 350.0,
+      "model_pp_um": 4.79147743612876,
+      "reference_pp_um": 3.775,
+      "relative_error_percent": 26.92655459943736
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "Sol3",
+      "torque_Nm": 500.0,
+      "model_pp_um": 7.665954862891723,
+      "reference_pp_um": 5.93,
+      "relative_error_percent": 29.274112359050978
+    },
+    {
+      "variant": "centerline-energy",
+      "case": "Sol3",
+      "torque_Nm": 650.0,
+      "model_pp_um": 10.52841541666128,
+      "reference_pp_um": 8.162,
+      "relative_error_percent": 28.993082781931875
+    }
+  ],
+  "benchmark_geometry": {
+    "alpha_w_deg": 21.810722873407514,
+    "contact_ratio": 1.4557053725757465
+  }
+}

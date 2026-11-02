@@ -1,0 +1,13 @@
+{
+  "cases": 500,
+  "attempts": 1500,
+  "observation_seed_and_covariance_checked": true,
+  "all_selected_objectives_recomputed": true,
+  "profile_and_response_errors_recomputed": true,
+  "max_relative_objective_difference": 0.0,
+  "max_generator_difference_mm": 0.0,
+  "per_coordinate_bounds_checked": true,
+  "status_partitions_checked": true,
+  "unchanged_archived_selections": 1800,
+  "source_hashes_checked": true
+}

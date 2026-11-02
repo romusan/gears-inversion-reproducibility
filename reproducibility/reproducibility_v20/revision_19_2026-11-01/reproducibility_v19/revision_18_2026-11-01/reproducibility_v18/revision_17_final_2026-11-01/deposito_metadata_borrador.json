@@ -1,0 +1,34 @@
+{
+  "status": "Prepared metadata draft; not submitted; no DOI minted or reserved",
+  "title": "Contact support and practical identifiability of spur gear microgeometry from transmission error",
+  "version": "17",
+  "date": "2026-11-01",
+  "resource_description": "Final manuscript evidence package with preserved prior controls, 500 additional synthetic stress cases and 1500 local attempted fits. Includes correlated noise, known-covariance GLS, gain error and compliance-formulation mismatch; all raw observations, optimizer statuses and dedendum bound flags retained. Contains editable construction sources, supplementary Tables S1-S27 and SHA-256 manifest. Does not establish physical relief recovery or resolve omitted FE corner/fillet contact.",
+  "creators": [
+    {
+      "name": "Sandoval Flórez, Romulo",
+      "affiliation": "Universidad ECCI"
+    },
+    {
+      "name": "Parra Medina, Claudia Patricia",
+      "affiliation": "Grupo GAV, Universidad Militar Nueva Granada"
+    },
+    {
+      "name": "Vargas Fonseca, German Leandro",
+      "affiliation": "Grupo GAV, Universidad Militar Nueva Granada"
+    }
+  ],
+  "keywords": [
+    "gear microgeometry",
+    "transmission error",
+    "contact support",
+    "identifiability",
+    "inverse problems"
+  ],
+  "public_historical_baseline": "https://github.com/romusan/gears-inversion-reproducibility/tree/manuscript-v13",
+  "file": "MMT_reproducibility_v17.zip",
+  "license": null,
+  "license_status": "Must be selected by rights holders before public deposit; no new licence grant is asserted",
+  "doi": null,
+  "technical_note": "Descriptive draft, not a validated Zenodo API request. Deposit only through an authenticated account. Replace the manuscript's data statement with the actual persistent identifier after a real deposit."
+}

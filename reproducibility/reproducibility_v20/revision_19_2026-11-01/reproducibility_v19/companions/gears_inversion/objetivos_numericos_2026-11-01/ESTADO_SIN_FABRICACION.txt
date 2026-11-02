@@ -1,0 +1,187 @@
+OBJETIVOS SIN FABRICACIÓN — ESTADO VERIFICADO 2026-11-01
+
+DECISIÓN Y ALCANCE
+Se avanzó en contacto móvil, verificación con un solver independiente y búsqueda
+de datos públicos. Este paquete es evidencia computacional de una geometría
+virtual declarada. El manuscrito y los archivos de envío v18 no se modificaron.
+
+Resultado útil: el operador nuevo supera el control geométrico bilateral en las
+fases ensayadas. En el caso virtual, retirar material en la raíz cambia la forma
+de la respuesta entre entrada e interior; su magnitud se registra más abajo.
+Todavía no se demostró recuperación única de parámetros ni un ciclo completo.
+La búsqueda de datos públicos tampoco obtuvo una pareja elegible de relieve
+medido y TE del mismo engranaje. Estos dos pendientes quedan explícitos.
+
+1. CONTACTO MÓVIL: IMPLEMENTADO Y VERIFICADO EN FASES SELECCIONADAS
+Se actualizaron proyecciones, normales, transmisión de fuerzas y momento real
+durante la deformación. El primer esquema de una pasada convergía algebraicamente
+pero admitía penetración vista desde el otro engranaje. Se conservan esos casos
+como diagnóstico. La formulación final impone restricciones de ambos lados.
+
+Se completaron 19 configuraciones bilaterales planificadas: nueve controles
+nominales (tres fases, tres resoluciones), dos controles de regularización/orden
+y ocho casos con geometría de relieve (punta/ambos, dos fases, dos resoluciones).
+Cada configuración se resolvió mediante continuación de carga a 60, 150 y 300 Nm. Las iteraciones
+no se cuentan como experimentos independientes. El archivo de auditoría también
+incluye controles unilaterales de desarrollo y comparaciones de CalculiX.
+
+MODELO Y DATOS VIRTUALES
+24/24 dientes; módulo 3 mm; ángulo de presión 20 grados; ancho 20 mm; E = 210 GPa; nu = 0.3;
+radio de apoyo del cubo 12 mm, empotrado; deformación plana y elasticidad lineal
+en ejes de cada cuerpo, con giro rígido finito del cubo de salida. Se impone el
+torque real del engranaje 2. La punta es aguda y el enlace de raíz es una curva
+cuadrática supuesta con trim = 0.4 mm. No son un radio ni un filete certificados.
+La discretización de esa raíz usa 12 intervalos fijos; no es una certificación
+de convergencia de toda la geometría ni un estudio de radios de fabricación.
+Cinco dientes se refinan localmente; los flancos lejanos conservan paso de 0.35 mm.
+El remuestreo de arcos/cuerdas entre las geometrías nominal y de punta produce
+pequeñas diferencias de área que se registran en la auditoría geométrica. En
+cambio, la geometría combinada es retirada de material respecto de la de punta
+con la misma discretización, comprobado mediante diferencia de polígonos.
+
+La ley de relieve del piñón usa p=2, xi=u/u_tip y parámetros
+(Ca,sa,Cd,sd)=(0.020,0.75,0.010,0.50), en mm para profundidades. Se cambia el
+contorno del flanco cargado y se vuelve a generar su sólido FE. El flanco
+modificado se extiende hasta la circunferencia de punta original y se enlaza
+a la raíz mediante la construcción declarada. El caso de punta usa Cd=0.
+Cambian tanto geometría como rigidez; no se añadió una compliance de Hertz.
+
+NÚMEROS DIRECTOS A 300 Nm
+fase | acercamiento 0.04 / 0.02 / 0.01 mm (µm) | ultimo cambio (µm) | penetracion bilateral fina (µm)
+0.174049 | 27.960060 / 28.299956 / 28.503860 | 0.203904 | 8.65188e-08
+0.500000 | 25.932156 / 26.191376 / 26.335107 | 0.143731 | 1.4805e-08
+0.825951 | 27.639301 / 27.917998 / 28.132347 | 0.214349 | 7.47696e-08
+
+Estos valores son radio base por giro de acercamiento en una fase. No son RMS,
+ni máximos-mínimos ni TE centrado de un ciclo completo. Un último cambio de
+refinamiento es una estimación de sensibilidad, no una cota certificada del error.
+El residuo del contacto verifica las ecuaciones de una malla; no certifica la
+exactitud de la solución continua ni de un engranaje real. Los decimales se
+guardan para trazabilidad computacional y no expresan precisión metrológica.
+
+CONTRASTE DEL DEDENDUM CON GEOMETRÍA MODIFICADA
+fase | paso contacto mm | contraste geometrico combinado - punta (µm)
+0.174049 | 0.020 | 0.57837423
+0.174049 | 0.010 | 0.57714850
+0.500000 | 0.020 | 0.17447437
+0.500000 | 0.010 | 0.17857150
+
+El contraste es acercamiento con ambos relieves menos acercamiento con relieve
+de punta, en la misma fase. La estabilidad de esa diferencia debe juzgarse junto
+con el cambio de cada respuesta, la discretización y la geometría asumida.
+Detectar un contraste no demuestra recuperar de forma única profundidad y
+extensión. No se hizo una nueva inversión ni se declararon intervalos de
+identificación a partir de estos resultados directos.
+Este generador cambia también la rigidez al retirar material. La invisibilidad
+exacta del artículo se refiere al operador, soporte y compliance especificados
+en sus proposiciones. Una respuesta de otro operador con geometría/rigidez
+actualizadas se debe comparar respetando esas hipótesis.
+
+CONTRASTE ENTRE FASES QUE CANCELA UN OFFSET CONSTANTE
+Se calcula (combinado_entrada - combinado_interior) menos
+(punta_entrada - punta_interior), en cada carga y resolución.
+torque Nm | paso mm | contraste dedendum entre entrada e interior (µm)
+60 | 0.020 | 0.43783150
+150 | 0.020 | 0.42173101
+300 | 0.020 | 0.40389987
+60 | 0.010 | 0.42786604
+150 | 0.010 | 0.43057152
+300 | 0.010 | 0.39857700
+Este contraste elimina un nivel constante por carga. No elimina errores de
+ganancia o fase, ni es RMS de un ciclo. Su estabilidad es evidencia de cambio
+en la forma de la respuesta virtual, no identificación de cuatro parámetros.
+
+2. SOLVER INDEPENDIENTE: COMPARACIÓN NUMÉRICA REALIZADA
+Se descargó CalculiX 2.23 portátil y se ejecutaron análisis con no linealidad
+geométrica. Los primeros casos usan contacto nodo-superficie con deslizamiento
+finito y penalización. Se estudió el cambio de penalización en entrada. También
+se ejecutó contacto mortar duro en entrada con dos resoluciones. Mortar usa
+el emparejamiento incremental por defecto del programa; no se afirma una
+validación de su presión de esquina ni independencia completa del incremento.
+
+Cada comparación final usa 300 Nm. Una etapa previa prescribe un pequeño giro
+para establecer contacto; después se libera ese giro y se aplica el momento.
+Los cuerpos se extruyen con cuñas C3D6 y u_z=0; es una comparación de deformación
+plana, no validación tridimensional a lo ancho del diente. La geometría y el
+mallador se comparten: se contrasta el operador/solver de contacto.
+
+fase | paso mm | contacto CalculiX | diferencia CalculiX - propio (µm)
+0.174049 | 0.020 | hard mortar, default incremental small-sliding pairing | 0.06354166
+0.174049 | 0.040 | node-to-surface, finite sliding, linear penalty | 0.13648407
+0.174049 | 0.040 | node-to-surface, finite sliding, linear penalty | 0.11761429
+0.174049 | 0.040 | hard mortar, default incremental small-sliding pairing | 0.10036154
+0.500000 | 0.040 | node-to-surface, finite sliding, linear penalty | 0.02448789
+0.825951 | 0.040 | node-to-surface, finite sliding, linear penalty | 0.06648497
+
+3. DATOS EXPERIMENTALES PÚBLICOS: BÚSQUEDA HECHA; VALIDACIÓN INVERSA ABIERTA
+Se cribaron ocho fuentes, incluidas pistas en mandarín. Se descargaron dos
+CSV experimentales públicos (233602 filas en total) del conjunto DaRUS de
+Bauer y Nowinski (2026), DOI 10.18419/DARUS-5760, licencia CC BY 4.0. Se conservan
+en su forma original, unidades radianes, junto con metadatos y hashes.
+Corresponden a un reductor robótico, y no se ha verificado una pareja de
+geometría/relieve/TE apropiada para la inversión de nuestros engranajes rectos.
+No se ajustó un relieve de engranaje a esas señales ni se les asignó un radio.
+
+La literatura con perfiles helicoidales medidos encontrada incluye datos bajo
+solicitud; otros repositorios son numéricos, de fallos/vibración o conceptuales.
+No se obtuvo una pareja pública elegible de relieve medido y TE del mismo par.
+Esto describe el resultado de esta búsqueda; no demuestra inexistencia global.
+No se contactó a autores/laboratorios ni se fabricaron componentes.
+
+CONTROL Y TRAZABILIDAD
+AUDITORIA_OBJETIVOS.json contiene 30 configuraciones
+directas auditadas y 90 estados de carga, incluyendo los
+controles de desarrollo conservados. Se comprobaron geometría deformada en
+ambos sentidos, validez de polígonos, área de solape, equilibrio, energía positiva,
+reciprocidad y recuperación de fuerzas a partir de las matrices condensadas.
+Las soluciones unilaterales que fallan el control bilateral se identifican como
+tales: no son soluciones físicas validadas por converger su conjunto activo.
+
+Se usó una regularización dual diminuta para restricciones redundantes; se
+verificó con un caso analítico y cambio de magnitud en el caso de entrada.
+No es una compliance física añadida. Se registró su perturbación máxima de gap.
+También se verificaron contra soluciones independientes los problemas cuadráticos de contacto (QP), el arranque
+con solución anterior, el uso de matrices dispersas y el filtro espacial.
+Se retuvo el fallo de salida de la zona condensada y su corrección mediante
+una zona ampliada independiente de la normal inicial.
+
+QUÉ SIGUE ABIERTO
+- Validar todas las 18 fases antes excluidas y un ciclo completo, con refinamiento
+  suficiente para cada contraste local. Los 102 casos interiores previos eran
+  fases conservadas, no 102 ensayos de convergencia de malla.
+- Cuantificar radios de punta, filete generado, apoyos y efectos tridimensionales.
+- Hacer perfiles de identificación con el operador nuevo y comparar la misma
+  selección de observaciones con/sin transiciones. No se puede prometer que
+  incluirlas vuelva identificable cualquier relieve.
+- Validar con datos experimentales existentes y geometría/relieve documentados,
+  si se obtiene una fuente elegible. No hace falta fabricar para buscar esa vía.
+
+La señal RMS de 0.18 µm de una campaña anterior no es una tolerancia universal.
+Las señales estructurales del orden de nanómetros exigen otro presupuesto de
+error; este paquete no certifica su resolución. Tampoco actualiza S27 a
+“resuelto” por haber instalado un solver o por analizar tres fases.
+
+ARCHIVOS
+resultados_directos.csv: respuestas y controles por configuración.
+AUDITORIA_OBJETIVOS.json: cifras, fuentes y comprobaciones.
+diagnostico_sin_fabricacion.png: resultados y alcance.
+public_data_screening.csv/json: cribado y motivos de elegibilidad.
+updated_contact/: estados, matrices locales y registros de ejecución.
+calculix_crosscheck/: entradas y salidas originales del solver independiente.
+source_snapshot/: código final y requirements_sin_fabricacion.txt.
+
+REPRODUCIR LOS NUEVOS CASOS BILATERALES EN UNA CARPETA VACÍA
+python fe2d/run_bilateral_objectives.py --out RUTA_NUEVA
+El script genera 19 configuraciones y conserva fallos si los hay. Los caches
+grandes se conservan localmente y se omiten del ZIP compacto. Por ello el ZIP
+incluye evidencia y código para regenerarlos, no todos los caches necesarios
+para ejecutar la auditoría histórica sin recálculo. Las entradas de CalculiX
+son autónomas; requieren el ejecutable portátil documentado en download_receipt.
+
+FUENTES
+CalculiX oficial y manual 2.23: https://www.dhondt.de/
+Código/binario usado: https://github.com/calculix/CalculiX-Windows
+Datos públicos: https://doi.org/10.18419/DARUS-5760
+Fuentes metodológicas de engranajes ya descargadas en la biblioteca:
+https://doi.org/10.3390/machines9100223
+https://ntrs.nasa.gov/citations/19930019222

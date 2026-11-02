@@ -1,0 +1,15 @@
+{
+  "renderer": "Native Microsoft Word COM ExportAsFixedFormat, then pdf2image/Poppler",
+  "pages": {
+    "main": 32,
+    "supplement": 11,
+    "highlights": 1,
+    "cover": 1
+  },
+  "all_contact_sheets_inspected": true,
+  "new_results_and_tables_inspected_at_page_scale": true,
+  "figure12_labels_enlarged": true,
+  "new_supplement_captions_black_and_attached": true,
+  "table10_header_orphan_resolved": true,
+  "qa_pdfs_and_images_excluded_from_submission": true
+}

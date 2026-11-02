@@ -1,0 +1,276 @@
+{
+ "library_versions": {
+  "python": "3.12.15",
+  "numpy": "2.4.4",
+  "scipy": "1.18.1",
+  "matplotlib": "3.10.9"
+ },
+ "git": "7e72ed9 Add matched quadratic phases, tie diagnostics and angular-offset controls",
+ "branch": "research/mmt-critical-validation",
+ "A_monte_carlo_integrity": {
+  "n_records": 1200,
+  "expected_cells": 12,
+  "all_ok": true,
+  "cells": [
+   {
+    "cell": [
+     0.25,
+     "single300",
+     0.1
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.25,
+     "single300",
+     0.5
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.25,
+     "single300",
+     1
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.25,
+     "multi50_300",
+     0.1
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.25,
+     "multi50_300",
+     0.5
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.25,
+     "multi50_300",
+     1
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.4,
+     "single300",
+     0.1
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.4,
+     "single300",
+     0.5
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.4,
+     "single300",
+     1
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.4,
+     "multi50_300",
+     0.1
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.4,
+     "multi50_300",
+     0.5
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   },
+   {
+    "cell": [
+     0.4,
+     "multi50_300",
+     1
+    ],
+    "n": 100,
+    "n_ok": true,
+    "success_ok": true,
+    "stats_ok": true
+   }
+  ]
+ },
+ "B_support_sweep_reproduction": [
+  {
+   "sd_true": 0.25,
+   "new": {
+    "dedendum_signal_rms_um": 0.0005717680441941474,
+    "min_loaded_xi": 0.23538850303289138,
+    "n_loaded_relief_points": 8,
+    "numerical_rank": 4,
+    "singular_values": [
+     1270.615156889565,
+     184.88127926355887,
+     14.117551138873532,
+     0.04700472990646068
+    ],
+    "recovery_dedendum_scaled_error": 5.447031714567174e-14,
+    "recovery_addendum_scaled_error": 0.0,
+    "recovery_chi2": 7.52316384526264e-29,
+    "recovery_success": true
+   },
+   "stored": {
+    "dedendum_signal_rms_um": 0.0005717680441941474,
+    "min_loaded_xi": 0.23538850303289138,
+    "n_loaded_relief_points": 8,
+    "numerical_rank": 4,
+    "addendum_scaled_error": 0.0,
+    "dedendum_scaled_error": 5.447031714567174e-14
+   },
+   "stored_singular_values": [
+    1270.6151568895662,
+    184.8812792635587,
+    14.117551138873536,
+    0.04700472990646077
+   ],
+   "stored_recovery_chi2": 7.52316384526264e-29,
+   "match": {
+    "rms": true,
+    "min_loaded_xi": true,
+    "n_points": true,
+    "rank": true,
+    "add_err": true,
+    "ded_err": true,
+    "sv_max_rel_diff": 1.919075397950436e-15
+   }
+  },
+  {
+   "sd_true": 0.4,
+   "new": {
+    "dedendum_signal_rms_um": 0.07885353075780353,
+    "min_loaded_xi": 0.23729799149907538,
+    "n_loaded_relief_points": 86,
+    "numerical_rank": 4,
+    "singular_values": [
+     1270.7530632570918,
+     194.92549013579892,
+     114.79742207558071,
+     6.759562227262365
+    ],
+    "recovery_dedendum_scaled_error": 1.8214596497756474e-15,
+    "recovery_addendum_scaled_error": 6.938893903907228e-17,
+    "recovery_chi2": 4.137740114894452e-27,
+    "recovery_success": true
+   },
+   "stored": {
+    "dedendum_signal_rms_um": 0.07885353075780353,
+    "min_loaded_xi": 0.23729799149907538,
+    "n_loaded_relief_points": 86,
+    "numerical_rank": 4,
+    "addendum_scaled_error": 6.938893903907228e-17,
+    "dedendum_scaled_error": 1.8214596497756474e-15
+   },
+   "stored_singular_values": [
+    1270.7530632570918,
+    194.92549013579898,
+    114.79742207558071,
+    6.759562227262363
+   ],
+   "stored_recovery_chi2": 4.137740114894452e-27,
+   "match": {
+    "rms": true,
+    "min_loaded_xi": true,
+    "n_points": true,
+    "rank": true,
+    "add_err": true,
+    "ded_err": true,
+    "sv_max_rel_diff": 2.916161391781385e-16
+   }
+  }
+ ],
+ "C_forward_300Nm_G0": [
+  {
+   "sd": 0.25,
+   "TE_pp_um": 8.72604975638961,
+   "TE_rms_um": 3.372106287903404,
+   "force_residual_N": 1.7174897948279977e-08,
+   "complementarity_max": 1.9186041644303486e-15,
+   "min_separation_mm": -1.9186041644303486e-15,
+   "monotonicity_margin": 7.193987042795922e-07,
+   "jacobian_shape": [
+    120,
+    4
+   ],
+   "n_contact_pairs": 2
+  },
+  {
+   "sd": 0.4,
+   "TE_pp_um": 8.624671327027526,
+   "TE_rms_um": 3.3253096718259476,
+   "force_residual_N": 1.7174897948279977e-08,
+   "complementarity_max": 1.97758476261356e-15,
+   "min_separation_mm": -1.97758476261356e-15,
+   "monotonicity_margin": 7.193987042795922e-07,
+   "jacobian_shape": [
+    120,
+    4
+   ],
+   "n_contact_pairs": 2
+  }
+ ],
+ "D_korta_mundo_stored": {
+  "n_comparisons": 12,
+  "deviations_percent_min": 9.071954048747505,
+  "deviations_percent_max": 38.07822205411779,
+  "all_overpredict": true,
+  "passes_5_percent_any": false,
+  "source": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\gears_inversion\\gear_inverse_identifiability\\results\\corrections_2026-10-12\\V06_corrected.json",
+  "note": "Valores almacenados de la campana de correccion; reproduccion completa en Fase 3."
+ }
+}

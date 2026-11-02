@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "nominal_s0.02_h0.35",
+    "nodes": 15757,
+    "triangles": 26475,
+    "condensed_dofs": 6618,
+    "symmetry_relative_error": 2.6980985234408325e-14
+  },
+  {
+    "tag": "nominal_s0.04_h0.5",
+    "nodes": 9113,
+    "triangles": 14895,
+    "condensed_dofs": 3498,
+    "symmetry_relative_error": 1.841585610184187e-14
+  },
+  {
+    "tag": "profile_068f6d98583c_s0.02_h0.35",
+    "nodes": 15729,
+    "triangles": 26424,
+    "condensed_dofs": 6608,
+    "symmetry_relative_error": 3.1036369469929935e-14
+  },
+  {
+    "tag": "profile_068f6d98583c_s0.04_h0.5",
+    "nodes": 9128,
+    "triangles": 14925,
+    "condensed_dofs": 3498,
+    "symmetry_relative_error": 1.2786764118752297e-14
+  },
+  {
+    "tag": "profile_cdb858c7282c_s0.02_h0.35",
+    "nodes": 15767,
+    "triangles": 26500,
+    "condensed_dofs": 6608,
+    "symmetry_relative_error": 1.6853162436201982e-14
+  },
+  {
+    "tag": "profile_cdb858c7282c_s0.04_h0.5",
+    "nodes": 9123,
+    "triangles": 14915,
+    "condensed_dofs": 3498,
+    "symmetry_relative_error": 1.3934751833288687e-14
+  },
+  {
+    "tag": "reference_nominal_s0.04_h0.5",
+    "nodes": 9214,
+    "triangles": 15025,
+    "condensed_dofs": 3528,
+    "symmetry_relative_error": 1.703922294321752e-14
+  },
+  {
+    "tag": "reference_nominal_s0.08_h0.5",
+    "nodes": 8289,
+    "triangles": 13960,
+    "condensed_dofs": 1958,
+    "symmetry_relative_error": 1.4860788269395383e-14
+  }
+]

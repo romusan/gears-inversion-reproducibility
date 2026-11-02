@@ -1,0 +1,1222 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T10:02:54Z",
+      "timestamp": 1792663374584,
+      "version": "4.5.0"
+    },
+    "reference-count": 76,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2021-03-01T00:00:00Z",
+          "timestamp": 1614556800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2021-03-01T00:00:00Z",
+          "timestamp": 1614556800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2021-03-19T00:00:00Z",
+          "timestamp": 1616112000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 18,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100005972",
+        "name": "Deutsche Krebshilfe",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "70112355"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "70112355"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100005972",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001659",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "272983813/TRR 179"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "272983813/TRR 179"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001659",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001659",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EXC-2189"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EXC-2189"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001659",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001659",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "390939984"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "390939984"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001659",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002347",
+        "name": "Bundesministerium für Bildung und Forschung",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "031L0048"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "031L0048"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002347",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002347",
+        "name": "Bundesministerium für Bildung und Forschung",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "INST 35/1134-1 FUGG"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "INST 35/1134-1 FUGG"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002347",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Current Opinion in Systems Biology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.coisb.2021.03.005",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          23
+        ]
+      ],
+      "date-time": "2021-03-23T05:57:10Z",
+      "timestamp": 1616479030000
+    },
+    "page": "60-69",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 369,
+    "special_numbering": "C",
+    "title": [
+      "On structural and practical identifiability"
+    ],
+    "prefix": "10.1016",
+    "volume": "25",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5629-8622",
+        "authenticated-orcid": false,
+        "given": "Franz-Georg",
+        "family": "Wieland",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3053-5124",
+        "authenticated-orcid": false,
+        "given": "Adrian L.",
+        "family": "Hauber",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7234-1328",
+        "authenticated-orcid": false,
+        "given": "Marcus",
+        "family": "Rosenblatt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christian",
+        "family": "Tönsing",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4517-1383",
+        "authenticated-orcid": false,
+        "given": "Jens",
+        "family": "Timmer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib1",
+        "series-title": "Robustness in statistics",
+        "first-page": "201",
+        "article-title": "Robustness in the strategy of scientific model building",
+        "author": "Box",
+        "year": "1979"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1404",
+        "DOI": "10.1126/science.1184913",
+        "article-title": "Covering a broad dynamic range: information processing at the erythropoietin receptor",
+        "volume": "328",
+        "author": "Becker",
+        "year": "2010",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib3",
+        "series-title": "Identification of parametric models from experimental data",
+        "author": "Walter",
+        "year": "1997"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1016/j.arcontrol.2020.10.006",
+        "article-title": "A priori identifiability: an overview on definitions and approaches",
+        "volume": "50",
+        "author": "Anstett-Collin",
+        "year": "2020",
+        "journal-title": "Annu Rev Contr"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "110",
+        "DOI": "10.1109/TAC.1959.1104873",
+        "article-title": "On the general theory of control systems",
+        "volume": "4",
+        "author": "Kalman",
+        "year": "1959",
+        "journal-title": "IRE Trans Automatic Control"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "329",
+        "DOI": "10.1016/0025-5564(70)90132-X",
+        "article-title": "On structural identifiability",
+        "volume": "7",
+        "author": "Bellman",
+        "year": "1970",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1016/0025-5564(90)90055-4",
+        "article-title": "Global identifiability of the parameters of nonlinear systems with specified inputs: a comparison of methods",
+        "volume": "102",
+        "author": "Chappell",
+        "year": "1990",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "20190043",
+        "DOI": "10.1098/rsif.2019.0043",
+        "article-title": "Full observability and estimation of unknown inputs, states and parameters of nonlinear biological models",
+        "volume": "16",
+        "author": "Villaverde",
+        "year": "2019",
+        "journal-title": "J R Soc Interface"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib9",
+        "series-title": "21st IFAC world congress, Germany",
+        "article-title": "Data-based identifiability and observability assessment for nonlinear control systems using the profile likelihood method",
+        "author": "Schmitt",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2585",
+        "DOI": "10.1016/j.automatica.2009.07.009",
+        "article-title": "Structural identifiability analysis via symmetries of differential equations",
+        "volume": "45",
+        "author": "Yates",
+        "year": "2009",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib11",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevE.92.012920",
+        "article-title": "Higher-order Lie symmetries in identifiability and predictability analysis of dynamic models",
+        "volume": "92",
+        "author": "Merkt",
+        "year": "2015",
+        "journal-title": "Phys Rev E"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "272",
+        "DOI": "10.1109/LCSYS.2018.2868608",
+        "article-title": "Input-dependent structural identifiability of nonlinear systems",
+        "volume": "3",
+        "author": "Villaverde",
+        "year": "2019",
+        "journal-title": "IEEE Contr Syst Lett"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.3390/sym12030469",
+        "article-title": "Finding and breaking Lie symmetries: implications for structural identifiability and observability in biological modelling",
+        "volume": "12",
+        "author": "Massonis",
+        "year": "2020",
+        "journal-title": "Symmetry"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1016/0025-5564(78)90063-9",
+        "article-title": "System identifiability based on the power series expansion of the solution",
+        "volume": "41",
+        "author": "Pohjanpalo",
+        "year": "1978",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "472",
+        "DOI": "10.1016/0378-4754(82)90645-0",
+        "article-title": "Global approaches to identifiability testing for linear and nonlinear state space models",
+        "volume": "24",
+        "author": "Walter",
+        "year": "1982",
+        "journal-title": "Math Comput Simulat"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1421",
+        "DOI": "10.1093/bioinformatics/btx735",
+        "article-title": "GenSSI 2.0: multi-experiment structural identifiability analysis of SBML models",
+        "volume": "34",
+        "author": "Ligon",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "735",
+        "DOI": "10.1006/jsco.2002.0532",
+        "article-title": "A probabilistic algorithm to test local algebraic observability in polynomial time",
+        "volume": "33",
+        "author": "Sedoglavic",
+        "year": "2002",
+        "journal-title": "J Symbolic Comput"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "941",
+        "DOI": "10.3182/20120711-3-BE-2027.00381",
+        "article-title": "An efficient method for structural identifiability analysis of large dynamic systems",
+        "volume": "45",
+        "author": "Karlsson",
+        "year": "2012",
+        "journal-title": "IFAC Proc"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1016/0005-1098(94)90029-9",
+        "article-title": "On global identifiability for arbitrary model parametrizations",
+        "volume": "30",
+        "author": "Ljung",
+        "year": "1994",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "619",
+        "DOI": "10.1016/S0005-1098(02)00302-3",
+        "article-title": "Parameter identifiability of nonlinear systems: the role of initial conditions",
+        "volume": "39",
+        "author": "Saccomani",
+        "year": "2003",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "52",
+        "DOI": "10.1016/j.cmpb.2007.07.002",
+        "article-title": "DAISY: a new software tool to test global identifiability of biological and physiological systems",
+        "volume": "88",
+        "author": "Bellu",
+        "year": "2007",
+        "journal-title": "Comput Methods Progr Biomed"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib22",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0110261",
+        "article-title": "On finding and using identifiable parameter combinations in nonlinear dynamic systems biology models and COMBOS: a novel web implementation",
+        "volume": "9",
+        "author": "Meshkat",
+        "year": "2014",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.1016/j.ifacol.2018.03.089",
+        "article-title": "Local identifiability analysis of nonlinear ODE models: how to determine all candidate solutions",
+        "volume": "51",
+        "author": "Thomaseth",
+        "year": "2018",
+        "journal-title": "IFAC-PapersOnLine"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "760",
+        "DOI": "10.1016/j.ifacol.2018.09.162",
+        "article-title": "A priori parameter identifiability in complex reaction networks",
+        "volume": "51",
+        "author": "Varghese",
+        "year": "2018",
+        "journal-title": "IFAC-PapersOnLine"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib25",
+        "series-title": "Computational methods in systems biology",
+        "first-page": "329",
+        "article-title": "A new version of DAISY to test structural identifiability of biological models",
+        "author": "Saccomani",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2873",
+        "DOI": "10.1093/bioinformatics/bty1069",
+        "article-title": "SIAN: software for structural identifiability analysis of ODE models",
+        "volume": "35",
+        "author": "Hong",
+        "year": "2019",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1831",
+        "DOI": "10.1002/cpa.21921",
+        "article-title": "Global identifiability of differential models",
+        "volume": "73",
+        "author": "Hong",
+        "year": "2020",
+        "journal-title": "Commun Pure Appl Math"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1155/2019/8497093",
+        "article-title": "Observability and structural identifiability of nonlinear biological systems",
+        "volume": "2019",
+        "author": "Villaverde",
+        "year": "2019",
+        "journal-title": "Complexity"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0226299",
+        "article-title": "Identifiability and numerical algebraic geometry",
+        "volume": "14",
+        "author": "Bates",
+        "year": "2019",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib30",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0027755",
+        "article-title": "Structural identifiability of systems biology models: a critical comparison of methods",
+        "volume": "6",
+        "author": "Chis",
+        "year": "2011",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1440",
+        "DOI": "10.1093/bioinformatics/btu006",
+        "article-title": "Comparison of approaches for parameter identifiability analysis of biological systems",
+        "volume": "30",
+        "author": "Raue",
+        "year": "2014",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref32",
+        "doi-asserted-by": "crossref",
+        "first-page": "108328",
+        "DOI": "10.1016/j.mbs.2020.108328",
+        "article-title": "An efficient procedure to assist in the re-parametrization of structurally unidentifiable models",
+        "volume": "323",
+        "author": "Joubert",
+        "year": "2020",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "2612",
+        "DOI": "10.1093/bioinformatics/btm382",
+        "article-title": "Data-based identifiability analysis of non-linear dynamical models",
+        "volume": "23",
+        "author": "Hengl",
+        "year": "2007",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "449",
+        "DOI": "10.1080/01621459.2000.10474219",
+        "article-title": "On profile likelihood",
+        "volume": "95",
+        "author": "Murphy",
+        "year": "2000",
+        "journal-title": "J Am Stat Assoc"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1923",
+        "DOI": "10.1093/bioinformatics/btp358",
+        "article-title": "Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood",
+        "volume": "25",
+        "author": "Raue",
+        "year": "2009",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref36",
+        "doi-asserted-by": "crossref",
+        "first-page": "200",
+        "DOI": "10.1016/j.enbuild.2019.03.018",
+        "article-title": "Parameter estimation for externally simulated thermal network models",
+        "volume": "191",
+        "author": "Brastein",
+        "year": "2019",
+        "journal-title": "Energy Build"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1913",
+        "DOI": "10.1093/bioinformatics/bty035",
+        "article-title": "An easy and efficient approach for testing identifiability",
+        "volume": "34",
+        "author": "Kreutz",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "20110544",
+        "DOI": "10.1098/rsta.2011.0544",
+        "article-title": "Joining forces of Bayesian and frequentist methodology: a study for inference in the presence of non-identifiability",
+        "volume": "371",
+        "author": "Raue",
+        "year": "2013",
+        "journal-title": "Phil Trans R Soc A"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib39",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pcbi.1007669",
+        "article-title": "Parallel tempering with LASSO for model reduction in systems biology",
+        "volume": "16",
+        "author": "Gupta",
+        "year": "2020",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "542",
+        "DOI": "10.1038/nature14242",
+        "article-title": "Fundamental properties of unperturbed haematopoiesis from stem cells in vivo",
+        "volume": "518",
+        "author": "Busch",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1075",
+        "DOI": "10.1534/genetics.119.302375",
+        "article-title": "A unified model for inclusive inheritance in livestock species",
+        "volume": "212",
+        "author": "David",
+        "year": "2019",
+        "journal-title": "Genetics"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.3233/ISB-190471",
+        "article-title": "Calibration, selection and identifiability analysis of a mathematical model of the in vitro erythropoiesis in normal and perturbed contexts",
+        "volume": "13",
+        "author": "Duchesne",
+        "year": "2019",
+        "journal-title": "Silico Biol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "3558",
+        "DOI": "10.1002/er.5118",
+        "article-title": "A novel interval-based approach for quantifying practical parameter identifiability of a lithium-ion battery model",
+        "volume": "44",
+        "author": "Zhou",
+        "year": "2020",
+        "journal-title": "Int J Energy Res"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref44",
+        "article-title": "Integrating transcriptomics and bulk time course data into a mathematical framework to describe and predict therapeutic resistance in cancer",
+        "volume": "18",
+        "author": "Johnson",
+        "year": "2020",
+        "journal-title": "Phys Biol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "1831",
+        "DOI": "10.1002/bit.260191208",
+        "article-title": "Practical identifiability of growth and substrate consumption models",
+        "volume": "19",
+        "author": "Nihtilä",
+        "year": "1977",
+        "journal-title": "Biotechnol Bioeng"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.1016/0025-5564(82)90061-X",
+        "article-title": "On the practical identifiability of microbial growth models incorporating Michaelis-Menten type nonlinearities",
+        "volume": "62",
+        "author": "Holmberg",
+        "year": "1982",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1137/090757009",
+        "article-title": "On identifiability of nonlinear ODE models and applications in viral dynamics",
+        "volume": "53",
+        "author": "Miao",
+        "year": "2011",
+        "journal-title": "SIAM Rev"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref48",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fncom.2020.558477",
+        "article-title": "Identifiability of a binomial synapse",
+        "volume": "14",
+        "author": "Gontier",
+        "year": "2020",
+        "journal-title": "Front Comput Neurosci"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1155/2018/2380650",
+        "article-title": "The union between structural and practical identifiability makes strength in reducing oncological model complexity: a case study",
+        "volume": "2018",
+        "author": "Saccomani",
+        "year": "2018",
+        "journal-title": "Complexity"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1023/A:1025681223921",
+        "article-title": "The use of likelihood-based confidence intervals in genetic models",
+        "volume": "27",
+        "author": "Neale",
+        "year": "1997",
+        "journal-title": "Behav Genet"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "717",
+        "DOI": "10.1038/s41592-020-0868-y",
+        "article-title": "Optogenetic control of gene expression in plants in the presence of ambient white light",
+        "volume": "17",
+        "author": "Ochoa-Fernandez",
+        "year": "2020",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib52",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1126/sciadv.abd3568",
+        "article-title": "Liquid-liquid phase separation of light-inducible transcription factors increases transcription activation in mammalian cells and mice",
+        "volume": "7",
+        "author": "Schneider",
+        "year": "2021",
+        "journal-title": "Sci Adv"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "2275",
+        "DOI": "10.1016/j.bpj.2012.10.024",
+        "article-title": "MCMC can detect nonidentifiable models",
+        "volume": "103",
+        "author": "Siekmann",
+        "year": "2012",
+        "journal-title": "Biophys J"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib54",
+        "doi-asserted-by": "crossref",
+        "first-page": "401",
+        "DOI": "10.1085/jgp.201311116",
+        "article-title": "Determination of parameter identifiability in nonlinear biophysical models: a Bayesian approach",
+        "volume": "143",
+        "author": "Hines",
+        "year": "2014",
+        "journal-title": "J Gen Physiol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "175023",
+        "DOI": "10.1088/1361-6560/ab1f29",
+        "article-title": "Structural and practical identifiability of dual-input kinetic modeling in dynamic PET of liver inflammation",
+        "volume": "64",
+        "author": "Zuo",
+        "year": "2019",
+        "journal-title": "Phys Med Biol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref56",
+        "doi-asserted-by": "crossref",
+        "first-page": "20200055",
+        "DOI": "10.1098/rsif.2020.0055",
+        "article-title": "Practical parameter identifiability for spatio-temporal models of cell invasion",
+        "volume": "17",
+        "author": "Simpson",
+        "year": "2020",
+        "journal-title": "J R Soc Interface"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "447",
+        "DOI": "10.1016/j.ymben.2006.04.003",
+        "article-title": "Exploiting the bootstrap method for quantifying parameter confidence intervals in dynamical systems",
+        "volume": "8",
+        "author": "Joshi",
+        "year": "2006",
+        "journal-title": "Metab Eng"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib58",
+        "series-title": "Applied statistics, springer series in statistics",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-1-4612-5246-7",
+        "author": "Sachs",
+        "year": "1984"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "120",
+        "DOI": "10.1186/1752-0509-6-120",
+        "article-title": "Likelihood based observability analysis and confidence intervals for predictions of dynamic models",
+        "volume": "6",
+        "author": "Kreutz",
+        "year": "2012",
+        "journal-title": "BMC Syst Biol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib60",
+        "series-title": "Uncertainty in biology",
+        "first-page": "449",
+        "article-title": "Prediction uncertainty estimation despite unidentifiability: an overview of recent developments",
+        "author": "Cedersund",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib61",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pcbi.1002815",
+        "article-title": "Parameter identifiability and sensitivity analysis predict targets for enhancement of STAT1 activity in pancreatic cancer and stellate cells",
+        "volume": "8",
+        "author": "Rateitschak",
+        "year": "2012",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib62",
+        "doi-asserted-by": "crossref",
+        "first-page": "107056",
+        "DOI": "10.1016/j.compchemeng.2020.107056",
+        "article-title": "Assessment of the parameter identifiability of population balance models for air jet mills",
+        "volume": "143",
+        "author": "Bhonsale",
+        "year": "2020",
+        "journal-title": "Comput Chem Eng"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "108291",
+        "DOI": "10.1016/j.mbs.2019.108291",
+        "article-title": "Experimental design for parameter estimation in steady-state linear models of metabolic networks",
+        "volume": "319",
+        "author": "Frøysa",
+        "year": "2020",
+        "journal-title": "Math Biosci"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "701",
+        "DOI": "10.1017/S1751731117002774",
+        "article-title": "Review: to be or not to be an identifiable model. Is this a relevant question in animal science modelling?",
+        "volume": "12",
+        "author": "Muñoz-Tamayo",
+        "year": "2018",
+        "journal-title": "Animal"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "i482",
+        "DOI": "10.1093/bioinformatics/btaa404",
+        "article-title": "Identifiability and experimental design in perturbation studies",
+        "volume": "36",
+        "author": "Gross",
+        "year": "2020",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib66",
+        "doi-asserted-by": "crossref",
+        "first-page": "3134",
+        "DOI": "10.1021/acssynbio.0c00393",
+        "article-title": "Optimally designed model selection for synthetic biology",
+        "volume": "9",
+        "author": "Bandiera",
+        "year": "2020",
+        "journal-title": "ACS Synth Biol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib67",
+        "doi-asserted-by": "crossref",
+        "first-page": "45105",
+        "DOI": "10.1063/1.3528102",
+        "article-title": "Identifiability and observability analysis for experimental design in nonlinear dynamical models",
+        "volume": "20",
+        "author": "Raue",
+        "year": "2010",
+        "journal-title": "Chaos"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib68",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0040052",
+        "article-title": "Experimental design for parameter estimation of gene regulatory networks",
+        "volume": "7",
+        "author": "Steiert",
+        "year": "2012",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib69",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fphys.2020.00452",
+        "article-title": "Practical use of regularization in individualizing a mathematical model of cardiovascular hemodynamics using scarce data",
+        "volume": "11",
+        "author": "Tivay",
+        "year": "2020",
+        "journal-title": "Front Physiol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib70",
+        "doi-asserted-by": "crossref",
+        "first-page": "951",
+        "DOI": "10.3390/pr8080951",
+        "article-title": "Application of systems engineering principles and techniques in biological big data analytics: a review",
+        "volume": "8",
+        "author": "He",
+        "year": "2020",
+        "journal-title": "Processes"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib71",
+        "doi-asserted-by": "crossref",
+        "first-page": "336",
+        "DOI": "10.1049/iet-syb.2011.0015",
+        "article-title": "Sensitivity analysis approaches applied to systems biology models",
+        "volume": "5",
+        "author": "Zi",
+        "year": "2011",
+        "journal-title": "IET Syst Biol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib72",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1016/j.cmpb.2017.01.005",
+        "article-title": "Practical identifiability analysis of a minimal cardiovascular system model",
+        "volume": "171",
+        "author": "Pironet",
+        "year": "2019",
+        "journal-title": "Comput Methods Progr Biomed"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib73",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0162366",
+        "article-title": "Driving the model to its limit: profile likelihood based model reduction",
+        "volume": "11",
+        "author": "Maiwald",
+        "year": "2016",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_sref74",
+        "doi-asserted-by": "crossref",
+        "first-page": "1979",
+        "DOI": "10.1177/0962280217746444",
+        "article-title": "Profile likelihood-based analyses of infectious disease models",
+        "volume": "27",
+        "author": "Tönsing",
+        "year": "2018",
+        "journal-title": "Stat Methods Med Res"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib75",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1002/psp4.12381",
+        "article-title": "Best practices to maximize the use and reuse of quantitative and systems pharmacology models: recommendations from the United Kingdom quantitative and systems pharmacology network",
+        "volume": "8",
+        "author": "Cucurull-Sanchez",
+        "year": "2019",
+        "journal-title": "CPT Pharmacometrics Syst Pharmacol"
+      },
+      {
+        "key": "10.1016/j.coisb.2021.03.005_bib76",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1016/j.cmpb.2016.04.024",
+        "article-title": "Three novel approaches to structural identifiability analysis in mixed-effects models",
+        "volume": "171",
+        "author": "Janzén",
+        "year": "2019",
+        "journal-title": "Comput Methods Progr Biomed"
+      }
+    ],
+    "container-title": [
+      "Current Opinion in Systems Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S245231002100007X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S245231002100007X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          16
+        ]
+      ],
+      "date-time": "2026-05-16T00:25:07Z",
+      "timestamp": 1778891107000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S245231002100007X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "references-count": 76,
+    "alternative-id": [
+      "S245231002100007X"
+    ],
+    "URL": "https://doi.org/10.1016/j.coisb.2021.03.005",
+    "relation": {},
+    "ISSN": [
+      "2452-3100"
+    ],
+    "issn-type": [
+      {
+        "value": "2452-3100",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "On structural and practical identifiability",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Current Opinion in Systems Biology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.coisb.2021.03.005",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2021 The Author(s). Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

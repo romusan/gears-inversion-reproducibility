@@ -1,0 +1,20 @@
+[
+  {
+    "regularization": 1e-06,
+    "force_sum_N": 8868.148103965934,
+    "approach_perturbation_um": 4.4340740509851706e-05,
+    "bound_um": 4.434074052027578e-05
+  },
+  {
+    "regularization": 1e-08,
+    "force_sum_N": 8868.148103965934,
+    "approach_perturbation_um": 4.434073941350647e-07,
+    "bound_um": 4.4340740544266533e-07
+  },
+  {
+    "regularization": 1e-10,
+    "force_sum_N": 8868.148103965934,
+    "approach_perturbation_um": 4.4340642268991814e-09,
+    "bound_um": 4.434074052204671e-09
+  }
+]

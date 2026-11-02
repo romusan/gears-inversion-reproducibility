@@ -1,0 +1,27 @@
+{
+  "equations_preserved_exactly": 15,
+  "all_existing_main_table_cells_unchanged": true,
+  "all_existing_supplement_table_cells_unchanged": true,
+  "references_preserved": 45,
+  "figures": 12,
+  "supplement_tables": 27,
+  "abstract_words": 222,
+  "highlights_lengths": [
+    77,
+    76,
+    81,
+    68,
+    73
+  ],
+  "new_summary_table_matches_records": true,
+  "clean_comments_and_revisions": 0,
+  "credit_user_confirmation_retained": true,
+  "historical_v16_tracked_insertions": 15,
+  "historical_v16_tracked_deletions": 15,
+  "docx_sha256": {
+    "Cover_letter_MMT_v17.docx": "4f0122b698f69014cf95c35b0915f7d1fb4a02ff469c7a4330dac99bd0daee50",
+    "Highlights_v17.docx": "762121690096179d9a0ba0c6a19c5c07e52ff0fdfa8323c6c07b70393350f9c3",
+    "MMT_manuscript_Q1_revision_v17_clean.docx": "56cfb5a110682e1e280d4f543586421e05c4540be876d0695ac3a018156a6597",
+    "MMT_supplementary_Q1_revision_v17.docx": "2627b942017f437581f30468342e31f4f2098f71dc246e3384db2165408c08a2"
+  }
+}

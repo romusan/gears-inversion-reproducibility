@@ -1,0 +1,7 @@
+step_mm,torque_Nm,entry_minus_interior_dedendum_contrast_um,definition
+0.02,60.0,0.43783150256538494,"(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+0.02,150.0,0.4217310138695787,"(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+0.02,300.0,0.40389986818052037,"(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+0.01,60.0,0.4278660394320797,"(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+0.01,150.0,0.43057152130629284,"(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+0.01,300.0,0.3985770047216022,"(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."

@@ -1,0 +1,79 @@
+{
+  "attempts": 18,
+  "computed_objectives": 18,
+  "all_computed_objectives_consistent": true,
+  "records": [
+    {
+      "file": "inverse_reference_s0.08.json",
+      "design": "interior",
+      "restricted": false,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 7.446518544146352e-08
+    },
+    {
+      "file": "inverse_reference_s0.08.json",
+      "design": "with_transitions",
+      "restricted": false,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 7.822684848501904e-08
+    },
+    {
+      "file": "inverse_reference_s0.04.json",
+      "design": "interior",
+      "restricted": false,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 4.3738712292643034e-07
+    },
+    {
+      "file": "inverse_reference_s0.04.json",
+      "design": "with_transitions",
+      "restricted": false,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 3.123568941276744e-07
+    },
+    {
+      "file": "inverse_analytic.json",
+      "design": "interior",
+      "restricted": false,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 6.661338147750939e-16
+    },
+    {
+      "file": "inverse_analytic.json",
+      "design": "interior",
+      "restricted": false,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 2.220446049250313e-16
+    },
+    {
+      "file": "inverse_analytic.json",
+      "design": "interior",
+      "restricted": true,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 0.0
+    },
+    {
+      "file": "inverse_analytic.json",
+      "design": "interior",
+      "restricted": true,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 0.0
+    },
+    {
+      "file": "inverse_analytic.json",
+      "design": "with_transitions",
+      "restricted": false,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 0.0
+    },
+    {
+      "file": "inverse_analytic.json",
+      "design": "with_transitions",
+      "restricted": false,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 0.0
+    },
+    {
+      "file": "inverse_analytic.json",
+      "design": "with_transitions",
+      "restricted": true,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 2.220446049250313e-16
+    },
+    {
+      "file": "inverse_analytic.json",
+      "design": "with_transitions",
+      "restricted": true,
+      "fresh_cycle_vs_fitted_training_RMS_difference_um": 2.220446049250313e-16
+    }
+  ]
+}

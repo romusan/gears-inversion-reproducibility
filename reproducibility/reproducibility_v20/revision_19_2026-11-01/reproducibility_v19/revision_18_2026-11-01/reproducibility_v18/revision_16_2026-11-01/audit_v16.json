@@ -1,0 +1,41 @@
+{
+  "source_v15_sha256": {
+    "MMT_manuscript_Q1_revision_v15_clean.docx": "d375e0e6e30d81a6d4753c18c36140cf88c058ca3b38b21f112ad10b2b6ebd6d",
+    "MMT_manuscript_Q1_revision_v15_tracked.docx": "578ad209b025cc3748b9e6a4ad7db4496f02c5750cf96016aaae1bf1c57a248d"
+  },
+  "source_clean_OMML": 0,
+  "source_tracked_OMML": 15,
+  "source_tracked_comments": 9,
+  "math_objects_preserved": 15,
+  "line_of_action_eta_checked": true,
+  "tracked_insertions": 15,
+  "tracked_deletions": 15,
+  "accept_tracked_equals_clean_document_xml": true,
+  "remaining_comments": 0,
+  "references_ordered": 45,
+  "figures": 11,
+  "main_tables": 10,
+  "appendix_tables": [
+    "A.1",
+    "A.2"
+  ],
+  "supplement_tables": 23,
+  "all_original_numerical_table_cells_unchanged": true,
+  "credit_statement_unchanged_and_user_confirmed": true,
+  "abstract_words": 216,
+  "highlights_lengths": [
+    77,
+    76,
+    81,
+    68,
+    73
+  ],
+  "new_experiments": false,
+  "docx_sha256": {
+    "Cover_letter_MMT_v16.docx": "1884eb96904996a8e75927b14be35ed897ce095ed6af238cdf713f426099d19c",
+    "Highlights_v16.docx": "40555cc0b173ce27ece6e0766d68c09cf1f6e2f320e8adc0b4a9a908b905274d",
+    "MMT_manuscript_Q1_revision_v16_clean.docx": "8cb8fa5efb00b220c2ca89dd42e225c729047b0eff726aa20bbe2a5a965c9eed",
+    "MMT_manuscript_Q1_revision_v16_tracked.docx": "90f7ba8ea433360d884e7a83f71d7ed4338b349299f2295470070a95c163e252",
+    "MMT_supplementary_Q1_revision_v16.docx": "0467d644de149822d245707e7570231f273d122c750adec1e935365d63c45ac3"
+  }
+}

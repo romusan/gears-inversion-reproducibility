@@ -1,0 +1,102 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "code_sha256": {
+    "fe2d/analyze_pilot_surface.py": "4b2101c0d17d76dd40b8e267e64b92b8fc916d8e9241fb04e04833e3715328ae",
+    "fe2d/campaign.py": "33f8a329b1fe312674138a843ad94d19a89e553c045df59d79a011f4c94039e6",
+    "fe2d/close_pilot_surface.py": "5219e2a9e312b3f1a247fc60b818f0f40b06fc1c33ad0c31e000285819c135c2",
+    "fe2d/contact_reduced_qp_v19.py": "623d7883a6c6f1324a14d8f9e1d14453219719497bc62acec09daaf15f8c99ce",
+    "fe2d/convergence_separated.py": "68cc69bcffe978906e793d644e5dc1314d8da44677d6f25460e58dfa954024af",
+    "fe2d/crosscheck_calculix.py": "00c85697c6d4341f5539885e29876fe3988d9e1633eedc4fa24e005711992d3f",
+    "fe2d/crosscheck_cycle_v20.py": "0ed08100f60b1d5148133e813fef95abfefe078fe6cb01c2fc1b198958ab110d",
+    "fe2d/crosscheck_relief_fast_v20.py": "fc8861b2bf252e8a56bc67f06456edb0fe299994c5cea28284c051e9874d0f3c",
+    "fe2d/crosscheck_relief_v20.py": "237edd61311bd8fc01f2afbe1c1916263b7b77fb9849ddec3e42a58f7cc0c8d5",
+    "fe2d/cycle_contact_v19.py": "43036cbdfb7a5c60ad8190d229a4111da8614430a3184f6a1d75aaf3a59e01ff",
+    "fe2d/extend_surface_objectives.py": "2e00cb7d9c146e61b98e76de6be1d9bcfb644ae80a2a8ac606f8b772debbe30d",
+    "fe2d/extra_checks.py": "b25ac6844e9bb0fb71e2df3cd871fd2592f9592382e318e044273fec2a9bff36",
+    "fe2d/fast_inverse_contact_v19.py": "0530f109e2a88027f079c7baa964d128371003a6a11b5ba70491fde058d0e12b",
+    "fe2d/pilot_surface_contact.py": "ab520c045aecdbb4167764e5504a3971a367235dffd79861db175c755d9bfa37",
+    "fe2d/quadratic_eight_phases.py": "3ae9a28f6d220b9cc65a0628f40581a7adc293201d5dc0e223237bb7c9091bac",
+    "fe2d/reduced_cycle_contact_v19.py": "540a6aa98d04e139993883c79ae30ee40750ddefa722cf0b150977809ff36ff4",
+    "fe2d/relieved_surface_geometry.py": "7cddc9d2e7aef18b58e8f6c92ed4920679f3b3ac3ee2af5bd62b1712237248da",
+    "fe2d/run_bilateral_objectives.py": "c530a8ffd04005abaebb809fc61c419e226cfb65f6f9a3e27a02f00cdd68b171",
+    "fe2d/run_crosscheck_fast_v20.py": "dcddee61c19d2417b51cdb3c5633d813fad88ecbda2cd5e4986f4534e3e0ab20",
+    "fe2d/run_crosscheck_v20.py": "0023ee90f7c6b5569bbde95de5ce9354194f2b03000b289983ec91aca95e3ee6",
+    "fe2d/run_cycle_fast_v19.py": "b55ad936cb4f2fa4266075e28149000238297fec2b79a9b3b13eb652a1090e6f",
+    "fe2d/run_cycle_pair_extra_v20.py": "d73fc7f18d939b9eca4d888b291c67e05c54160590f296a5e52f9eaa553b3e00",
+    "fe2d/run_cycle_reduced_v19.py": "7b7d48156e2e6edee126e3a6172404c77c989f74033b72f1333444e8de688a23",
+    "fe2d/run_fe2d.py": "70fa5b70e99f89479a68465c08446c465c161f980f40c3251d73566d37afe71a",
+    "fe2d/run_pilot_surface_campaign.py": "54e454885ab4d8fb9eddba4a9c1cf30a69c2251202bd4c7dd666b1dfd3dd11a4",
+    "fe2d/spatial_projection_v19.py": "f5be6b6ed408eb3b752a3a6d2558c1b6c269c8b3afb4f2b90f4e9a1568a6cf3f",
+    "fe2d/summarize_fe2d.py": "6afe4fe079a9626282fc6d19d9937b17699894925f3ee847c5588bf9d06e2a70",
+    "fe2d/transition_checks.py": "77079302dd823c0bba9c8559a888fd303ca2d2ef66d178615e4807abf1d62d46",
+    "fe2d/updated_surface_contact.py": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+    "fe2d/vectorized_projection_v19.py": "0a4e9c241af8e7b710373fcba0d4c4dd0a102488b0aebc3710b2d913bd2d4299",
+    "fe2d/verify_coupled_invisibility.py": "9f1a82375cd2e616c40739d96190519eb3cfccc0ea93bc4d88f417b8f397b40e",
+    "manuscript/analyze_v20.py": "413f37aed4821764dccdd76d19f65fd0d7bc801793d1587ca2d6c06ba05a6e89",
+    "manuscript/audit_ccx_v20.py": "f7bb682b33ff8d9b2883d046db5a71c51e2d8a3e680d3e62711b6b73f4b31b44",
+    "manuscript/audit_shared_mesh_v20.py": "d50076082d7cf8cbb033559f3245377961238fa831ee35b192354d4f1d47bb20",
+    "manuscript/audit_starts_v20.py": "3a3f5bcf6ce90ec12a83d9ad6197557a55b0bfcd7fc17f8458c2a8461b8c0e30",
+    "manuscript/audit_v20.py": "b59ce178c83ff4d6a418c1b58505a7a39293e00f9fabda772ff5cb7c70cca7f0",
+    "manuscript/build_v20.py": "cadd8a95873ce9c37914af552a39feb91570623a8b345569161dc4a3b94fb6c9",
+    "manuscript/close_v20.py": "c8462ff11847359b8d48d2cd481a22bbd47d79baf6a1661c62bcbf7c9c07f86c",
+    "manuscript/design_diagnostic_v20.py": "c6497bcd6ab6b5a3249220674a33e7a623fdb7b73d00f618f20a621931901ef8",
+    "manuscript/package_v20.py": "cfb426743e64d1cc6e2cb83ba56f09a763025f79519dfec0ca418e26f24e5198",
+    "manuscript/provenance_v20.py": "b4e403d86ac21d5da4eec84f5b587d2fbcfc13a2715ea3b0a7856fa53e9bca8a",
+    "manuscript/render_v20.py": "9296f1fa038b0a94d9644d9dd7621f1c8df1f8200ccaf969cdf571aaa14192f8",
+    "manuscript/starts_v20.py": "c48526840af29b47997217da8a42660f4b852f9b168ac439ee790b432b6b89e9",
+    "manuscript/inverse_moving_v19.py": "a29f1686610a5ba91776b85ab9ec231f6c9fb3817ba0b19c3b7be22dc6cd9742"
+  },
+  "input_sources_checked": [
+    {
+      "file": "calculix_crosscheck\\f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_addendum_fast_input.json",
+      "source": "fe2d/crosscheck_relief_fast_v20.py"
+    },
+    {
+      "file": "calculix_crosscheck\\f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_addendum_input.json",
+      "source": "fe2d/crosscheck_relief_v20.py"
+    },
+    {
+      "file": "calculix_crosscheck\\f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_combined_fast_input.json",
+      "source": "fe2d/crosscheck_relief_fast_v20.py"
+    },
+    {
+      "file": "calculix_crosscheck\\f0.174048546_s0.01_h0.25_k1e+09_a0.00084_v4_mortar_hard_combined_input.json",
+      "source": "fe2d/crosscheck_relief_v20.py"
+    },
+    {
+      "file": "calculix_crosscheck\\f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_addendum_fast_input.json",
+      "source": "fe2d/crosscheck_relief_fast_v20.py"
+    },
+    {
+      "file": "calculix_crosscheck\\f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_addendum_input.json",
+      "source": "fe2d/crosscheck_relief_v20.py"
+    },
+    {
+      "file": "calculix_crosscheck\\f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined_fast_input.json",
+      "source": "fe2d/crosscheck_relief_fast_v20.py"
+    },
+    {
+      "file": "calculix_crosscheck\\f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined_input.json",
+      "source": "fe2d/crosscheck_relief_v20.py"
+    },
+    {
+      "file": "calculix_cycle_crosscheck\\f0.225000000_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_addendum_input.json",
+      "source": "fe2d/crosscheck_cycle_v20.py"
+    },
+    {
+      "file": "calculix_cycle_crosscheck\\f0.225000000_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined_input.json",
+      "source": "fe2d/crosscheck_cycle_v20.py"
+    },
+    {
+      "file": "calculix_cycle_crosscheck\\f0.500000000_s0.02_h0.35_k1e+09_a0.00079_v4_mortar_hard_addendum_input.json",
+      "source": "fe2d/crosscheck_cycle_v20.py"
+    },
+    {
+      "file": "calculix_cycle_crosscheck\\f0.500000000_s0.02_h0.35_k1e+09_a0.00079_v4_mortar_hard_combined_input.json",
+      "source": "fe2d/crosscheck_cycle_v20.py"
+    }
+  ],
+  "v19_documents_unchanged": true,
+  "scientific_scripts_parsed": 44
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "darus_identification_axis2_vneg",
+    "url": "https://darus.uni-stuttgart.de/api/access/datafile/488437?format=original",
+    "bytes": 6656932,
+    "sha256": "7720258272f5c36593bf618a3736f4d3d449f7120697db66d411f7fabeef704a",
+    "first_lines": [
+      "theta,q_set,theta_TE",
+      "1.65570106046975,1.65517750850936,-0.0171882016679432",
+      "1.65567200285902,1.65514841871317,-0.0171899766203714"
+    ]
+  },
+  {
+    "name": "darus_validation_axis2_vneg",
+    "url": "https://darus.uni-stuttgart.de/api/access/datafile/488462?format=original",
+    "bytes": 6741844,
+    "sha256": "6e316403ad4ecf86cce0616a4ae02c64df82b806356cef2bb2e916536de217cb",
+    "first_lines": [
+      "theta,q_set,theta_TE",
+      "1.67311491264493,1.65517750997233,-0.0021014319009466",
+      "1.67308468026522,1.65514842017615,-0.00210396063620718"
+    ]
+  }
+]

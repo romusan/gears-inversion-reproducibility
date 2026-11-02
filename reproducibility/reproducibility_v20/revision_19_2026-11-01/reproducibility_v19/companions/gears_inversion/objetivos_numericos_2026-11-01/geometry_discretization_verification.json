@@ -1,0 +1,54 @@
+{
+  "records": [
+    {
+      "step_mm": 0.04,
+      "case": "addendum",
+      "removed_area_mm2": 0.4234876886350571,
+      "chord_resampling_added_area_mm2": 0.00106372779214988,
+      "hausdorff_mm": 0.019947259484037708,
+      "combined_outside_addendum_mm2": 0.0
+    },
+    {
+      "step_mm": 0.04,
+      "case": "combined",
+      "removed_area_mm2": 0.6207584842977666,
+      "chord_resampling_added_area_mm2": 0.001002007986548567,
+      "hausdorff_mm": 0.019947259484037708,
+      "combined_outside_addendum_mm2": 0.0
+    },
+    {
+      "step_mm": 0.02,
+      "case": "addendum",
+      "removed_area_mm2": 0.4234712018315707,
+      "chord_resampling_added_area_mm2": 0.0010463127253463845,
+      "hausdorff_mm": 0.019947259484037708,
+      "combined_outside_addendum_mm2": 0.0
+    },
+    {
+      "step_mm": 0.02,
+      "case": "combined",
+      "removed_area_mm2": 0.6207403402988207,
+      "chord_resampling_added_area_mm2": 0.0009859992589086738,
+      "hausdorff_mm": 0.019947259484037708,
+      "combined_outside_addendum_mm2": 0.0
+    },
+    {
+      "step_mm": 0.01,
+      "case": "addendum",
+      "removed_area_mm2": 0.4234650882181795,
+      "chord_resampling_added_area_mm2": 0.0010392067395426602,
+      "hausdorff_mm": 0.019980737990041155,
+      "combined_outside_addendum_mm2": 0.0
+    },
+    {
+      "step_mm": 0.01,
+      "case": "combined",
+      "removed_area_mm2": 0.6207347856083879,
+      "chord_resampling_added_area_mm2": 0.0009802255372967704,
+      "hausdorff_mm": 0.019980737990041155,
+      "combined_outside_addendum_mm2": 0.0
+    }
+  ],
+  "interpretation": "The isolated dedendum geometry is material removal relative to the addendum geometry. Resampling the circular tip and involute between nominal and addendum polygons produces small chord-area differences, dominated by far teeth kept at 0.35 mm spacing; these are geometry discretization, not measured machining deviations.",
+  "initial_diagnostic": "A provisional 0.001 mm2 limit on resampled added area failed for the coarse global polygon (~0.001064 mm2). It was not used as a physical validation criterion."
+}

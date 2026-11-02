@@ -1,0 +1,15 @@
+{
+  "renderer": "Native Microsoft Word COM ExportAsFixedFormat, then pdf2image/Poppler",
+  "pages": {
+    "main": 33,
+    "supplement": 14,
+    "highlights": 1,
+    "cover": 1
+  },
+  "all_contact_sheets_inspected": true,
+  "new_results_and_tables_inspected_at_page_scale": true,
+  "figure12_log_scale_with_explicit_cell_counts": true,
+  "numeric_first_column_wrap_corrected": true,
+  "table_headers_repeat_on_continuation": true,
+  "qa_pdfs_and_images_excluded": true
+}

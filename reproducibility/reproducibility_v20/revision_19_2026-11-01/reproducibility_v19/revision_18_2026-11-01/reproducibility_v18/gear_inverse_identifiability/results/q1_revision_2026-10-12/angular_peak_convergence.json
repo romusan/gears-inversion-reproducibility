@@ -1,0 +1,387 @@
+{
+  "provenance": {
+    "campaign": "corrections-2026-10-12",
+    "created_utc": "2026-10-12T20:04:47.982760+00:00",
+    "source_sha256": "31fc97d8001044d5f903a8cac6304fb1039960032dd1a2de991143a865de404f",
+    "files_sha256": {
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/involute.py": "9f968dd5d179fc4f63316b45360d88d80e603b58f1b7f4cf4328e6b840bd52b9",
+      "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+      "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+      "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/inverse/reconstruction.py": "752c23d2565fdf8b72d48e61797b4e09726137fec39b334959d7d3d218026d72",
+      "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/mechanics/alt_models.py": "b44d5682d0678492492c7a94596f883f033648bdef7eb25823f55f4558b0a6a7",
+      "src/mechanics/batched_operator.py": "be71de425988a52037eddb68fa53017a3df946953b1444bd6e13a8dc04e80e2f",
+      "src/mechanics/compliance.py": "57d4960e3355e1eed0c7cc17fea1122d21c4c65f22d12234f43381c2a0728f95",
+      "src/mechanics/contact_solver.py": "2cc1c5ca71c0e68aec9d34b9d94ee930b990fd65bad5625cf5c8cbddd72209fb",
+      "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+      "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/audit_solver_equivalence.py": "587c15ebba13ae3934243fdd3e5f9953892663e7ba5db7cffacfb993f040a99f",
+      "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+      "experiments/complete_correction_runs.py": "dab1b0582008d696bfd87a087957924f781b198e0da937bddbd2e864076039c7",
+      "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+      "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+      "experiments/E01_verification_audit.py": "8bea45340d04120ef0698ed154228384dba05b062125f3ca2f81c7c8bc8b7517",
+      "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+      "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+      "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+      "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+      "experiments/E04_noise_bias.py": "89b37222b2b801bbea7d470bf3a63ff8cb8725f00ae2bcb5ca8a24542cbd77de",
+      "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+      "experiments/E05_optimal_load_selection.py": "ed10305d4eb26772654084fc8c11017677f7941060eb07a23b0beb7b5b0ad193",
+      "experiments/E07_model_discrepancy.py": "4fb4e10df60ca2a4863e1e5711778ca4598b0ff883041c613b3e4fc8f5ee8539",
+      "experiments/E08_contact_support_audit.py": "35d689068650edf0396491db4c8ee5ea7975113338c611debbc59997a77d5487",
+      "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+      "experiments/Q1_angular_peaks.py": "a3f3af7b7697c125b6f5f8bff398ba79ad59bf18742b28d648888d96963b725b",
+      "experiments/Q1_forward_campaign.py": "5158af053e1057bd1779650bcebd05646a157af742446c5c59df30591a7dced4",
+      "experiments/Q1_identifiability_campaign.py": "81252471f4d628f2d5eb44bb6b14cf7c6ab1d12d4a93a9ee524d1189ce00b0c3",
+      "experiments/summarize_correction_campaign.py": "997d4cefd18d1bbeef8a5a09f647e73dd645f974c0ea3f0154f28124ea307604",
+      "experiments/V06_korta_mundo_reproduction.py": "1949a007e7b391c3f38c35f10bf51794cc7c78383692a72fc4ee9d1594431b73"
+    },
+    "python": "3.12.10",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0"
+  },
+  "torque_Nm": 650,
+  "rows": [
+    {
+      "variant": "legacy",
+      "case": "unmodified",
+      "n_positions": 30,
+      "peak_to_peak_um": 11.584148166623075,
+      "relative_pp_change": null,
+      "max_force_residual_N": 1.767875801306218e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "unmodified",
+      "n_positions": 60,
+      "peak_to_peak_um": 11.757337368503938,
+      "relative_pp_change": 0.01495053407378419,
+      "max_force_residual_N": 3.637978807091713e-12
+    },
+    {
+      "variant": "legacy",
+      "case": "unmodified",
+      "n_positions": 120,
+      "peak_to_peak_um": 11.84481842311267,
+      "relative_pp_change": 0.007440549834274565,
+      "max_force_residual_N": 1.8637365428730845e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "unmodified",
+      "n_positions": 240,
+      "peak_to_peak_um": 11.948940684482386,
+      "relative_pp_change": 0.008790532505466086,
+      "max_force_residual_N": 1.7684214981272817e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "unmodified",
+      "n_positions": 480,
+      "peak_to_peak_um": 11.940868953697246,
+      "relative_pp_change": 0.0006755185248866918,
+      "max_force_residual_N": 1.7686033970676363e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "unmodified",
+      "n_positions": 960,
+      "peak_to_peak_um": 11.951956385203903,
+      "relative_pp_change": 0.0009285280283747534,
+      "max_force_residual_N": 1.996522769331932e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "unmodified",
+      "n_positions": 1920,
+      "peak_to_peak_um": 11.949930686041128,
+      "relative_pp_change": 0.0001694868268832657,
+      "max_force_residual_N": 1.924490788951516e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol2",
+      "n_positions": 30,
+      "peak_to_peak_um": 7.659006344756619,
+      "relative_pp_change": null,
+      "max_force_residual_N": 1.7686033970676363e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol2",
+      "n_positions": 60,
+      "peak_to_peak_um": 8.01105977988536,
+      "relative_pp_change": 0.04596594117848691,
+      "max_force_residual_N": 1.768785296007991e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol2",
+      "n_positions": 120,
+      "peak_to_peak_um": 8.483441466270873,
+      "relative_pp_change": 0.0589661916606337,
+      "max_force_residual_N": 1.768785296007991e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol2",
+      "n_positions": 240,
+      "peak_to_peak_um": 8.451483488576436,
+      "relative_pp_change": 0.0037671006302688196,
+      "max_force_residual_N": 1.8681021174415946e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol2",
+      "n_positions": 480,
+      "peak_to_peak_um": 8.440669901149132,
+      "relative_pp_change": 0.001279489860202674,
+      "max_force_residual_N": 1.768785296007991e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol2",
+      "n_positions": 960,
+      "peak_to_peak_um": 8.499648473509689,
+      "relative_pp_change": 0.0069874278998314394,
+      "max_force_residual_N": 1.768785296007991e-08
+    },
+    {
+      "variant": "legacy",
+      "case": "Sol2",
+      "n_positions": 1920,
+      "peak_to_peak_um": 8.494394972113652,
+      "relative_pp_change": 0.0006180845493093697,
+      "max_force_residual_N": 1.768785296007991e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "unmodified",
+      "n_positions": 30,
+      "peak_to_peak_um": 14.892401728369244,
+      "relative_pp_change": null,
+      "max_force_residual_N": 1.7538695828989148e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "unmodified",
+      "n_positions": 60,
+      "peak_to_peak_um": 15.087233732748835,
+      "relative_pp_change": 0.01308264495769322,
+      "max_force_residual_N": 1.7538695828989148e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "unmodified",
+      "n_positions": 120,
+      "peak_to_peak_um": 15.185554038537257,
+      "relative_pp_change": 0.006516788135588051,
+      "max_force_residual_N": 1.7538695828989148e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "unmodified",
+      "n_positions": 240,
+      "peak_to_peak_um": 15.234918837703681,
+      "relative_pp_change": 0.003250773665626452,
+      "max_force_residual_N": 1.8291757442057133e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "unmodified",
+      "n_positions": 480,
+      "peak_to_peak_um": 15.293438766538051,
+      "relative_pp_change": 0.003841171026756215,
+      "max_force_residual_N": 1.7540514818392694e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "unmodified",
+      "n_positions": 960,
+      "peak_to_peak_um": 15.28892149274854,
+      "relative_pp_change": 0.0002953733204460088,
+      "max_force_residual_N": 1.9261278794147074e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "unmodified",
+      "n_positions": 1920,
+      "peak_to_peak_um": 15.286665905294255,
+      "relative_pp_change": 0.00014753084155450828,
+      "max_force_residual_N": 1.9796061678789556e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol2",
+      "n_positions": 30,
+      "peak_to_peak_um": 10.75855821878642,
+      "relative_pp_change": null,
+      "max_force_residual_N": 1.7538695828989148e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol2",
+      "n_positions": 60,
+      "peak_to_peak_um": 11.153833980158318,
+      "relative_pp_change": 0.03674058859315115,
+      "max_force_residual_N": 1.7538695828989148e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol2",
+      "n_positions": 120,
+      "peak_to_peak_um": 11.359823250598074,
+      "relative_pp_change": 0.018468023713298334,
+      "max_force_residual_N": 1.7538695828989148e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol2",
+      "n_positions": 240,
+      "peak_to_peak_um": 11.596087307536688,
+      "relative_pp_change": 0.02079821593405295,
+      "max_force_residual_N": 1.7538695828989148e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol2",
+      "n_positions": 480,
+      "peak_to_peak_um": 11.579305244912005,
+      "relative_pp_change": 0.0014472176846905993,
+      "max_force_residual_N": 1.7538695828989148e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol2",
+      "n_positions": 960,
+      "peak_to_peak_um": 11.604940451989933,
+      "relative_pp_change": 0.0022138812766156037,
+      "max_force_residual_N": 1.8935679690912366e-08
+    },
+    {
+      "variant": "shear-G",
+      "case": "Sol2",
+      "n_positions": 1920,
+      "peak_to_peak_um": 11.600178962999301,
+      "relative_pp_change": 0.0004102984423168556,
+      "max_force_residual_N": 1.997432264033705e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "unmodified",
+      "n_positions": 30,
+      "peak_to_peak_um": 12.655261672298312,
+      "relative_pp_change": null,
+      "max_force_residual_N": 1.7622369341552258e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "unmodified",
+      "n_positions": 60,
+      "peak_to_peak_um": 12.796961998237151,
+      "relative_pp_change": 0.011196949506703061,
+      "max_force_residual_N": 1.8189894035458565e-12
+    },
+    {
+      "variant": "projected-energy",
+      "case": "unmodified",
+      "n_positions": 120,
+      "peak_to_peak_um": 12.868392956994702,
+      "relative_pp_change": 0.0055818684752983565,
+      "max_force_residual_N": 1.632179191801697e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "unmodified",
+      "n_positions": 240,
+      "peak_to_peak_um": 12.953289324363924,
+      "relative_pp_change": 0.006597278125787712,
+      "max_force_residual_N": 1.7649654182605445e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "unmodified",
+      "n_positions": 480,
+      "peak_to_peak_um": 12.946720005656893,
+      "relative_pp_change": 0.0005071544796482685,
+      "max_force_residual_N": 1.8426362657919526e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "unmodified",
+      "n_positions": 960,
+      "peak_to_peak_um": 12.955760338353311,
+      "relative_pp_change": 0.0006982720482460827,
+      "max_force_residual_N": 1.9572325982153416e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "unmodified",
+      "n_positions": 1920,
+      "peak_to_peak_um": 12.954109713133859,
+      "relative_pp_change": 0.00012740473552651422,
+      "max_force_residual_N": 1.8981154426001012e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol2",
+      "n_positions": 30,
+      "peak_to_peak_um": 8.542676250346739,
+      "relative_pp_change": null,
+      "max_force_residual_N": 1.7649654182605445e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol2",
+      "n_positions": 60,
+      "peak_to_peak_um": 8.881588808800203,
+      "relative_pp_change": 0.039672878676598265,
+      "max_force_residual_N": 1.7649654182605445e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol2",
+      "n_positions": 120,
+      "peak_to_peak_um": 9.299163383536053,
+      "relative_pp_change": 0.04701575176753308,
+      "max_force_residual_N": 1.765147317200899e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol2",
+      "n_positions": 240,
+      "peak_to_peak_um": 9.268436776660776,
+      "relative_pp_change": 0.0033042334678921176,
+      "max_force_residual_N": 1.765147317200899e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol2",
+      "n_positions": 480,
+      "peak_to_peak_um": 9.254979074992079,
+      "relative_pp_change": 0.0014519926059792065,
+      "max_force_residual_N": 1.765147317200899e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol2",
+      "n_positions": 960,
+      "peak_to_peak_um": 9.307027334524195,
+      "relative_pp_change": 0.005623811692103738,
+      "max_force_residual_N": 1.9696017261594534e-08
+    },
+    {
+      "variant": "projected-energy",
+      "case": "Sol2",
+      "n_positions": 1920,
+      "peak_to_peak_um": 9.302745705261229,
+      "relative_pp_change": 0.0004600426225335489,
+      "max_force_residual_N": 1.8404534785076976e-08
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "phase": 0.825951454,
+  "angle_rad": 0.0008172974269700981,
+  "step": 0.04,
+  "h": 0.5,
+  "penalty": 1000000000.0,
+  "mesh": [
+    {
+      "nodes_2d": 7556,
+      "triangles": 11838,
+      "contact_faces": 911
+    },
+    {
+      "nodes_2d": 7497,
+      "triangles": 11731,
+      "contact_faces": 965
+    }
+  ],
+  "control_nodes": [
+    [
+      30107,
+      30108
+    ],
+    [
+      30109,
+      30110
+    ]
+  ],
+  "total_mesh_nodes": 30106,
+  "source_sha256": "c91e0a70833cfd1cbe813a787e17b3508d22ae8425cf9cf7b81f3bed557afcc9"
+}

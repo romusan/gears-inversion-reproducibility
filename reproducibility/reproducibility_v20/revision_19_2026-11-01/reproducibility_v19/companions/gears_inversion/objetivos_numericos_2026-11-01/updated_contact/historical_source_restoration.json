@@ -1,0 +1,12 @@
+[
+  {
+    "file": "updated_surface_contact_twopass_first.py",
+    "sha256": "a3d9e214387e380b20454b728207be7ff0c55d433e1bf41d071cc76b0bc1e0c6",
+    "method": "Reversed three nonnumerical cache-name edits from saved cold-start snapshot; byte hash matches original execution receipt."
+  },
+  {
+    "file": "updated_surface_contact_reverse_first.py",
+    "sha256": "ce95a000c2bf7280cf2406ca42c7c25eaf54682680674f94179b5ded90defb88",
+    "method": "Reversed spatial-rejection optimization from saved patch1 snapshot; byte hash matches original execution receipt."
+  }
+]

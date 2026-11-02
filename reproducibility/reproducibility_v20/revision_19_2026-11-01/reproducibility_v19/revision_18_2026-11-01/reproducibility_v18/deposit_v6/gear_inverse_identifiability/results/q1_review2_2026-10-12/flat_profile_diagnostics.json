@@ -1,0 +1,176 @@
+{
+  "provenance": {
+    "campaign": "corrections-2026-10-12",
+    "created_utc": "2026-10-12T21:35:17.950848+00:00",
+    "source_sha256": "bf975c0d552c99580864b21cecf13e66114f5412ef02c677344489f4c4fe8166",
+    "files_sha256": {
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/involute.py": "9f968dd5d179fc4f63316b45360d88d80e603b58f1b7f4cf4328e6b840bd52b9",
+      "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+      "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+      "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/inverse/reconstruction.py": "752c23d2565fdf8b72d48e61797b4e09726137fec39b334959d7d3d218026d72",
+      "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/mechanics/alt_models.py": "b44d5682d0678492492c7a94596f883f033648bdef7eb25823f55f4558b0a6a7",
+      "src/mechanics/batched_operator.py": "86841dec08bfdad0bb0b86699b916542a6b6ca6c4b777da18b100008dfaa86ae",
+      "src/mechanics/compliance.py": "1559a606b7d1a4a083ce72ca4647248d8abcd77f00e6efb4329ae35a878fcda4",
+      "src/mechanics/contact_solver.py": "2cc1c5ca71c0e68aec9d34b9d94ee930b990fd65bad5625cf5c8cbddd72209fb",
+      "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+      "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/audit_solver_equivalence.py": "587c15ebba13ae3934243fdd3e5f9953892663e7ba5db7cffacfb993f040a99f",
+      "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+      "experiments/complete_correction_runs.py": "dab1b0582008d696bfd87a087957924f781b198e0da937bddbd2e864076039c7",
+      "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+      "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+      "experiments/E01_verification_audit.py": "8bea45340d04120ef0698ed154228384dba05b062125f3ca2f81c7c8bc8b7517",
+      "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+      "experiments/E03_nonuniqueness.py": "2ab8e8eba8a1dd3650efcd3a5c768e50536f9298e4bb194a78e3dce6d486bd37",
+      "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+      "experiments/E03_sampling_audit.py": "67bec3cce6b67642cec5c9b5d2e2fd645670bc78b3b29c9d7843dfd623e687d4",
+      "experiments/E04_noise_bias.py": "89b37222b2b801bbea7d470bf3a63ff8cb8725f00ae2bcb5ca8a24542cbd77de",
+      "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+      "experiments/E05_optimal_load_selection.py": "ed10305d4eb26772654084fc8c11017677f7941060eb07a23b0beb7b5b0ad193",
+      "experiments/E07_model_discrepancy.py": "4fb4e10df60ca2a4863e1e5711778ca4598b0ff883041c613b3e4fc8f5ee8539",
+      "experiments/E08_contact_support_audit.py": "35d689068650edf0396491db4c8ee5ea7975113338c611debbc59997a77d5487",
+      "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+      "experiments/Q1_angular_peaks.py": "a3f3af7b7697c125b6f5f8bff398ba79ad59bf18742b28d648888d96963b725b",
+      "experiments/Q1_finalize_figures.py": "53ef9edfa997db265fcf05eed40d95b562485b60a11f8da46051e25523f62d4b",
+      "experiments/Q1_forward_campaign.py": "f806703da95bb89a044f811e1ee9d9fe0e67d335e89117b7154e831f459ebc71",
+      "experiments/Q1_geometry_transfer.py": "5e9f74b64674a1e57e6dcd2eba9de245c6aa20c70c95ddc1a1a2b4ae2434037c",
+      "experiments/Q1_identifiability_campaign.py": "cf990eac5b9ce3a3bd521350dd00484f9a58c0f883ab62c5e35ad3e83c0507f0",
+      "experiments/Q1_review2_diagnostics.py": "d155b9728054fa52904055b1a7d9c9935552711eec880e8507e8dde0fd4caedf",
+      "experiments/Q1_review2_figures.py": "f5f3af2a9222fcc0a092dc91ec6e6db7667590d3a1858313f26a748e4754896c",
+      "experiments/Q1_summary.py": "deb02109fea7c9247db37b2f09a55230700d3f2f34e4c1e8f284dd1936229fc2",
+      "experiments/summarize_correction_campaign.py": "997d4cefd18d1bbeef8a5a09f647e73dd645f974c0ea3f0154f28124ea307604",
+      "experiments/V06_korta_mundo_reproduction.py": "1949a007e7b391c3f38c35f10bf51794cc7c78383692a72fc4ee9d1594431b73"
+    },
+    "python": "3.12.10",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0"
+  },
+  "rows": [
+    {
+      "sd_true": 0.25,
+      "design": "single300",
+      "invisible_fit": {
+        "theta": [
+          0.019853091402353643,
+          0.7495579159340086,
+          0.0,
+          0.05
+        ],
+        "chi2": 122.11500569426393,
+        "success": true,
+        "nfev": 2,
+        "optimality": 1.529199850775288e-07,
+        "fit_rmse_um": 0.10087740319081372,
+        "start_chi2": [
+          122.11500569426417,
+          122.11500569426407,
+          122.11500569426393,
+          122.11500569426393,
+          122.11500569426425
+        ],
+        "all_starts_success": true
+      },
+      "best_profile_chi2": 122.11500569426363,
+      "invisible_delta_chi2": 2.984279490192421e-13,
+      "min_loaded_xi_invisible_fit": 0.23562919485635994,
+      "response_change_at_Cd_50um_sd_005_mm": 0.0,
+      "nominal_zero_dedendum_response_rms_um": 0.0006337024868742753
+    },
+    {
+      "sd_true": 0.25,
+      "design": "multi50_300",
+      "invisible_fit": {
+        "theta": [
+          0.02016922947201268,
+          0.7514285217478102,
+          0.0,
+          0.05
+        ],
+        "chi2": 123.12804207195623,
+        "success": true,
+        "nfev": 8,
+        "optimality": 7.512839415826278e-05,
+        "fit_rmse_um": 0.10129496617632595,
+        "start_chi2": [
+          123.12804207195623,
+          123.12804207195684,
+          123.12804207195626,
+          123.12804207195626,
+          123.1280420719567
+        ],
+        "all_starts_success": true
+      },
+      "best_profile_chi2": 123.03533218858048,
+      "invisible_delta_chi2": 0.09270988337574693,
+      "min_loaded_xi_invisible_fit": 0.23998422103624953,
+      "response_change_at_Cd_50um_sd_005_mm": 0.0,
+      "nominal_zero_dedendum_response_rms_um": 0.00038569572921838763
+    },
+    {
+      "sd_true": 0.4,
+      "design": "single300",
+      "invisible_fit": {
+        "theta": [
+          0.019677502238697603,
+          0.751707730142647,
+          0.0,
+          0.05
+        ],
+        "chi2": 161.66682363345214,
+        "success": true,
+        "nfev": 8,
+        "optimality": 4.2871229358275445e-05,
+        "fit_rmse_um": 0.11606995865764613,
+        "start_chi2": [
+          161.66682363345214,
+          161.66682363345495,
+          161.66682363345254,
+          161.66682363345254,
+          161.66682363345225
+        ],
+        "all_starts_success": true
+      },
+      "best_profile_chi2": 117.81835950377798,
+      "invisible_delta_chi2": 43.848464129674156,
+      "min_loaded_xi_invisible_fit": 0.23562919485635994,
+      "response_change_at_Cd_50um_sd_005_mm": 0.0,
+      "nominal_zero_dedendum_response_rms_um": 0.07901782323188304
+    },
+    {
+      "sd_true": 0.4,
+      "design": "multi50_300",
+      "invisible_fit": {
+        "theta": [
+          0.019985550168443285,
+          0.7527455785539883,
+          0.0,
+          0.05
+        ],
+        "chi2": 179.54014254115933,
+        "success": true,
+        "nfev": 4,
+        "optimality": 2.745809491301478e-06,
+        "fit_rmse_um": 0.1223179404057173,
+        "start_chi2": [
+          179.54014254116026,
+          179.54014254115967,
+          179.54014254115933,
+          179.54014254115933,
+          179.54014254115958
+        ],
+        "all_starts_success": true
+      },
+      "best_profile_chi2": 118.95297322097916,
+      "invisible_delta_chi2": 60.587169320180166,
+      "min_loaded_xi_invisible_fit": 0.23998422103624953,
+      "response_change_at_Cd_50um_sd_005_mm": 0.0,
+      "nominal_zero_dedendum_response_rms_um": 0.07717859417618582
+    }
+  ],
+  "interpretation": "Exact invariant parameter subsets can be visited during profiling; finite-noise profile flatness at a nonzero-sensitivity truth is not a proof of structural nonidentifiability at that truth."
+}

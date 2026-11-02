@@ -1,0 +1,140 @@
+[
+ {
+  "config": "legacy-24",
+  "sd_true": 0.25,
+  "TE_pp_um": 8.726049756389697,
+  "TE_rms_um": 3.372106287907462,
+  "dedendum_signal_rms_um": 0.000633702486875038,
+  "min_loaded_xi": 0.23562919485635994,
+  "n_loaded_relief_points": 4,
+  "singular_values": [
+   947.6389890374155,
+   558.5630726667241,
+   10.502348920347133,
+   0.035809940062263484
+  ],
+  "numerical_rank": 4,
+  "noise_free_addendum_scaled_error": 0.0,
+  "noise_free_dedendum_scaled_error": 2.4130003550837387e-13,
+  "noise_free_chi2": 3.009265538105056e-28,
+  "noise_free_success": true,
+  "force_residual_N": 1.7176716937683523e-08,
+  "delta_TE_pp_percent_vs_legacy": 0.0,
+  "sv_ratio_min_vs_legacy": 1.0
+ },
+ {
+  "config": "legacy-24",
+  "sd_true": 0.4,
+  "TE_pp_um": 8.624671327027626,
+  "TE_rms_um": 3.3253096718300688,
+  "dedendum_signal_rms_um": 0.07901782323176103,
+  "min_loaded_xi": 0.23562919485635994,
+  "n_loaded_relief_points": 43,
+  "singular_values": [
+   947.9647929345653,
+   559.348150833429,
+   83.57527999337364,
+   6.368494603126516
+  ],
+  "numerical_rank": 4,
+  "noise_free_addendum_scaled_error": 0.0,
+  "noise_free_dedendum_scaled_error": 1.0408340855860843e-15,
+  "noise_free_chi2": 6.018531076210112e-28,
+  "noise_free_success": true,
+  "force_residual_N": 1.7176716937683523e-08,
+  "delta_TE_pp_percent_vs_legacy": 0.0,
+  "sv_ratio_min_vs_legacy": 1.0
+ },
+ {
+  "config": "projected-24",
+  "sd_true": 0.25,
+  "TE_pp_um": 9.97354930749686,
+  "TE_rms_um": 3.964151993674196,
+  "dedendum_signal_rms_um": 0.0006956521547115479,
+  "min_loaded_xi": 0.23562919485635994,
+  "n_loaded_relief_points": 4,
+  "singular_values": [
+   947.9242431328901,
+   580.0857175002956,
+   11.523353093056333,
+   0.039239688670975485
+  ],
+  "numerical_rank": 4,
+  "noise_free_addendum_scaled_error": 0.0,
+  "noise_free_dedendum_scaled_error": 2.4294802281055183e-13,
+  "noise_free_chi2": 9.027796614315168e-28,
+  "noise_free_success": true,
+  "force_residual_N": 1.706393959466368e-08,
+  "delta_TE_pp_percent_vs_legacy": 14.296269055693552,
+  "sv_ratio_min_vs_legacy": 1.0003010155753134
+ },
+ {
+  "config": "projected-24",
+  "sd_true": 0.4,
+  "TE_pp_um": 9.870337561914962,
+  "TE_rms_um": 3.915861527594048,
+  "dedendum_signal_rms_um": 0.08597132283622029,
+  "min_loaded_xi": 0.23562919485635994,
+  "n_loaded_relief_points": 43,
+  "singular_values": [
+   948.378740231938,
+   580.7974414638041,
+   90.29450832668593,
+   6.886670709099585
+  ],
+  "numerical_rank": 4,
+  "noise_free_addendum_scaled_error": 0.0,
+  "noise_free_dedendum_scaled_error": 2.6020852139652106e-16,
+  "noise_free_chi2": 3.009265538105056e-28,
+  "noise_free_success": true,
+  "force_residual_N": 1.706393959466368e-08,
+  "delta_TE_pp_percent_vs_legacy": 14.443057452910939,
+  "sv_ratio_min_vs_legacy": 1.0004366694844133
+ },
+ {
+  "config": "projected-96",
+  "sd_true": 0.25,
+  "TE_pp_um": 9.973549304477276,
+  "TE_rms_um": 3.9641519926646205,
+  "dedendum_signal_rms_um": 0.0006956521547990814,
+  "min_loaded_xi": 0.23562919485635994,
+  "n_loaded_relief_points": 4,
+  "singular_values": [
+   947.924242033979,
+   580.0857163314315,
+   11.523353094516995,
+   0.03923968867617666
+  ],
+  "numerical_rank": 4,
+  "noise_free_addendum_scaled_error": 6.938893903907228e-17,
+  "noise_free_dedendum_scaled_error": 1.5300261058115439e-13,
+  "noise_free_chi2": 1.293984181385174e-26,
+  "noise_free_success": true,
+  "force_residual_N": 1.706393959466368e-08,
+  "delta_TE_pp_percent_vs_legacy": 14.296269021089296,
+  "sv_ratio_min_vs_legacy": 1.000301014415683
+ },
+ {
+  "config": "projected-96",
+  "sd_true": 0.4,
+  "TE_pp_um": 9.870337558572082,
+  "TE_rms_um": 3.9158615265376646,
+  "dedendum_signal_rms_um": 0.08597132285084098,
+  "min_loaded_xi": 0.23562919485635994,
+  "n_loaded_relief_points": 43,
+  "singular_values": [
+   948.3787391322202,
+   580.7974402999407,
+   90.29450834265022,
+   6.886670709901608
+  ],
+  "numerical_rank": 4,
+  "noise_free_addendum_scaled_error": 6.938893903907228e-17,
+  "noise_free_dedendum_scaled_error": 1.5612511283791264e-15,
+  "noise_free_chi2": 1.4745401136714774e-26,
+  "noise_free_success": true,
+  "force_residual_N": 1.706393959466368e-08,
+  "delta_TE_pp_percent_vs_legacy": 14.443057414151435,
+  "sv_ratio_min_vs_legacy": 1.0004366683243304
+ }
+]

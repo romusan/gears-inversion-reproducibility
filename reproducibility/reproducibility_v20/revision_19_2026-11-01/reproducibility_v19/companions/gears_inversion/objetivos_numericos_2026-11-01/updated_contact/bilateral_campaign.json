@@ -1,0 +1,1818 @@
+[
+  {
+    "configuration": [
+      0.174048546,
+      0.04,
+      0.5,
+      "nominal",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.174048546_s0.04_h0.5_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.174048546_s0.04_h0.5_patch2",
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 6.316247781658392,
+            "active": 4,
+            "candidates": 161,
+            "true_gap_error_um": 4.407726192257783e-08,
+            "penetration_um": 4.407726192257783e-08,
+            "torque_relative_error": 5.038766992537802e-08,
+            "elastic_fixed_point_relative_error": 9.475626876787533e-08,
+            "approach_step_um": 0.0008050749909976295,
+            "dual_regularization_gap_bound_um": 4.408387598918248e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 14.486159520869736,
+            "active": 6,
+            "candidates": 162,
+            "true_gap_error_um": 6.699741041359168e-08,
+            "penetration_um": 6.699741041359168e-08,
+            "torque_relative_error": 6.640052852002754e-08,
+            "elastic_fixed_point_relative_error": 1.4715802629629857e-07,
+            "approach_step_um": 0.0005747310321123178,
+            "dual_regularization_gap_bound_um": 6.703776829475258e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 27.96005954341271,
+            "active": 8,
+            "candidates": 163,
+            "true_gap_error_um": 1.432779565878382e-07,
+            "penetration_um": 1.432779565878382e-07,
+            "torque_relative_error": 3.3089707329736484e-07,
+            "elastic_fixed_point_relative_error": 6.51889121106132e-07,
+            "approach_step_um": 0.0009606674565606018,
+            "dual_regularization_gap_bound_um": 1.43673264741936e-07
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 7497,
+          "elements": 11731,
+          "symmetry": 1.0915578991944099e-14,
+          "cached": false
+        },
+        {
+          "nodes": 7556,
+          "elements": 11838,
+          "symmetry": 1.3929758029807437e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 16.542224168777466,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "a3d9e214387e380b20454b728207be7ff0c55d433e1bf41d071cc76b0bc1e0c6"
+    }
+  },
+  {
+    "configuration": [
+      0.174048546,
+      0.02,
+      0.35,
+      "nominal",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.174048546_s0.02_h0.35_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.174048546_s0.02_h0.35_patch2",
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 6.420884282109032,
+            "active": 10,
+            "candidates": 321,
+            "true_gap_error_um": 2.1190827910617572e-08,
+            "penetration_um": 2.1190827910617572e-08,
+            "torque_relative_error": 1.7646387673320163e-07,
+            "elastic_fixed_point_relative_error": 3.7185385069465524e-07,
+            "approach_step_um": 0.0008249392331768249,
+            "dual_regularization_gap_bound_um": 2.1537412889630954e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 14.727729068608996,
+            "active": 12,
+            "candidates": 322,
+            "true_gap_error_um": 6.910949153670593e-08,
+            "penetration_um": 6.910949153670593e-08,
+            "torque_relative_error": 1.3582083469021455e-07,
+            "elastic_fixed_point_relative_error": 2.761493304358845e-07,
+            "approach_step_um": 0.000581378911150326,
+            "dual_regularization_gap_bound_um": 6.918083452946318e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 28.29995622719747,
+            "active": 16,
+            "candidates": 325,
+            "true_gap_error_um": 1.0909142596732518e-07,
+            "penetration_um": 1.0909142596732518e-07,
+            "torque_relative_error": 2.431775032452066e-07,
+            "elastic_fixed_point_relative_error": 4.954524883546062e-07,
+            "approach_step_um": 0.0009642941616613576,
+            "dual_regularization_gap_bound_um": 1.0937653795105603e-07
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 12743,
+          "elements": 20538,
+          "symmetry": 1.5783983613230216e-14,
+          "cached": false
+        },
+        {
+          "nodes": 12825,
+          "elements": 20688,
+          "symmetry": 1.6181255617360567e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 65.13237166404724,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "c3973803320fb5fd869bb5b4327187c563bf71b6812f750047b09f6475e4b4db"
+    }
+  },
+  {
+    "configuration": [
+      0.174048546,
+      0.01,
+      0.25,
+      "nominal",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.174048546_s0.01_h0.25_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.174048546_s0.01_h0.25_patch2",
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 6.478496324433115,
+            "active": 19,
+            "candidates": 637,
+            "true_gap_error_um": 2.0665402309565475e-08,
+            "penetration_um": 2.0665402309565475e-08,
+            "torque_relative_error": 6.146641149396004e-07,
+            "elastic_fixed_point_relative_error": 1.213474946973092e-06,
+            "approach_step_um": 0.0008385134625482667,
+            "dual_regularization_gap_bound_um": 2.1925366693780702e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 14.840248431913706,
+            "active": 31,
+            "candidates": 643,
+            "true_gap_error_um": 5.2437190569654826e-08,
+            "penetration_um": 5.2437190569654826e-08,
+            "torque_relative_error": 5.695513434211819e-07,
+            "elastic_fixed_point_relative_error": 1.1139812262468844e-06,
+            "approach_step_um": 0.0006021171006166772,
+            "dual_regularization_gap_bound_um": 5.289645394607322e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 17,
+            "approach_um": 28.503859832099014,
+            "active": 42,
+            "candidates": 651,
+            "true_gap_error_um": 8.651882853137546e-08,
+            "penetration_um": 8.651882853137546e-08,
+            "torque_relative_error": 4.4140359345412605e-07,
+            "elastic_fixed_point_relative_error": 8.565403181774635e-07,
+            "approach_step_um": 0.0005543918712969232,
+            "dual_regularization_gap_bound_um": 8.715259945539639e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 24025,
+          "elements": 39177,
+          "cached": true
+        },
+        {
+          "nodes": 24118,
+          "elements": 39342,
+          "cached": true
+        }
+      ],
+      "seconds": 151.20858120918274,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.5,
+      0.04,
+      0.5,
+      "nominal",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.500000000_s0.04_h0.5_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.500000000_s0.04_h0.5_patch2",
+      "phase": 0.5,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 5.324234220011866,
+            "active": 6,
+            "candidates": 214,
+            "true_gap_error_um": 3.431704539189626e-08,
+            "penetration_um": 3.431704539189626e-08,
+            "torque_relative_error": 5.369731326254623e-09,
+            "elastic_fixed_point_relative_error": 3.3585684662773747e-08,
+            "approach_step_um": 0.0006790482267994855,
+            "dual_regularization_gap_bound_um": 3.431445198090449e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 15,
+            "approach_um": 13.123281820921171,
+            "active": 6,
+            "candidates": 215,
+            "true_gap_error_um": 4.5717369054109874e-08,
+            "penetration_um": 4.5717369054109874e-08,
+            "torque_relative_error": 7.993654183025e-09,
+            "elastic_fixed_point_relative_error": 3.867908674548844e-08,
+            "approach_step_um": 0.0009949250012255264,
+            "dual_regularization_gap_bound_um": 4.572282815983366e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 25.932155739195057,
+            "active": 12,
+            "candidates": 217,
+            "true_gap_error_um": 5.79883090758271e-08,
+            "penetration_um": 5.79883090758271e-08,
+            "torque_relative_error": 2.4529536624129378e-08,
+            "elastic_fixed_point_relative_error": 6.345566905825607e-08,
+            "approach_step_um": 0.0008992408429017325,
+            "dual_regularization_gap_bound_um": 5.799467692161969e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 7395,
+          "elements": 11528,
+          "symmetry": 1.583658240080721e-14,
+          "cached": false
+        },
+        {
+          "nodes": 7380,
+          "elements": 11498,
+          "symmetry": 1.0086166972492573e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 13.544393301010132,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.5,
+      0.02,
+      0.35,
+      "nominal",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.500000000_s0.02_h0.35_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.500000000_s0.02_h0.35_patch2",
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 5.39719125438153,
+            "active": 11,
+            "candidates": 413,
+            "true_gap_error_um": 1.548224925981544e-08,
+            "penetration_um": 1.548224925981544e-08,
+            "torque_relative_error": 2.200065907231874e-09,
+            "elastic_fixed_point_relative_error": 2.107923427899891e-08,
+            "approach_step_um": 0.0006880570060598246,
+            "dual_regularization_gap_bound_um": 1.549631309284327e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 13.272058627066022,
+            "active": 15,
+            "candidates": 416,
+            "true_gap_error_um": 2.3147579346829732e-08,
+            "penetration_um": 2.3147579346829732e-08,
+            "torque_relative_error": 2.1295199381654584e-08,
+            "elastic_fixed_point_relative_error": 4.435399817609811e-08,
+            "approach_step_um": 0.0005524233936977764,
+            "dual_regularization_gap_bound_um": 2.3151164400447292e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 26.19137607210835,
+            "active": 23,
+            "candidates": 420,
+            "true_gap_error_um": 3.1728517907821564e-08,
+            "penetration_um": 3.1728517907821564e-08,
+            "torque_relative_error": 1.7526216256058547e-08,
+            "elastic_fixed_point_relative_error": 4.618280549805653e-08,
+            "approach_step_um": 0.0009067057882892902,
+            "dual_regularization_gap_bound_um": 3.1748926180865825e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 12512,
+          "elements": 20079,
+          "symmetry": 2.943097882721327e-14,
+          "cached": false
+        },
+        {
+          "nodes": 12493,
+          "elements": 20041,
+          "symmetry": 1.1623892995865348e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 39.85670614242554,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.5,
+      0.01,
+      0.25,
+      "nominal",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.500000000_s0.01_h0.25_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.500000000_s0.01_h0.25_patch2",
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 5.435560016272022,
+            "active": 24,
+            "candidates": 811,
+            "true_gap_error_um": 6.870375978300618e-09,
+            "penetration_um": 6.870375978300618e-09,
+            "torque_relative_error": 1.8084826747255534e-08,
+            "elastic_fixed_point_relative_error": 3.529289056343325e-08,
+            "approach_step_um": 0.0006930322554606952,
+            "dual_regularization_gap_bound_um": 6.8645296180007334e-09
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 13.356783880352681,
+            "active": 38,
+            "candidates": 816,
+            "true_gap_error_um": 1.0549482692379156e-08,
+            "penetration_um": 1.0549482692379156e-08,
+            "torque_relative_error": 1.5092609717548555e-08,
+            "elastic_fixed_point_relative_error": 3.748022745157695e-08,
+            "approach_step_um": 0.0005562036865597543,
+            "dual_regularization_gap_bound_um": 1.0561298571956035e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 26.335107231382707,
+            "active": 52,
+            "candidates": 826,
+            "true_gap_error_um": 1.4804989536928126e-08,
+            "penetration_um": 1.4804989536928126e-08,
+            "torque_relative_error": 1.93299443118633e-09,
+            "elastic_fixed_point_relative_error": 1.3345754549045632e-07,
+            "approach_step_um": 0.0009150175605232271,
+            "dual_regularization_gap_bound_um": 1.4818599410563019e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 23562,
+          "elements": 38259,
+          "cached": true
+        },
+        {
+          "nodes": 23555,
+          "elements": 38245,
+          "cached": true
+        }
+      ],
+      "seconds": 81.83050870895386,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.825951454,
+      0.04,
+      0.5,
+      "nominal",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.825951454_s0.04_h0.5_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.825951454_s0.04_h0.5_patch2",
+      "phase": 0.825951454,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 6.249120823854865,
+            "active": 4,
+            "candidates": 161,
+            "true_gap_error_um": 4.4687451632621674e-08,
+            "penetration_um": 4.4687451632621674e-08,
+            "torque_relative_error": 1.826223483547551e-08,
+            "elastic_fixed_point_relative_error": 5.748227890714369e-08,
+            "approach_step_um": 0.0007975691023616165,
+            "dual_regularization_gap_bound_um": 4.4684495009308436e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 14.313185166609658,
+            "active": 6,
+            "candidates": 161,
+            "true_gap_error_um": 6.792521907551399e-08,
+            "penetration_um": 6.792521907551399e-08,
+            "torque_relative_error": 3.262153636107712e-08,
+            "elastic_fixed_point_relative_error": 2.675063822883568e-07,
+            "approach_step_um": 0.0005725168908247114,
+            "dual_regularization_gap_bound_um": 6.804597605252285e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 27.63930062844954,
+            "active": 9,
+            "candidates": 164,
+            "true_gap_error_um": 1.4380494692077648e-07,
+            "penetration_um": 1.4380494692077648e-07,
+            "torque_relative_error": 1.4073176335394066e-07,
+            "elastic_fixed_point_relative_error": 1.0862911249244222e-06,
+            "approach_step_um": 0.000985179257828359,
+            "dual_regularization_gap_bound_um": 1.4494562686104348e-07
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 7556,
+          "elements": 11838,
+          "symmetry": 1.3929758029807437e-14,
+          "cached": false
+        },
+        {
+          "nodes": 7497,
+          "elements": 11731,
+          "symmetry": 1.0915578991944099e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 18.317705869674683,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.825951454,
+      0.02,
+      0.35,
+      "nominal",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.825951454_s0.02_h0.35_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.825951454_s0.02_h0.35_patch2",
+      "phase": 0.825951454,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 6.348771697431704,
+            "active": 9,
+            "candidates": 320,
+            "true_gap_error_um": 2.2111273968361228e-08,
+            "penetration_um": 2.2111273968361228e-08,
+            "torque_relative_error": 3.873934850684435e-08,
+            "elastic_fixed_point_relative_error": 9.166004314958236e-08,
+            "approach_step_um": 0.0008079948620089067,
+            "dual_regularization_gap_bound_um": 2.2115317975102835e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 14.527076787778036,
+            "active": 15,
+            "candidates": 322,
+            "true_gap_error_um": 7.074054249382747e-08,
+            "penetration_um": 7.074054249382747e-08,
+            "torque_relative_error": 8.195921363807201e-08,
+            "elastic_fixed_point_relative_error": 6.078750793323376e-07,
+            "approach_step_um": 0.0005776551114926107,
+            "dual_regularization_gap_bound_um": 7.10454756224752e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 27.917997632767964,
+            "active": 21,
+            "candidates": 326,
+            "true_gap_error_um": 1.1309961342016126e-07,
+            "penetration_um": 1.1309961342016126e-07,
+            "torque_relative_error": 1.6814328529513034e-07,
+            "elastic_fixed_point_relative_error": 1.2306659913596537e-06,
+            "approach_step_um": 0.0009688479682728656,
+            "dual_regularization_gap_bound_um": 1.148325948904547e-07
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 12825,
+          "elements": 20688,
+          "symmetry": 1.6181255617360567e-14,
+          "cached": false
+        },
+        {
+          "nodes": 12743,
+          "elements": 20538,
+          "symmetry": 1.5783983613230216e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 53.155277252197266,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.825951454,
+      0.01,
+      0.25,
+      "nominal",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.825951454_s0.01_h0.25_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.825951454_s0.01_h0.25_patch2",
+      "phase": 0.825951454,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 6.4009970564680865,
+            "active": 18,
+            "candidates": 639,
+            "true_gap_error_um": 2.2460007406926787e-08,
+            "penetration_um": 2.2460007406926787e-08,
+            "torque_relative_error": 2.4891671612792265e-08,
+            "elastic_fixed_point_relative_error": 2.834825351020089e-07,
+            "approach_step_um": 0.0008166857663685184,
+            "dual_regularization_gap_bound_um": 2.2551156427399942e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 14.665534319449183,
+            "active": 30,
+            "candidates": 644,
+            "true_gap_error_um": 6.037153141140304e-08,
+            "penetration_um": 6.037153141140304e-08,
+            "torque_relative_error": 2.530323846006155e-07,
+            "elastic_fixed_point_relative_error": 1.8421738535888116e-06,
+            "approach_step_um": 0.0006056297995798781,
+            "dual_regularization_gap_bound_um": 6.214868287927323e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 28.132346546281017,
+            "active": 44,
+            "candidates": 652,
+            "true_gap_error_um": 7.476959699510461e-08,
+            "penetration_um": 7.476959699510461e-08,
+            "torque_relative_error": 2.2197979854254868e-07,
+            "elastic_fixed_point_relative_error": 1.660720178772555e-06,
+            "approach_step_um": 0.000995181378985237,
+            "dual_regularization_gap_bound_um": 7.833013391919975e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 24118,
+          "elements": 39342,
+          "cached": true
+        },
+        {
+          "nodes": 24025,
+          "elements": 39177,
+          "cached": true
+        }
+      ],
+      "seconds": 112.72221446037292,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.174048546,
+      0.04,
+      0.5,
+      "nominal",
+      false,
+      1e-10
+    ],
+    "result": {
+      "tag": "f0.174048546_s0.04_h0.5_patch2_twopass_reg1e-10",
+      "cache_tag": "f0.174048546_s0.04_h0.5_patch2",
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-10,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 6.316247767036865,
+            "active": 4,
+            "candidates": 161,
+            "true_gap_error_um": 4.3579157184707835e-10,
+            "penetration_um": 4.3579157184707835e-10,
+            "torque_relative_error": 5.0387618744096585e-08,
+            "elastic_fixed_point_relative_error": 9.475620413394282e-08,
+            "approach_step_um": 0.0008050749896909969,
+            "dual_regularization_gap_bound_um": 4.4083893193917294e-10
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 14.486159474669222,
+            "active": 6,
+            "candidates": 162,
+            "true_gap_error_um": 6.354738319690343e-10,
+            "penetration_um": 6.354738319690343e-10,
+            "torque_relative_error": 6.640052130357788e-08,
+            "elastic_fixed_point_relative_error": 1.471579956874148e-07,
+            "approach_step_um": 0.0005747310312137214,
+            "dual_regularization_gap_bound_um": 6.703776849762626e-10
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 27.9600594714503,
+            "active": 8,
+            "candidates": 163,
+            "true_gap_error_um": 1.035464130621972e-09,
+            "penetration_um": 1.035464130621972e-09,
+            "torque_relative_error": 3.3089706075184466e-07,
+            "elastic_fixed_point_relative_error": 6.518890900200635e-07,
+            "approach_step_um": 0.0009606674534466901,
+            "dual_regularization_gap_bound_um": 1.4367326541746495e-09
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 7497,
+          "elements": 11731,
+          "cached": true
+        },
+        {
+          "nodes": 7556,
+          "elements": 11838,
+          "cached": true
+        }
+      ],
+      "seconds": 10.682011365890503,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.174048546,
+      0.04,
+      0.5,
+      "nominal",
+      true,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.174048546_s0.04_h0.5_reverse_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.174048546_s0.04_h0.5_patch2",
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "relaxation": 0.45,
+      "case": "nominal",
+      "relief_parameters": null,
+      "master_slave_reversed": true,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 6.316247781658392,
+            "active": 4,
+            "candidates": 161,
+            "true_gap_error_um": 4.407726192257783e-08,
+            "penetration_um": 4.407726192257783e-08,
+            "torque_relative_error": 5.038766992537802e-08,
+            "elastic_fixed_point_relative_error": 9.475626877126789e-08,
+            "approach_step_um": 0.0008050749909976295,
+            "dual_regularization_gap_bound_um": 4.4083875989183204e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 14.486159520869736,
+            "active": 6,
+            "candidates": 162,
+            "true_gap_error_um": 6.699741041359168e-08,
+            "penetration_um": 6.699741041359168e-08,
+            "torque_relative_error": 6.640052852002754e-08,
+            "elastic_fixed_point_relative_error": 1.4715802630173774e-07,
+            "approach_step_um": 0.0005747310321123178,
+            "dual_regularization_gap_bound_um": 6.70377682947526e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 27.960059543412417,
+            "active": 8,
+            "candidates": 163,
+            "true_gap_error_um": 1.4327452430577951e-07,
+            "penetration_um": 1.4327452430577951e-07,
+            "torque_relative_error": 3.3089707451861017e-07,
+            "elastic_fixed_point_relative_error": 6.518891216055456e-07,
+            "approach_step_um": 0.0009606674564212279,
+            "dual_regularization_gap_bound_um": 1.4367326474193773e-07
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 7497,
+          "elements": 11731,
+          "cached": true
+        },
+        {
+          "nodes": 7556,
+          "elements": 11838,
+          "cached": true
+        }
+      ],
+      "seconds": 10.57656216621399,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.174048546,
+      0.02,
+      0.35,
+      "addendum",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.174048546_s0.02_h0.35_addendum_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.174048546_s0.02_h0.35_addendum_patch2",
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "relaxation": 0.45,
+      "case": "addendum",
+      "relief_parameters": [
+        0.02,
+        0.75,
+        0.0,
+        0.5
+      ],
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 6.41550557977392,
+            "active": 8,
+            "candidates": 319,
+            "true_gap_error_um": 2.112682014974531e-08,
+            "penetration_um": 2.112682014974531e-08,
+            "torque_relative_error": 2.516470255509162e-07,
+            "elastic_fixed_point_relative_error": 4.790302285892146e-07,
+            "approach_step_um": 0.0008243117844457059,
+            "dual_regularization_gap_bound_um": 2.156548590115407e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 14.71684823216822,
+            "active": 13,
+            "candidates": 320,
+            "true_gap_error_um": 6.89535278468717e-08,
+            "penetration_um": 6.89535278468717e-08,
+            "torque_relative_error": 1.4754771182623472e-07,
+            "elastic_fixed_point_relative_error": 2.9351847908605287e-07,
+            "approach_step_um": 0.0005834955512000818,
+            "dual_regularization_gap_bound_um": 6.904638429454778e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 28.279984487048438,
+            "active": 17,
+            "candidates": 324,
+            "true_gap_error_um": 1.1067173384301122e-07,
+            "penetration_um": 1.1067173384301122e-07,
+            "torque_relative_error": 3.2318175557932705e-07,
+            "elastic_fixed_point_relative_error": 6.273863224243853e-07,
+            "approach_step_um": 0.0009648373581498188,
+            "dual_regularization_gap_bound_um": 1.1116258174558786e-07
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 12721,
+          "elements": 20499,
+          "symmetry": 2.0629527136271022e-14,
+          "cached": false
+        },
+        {
+          "nodes": 12825,
+          "elements": 20688,
+          "symmetry": 1.61818713092464e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 47.6645827293396,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.174048546,
+      0.02,
+      0.35,
+      "combined",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.174048546_s0.02_h0.35_combined_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.174048546_s0.02_h0.35_combined_patch2",
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "relaxation": 0.45,
+      "case": "combined",
+      "relief_parameters": [
+        0.02,
+        0.75,
+        0.01,
+        0.5
+      ],
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 7.025100744571938,
+            "active": 11,
+            "candidates": 320,
+            "true_gap_error_um": 1.7273049516097447e-08,
+            "penetration_um": 1.7273049516097447e-08,
+            "torque_relative_error": 1.0842713360492695e-07,
+            "elastic_fixed_point_relative_error": 1.9919128918277204e-07,
+            "approach_step_um": 0.0009004189424937747,
+            "dual_regularization_gap_bound_um": 1.726544962519824e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 15.308337249321918,
+            "active": 13,
+            "candidates": 320,
+            "true_gap_error_um": 5.938538880713003e-08,
+            "penetration_um": 5.938538880713003e-08,
+            "torque_relative_error": 9.772246534200946e-08,
+            "elastic_fixed_point_relative_error": 1.988417139106804e-07,
+            "approach_step_um": 0.0005790004727066156,
+            "dual_regularization_gap_bound_um": 5.9442337422030654e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 28.858358721798968,
+            "active": 17,
+            "candidates": 325,
+            "true_gap_error_um": 1.0040598353400247e-07,
+            "penetration_um": 1.0040598353400247e-07,
+            "torque_relative_error": 2.77415054150687e-07,
+            "elastic_fixed_point_relative_error": 5.419555191829571e-07,
+            "approach_step_um": 0.0009621371357753309,
+            "dual_regularization_gap_bound_um": 1.0084397508750723e-07
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 12734,
+          "elements": 20525,
+          "symmetry": 1.6062860466864335e-14,
+          "cached": false
+        },
+        {
+          "nodes": 12825,
+          "elements": 20688,
+          "symmetry": 1.6174305940423514e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 48.36831212043762,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.174048546,
+      0.01,
+      0.25,
+      "addendum",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.174048546_s0.01_h0.25_addendum_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.174048546_s0.01_h0.25_addendum_patch2",
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "relaxation": 0.45,
+      "case": "addendum",
+      "relief_parameters": [
+        0.02,
+        0.75,
+        0.0,
+        0.5
+      ],
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 6.477038280002404,
+            "active": 19,
+            "candidates": 635,
+            "true_gap_error_um": 2.0786798757098335e-08,
+            "penetration_um": 2.0786798757098335e-08,
+            "torque_relative_error": 5.896784328607296e-07,
+            "elastic_fixed_point_relative_error": 1.1888181042692106e-06,
+            "approach_step_um": 0.0008384271842008759,
+            "dual_regularization_gap_bound_um": 2.2015940302472895e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 14.833770095890438,
+            "active": 30,
+            "candidates": 640,
+            "true_gap_error_um": 5.3232317678161214e-08,
+            "penetration_um": 5.3232317678161214e-08,
+            "torque_relative_error": 5.650473250407018e-07,
+            "elastic_fixed_point_relative_error": 1.099780301872852e-06,
+            "approach_step_um": 0.0006016458142226638,
+            "dual_regularization_gap_bound_um": 5.3684066083173124e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 17,
+            "approach_um": 28.496828159711818,
+            "active": 45,
+            "candidates": 648,
+            "true_gap_error_um": 8.767072082708816e-08,
+            "penetration_um": 8.767072082708816e-08,
+            "torque_relative_error": 4.239421775853458e-07,
+            "elastic_fixed_point_relative_error": 8.219174991565779e-07,
+            "approach_step_um": 0.0005535626995701461,
+            "dual_regularization_gap_bound_um": 8.826324718662224e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 23924,
+          "elements": 38980,
+          "symmetry": 2.1859538168007114e-14,
+          "cached": false
+        },
+        {
+          "nodes": 24118,
+          "elements": 39342,
+          "symmetry": 1.932127620279008e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 169.48545265197754,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.174048546,
+      0.01,
+      0.25,
+      "combined",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.174048546_s0.01_h0.25_combined_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.174048546_s0.01_h0.25_combined_patch2",
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "relaxation": 0.45,
+      "case": "combined",
+      "relief_parameters": [
+        0.02,
+        0.75,
+        0.01,
+        0.5
+      ],
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 7.0850454612331,
+            "active": 20,
+            "candidates": 637,
+            "true_gap_error_um": 1.1202714804626232e-08,
+            "penetration_um": 1.1202714804626232e-08,
+            "torque_relative_error": 2.3794272963062468e-07,
+            "elastic_fixed_point_relative_error": 4.6741707493862306e-07,
+            "approach_step_um": 0.0009116115261897437,
+            "dual_regularization_gap_bound_um": 1.2275401116688413e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 15.442718892731486,
+            "active": 31,
+            "candidates": 642,
+            "true_gap_error_um": 4.728167971778952e-08,
+            "penetration_um": 4.728167971778952e-08,
+            "torque_relative_error": 4.300618994257377e-07,
+            "elastic_fixed_point_relative_error": 8.426512439169409e-07,
+            "approach_step_um": 0.0005990169873458073,
+            "dual_regularization_gap_bound_um": 4.762375087655452e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 17,
+            "approach_um": 29.073976662720945,
+            "active": 45,
+            "candidates": 649,
+            "true_gap_error_um": 7.86447708055498e-08,
+            "penetration_um": 7.86447708055498e-08,
+            "torque_relative_error": 7.376982009699162e-07,
+            "elastic_fixed_point_relative_error": 1.4402165976988375e-06,
+            "approach_step_um": 0.0005593904185379067,
+            "dual_regularization_gap_bound_um": 8.077632297826766e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 23836,
+          "elements": 38804,
+          "symmetry": 1.3021423775496796e-14,
+          "cached": false
+        },
+        {
+          "nodes": 24118,
+          "elements": 39342,
+          "symmetry": 1.9331382426540274e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 170.71065092086792,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.5,
+      0.02,
+      0.35,
+      "addendum",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.500000000_s0.02_h0.35_addendum_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.500000000_s0.02_h0.35_addendum_patch2",
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "relaxation": 0.45,
+      "case": "addendum",
+      "relief_parameters": [
+        0.02,
+        0.75,
+        0.0,
+        0.5
+      ],
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 7.328404564840745,
+            "active": 8,
+            "candidates": 408,
+            "true_gap_error_um": 1.9091594244289463e-08,
+            "penetration_um": 1.9091594244289463e-08,
+            "torque_relative_error": 5.679416548165506e-08,
+            "elastic_fixed_point_relative_error": 9.483665454029789e-08,
+            "approach_step_um": 0.000935081914134206,
+            "dual_regularization_gap_bound_um": 1.910902607342186e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 15.200858011014306,
+            "active": 16,
+            "candidates": 409,
+            "true_gap_error_um": 2.5196715601788906e-08,
+            "penetration_um": 2.5196715601788906e-08,
+            "torque_relative_error": 1.5428420319096858e-08,
+            "elastic_fixed_point_relative_error": 3.4773673431039e-08,
+            "approach_step_um": 0.0005521406666268737,
+            "dual_regularization_gap_bound_um": 2.5202768331810383e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 28.077898781776593,
+            "active": 24,
+            "candidates": 413,
+            "true_gap_error_um": 3.168008119680904e-08,
+            "penetration_um": 3.168008119680904e-08,
+            "torque_relative_error": 2.4277799881566864e-08,
+            "elastic_fixed_point_relative_error": 6.171230338185024e-08,
+            "approach_step_um": 0.0009048295791737524,
+            "dual_regularization_gap_bound_um": 3.16916301183122e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 12510,
+          "elements": 20080,
+          "symmetry": 1.6571620213834832e-14,
+          "cached": false
+        },
+        {
+          "nodes": 12493,
+          "elements": 20041,
+          "symmetry": 1.1630966460737876e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 39.079920530319214,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.5,
+      0.02,
+      0.35,
+      "combined",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.500000000_s0.02_h0.35_combined_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.500000000_s0.02_h0.35_combined_patch2",
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "relaxation": 0.45,
+      "case": "combined",
+      "relief_parameters": [
+        0.02,
+        0.75,
+        0.01,
+        0.5
+      ],
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 7.500168227073377,
+            "active": 9,
+            "candidates": 404,
+            "true_gap_error_um": 1.8653368465022898e-08,
+            "penetration_um": 1.8653368465022898e-08,
+            "torque_relative_error": 3.529929804013676e-08,
+            "elastic_fixed_point_relative_error": 5.664672406699021e-08,
+            "approach_step_um": 0.0009563111499872986,
+            "dual_regularization_gap_bound_um": 1.8692011325474445e-08
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 15.370616014298426,
+            "active": 17,
+            "candidates": 406,
+            "true_gap_error_um": 2.3580101312951876e-08,
+            "penetration_um": 2.3580101312951876e-08,
+            "torque_relative_error": 1.1649203157659827e-08,
+            "elastic_fixed_point_relative_error": 2.739769318807011e-08,
+            "approach_step_um": 0.0005518053538009621,
+            "dual_regularization_gap_bound_um": 2.358161679585693e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 28.252373148346603,
+            "active": 22,
+            "candidates": 410,
+            "true_gap_error_um": 3.045194587847688e-08,
+            "penetration_um": 3.045194587847688e-08,
+            "torque_relative_error": 2.2890483397652872e-08,
+            "elastic_fixed_point_relative_error": 5.963710592534542e-08,
+            "approach_step_um": 0.0009049532632220513,
+            "dual_regularization_gap_bound_um": 3.0460994361751905e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 12505,
+          "elements": 20070,
+          "symmetry": 1.501694239121784e-14,
+          "cached": false
+        },
+        {
+          "nodes": 12493,
+          "elements": 20041,
+          "symmetry": 1.1630966460737876e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 39.30170488357544,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.5,
+      0.01,
+      0.25,
+      "addendum",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.500000000_s0.01_h0.25_addendum_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.500000000_s0.01_h0.25_addendum_patch2",
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "relaxation": 0.45,
+      "case": "addendum",
+      "relief_parameters": [
+        0.02,
+        0.75,
+        0.0,
+        0.5
+      ],
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 7.358067208568443,
+            "active": 22,
+            "candidates": 801,
+            "true_gap_error_um": 9.953321460284552e-09,
+            "penetration_um": 9.953321460284552e-09,
+            "torque_relative_error": 4.2485780449297295e-08,
+            "elastic_fixed_point_relative_error": 7.258825000002118e-08,
+            "approach_step_um": 0.0009385022714854729,
+            "dual_regularization_gap_bound_um": 9.985200969907218e-09
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 15.275046370812323,
+            "active": 37,
+            "candidates": 806,
+            "true_gap_error_um": 1.2814167946728075e-08,
+            "penetration_um": 1.2814167946728075e-08,
+            "torque_relative_error": 1.860142884169136e-08,
+            "elastic_fixed_point_relative_error": 4.061678157828507e-08,
+            "approach_step_um": 0.000555849432823654,
+            "dual_regularization_gap_bound_um": 1.2821421447441789e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 28.219431917337918,
+            "active": 53,
+            "candidates": 815,
+            "true_gap_error_um": 1.6136544802120436e-08,
+            "penetration_um": 1.6136544802120436e-08,
+            "torque_relative_error": 1.761027412783278e-08,
+            "elastic_fixed_point_relative_error": 5.084495874251201e-08,
+            "approach_step_um": 0.0009101621322211793,
+            "dual_regularization_gap_bound_um": 1.6155482739039575e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 23477,
+          "elements": 38094,
+          "symmetry": 3.395131011605032e-14,
+          "cached": false
+        },
+        {
+          "nodes": 23555,
+          "elements": 38245,
+          "symmetry": 2.3495633982557596e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 148.3625202178955,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  },
+  {
+    "configuration": [
+      0.5,
+      0.01,
+      0.25,
+      "combined",
+      false,
+      1e-08
+    ],
+    "result": {
+      "tag": "f0.500000000_s0.01_h0.25_combined_patch2_twopass_reg1e-08",
+      "cache_tag": "f0.500000000_s0.01_h0.25_combined_patch2",
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "relaxation": 0.45,
+      "case": "combined",
+      "relief_parameters": [
+        0.02,
+        0.75,
+        0.01,
+        0.5
+      ],
+      "master_slave_reversed": false,
+      "two_pass": true,
+      "dual_regularization_relative": 1e-08,
+      "stages": [
+        {
+          "torque_Nm": 60.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 60.0,
+            "iteration": 15,
+            "approach_um": 7.538208350367059,
+            "active": 18,
+            "candidates": 794,
+            "true_gap_error_um": 9.145782393317497e-09,
+            "penetration_um": 9.145782393317497e-09,
+            "torque_relative_error": 5.2296423302955475e-08,
+            "elastic_fixed_point_relative_error": 8.798119192959979e-08,
+            "approach_step_um": 0.0009617112679057598,
+            "dual_regularization_gap_bound_um": 9.210645679012075e-09
+          }
+        },
+        {
+          "torque_Nm": 150.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 150.0,
+            "iteration": 16,
+            "approach_um": 15.453423646347078,
+            "active": 37,
+            "candidates": 800,
+            "true_gap_error_um": 1.3275756337678104e-08,
+            "penetration_um": 1.3275756337678104e-08,
+            "torque_relative_error": 2.2970230162400185e-08,
+            "elastic_fixed_point_relative_error": 4.832334507463833e-08,
+            "approach_step_um": 0.0005559583426175684,
+            "dual_regularization_gap_bound_um": 1.3280329355740798e-08
+          }
+        },
+        {
+          "torque_Nm": 300.0,
+          "converged": true,
+          "last": {
+            "torque_Nm": 300.0,
+            "iteration": 16,
+            "approach_um": 28.398003415625443,
+            "active": 49,
+            "candidates": 810,
+            "true_gap_error_um": 1.6636439638946226e-08,
+            "penetration_um": 1.6636439638946226e-08,
+            "torque_relative_error": 2.393330722494369e-08,
+            "elastic_fixed_point_relative_error": 6.324334127541686e-08,
+            "approach_step_um": 0.0009105039436064017,
+            "dual_regularization_gap_bound_um": 1.6665106947996748e-08
+          }
+        }
+      ],
+      "all_load_stages_converged": true,
+      "mesh": [
+        {
+          "nodes": 23417,
+          "elements": 37974,
+          "symmetry": 2.966024588125671e-14,
+          "cached": false
+        },
+        {
+          "nodes": 23555,
+          "elements": 38245,
+          "symmetry": 2.350638500757823e-14,
+          "cached": false
+        }
+      ],
+      "seconds": 141.85891819000244,
+      "method": "Condensed small-strain continuum, finite rigid hub rotation, updated node/segment projection and normals, relaxed external iteration; not consistent-tangent Newton; assumed sharp-tip/quadratic-root geometry. Relief cases change pinion geometry and FE stiffness.",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479"
+    }
+  }
+]

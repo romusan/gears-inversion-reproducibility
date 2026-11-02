@@ -1,0 +1,9 @@
+{
+  "official_MMT_guide": "HTTP 403; current journal-specific upload requirements not independently read",
+  "public_v13_tag": {
+    "api": "https://api.github.com/repos/romusan/gears-inversion-reproducibility/git/ref/tags/manuscript-v13",
+    "http_status": 200,
+    "ref": "refs/tags/manuscript-v13"
+  },
+  "public_v14_deposit": "not created or claimed"
+}

@@ -1,0 +1,12 @@
+{
+  "returncode": 0,
+  "seconds": 329.62872195243835,
+  "normal_termination": true,
+  "exe_sha256": "62349096f3b76cef2f0e094d03f747187016683a233ec7f07a363c7089804876",
+  "case": "combined",
+  "step": 0.02,
+  "h": 0.35,
+  "method": "mortar",
+  "input": "f0.174048546_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined.inp",
+  "runner_sha256": "0023ee90f7c6b5569bbde95de5ce9354194f2b03000b289983ec91aca95e3ee6"
+}

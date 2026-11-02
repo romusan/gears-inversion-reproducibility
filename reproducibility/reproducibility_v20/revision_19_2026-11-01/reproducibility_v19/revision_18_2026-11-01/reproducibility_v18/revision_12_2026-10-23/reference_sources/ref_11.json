@@ -1,0 +1,1016 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2026-06-23T11:49:32Z",
+      "timestamp": 1782215372859,
+      "version": "3.54.5"
+    },
+    "reference-count": 67,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2026-05-16T00:00:00Z",
+          "timestamp": 1778889600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2026-05-16T00:00:00Z",
+          "timestamp": 1778889600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100003451",
+        "name": "Universidad del País Vasco",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/501100003451",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Braz. Soc. Mech. Sci. Eng."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1007/s40430-026-06384-9",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          16
+        ]
+      ],
+      "date-time": "2026-05-16T04:19:16Z",
+      "timestamp": 1778905156000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Efficient nonlinear spur gear analysis using an interpolated analytical model"
+    ],
+    "prefix": "10.1007",
+    "volume": "48",
+    "author": [
+      {
+        "given": "Pablo",
+        "family": "Riera",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matheus",
+        "family": "Vieira",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ronnie",
+        "family": "Rego",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Josu",
+        "family": "Aguirrebeitia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luis Maria",
+        "family": "Macareno",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "6384_CR1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechmachtheory.2021.104472",
+        "volume": "166",
+        "author": "JDM Marafona",
+        "year": "2021",
+        "unstructured": "Marafona JDM, Marques PMT, Martins RC, Seabra JHO (2021) Mesh stiffness models for cyclindrical gears: a detailed review. Mech Mach Theory 166:104472. https://doi.org/10.1016/j.mechmachtheory.2021.104472",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1194",
+        "DOI": "10.1016/j.apm.2020.11.003",
+        "volume": "91",
+        "author": "C Xie",
+        "year": "2021",
+        "unstructured": "Xie C, Shu X (2021) A new mesh stiffness model for modified spur gears with coupling tooth and body flexibility effects. Appl Math Model 91:1194–1210. https://doi.org/10.1016/j.apm.2020.11.003",
+        "journal-title": "Appl Math Model"
+      },
+      {
+        "key": "6384_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "488",
+        "DOI": "10.1016/j.engfailanal.2013.07.005",
+        "volume": "34",
+        "author": "Y Pandya",
+        "year": "2013",
+        "unstructured": "Pandya Y, Parey A (2013) Experimental investigation of spur gear tooth mesh stiffness in the presence of crack using photoelasticity technique. Eng Fail Anal 34:488–500. https://doi.org/10.1016/j.engfailanal.2013.07.005",
+        "journal-title": "Eng Fail Anal"
+      },
+      {
+        "key": "6384_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "20",
+        "DOI": "10.1016/j.mechmachtheory.2014.02.001",
+        "volume": "76",
+        "author": "XH Liang",
+        "year": "2014",
+        "unstructured": "Liang XH, Zuo MJ, Pandey M (2014) Analytically evaluating the influence of crack on the mesh stiffness of a planetary gear set. Mech Mach Theory 76:20–38. https://doi.org/10.1016/j.mechmachtheory.2014.02.001",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "51",
+        "DOI": "10.1115/1.1758252",
+        "volume": "126",
+        "author": "P Sainsot",
+        "year": "2004",
+        "unstructured": "Sainsot P, Velex P, Duvenger O (2004) Contribution of gear body to tooth deflections—a new bidimensional analytical formula. ASME. J Mech Des 126:51–59. https://doi.org/10.1115/1.1758252",
+        "journal-title": "ASME. J Mech Des"
+      },
+      {
+        "key": "6384_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "230",
+        "DOI": "10.1007/978-94-017-3034-1",
+        "volume-title": "Some Basic Problems of the Mathematical Theory of Elasticity",
+        "author": "NL Muskhelishvili",
+        "year": "1975",
+        "unstructured": "Muskhelishvili NL (1975) Some Basic Problems of the Mathematical Theory of Elasticity, 2nd English Edition. P. Noordhoff Limited, The Netherlands, pp 230–235. https://doi.org/10.1007/978-94-017-3034-1",
+        "edition": "2nd English Edi"
+      },
+      {
+        "key": "6384_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "461",
+        "DOI": "10.1016/j.euromechsol.2008.07.007",
+        "volume": "28",
+        "author": "F Chaari",
+        "year": "2009",
+        "unstructured": "Chaari F, Fakhfakh T, Haddar M (2009) Analytical modelling of spur gear tooth crack and influence on gearmesh stiffness. Eur J Mech A/Solids 28:461–468. https://doi.org/10.1016/j.euromechsol.2008.07.007",
+        "journal-title": "Eur J Mech A/Solids"
+      },
+      {
+        "key": "6384_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "37",
+        "DOI": "10.1016/j.engfailanal.2017.01.015",
+        "volume": "75",
+        "author": "Y Luo",
+        "year": "2017",
+        "unstructured": "Luo Y, Baddour N, Liang M (2017) Effects of gear centre distance variation on time varying mesh stiffness of a spur gear pair. Eng Fail Ana 75:37–53. https://doi.org/10.1016/j.engfailanal.2017.01.015",
+        "journal-title": "Eng Fail Ana"
+      },
+      {
+        "key": "6384_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "4993",
+        "DOI": "10.3390/en14164993",
+        "volume": "14",
+        "author": "B El Yousfi",
+        "year": "2021",
+        "unstructured": "El Yousfi B, Soualhi A, Medjaher K, Guillet F (2021) A new analytical method for modeling the effect of assembly errors on a motor-gearbox system. Energies 14:4993. https://doi.org/10.3390/en14164993",
+        "journal-title": "Energies"
+      },
+      {
+        "key": "6384_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "4960",
+        "DOI": "10.3390/app11114960",
+        "volume": "11",
+        "author": "J Flek",
+        "year": "2021",
+        "unstructured": "Flek J, Dub M, Kolář J, Lopot F, Petr K (2021) Determination of mesh stiffness of gear—analytical approach vs. FEM analysis. Appl Sci 11:4960. https://doi.org/10.3390/app11114960",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "key": "6384_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "64",
+        "DOI": "10.1016/j.mechmachtheory.2015.11.017",
+        "volume": "98",
+        "author": "a Ma",
+        "year": "2016",
+        "unstructured": "Ma a, Zeng J, Feng R, Pang X, Wen B (2016) An improved analytical method for mesh stiffness calculation of spur gears with tip relief. Mech Mach Theory 98:64–80. https://doi.org/10.1016/j.mechmachtheory.2015.11.017",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "331",
+        "DOI": "10.1016/j.ymssp.2018.03.037",
+        "volume": "111",
+        "author": "C Xie",
+        "year": "2018",
+        "unstructured": "Xie C, Hua L, Han X, Lan J, Han X, Wan X, Xiong X (2018) Improved analytical models for mesh stiffness and load sharing ratio of spur gears considering structure coupling effect. Mech Syst Signal Process 111:331–347. https://doi.org/10.1016/j.ymssp.2018.03.037",
+        "journal-title": "Mech Syst Signal Process"
+      },
+      {
+        "key": "6384_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "30",
+        "DOI": "10.1016/j.mechmachtheory.2012.10.008",
+        "volume": "61",
+        "author": "A del Fernández Rincón",
+        "year": "2013",
+        "unstructured": "del Fernández Rincón A, Viadero F, Iglesias M, García P, de-Juan A, Sancibrian R (2013) A model for the study of meshing stiffness in spur gear transmissions. Mech Mach Theory 61:30–58. https://doi.org/10.1016/j.mechmachtheory.2012.10.008",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "138",
+        "DOI": "10.1016/j.apacoust.2013.05.014",
+        "volume": "77",
+        "author": "A Fernández del Rincón",
+        "year": "2014",
+        "unstructured": "Fernández del Rincón A, Iglesias M, de-Juan A, García P, Sancibrian R, Viadero F (2014) Gear transmission dynamic: effects of tooth profile deviations and support flexibility. Appl Acoust 77:138–149. https://doi.org/10.1016/j.apacoust.2013.05.014",
+        "journal-title": "Appl Acoust"
+      },
+      {
+        "key": "6384_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "174",
+        "DOI": "10.1016/j.ijmecsci.2018.08.022",
+        "volume": "148",
+        "author": "C Xie",
+        "year": "2018",
+        "unstructured": "Xie C, Hua L, Han X, Lan J, Wan X, Xiong X (2018) Analytical formulas for gear body-induced tooth deflections of spur gears considering structure coupling effect. Int J Mech Sci 148:174–190. https://doi.org/10.1016/j.ijmecsci.2018.08.022",
+        "journal-title": "Int J Mech Sci"
+      },
+      {
+        "key": "6384_CR16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechmachtheory.2020.103838",
+        "volume": "149",
+        "author": "Z Chen",
+        "year": "2020",
+        "unstructured": "Chen Z, Zhou Z, Zhai W, Wang K (2020) Improved analytical calculation model of spur gear mesh excitations with tooth profile deviations. Mech Mach Theory 149:103838. https://doi.org/10.1016/j.mechmachtheory.2020.103838",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "157",
+        "DOI": "10.1016/j.engfailanal.2014.04.005",
+        "volume": "42",
+        "author": "Z Wan",
+        "year": "2014",
+        "unstructured": "Wan Z, Cao H, Zi Y, He W, He Z (2014) An improved time-varying mesh stiffness algorithm and dynamic modeling of gear-rotor system with tooth root crack. Eng Fail Anal 42:157–177. https://doi.org/10.1016/j.engfailanal.2014.04.005",
+        "journal-title": "Eng Fail Anal"
+      },
+      {
+        "key": "6384_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.1016/j.mechmachtheory.2012.10.012",
+        "volume": "62",
+        "author": "Z Chen",
+        "year": "2013",
+        "unstructured": "Chen Z, Shao Y (2013) Mesh stiffness calculation of a spur gear pair with tooth profile modification and tooth root crack. Mech Mach Theory 62:63–74. https://doi.org/10.1016/j.mechmachtheory.2012.10.012",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "2149",
+        "DOI": "10.1016/j.engfailanal.2011.07.006",
+        "volume": "18",
+        "author": "Z Chen",
+        "year": "2011",
+        "unstructured": "Chen Z, Shao Y (2011) Dynamic simulation of spur gear with tooth root crack propagating along tooth width and crack depth. Eng Fail Anal 18:2149–2164. https://doi.org/10.1016/j.engfailanal.2011.07.006",
+        "journal-title": "Eng Fail Anal"
+      },
+      {
+        "key": "6384_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "200",
+        "DOI": "10.1016/j.engfailanal.2016.09.003",
+        "volume": "70",
+        "author": "A Saxena",
+        "year": "2016",
+        "unstructured": "Saxena A, Parey A, Chouksey M (2016) Time varying mesh stiffness calculation of spur gear pair considering sliding friction and spalling defects. Engi Fail Anal 70:200–211. https://doi.org/10.1016/j.engfailanal.2016.09.003",
+        "journal-title": "Engi Fail Anal"
+      },
+      {
+        "key": "6384_CR21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40430-024-04915-w",
+        "volume": "46",
+        "author": "LB Visnadi",
+        "year": "2024",
+        "unstructured": "Visnadi LB, Garpelli LN, Eckert JJ, Dedini FG, de Castro HF (2024) Effect of spur gear crack on rotor dynamic response. J Braz Soc Mech Sci Eng 46:331. https://doi.org/10.1007/s40430-024-04915-w",
+        "journal-title": "J Braz Soc Mech Sci Eng"
+      },
+      {
+        "key": "6384_CR22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.engfailanal.2020.105181",
+        "volume": "121",
+        "author": "L Yang",
+        "year": "2021",
+        "unstructured": "Yang L, Wang L, Yu W, Shao Y (2021) Investigation of tooth crack opening state on time varying meshing stiffness and dynamic response of spur gear pair. Eng Fail Anal 121:105181. https://doi.org/10.1016/j.engfailanal.2020.105181",
+        "journal-title": "Eng Fail Anal"
+      },
+      {
+        "key": "6384_CR23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.engfailanal.2022.106518",
+        "volume": "139",
+        "author": "Y Liu",
+        "year": "2022",
+        "unstructured": "Liu Y, Shi Z, Liu X, Cheng Z, Zhen D, Gu F (2022) Mesh stiffness model for spur gear with opening crack considering deflection. Eng Fail Anal 139:106518. https://doi.org/10.1016/j.engfailanal.2022.106518",
+        "journal-title": "Eng Fail Anal"
+      },
+      {
+        "key": "6384_CR24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jsv.2022.117505",
+        "volume": "548",
+        "author": "Y Yang",
+        "year": "2023",
+        "unstructured": "Yang Y, Tang J, Hu N, Shen G, Li Y, Zhang L (2023) Research on the time-varying mesh stiffness method and dynamic analysis of cracked spur gear system considering the crack position. J Sound Vib 548:117505. https://doi.org/10.1016/j.jsv.2022.117505",
+        "journal-title": "J Sound Vib"
+      },
+      {
+        "key": "6384_CR25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymssp.2024.111590",
+        "volume": "218",
+        "author": "L Duan",
+        "year": "2024",
+        "unstructured": "Duan L, Wang L, Du W, Shao Y, Chen Z (2024) Analytical method for time-varying meshing stiffness and dynamic responses of modified spur gears considering pitch deviation and geometric eccentricity. Mech Syst Signal Process 218:111590. https://doi.org/10.1016/j.ymssp.2024.111590",
+        "journal-title": "Mech Syst Signal Process"
+      },
+      {
+        "key": "6384_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "294",
+        "DOI": "10.1016/j.ymssp.2016.01.020",
+        "volume": "77",
+        "author": "Z Hu",
+        "year": "2016",
+        "unstructured": "Hu Z, Tang J, Zhong J, Chen S, Yan H (2016) Effects of tooth profile modification on dynamic responses of a high-speed Gear-Rotor-Bearing system. Mech Syst Signal Process 77:294–318. https://doi.org/10.1016/j.ymssp.2016.01.020",
+        "journal-title": "Mech Syst Signal Process"
+      },
+      {
+        "key": "6384_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.1016/j.engfailanal.2014.12.020",
+        "volume": "49",
+        "author": "A Saxena",
+        "year": "2015",
+        "unstructured": "Saxena A, Parey A, Chouksey M (2015) Effect of shaft misalignment and friction force on time varying mesh stiffness of spur gear pair. Eng Fail Anal 49:79–91. https://doi.org/10.1016/j.engfailanal.2014.12.020",
+        "journal-title": "Eng Fail Anal"
+      },
+      {
+        "key": "6384_CR28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2015.7139307",
+        "author": "A Wang",
+        "year": "2015",
+        "unstructured": "Wang A, Kim S (2015) Directional efficiency in geared transmissions: characterization of backdrivability towards improved proprioceptive control. IEEE Int Conf Rob Autom (ICRA). https://doi.org/10.1109/ICRA.2015.7139307",
+        "journal-title": "IEEE Int Conf Rob Autom (ICRA)"
+      },
+      {
+        "key": "6384_CR29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechrescom.2023.104203",
+        "volume": "134",
+        "author": "B El Yousfi",
+        "year": "2023",
+        "unstructured": "El Yousfi B, Soualhi A, Guillet F (2023) A geometric-based method for the mesh stiffness evaluation of spur gears with spatial cracks. Mech Res Commun 134:104203. https://doi.org/10.1016/j.mechrescom.2023.104203",
+        "journal-title": "Mech Res Commun"
+      },
+      {
+        "key": "6384_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "146",
+        "DOI": "10.1016/j.mechmachtheory.2015.10.001",
+        "volume": "96",
+        "author": "W Yu",
+        "year": "2016",
+        "unstructured": "Yu W, Mechefske CK (2016) Analytical modeling of spur gear corner contact effects. Mech Mach Theory 96:146–164. https://doi.org/10.1016/j.mechmachtheory.2015.10.001",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechmachtheory.2023.105426",
+        "volume": "189",
+        "author": "PMT Marques",
+        "year": "2023",
+        "unstructured": "Marques PMT, Marafona JDM, Seabra JHO (2023) Crowned spur gears for constant mesh stiffness: a conceptual approach. Mech Mach Theory 189:105426. https://doi.org/10.1016/j.mechmachtheory.2023.105426",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechmachtheory.2024.105823",
+        "volume": "203",
+        "author": "B Guilbert",
+        "year": "2024",
+        "unstructured": "Guilbert B, Velex P (2024) Investigations on mesh stiffness functions in three-dimensional spur and helical gear models. Definitions and numerical simulations. Mech Mach Theory 203:105823. https://doi.org/10.1016/j.mechmachtheory.2024.105823",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechmachtheory.2020.103823",
+        "volume": "149",
+        "author": "Q Wen",
+        "year": "2020",
+        "unstructured": "Wen Q, Du Q, Zhai X (2020) Analytical calculation of the tooth surface contact stress of spur gear pairs with misalignment errors in multiple degrees of freedom. Mech Mach Theory 149:103823. https://doi.org/10.1016/j.mechmachtheory.2020.103823",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "845",
+        "DOI": "10.1016/j.apm.2020.08.046",
+        "volume": "90",
+        "author": "Q Wang",
+        "year": "2021",
+        "unstructured": "Wang Q, Xu K, Huai T, Ma H, Wang K (2021) A mesh stiffness method using slice coupling for spur gear pairs with misalignment and lead crown relief. Appl Math Model 90:845–861. https://doi.org/10.1016/j.apm.2020.08.046",
+        "journal-title": "Appl Math Model"
+      },
+      {
+        "key": "6384_CR35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40430-025-05578-x",
+        "volume": "47",
+        "author": "D Hao",
+        "year": "2025",
+        "unstructured": "Hao D, Bin-xing R, Gang L, Yue L (2025) An improved analysis method for time-varying mesh stiffness of herringbone planetary gear system considering the crack-pitting coupling faults. J Braz Soc Mech Sci Eng 47:284. https://doi.org/10.1007/s40430-025-05578-x",
+        "journal-title": "J Braz Soc Mech Sci Eng"
+      },
+      {
+        "key": "6384_CR36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40430-023-04373-w",
+        "volume": "45",
+        "author": "H Xiao",
+        "year": "2023",
+        "unstructured": "Xiao H, Gao J, Xing Z (2023) A novel analytical method for mesh stiffness calculation of helical gears with tooth profile modification. J Braz Soc Mech Sci Eng 45:458. https://doi.org/10.1007/s40430-023-04373-w",
+        "journal-title": "J Braz Soc Mech Sci Eng"
+      },
+      {
+        "key": "6384_CR37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apm.2025.116460",
+        "volume": "151",
+        "author": "F Li",
+        "year": "2026",
+        "unstructured": "Li F, Li H, Zhai J, Yuan M, Dong Z (2026) Improved analytical model of gear mesh stiffness considering free end effect and contact gap variation. Appl Math Model 151:116460. https://doi.org/10.1016/j.apm.2025.116460",
+        "journal-title": "Appl Math Model"
+      },
+      {
+        "key": "6384_CR38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40430-022-03517-8",
+        "volume": "44",
+        "author": "C Zhou",
+        "year": "2022",
+        "unstructured": "Zhou C, Dong X, Wang H, Liu Z (2022) Time-varying mesh stiffness model of a modified gear–rack drive with tooth friction and wear. J Braz Soc Mech Sci Eng 44:213. https://doi.org/10.1007/s40430-022-03517-8",
+        "journal-title": "J Braz Soc Mech Sci Eng"
+      },
+      {
+        "key": "6384_CR39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.engfracmech.2025.111427",
+        "volume": "326",
+        "author": "Z Xiao",
+        "year": "2025",
+        "unstructured": "Xiao Z, Yan B, Hu B, Chen S (2025) The enhanced mesh stiffness model and tribo-dynamics of cracked spur gears considering mixed lubrication contacts and irregular crack propagation. Eng Fract Mech 326:111427. https://doi.org/10.1016/j.engfracmech.2025.111427",
+        "journal-title": "Eng Fract Mech"
+      },
+      {
+        "key": "6384_CR40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40430-022-03397-y",
+        "volume": "44",
+        "author": "H Xiao",
+        "year": "2022",
+        "unstructured": "Xiao H, Gao J, Wu J (2022) Mesh stiffness model of a spur gear pair with surface roughness in mixed elastohydrodynamic lubrication. J Braz Soc Mech Sci Eng 44:136. https://doi.org/10.1007/s40430-022-03397-y",
+        "journal-title": "J Braz Soc Mech Sci Eng"
+      },
+      {
+        "key": "6384_CR41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40430-022-03748-9",
+        "volume": "44",
+        "author": "C Zhou",
+        "year": "2022",
+        "unstructured": "Zhou C, Xing M, Hu B (2022) A mesh stiffness model with the asperity contact for spur gear in mixed elastohydrodynamic lubrication. J Braz Soc Mech Sci Eng 44:466. https://doi.org/10.1007/s40430-022-03748-9",
+        "journal-title": "J Braz Soc Mech Sci Eng"
+      },
+      {
+        "key": "6384_CR42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechmachtheory.2025.106286",
+        "volume": "218",
+        "author": "X Zheng",
+        "year": "2025",
+        "unstructured": "Zheng X, Hu Y, Li G, Luo J, Parker RG (2025) An analytical mesh stiffness model of high-contact-ratio spur gears covering multiple structure coupling effects. Mech Mach Theory 218:106286. https://doi.org/10.1016/j.mechmachtheory.2025.106286",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "529",
+        "DOI": "10.1115/1.3260759",
+        "volume": "107",
+        "author": "DCH Yang",
+        "year": "1985",
+        "unstructured": "Yang DCH, Sun ZS (1985) A rotary model for spur gear dynamics. ASME J Mech Transm Autom 107:529–535. https://doi.org/10.1115/1.3260759",
+        "journal-title": "ASME J Mech Transm Autom"
+      },
+      {
+        "key": "6384_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "447",
+        "DOI": "10.1115/1.3254939",
+        "volume": "103",
+        "author": "RW Cornel",
+        "year": "1981",
+        "unstructured": "Cornel RW (1981) Compliance and stress sensitivity of spur gear teeth. ASME J Mech Des 103:447–459. https://doi.org/10.1115/1.3254939",
+        "journal-title": "ASME J Mech Des"
+      },
+      {
+        "key": "6384_CR45",
+        "volume-title": "Die Wälzlagerpraxis, Handbuch für die Berechnung und Gestaltung von Lagerungen",
+        "author": "J Brändlein",
+        "year": "1998",
+        "unstructured": "Brändlein J (1998) Die Wälzlagerpraxis, Handbuch für die Berechnung und Gestaltung von Lagerungen. Vereinigte Fachverlage, Germany"
+      },
+      {
+        "key": "6384_CR46",
+        "volume-title": "Theory of Elasticity",
+        "author": "SP Timoshenko",
+        "year": "1951",
+        "unstructured": "Timoshenko SP, Goodier JN (1951) Theory of Elasticity. McGraw Hill, New York"
+      },
+      {
+        "key": "6384_CR47",
+        "volume-title": "Schriftenreihe Antriebstechnik, Ht. 11, Friedr",
+        "author": "C Weber",
+        "year": "1953",
+        "unstructured": "Weber C, Banaschek K (1953) Schriftenreihe Antriebstechnik, Ht. 11, Friedr. Vieweg, Braunschweig"
+      },
+      {
+        "key": "6384_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "139",
+        "DOI": "10.1016/0016-0032(74)90012-X",
+        "volume": "298",
+        "author": "KP Singh",
+        "year": "1974",
+        "unstructured": "Singh KP (1974) On the inadequacy of hertzian solution of two-dimensional line contact problems. J Franklin Inst 298:139–141. https://doi.org/10.1016/0016-0032(74)90012-X",
+        "journal-title": "J Franklin Inst"
+      },
+      {
+        "key": "6384_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "125",
+        "DOI": "10.1016/j.mechmachtheory.2014.09.011",
+        "volume": "83",
+        "author": "S Li",
+        "year": "2015",
+        "unstructured": "Li S (2015) Effects of misalignment error, tooth modifications and transmitted torque on tooth engagements of a pair of spur gears. Mech Mach Theory 83:125–136. https://doi.org/10.1016/j.mechmachtheory.2014.09.011",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40430-023-04213-x",
+        "volume": "45",
+        "author": "A Baccar",
+        "year": "2023",
+        "unstructured": "Baccar A, Dourado N, Akrout A, Hammami A, Chaari F, Haddar M (2023) Determination of the crack propagation effect on the mesh stiffness for a polymer spur gear tooth using the extended finite element method. J Braz Soc Mech Sci Eng 45:286. https://doi.org/10.1007/s40430-023-04213-x",
+        "journal-title": "J Braz Soc Mech Sci Eng"
+      },
+      {
+        "key": "6384_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "810",
+        "DOI": "10.5545/sv-jme.2010.248",
+        "volume": "57",
+        "author": "T Kiekbusch",
+        "year": "2011",
+        "unstructured": "Kiekbusch T, Sappok D, Sauer B, Howard I (2011) Calculation of the combined torsional mesh stiffness of spur gears with two- and three-dimensional parametrical FE models. Strojn Vestn J Mech Eng 57:810–818. https://doi.org/10.5545/sv-jme.2010.248",
+        "journal-title": "Strojn Vestn J Mech Eng"
+      },
+      {
+        "key": "6384_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "392",
+        "DOI": "10.1007/s40430-023-04297-5",
+        "volume": "45",
+        "author": "Z Geng",
+        "year": "2023",
+        "unstructured": "Geng Z, Chen M, Han Y, Wang C (2023) Modelling and analysis of a spur gear pair with the effect of bearing clearances. J Braz Soc Mech Sci Eng 45:392. https://doi.org/10.1007/s40430-023-04297-5",
+        "journal-title": "J Braz Soc Mech Sci Eng"
+      },
+      {
+        "key": "6384_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "344",
+        "DOI": "10.1016/j.apm.2021.03.051",
+        "volume": "97",
+        "author": "M Pleguezuelos",
+        "year": "2021",
+        "unstructured": "Pleguezuelos M, Sánchez MB, Pedrero JI (2021) Analytical model for meshing stiffness, load sharing, and transmission error for spur gears with profile modification under non-nominal load conditions. Appl Math Model 97:344–365. https://doi.org/10.1016/j.apm.2021.03.051",
+        "journal-title": "Appl Math Model"
+      },
+      {
+        "key": "6384_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "231",
+        "DOI": "10.1016/j.mechmachtheory.2016.11.014",
+        "volume": "109",
+        "author": "MB Sánchez",
+        "year": "2017",
+        "unstructured": "Sánchez MB, Pleguezuelos M, Pedrero JI (2017) Approximate equations for the meshing stiffness and the load sharing ratio of spur gears including hertzian effects. Mech Mach Theory 109:231–249. https://doi.org/10.1016/j.mechmachtheory.2016.11.014",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "195",
+        "DOI": "10.1016/S0022-460X(02)00920-3",
+        "volume": "260",
+        "author": "A Andersson",
+        "year": "2003",
+        "unstructured": "Andersson A, Vedmar L (2003) A dynamic model to determine vibrations in involute helical gears. J Sound Vib 260:195–212. https://doi.org/10.1016/S0022-460X(02)00920-3",
+        "journal-title": "J Sound Vib"
+      },
+      {
+        "key": "6384_CR56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechmachtheory.2019.103607",
+        "volume": "142",
+        "author": "J-W Liu",
+        "year": "2019",
+        "unstructured": "Liu J-W, Liu J-P, Shu X-B, Mikkola A, Ren G-X (2019) An efficient multibody dynamic model of three-dimensional meshing contacts in helical gear-shaft system and its solution. Mech Mach Theory 142:103607. https://doi.org/10.1016/j.mechmachtheory.2019.103607",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "55",
+        "DOI": "10.1007/s11044-006-9021-7",
+        "volume": "16",
+        "author": "S Ebrahimi",
+        "year": "2006",
+        "unstructured": "Ebrahimi S, Eberhard P (2006) Rigid-elastic modeling of meshing gear wheels in multibody systems. Multibody Syst Dyn 16:55–71. https://doi.org/10.1007/s11044-006-9021-7",
+        "journal-title": "Multibody Syst Dyn"
+      },
+      {
+        "key": "6384_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "148",
+        "DOI": "10.1016/j.jsv.2019.01.019",
+        "volume": "445",
+        "author": "M Cirelli",
+        "year": "2019",
+        "unstructured": "Cirelli M, Valentini PP, Pennestrì E (2019) A study of the non-linear dynamic response of spur gear using a multibody contact based model with flexible teeth. J Sound Vib 445:148–167. https://doi.org/10.1016/j.jsv.2019.01.019",
+        "journal-title": "J Sound Vib"
+      },
+      {
+        "key": "6384_CR59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechmachtheory.2020.103948",
+        "volume": "152",
+        "author": "M Cirelli",
+        "year": "2020",
+        "unstructured": "Cirelli M, Giannini O, Valentini PP, Pennestrì E (2020) Influence of tip relief in spur gears dynamic using multibody models with movable teeth. Mech Mach Theory 152:103948. https://doi.org/10.1016/j.mechmachtheory.2020.103948",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511547126",
+        "volume-title": "Gear geometry and applied theory",
+        "author": "FL Litvin",
+        "year": "2004",
+        "unstructured": "Litvin FL, Fuentes A (2004) Gear geometry and applied theory, 2nd ed. Cambridge University Press, Cambridge. https://doi.org/10.1017/CBO9780511547126",
+        "edition": "2nd ed"
+      },
+      {
+        "key": "6384_CR61",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Pleguezuelos M, Sánchez MB, Pedrero JI (2020) On the evaluation of the meshing stiffness of external spur gears. MATEC Web Conferences 317(01002). https://doi.org/10.1051/matecconf/202031701002",
+        "DOI": "10.1051/matecconf/202031701002"
+      },
+      {
+        "key": "6384_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "99",
+        "DOI": "10.1016/j.mechmachtheory.2012.02.010",
+        "volume": "53",
+        "author": "M Machado",
+        "year": "2012",
+        "unstructured": "Machado M, Moreira P, Flores P, Lankarani HM (2012) Compliant contact force models in multibody dynamics: evolution of the Hertz contact theory. Mech Mach Theory 53:99–121. https://doi.org/10.1016/j.mechmachtheory.2012.02.010",
+        "journal-title": "Mech Mach Theory"
+      },
+      {
+        "key": "6384_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.1016/j.ijnonlinmec.2013.01.017",
+        "volume": "53",
+        "author": "J Choi",
+        "year": "2013",
+        "unstructured": "Choi J, Rhim S, Choi JH (2013) A general purpose contact algorithm using a compliance contact force model for rigid and flexible bodies of complex geometry. Int J Non-Linear Mech 53:13–23. https://doi.org/10.1016/j.ijnonlinmec.2013.01.017",
+        "journal-title": "Int J Non-Linear Mech"
+      },
+      {
+        "key": "6384_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "272",
+        "DOI": "10.1177/1077546315576828",
+        "volume": "23",
+        "author": "Q Wang",
+        "year": "2017",
+        "unstructured": "Wang Q, Zhang Y (2017) A model for analyzing stiffness and stress in a helical gear pair with tooth profile errors. J Vib Control 23:272–289. https://doi.org/10.1177/1077546315576828",
+        "journal-title": "J Vib Control"
+      },
+      {
+        "key": "6384_CR65",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kuang JH (1992) An Estimate of Mesh Stiffness and Load Sharing Ratio of a Spur Gear Pair. Proc ASME 1992 Des Tech Conferences 1–9. https://doi.org/10.1115/DETC1992-0001",
+        "DOI": "10.1115/DETC1992-0001"
+      },
+      {
+        "key": "6384_CR66",
+        "doi-asserted-by": "publisher",
+        "first-page": "558",
+        "DOI": "10.1115/1.2919414",
+        "volume": "116",
+        "author": "Y Cai",
+        "year": "1994",
+        "unstructured": "Cai Y, Hayashi T (1994) Linear approximated equation of vibration of a pair of spur gears (theory and experiment). J Mech Des ASME J Mech Des 116:558–556. https://doi.org/10.1115/1.2919414",
+        "journal-title": "J Mech Des ASME J Mech Des"
+      },
+      {
+        "key": "6384_CR67",
+        "doi-asserted-by": "publisher",
+        "first-page": "368",
+        "DOI": "10.1016/j.ymssp.2018.03.005",
+        "volume": "110",
+        "author": "A Palermo",
+        "year": "2018",
+        "unstructured": "Palermo A, Britte L, Jansens K, Mundo D, Desmet W (2018) The measurement of gear transmission error as an NVH indicator: theoretical discussion and industrial application via low-cost digital encoders to an all-electric vehicle gearbox. Mech Syst Signal Process 110:368–389. https://doi.org/10.1016/j.ymssp.2018.03.005",
+        "journal-title": "Mech Syst Signal Process"
+      }
+    ],
+    "container-title": [
+      "Journal of the Brazilian Society of Mechanical Sciences and Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s40430-026-06384-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s40430-026-06384-9",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s40430-026-06384-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2026-06-23T11:03:38Z",
+      "timestamp": 1782212618000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s40430-026-06384-9"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          16
+        ]
+      ]
+    },
+    "references-count": 67,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "6384"
+    ],
+    "URL": "https://doi.org/10.1007/s40430-026-06384-9",
+    "relation": {},
+    "ISSN": [
+      "1678-5878",
+      "1806-3691"
+    ],
+    "issn-type": [
+      {
+        "value": "1678-5878",
+        "type": "print"
+      },
+      {
+        "value": "1806-3691",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          16
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "26 September 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "6 February 2026",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "16 May 2026",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "We confirm that there are no conflicts of interest. We confirm that the manuscript has been read and approved by all named authors and that no other persons have satisfied the criteria for authorship but are not listed. We further confirm that we have all approved the authors’ order in the manuscript.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ],
+    "article-number": "437"
+  }
+}

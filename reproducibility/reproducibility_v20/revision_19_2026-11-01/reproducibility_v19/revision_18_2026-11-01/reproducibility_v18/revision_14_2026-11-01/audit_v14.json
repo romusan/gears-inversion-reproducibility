@@ -1,0 +1,27 @@
+{
+  "new_cases": 32,
+  "new_attempts": 192,
+  "new_failed_attempts": 0,
+  "max_recalculated_residual_error_um": 0.0,
+  "source_hashes_match": true,
+  "references_in_first_appearance_order": 45,
+  "figures": 11,
+  "tables": 11,
+  "supplement_tables": 23,
+  "omml_equations": 15,
+  "abstract_words": 241,
+  "highlights_lengths": [
+    83,
+    75,
+    76,
+    79,
+    79
+  ],
+  "documents_sha256": {
+    "MMT_manuscript_Q1_revision_v14.docx": "7e489062656a4d196e0febc720bfaf062a8a6b2fc6f8781ff6427050dd36f051",
+    "MMT_supplementary_Q1_revision_v14.docx": "54e032afa714d706f10629e5b80ebd1935f94254f5c4a9f7f15c2376ac096e4a",
+    "Highlights_v14.docx": "d1d8d570311de383174c90ac8311441003b8bd28565a05dc6230513c6f233d75",
+    "Cover_letter_MMT_v14.docx": "c96ef42750c2dc565e3f66a699edd145e7fdcba72f1b931e8daf5f7b6409875f"
+  },
+  "scope": "Independent recalculation from saved estimates, source integrity and document structure. Not a rerun of FE or the 1800 historical inversions; visual QA recorded separately."
+}

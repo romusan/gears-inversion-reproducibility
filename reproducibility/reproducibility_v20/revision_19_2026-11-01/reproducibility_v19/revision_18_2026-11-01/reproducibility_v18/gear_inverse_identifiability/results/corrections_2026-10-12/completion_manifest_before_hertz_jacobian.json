@@ -1,0 +1,49 @@
+{
+  "provenance": {
+    "campaign": "corrections-2026-10-12",
+    "created_utc": "2026-10-12T18:16:45.178751+00:00",
+    "source_sha256": "2d0a17a69fd42aeab936314e27ed847f73c28fb50d389dd209f1d565d3eab022",
+    "files_sha256": {
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/geometry/involute.py": "a56e39a9642c20ba346cb63cd67de305127ae06cb8436b5c7ea63bf91cb566dc",
+      "src/geometry/microgeometry.py": "97f875e34d084ae7e6f4e9c637d32d944b4d6be36f8f7030692dbad0ea290c43",
+      "src/identifiability/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/identifiability/fisher_optimal_loads.py": "747d159222b28239b0746582a80c0c73f14906e3ad2f8fd4d6832836d7df097b",
+      "src/inverse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/inverse/reconstruction.py": "92b800fe45ef9bf0af205d481d4f8e29a26c7a521a28a7d94d4c174bb0cbe8ec",
+      "src/mechanics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/mechanics/alt_models.py": "59a771016707aa35ac71f26adc7c7874deb5646515af1dfb98bb5eec6cb911ae",
+      "src/mechanics/compliance.py": "a6b012f83934316b42f54a2786c521adfc33de02bde5a3ddd97ca058bd2c998d",
+      "src/mechanics/contact_solver.py": "34815277a825bfd0d6518c4fccfa8d33584a34fc8074b2ea3ac7f8308351d1e4",
+      "src/mechanics/transmission_error.py": "f1188ee9f06345a164e1bb6db9da391e304f9a9d0aeb8a88a14a2b4b5f12b7d0",
+      "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/campaign_provenance.py": "1cd8dfd6fdf82cca62a037a6ecf3838bb23afcf2007a61d66e3b75ea6158fa8a",
+      "experiments/complete_correction_runs.py": "d33b353d5ddd89ebda106eace1e329969ff3db7dc1aa4c6126237d54f7f4e9b6",
+      "experiments/debug_v6_discontinuity.py": "bc18768ed39213d4042e53f4af1154dfcea11e254167001bef9a36245b3ca6fa",
+      "experiments/E01_forward_validation.py": "05b942dc34b39d5c2ff743a2725d138250dbfd507f987b26cfb0c0632d1397b6",
+      "experiments/E02_inverse_recovery.py": "096f8a0e18fb1f610451557d6c248eba3c05a5516ff41bf9b0fbd8aa1bc85325",
+      "experiments/E03_nonuniqueness.py": "e5df370451f7c674ff02eca7e71f364f7462e6220bfddb860a7aacb78df6fdc4",
+      "experiments/E03_nonuniqueness_grid.py": "f9a86293b02b4c18d5286f1e9527b9c148984c24e0b76347288b515cb022a50d",
+      "experiments/E04_noise_bias.py": "32ba2b8ece8ab8c6a74bb3b26adba261afaa809b4f833cb959ffe0baf1cd7d3d",
+      "experiments/E05_fixed_budget.py": "dd64f15513d27847b44b1cc4fdc119b711f1078310e9aec6176ea8ba88377430",
+      "experiments/E05_optimal_load_selection.py": "bc991a1b9c076adaa4f7de7e7a3d3cea5b40510d902c9ba3a86c125d13933509",
+      "experiments/E07_model_discrepancy.py": "00407aa0d074c3e2b72d71d1ae1c6053b9dba8631e908153fed9d5dae0099a39",
+      "experiments/E08_generalization.py": "f81ddf5591c72b013d177af5b5de939b18f9cbe971a687ceb1b6064d3bec31f5",
+      "experiments/V06_korta_mundo_reproduction.py": "65f4b13c9d21753a4d2de5c9cc7d212c27a1b0c74f35f45b4832c78033a91124"
+    },
+    "python": "3.12.10",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0"
+  },
+  "historical_unversioned": {
+    "E04": 27,
+    "E07": 6,
+    "E08": 17
+  },
+  "expected": {
+    "E04": 36,
+    "E07": 40,
+    "E08": 24
+  }
+}

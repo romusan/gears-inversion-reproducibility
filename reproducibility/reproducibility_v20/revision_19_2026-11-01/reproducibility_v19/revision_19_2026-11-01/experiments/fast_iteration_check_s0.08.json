@@ -1,0 +1,20 @@
+[
+  {
+    "phase": 0.174048546,
+    "difference_um": 6.267439545126763e-08,
+    "fast_iterations": 5,
+    "damped_iterations": 26
+  },
+  {
+    "phase": 0.5,
+    "difference_um": 2.9734298934158687e-07,
+    "fast_iterations": 4,
+    "damped_iterations": 26
+  },
+  {
+    "phase": 0.825951454,
+    "difference_um": 2.45728713821336e-07,
+    "fast_iterations": 4,
+    "damped_iterations": 27
+  }
+]

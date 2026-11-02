@@ -1,0 +1,16 @@
+[
+  {
+    "design": "interior",
+    "n": 5,
+    "success": 5,
+    "depth_span_um": 0.00017407339161952529,
+    "start_span": 1.5217587344684702e-06
+  },
+  {
+    "design": "with_transitions",
+    "n": 5,
+    "success": 5,
+    "depth_span_um": 0.0007791103316268783,
+    "start_span": 1.3284629334198161e-05
+  }
+]

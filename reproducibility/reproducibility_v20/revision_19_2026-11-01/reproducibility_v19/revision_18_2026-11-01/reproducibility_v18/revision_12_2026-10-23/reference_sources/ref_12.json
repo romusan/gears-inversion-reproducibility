@@ -1,0 +1,730 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T23:49:11Z",
+      "timestamp": 1792108151149,
+      "version": "4.4.0"
+    },
+    "reference-count": 46,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2019-09-01T00:00:00Z",
+          "timestamp": 1567296000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              21
+            ]
+          ],
+          "date-time": "2019-05-21T00:00:00Z",
+          "timestamp": 1558396800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Mechanism and Machine Theory"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.mechmachtheory.2019.05.014",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          24
+        ]
+      ],
+      "date-time": "2019-05-24T10:46:48Z",
+      "timestamp": 1558694808000
+    },
+    "page": "506-525",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 108,
+    "special_numbering": "C",
+    "title": [
+      "Influence of profile modifications on meshing stiffness, load sharing, and trasnsmission error of involute spur gears"
+    ],
+    "prefix": "10.1016",
+    "volume": "139",
+    "author": [
+      {
+        "given": "Miryam B.",
+        "family": "Sánchez",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Miguel",
+        "family": "Pleguezuelos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "José I.",
+        "family": "Pedrero",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.1016/j.mechmachtheory.2012.10.008",
+        "article-title": "A model for the study of meshing stiffness in spur gear transmissions",
+        "volume": "61",
+        "author": "Fernández del Rincón",
+        "year": "2013",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1016/j.compstruc.2014.01.023",
+        "article-title": "On gear tooth stiffness evaluation",
+        "volume": "135",
+        "author": "Pedersen",
+        "year": "2014",
+        "journal-title": "Comput. Struct."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "331",
+        "DOI": "10.1016/j.ymssp.2018.03.037",
+        "article-title": "Improved analytical models for mesh stiffness and load sharing ratio of spur gears considering structure coupling effect",
+        "volume": "111",
+        "author": "Xie",
+        "year": "2018",
+        "journal-title": "Mech. Syst. Sig. Process."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0004",
+        "series-title": "Proceedings of the International Conference on Gears",
+        "article-title": "Load sharing model for spur gears with tip relief",
+        "author": "Pedrero",
+        "year": "2017"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "1115",
+        "DOI": "10.1016/0094-114X(94)90003-5",
+        "article-title": "Dynamic loading of spur gears with linear or parabolic tooth profile modifications",
+        "volume": "29",
+        "author": "Lin",
+        "year": "1994",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0006",
+        "series-title": "Proceedings of the New Trends in Mechanism and Machine Science",
+        "article-title": "Load transfer among spur gear teeth with tip relief under non-nominal loading conditions",
+        "author": "Pleguezuelos",
+        "year": "2018"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "86",
+        "DOI": "10.1115/1.3260791",
+        "article-title": "Optimum profile modifications for the minimization of static transmission errors of spur gears",
+        "volume": "108",
+        "author": "Tavakoli",
+        "year": "1986",
+        "journal-title": "J. Mech. Transm. Autom. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0008",
+        "series-title": "Proceedings of the SAE",
+        "article-title": "Analysis of off-line of action contact at the tips of gear teeth",
+        "author": "Singh",
+        "year": "1994"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "389",
+        "DOI": "10.1243/0954406991522347",
+        "article-title": "Gear transmission error outside the normal path of contact due to corner and top contact",
+        "volume": "213",
+        "author": "Munro",
+        "year": "1999",
+        "journal-title": "Proc. Inst. Mech. Eng. Part C J. Mech. Eng. Sci."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "551",
+        "DOI": "10.1243/0954406991522482",
+        "article-title": "A systematic approach to profile relief design of low and high contact ratio spur gears",
+        "volume": "213",
+        "author": "Yildirim",
+        "year": "1999",
+        "journal-title": "Proc. Inst. Mech. Eng. Part C J. Mech. Eng. Sci."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "563",
+        "DOI": "10.1243/0954406991522491",
+        "article-title": "A new type of profile relief for high contact ratio spur gears",
+        "volume": "213",
+        "author": "Yildirim",
+        "year": "1999",
+        "journal-title": "Proc. Inst. Mech. Eng. Part C J. Mech. Eng. Sci"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0012",
+        "unstructured": "M. Beghini, F. Presicce, C. Santus, A method to define profile modification of spur gear and minimize the transmission error, AGMA Paper 04FTM3, Alexandria VA, 2004."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1115/1.1843154",
+        "article-title": "Finite element analysis of high contact ratio spur gears in mesh",
+        "volume": "127",
+        "author": "Wang",
+        "year": "2005",
+        "journal-title": "J. Tribol."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0014",
+        "series-title": "Proceedings of the International Conference on Mechanical Transmissions",
+        "article-title": "Comprehensive analysis of spur gears in mesh with various types of profile modifications",
+        "author": "Wang",
+        "year": "2006"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1115/1.2359470",
+        "article-title": "A study of the relationship between the dynamic factors and the dynamic transmission error of spur gear pairs",
+        "volume": "129",
+        "author": "Tamminana",
+        "year": "2006",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "96",
+        "DOI": "10.1016/j.ijmecsci.2014.03.035",
+        "article-title": "An investigation of contact stresses and crack initiation in spur gears based on finite element dynamics analysis",
+        "volume": "83",
+        "author": "Qin",
+        "year": "2014",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0017",
+        "doi-asserted-by": "crossref",
+        "first-page": "205",
+        "DOI": "10.1016/j.ijmecsci.2014.05.013",
+        "article-title": "Contact stress analysis of helical gear pairs including frictional coefficients",
+        "volume": "85",
+        "author": "Patil",
+        "year": "2014",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "88",
+        "DOI": "10.1016/j.mechmachtheory.2006.01.009",
+        "article-title": "Finite element analyses for contact strength and bending strength of a pair of spur gears with machining errors, assembly errors and tooth modifications",
+        "volume": "42",
+        "author": "Li",
+        "year": "2007",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "1749",
+        "DOI": "10.1243/09544062JMES1844",
+        "article-title": "The effects of the shape of tooth profile modifications on the transmission error, bending and contact stress of spur gears",
+        "volume": "224",
+        "author": "Tesfahunegn",
+        "year": "2010",
+        "journal-title": "Proc. Inst. Mech. Eng. Part C J. Mech. Eng. Sci."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "170",
+        "DOI": "10.1016/j.ijmecsci.2018.11.007",
+        "article-title": "An analytical method for calculating the tooth surface contact stress of spur gears with tip relief",
+        "volume": "151",
+        "author": "Wen",
+        "year": "2019",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0021",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1115/1.4003578",
+        "article-title": "Some analytical results on transmission errors in narrow-faced spur and helical gears: influence of profile modifications",
+        "volume": "133",
+        "author": "Velex",
+        "year": "2011",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0022",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1115/1.4024374",
+        "article-title": "Derivation of optimum profile modifications in narrow-faced spur and helical gears using a perturbation method",
+        "volume": "135",
+        "author": "Bruyere",
+        "year": "2013",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1016/j.mechmachtheory.2012.10.012",
+        "article-title": "Mesh stiffness calculation of a spur gear pair with tooth profile modification and tooth root crack",
+        "volume": "62",
+        "author": "Chen",
+        "year": "2013",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0024",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1016/j.mechmachtheory.2015.06.001",
+        "article-title": "On the analytical definition of profile modifications minimizing transmission error variations in narrow-faced spur and helical gears",
+        "volume": "9",
+        "author": "Bruyere",
+        "year": "2015",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0025",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1115/1.4029321",
+        "article-title": "An alternative approach to the definition of profile modifications in high-contact-ratio spur gears",
+        "volume": "137",
+        "author": "Velex",
+        "year": "2015",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1016/j.mechmachtheory.2014.09.011",
+        "article-title": "Effect of misalignment error, tooth modifications and transmitted torque on tooth engagements of a pair of spur gears",
+        "volume": "83",
+        "author": "Li",
+        "year": "2015",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1016/j.mechmachtheory.2016.06.008",
+        "article-title": "On optimal tooth profile modification for reduction of vibration and noise in spur gear pairs",
+        "volume": "105",
+        "author": "Ghosh",
+        "year": "2016",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0028",
+        "doi-asserted-by": "crossref",
+        "first-page": "240",
+        "DOI": "10.1016/j.mechmachtheory.2017.02.012",
+        "article-title": "Frictional power losses on spur gears with tip reliefs. The load sharing role",
+        "volume": "112",
+        "author": "Díez-Ibarbia",
+        "year": "2017",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/j.mechmachtheory.2017.10.003",
+        "article-title": "Frictional power losses on spur gears with tip reliefs. The friction coefficient role",
+        "volume": "121",
+        "author": "Díez-Ibarbia",
+        "year": "2018",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1016/j.mechmachtheory.2015.11.017",
+        "article-title": "An improved analytical method for mesh stiffness calculation of spur gears with tip relief",
+        "volume": "98",
+        "author": "Ma",
+        "year": "2016",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0031",
+        "doi-asserted-by": "crossref",
+        "first-page": "1131",
+        "DOI": "10.1016/j.ymssp.2015.09.019",
+        "article-title": "Evaluation of optimum profile modification curves of profile shifted spur gears based on vibration responses",
+        "volume": "70-71",
+        "author": "Ma",
+        "year": "2016",
+        "journal-title": "Mech. Syst. Sig. Process."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0032",
+        "doi-asserted-by": "crossref",
+        "first-page": "1695",
+        "DOI": "10.1007/s11012-016-0502-3",
+        "article-title": "Time-varying mesh characteristics of a spur gear pair considering the tip-fillet and friction",
+        "volume": "52",
+        "author": "Ma",
+        "year": "2017",
+        "journal-title": "Meccanica"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0033",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1016/j.mechmachtheory.2018.08.003",
+        "article-title": "A revised time-varying mesh stiffness model of spur gear pairs with tooth modifications",
+        "volume": "129",
+        "author": "Sun",
+        "year": "2018",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "4-5",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0034",
+        "doi-asserted-by": "crossref",
+        "first-page": "1131",
+        "DOI": "10.1007/s11012-017-0746-6",
+        "article-title": "An improved analytical method for calculating time-varying mesh stiffness of helical gears",
+        "volume": "53",
+        "author": "Feng",
+        "year": "2018",
+        "journal-title": "Meccanica"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "413",
+        "DOI": "10.1016/j.ymssp.2018.01.012",
+        "article-title": "An improved time-varying mesh stiffness model for helical gear pairs considering axial mesh force component",
+        "volume": "106",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Mech. Syst. Sig. Process."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "174",
+        "DOI": "10.1016/j.ijmecsci.2018.08.022",
+        "article-title": "Analytical formulas for gear body-induced tooth deflections of spur gears considering structure coupling effect",
+        "volume": "148",
+        "author": "Xie",
+        "year": "2018",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0037",
+        "series-title": "Proceedings of the ASME IDETC/CIE",
+        "article-title": "A methodology for obtaining optimum gear tooth micro-topographies for noise and stress minimization over a broad operating torque range",
+        "author": "Harianto",
+        "year": "2007"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0038",
+        "doi-asserted-by": "crossref",
+        "first-page": "823",
+        "DOI": "10.1007/s12206-010-0117-x",
+        "article-title": "Multi-objective optimization of the tooth surface in helical gears using design of experiment and the response surface method",
+        "volume": "24",
+        "author": "Park",
+        "year": "2010",
+        "journal-title": "J. Mech. Sci. Technol."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0039",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1115/1.4006740",
+        "article-title": "A contribution to the design of robust profile modifications in spur and helical gears by combining analytical results and numerical simulations",
+        "volume": "134",
+        "author": "Ghribi",
+        "year": "2012",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "121005/1",
+        "DOI": "10.1115/1.4025196",
+        "article-title": "Robust optimization of cylindrical gear tooth surface modifications within ranges of torque and misalignments",
+        "volume": "135",
+        "author": "Artoni",
+        "year": "2013",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0041",
+        "doi-asserted-by": "crossref",
+        "first-page": "278",
+        "DOI": "10.1016/j.mechmachtheory.2016.11.015",
+        "article-title": "Multi-objective micro-geometry optimization of gear tooth supported by response surface methodology",
+        "volume": "109",
+        "author": "Korta",
+        "year": "2016",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "1-2",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0042",
+        "doi-asserted-by": "crossref",
+        "first-page": "447",
+        "DOI": "10.1007/s11012-017-0737-7",
+        "article-title": "A population-based meta-heuristic approach for robust micro-geometry optimization of tooth profile in spur gears considering manufacturing uncertainties",
+        "volume": "53",
+        "author": "Korta",
+        "year": "2018",
+        "journal-title": "Meccanica"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0043",
+        "first-page": "71",
+        "article-title": "Control del error de transmisión cuasi-estático mediante rebaje de punta en engranajes rectos de perfil de evolvente",
+        "volume": "22",
+        "author": "Pedrero",
+        "year": "2018",
+        "journal-title": "Revista Iberoamericana Ingeniería Mecánica"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0044",
+        "doi-asserted-by": "crossref",
+        "first-page": "780",
+        "DOI": "10.1016/j.mechmachtheory.2009.12.009",
+        "article-title": "Load distribution model along the line of contact for involute external gears",
+        "volume": "45",
+        "author": "Pedrero",
+        "year": "2010",
+        "journal-title": "Mech. Mach. Theory"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "527",
+        "DOI": "10.1007/s11012-012-9612-8",
+        "article-title": "Enhanced model of load distribution along the line of contact for non-standard involute external gears",
+        "volume": "48",
+        "author": "Sánchez",
+        "year": "2013",
+        "journal-title": "Meccanica"
+      },
+      {
+        "key": "10.1016/j.mechmachtheory.2019.05.014_bib0046",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.1016/j.mechmachtheory.2016.11.014",
+        "article-title": "Approximate equations for the meshing stiffness and the load sharing ratio of spur gears including Hertzian effects",
+        "volume": "109",
+        "author": "Sánchez",
+        "year": "2017",
+        "journal-title": "Mech. Mach. Theory"
+      }
+    ],
+    "container-title": [
+      "Mechanism and Machine Theory"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0094114X19308791?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0094114X19308791?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          7
+        ]
+      ],
+      "date-time": "2019-06-07T22:45:28Z",
+      "timestamp": 1559947528000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X19308791"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "references-count": 46,
+    "alternative-id": [
+      "S0094114X19308791"
+    ],
+    "URL": "https://doi.org/10.1016/j.mechmachtheory.2019.05.014",
+    "relation": {},
+    "ISSN": [
+      "0094-114X"
+    ],
+    "issn-type": [
+      {
+        "value": "0094-114X",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Influence of profile modifications on meshing stiffness, load sharing, and trasnsmission error of involute spur gears",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Mechanism and Machine Theory",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.mechmachtheory.2019.05.014",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 The Authors. Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

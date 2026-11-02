@@ -1,0 +1,200 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T12:51:53Z",
+      "timestamp": 1792155113972,
+      "version": "4.4.0"
+    },
+    "reference-count": 0,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              22
+            ]
+          ],
+          "date-time": "2011-11-22T00:00:00Z",
+          "timestamp": 1321920000000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS ONE"
+    ],
+    "DOI": "10.1371/journal.pone.0027755",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2011,
+          11,
+          22
+        ]
+      ],
+      "date-time": "2011-11-22T17:23:23Z",
+      "timestamp": 1321982603000
+    },
+    "page": "e27755",
+    "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 425,
+    "title": [
+      "Structural Identifiability of Systems Biology Models: A Critical Comparison of Methods"
+    ],
+    "prefix": "10.1371",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Oana-Teodora",
+        "family": "Chis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julio R.",
+        "family": "Banga",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eva",
+        "family": "Balsa-Canto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2011,
+          11,
+          22
+        ]
+      ]
+    },
+    "container-title": [
+      "PLoS ONE"
+    ],
+    "original-title": [],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2018-10-22T18:26:20Z",
+      "timestamp": 1540232780000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0027755"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Johannes",
+        "family": "Jaeger",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          11,
+          22
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "11",
+      "published-online": {
+        "date-parts": [
+          [
+            2011,
+            11,
+            22
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0027755",
+    "relation": {},
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-6203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          11,
+          22
+        ]
+      ]
+    }
+  }
+}

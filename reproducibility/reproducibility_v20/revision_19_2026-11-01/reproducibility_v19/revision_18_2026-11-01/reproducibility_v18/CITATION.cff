@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite this versioned evidence package with the accompanying article."
+type: software
+title: "Contact support and practical identifiability of spur gear microgeometry from transmission error"
+version: "18"
+date-released: "2026-11-01"
+authors:
+  - family-names: "Sandoval Flórez"
+    given-names: "Romulo"
+  - family-names: "Parra Medina"
+    given-names: "Claudia Patricia"
+  - family-names: "Vargas Fonseca"
+    given-names: "German Leandro"

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "solver_zip",
+    "url": "https://raw.githubusercontent.com/calculix/CalculiX-Windows/master/releases/CalculiX-2.23.0-win-x64.zip",
+    "status": 200,
+    "bytes": 26400736,
+    "sha256": "79a674fdee735a22720bbd12bb9ccbadad1e8c8ad5b1de74e1c62f8808b2d395"
+  },
+  {
+    "name": "solver_manual",
+    "url": "https://raw.githubusercontent.com/calculix/CalculiX-Windows/master/src/downloads/ccx_2.23.pdf",
+    "status": 200,
+    "bytes": 6281257,
+    "sha256": "a0bf3fc03f374912ff2bf28da3f7dfb6a61428dd7f41b281a2e7e1fdb318f330"
+  },
+  {
+    "name": "darus_metadata",
+    "url": "https://darus.uni-stuttgart.de/api/datasets/:persistentId/?persistentId=doi:10.18419/DARUS-5760",
+    "status": 200,
+    "bytes": 122790,
+    "sha256": "71cbac117c8f83576b8c1662226ef0a00ceaa2a25e59e0fe627e949fbc17521f"
+  }
+]

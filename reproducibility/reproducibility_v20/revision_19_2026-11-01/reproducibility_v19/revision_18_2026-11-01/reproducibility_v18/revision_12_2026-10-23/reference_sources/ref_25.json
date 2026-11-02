@@ -1,0 +1,159 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T14:13:19Z",
+      "timestamp": 1792764799711,
+      "version": "4.5.0"
+    },
+    "edition-number": "1",
+    "reference-count": 0,
+    "publisher": "Cambridge University Press",
+    "isbn-type": [
+      {
+        "value": "9780521255769",
+        "type": "print"
+      },
+      {
+        "value": "9780521347969",
+        "type": "print"
+      },
+      {
+        "value": "9781139171731",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2012,
+              6,
+              5
+            ]
+          ],
+          "date-time": "2012-06-05T00:00:00Z",
+          "timestamp": 1338854400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 9882,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          1985,
+          5,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.1017/cbo9781139171731",
+    "type": "monograph",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2013-03-13T12:26:58Z",
+      "timestamp": 1363177618000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7394,
+    "title": [
+      "Contact Mechanics"
+    ],
+    "prefix": "10.1017",
+    "author": [
+      {
+        "given": "K. L.",
+        "family": "Johnson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          5
+        ]
+      ]
+    },
+    "container-title": [],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2022-10-14T22:18:24Z",
+      "timestamp": 1665785904000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/9781139171731/type/book"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1985,
+          5,
+          16
+        ]
+      ]
+    },
+    "ISBN": [
+      "9780521255769",
+      "9780521347969",
+      "9781139171731"
+    ],
+    "references-count": 0,
+    "URL": "https://doi.org/10.1017/cbo9781139171731",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1985,
+          5,
+          16
+        ]
+      ]
+    }
+  }
+}

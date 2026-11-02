@@ -1,0 +1,26 @@
+[
+  {
+    "returncode": 0,
+    "seconds": 188.70427680015564,
+    "normal_termination": true,
+    "exe_sha256": "62349096f3b76cef2f0e094d03f747187016683a233ec7f07a363c7089804876",
+    "case": "addendum",
+    "phase": 0.225,
+    "step": 0.02,
+    "h": 0.35,
+    "method": "mortar",
+    "input": "f0.225000000_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_addendum.inp"
+  },
+  {
+    "returncode": 0,
+    "seconds": 116.42418217658997,
+    "normal_termination": true,
+    "exe_sha256": "62349096f3b76cef2f0e094d03f747187016683a233ec7f07a363c7089804876",
+    "case": "combined",
+    "phase": 0.225,
+    "step": 0.02,
+    "h": 0.35,
+    "method": "mortar",
+    "input": "f0.225000000_s0.02_h0.35_k1e+09_a0.00084_v4_mortar_hard_combined.inp"
+  }
+]

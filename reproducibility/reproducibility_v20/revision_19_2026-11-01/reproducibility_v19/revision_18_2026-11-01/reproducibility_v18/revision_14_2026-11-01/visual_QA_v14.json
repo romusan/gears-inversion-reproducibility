@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-01",
+  "renderer": "Native Microsoft Word PDF export; bundled Python pdf2image with native Poppler rasterization at 122 dpi",
+  "packaged_renderer_failure": "render_docx.py: LibreOffice soffice.exe was not found on PATH",
+  "pages_reviewed": {
+    "main": 28,
+    "supplement": 8,
+    "highlights": 1,
+    "cover": 1
+  },
+  "all_page_pngs_visually_inspected": true,
+  "issues_corrected": [
+    "Figure 11 legend moved outside plotting area",
+    "Removed inherited title borders and theme fonts from Highlights and cover letter",
+    "Preserved literal underscores in the reproducibility archive filename"
+  ],
+  "final_change_review": "Only main page 26 changed after the final filename correction; re-inspected. Other 37 page PNG hashes were unchanged.",
+  "docx_sha256": {
+    "MMT_manuscript_Q1_revision_v14.docx": "7e489062656a4d196e0febc720bfaf062a8a6b2fc6f8781ff6427050dd36f051",
+    "MMT_supplementary_Q1_revision_v14.docx": "54e032afa714d706f10629e5b80ebd1935f94254f5c4a9f7f15c2376ac096e4a",
+    "Highlights_v14.docx": "d1d8d570311de383174c90ac8311441003b8bd28565a05dc6230513c6f233d75",
+    "Cover_letter_MMT_v14.docx": "c96ef42750c2dc565e3f66a699edd145e7fdcba72f1b931e8daf5f7b6409875f"
+  },
+  "rendered_pdf_sha256": {
+    "render_cover/Cover_letter_MMT_v14.pdf": "f60329521be40826bd8420d8c7882f5abd7badc18b0c138cf5fbda24f31da5d0",
+    "render_highlights/Highlights_v14.pdf": "01336b6c0c028968506a7d6ad99924d8fc90972c80efb52a83c7f78c695b57ac",
+    "render_main/MMT_manuscript_Q1_revision_v14.pdf": "b329e805a2e14819901d6cc4edf1192201dba7e2dc3f69a46f12f03b0d530aa0",
+    "render_supplement/MMT_supplementary_Q1_revision_v14.pdf": "1b4668a722ee8f83ee4fa6feb7dd8549a65c47c939cc821b5ae5e8d7c09ac761"
+  },
+  "page_png_sha256": {
+    "render_cover/page-1.png": "8cbec7b8f798a21386faf0067617cc6f96ac16b121b2d607c08d17d6281112e3",
+    "render_highlights/page-1.png": "89c99ce00551b781b09c435b22c9d051cb1e8d03c59f701e54df017a97486ff4",
+    "render_main/page-1.png": "72156d772db9f012a2e0ca76d7d22bf6de546cf976b8c8427800d7471b317b85",
+    "render_main/page-10.png": "42cb91852fea76c6c9846c39b17f0d8f2e9f3d86314465069d7b653f12cc86d1",
+    "render_main/page-11.png": "49819d4bd47037553d3f9dfa9eeeac0d085b72a132046b5cc44eb27c3e2c1f16",
+    "render_main/page-12.png": "25e246e19d6102863f7fcf7106a6e5a4cafdf57afcbe186978100ffe7ba7a462",
+    "render_main/page-13.png": "03588df7a0074c818c21f01b9a1d0ffdfe528b32b3b84405efc8e7b6941a9184",
+    "render_main/page-14.png": "710ad2b23ebe6def98779721719fe546f8175abba8df9c00717f1bbe1fed4d6d",
+    "render_main/page-15.png": "def38af05543883d6036c42612294a7ca5c8bd18854a5d2604e2d04674684ba2",
+    "render_main/page-16.png": "2c9e0fd18805232c4fece99d4f2594b422576a44f809fb243a4fa905ce7a2257",
+    "render_main/page-17.png": "c5d6f247737e5aba3fe7e8c06949c3214752899afd6119e4edac510a15272f6f",
+    "render_main/page-18.png": "658592af14da03939de68d27d97a2320a7d632e120c04291d14da2ab2715c7ba",
+    "render_main/page-19.png": "225074282e7f5056b8cde9beab285d084f9f084b19f7ab81f0cd2eeddfa26f67",
+    "render_main/page-2.png": "fe0cbf97d2b509120bd8cb84677ff274271e494fa6d4b52a1adaefb4356611f9",
+    "render_main/page-20.png": "cfec264cc527509ac81e04066aa57d887237ce3efb84be18327eaf8ac12faa0e",
+    "render_main/page-21.png": "5dc5c630986321b63d5d869e88b3c14d5b191b82ff654dd8677d405b450a4e0a",
+    "render_main/page-22.png": "8d67eb038531fee7d1e1a7338898f08d03fae0641ae2b892863f19477cbb3f1f",
+    "render_main/page-23.png": "2d9b54961c1009680ec78a4bd61d9019cd1f592b80d99667fa80fce0e4058fa0",
+    "render_main/page-24.png": "82c920104202c557238665b2b516baa850762549f6979afbdec6bb0039a32f7e",
+    "render_main/page-25.png": "c3a5b0a20bb0616845c428b1a3c37a0f5a2fde5a3b12c7d9ebc548e98c036463",
+    "render_main/page-26.png": "2ff41415cb5909e2ef089cb65d56ea0d9ca66ad4e2d35f85dea21200726376e0",
+    "render_main/page-27.png": "5ccf9b4f29a41c7ad555b5a19303d8f4c608f60feffadc3610620e51110eea9a",
+    "render_main/page-28.png": "db98016d8a1bc4428579a18426237d032a6ef169d3e990503f41f094ab215047",
+    "render_main/page-3.png": "4417a7aaa82a28796ab10eda7db1fc9b501f701be0d06390311063a3df62d006",
+    "render_main/page-4.png": "039edb05f0145986e5f9c4cec47aa91f9d05c6b651a688c4f2c951b9e8dac268",
+    "render_main/page-5.png": "a6ffb9a8be5ab0a8eb1d6be2215b88f723dc41069280a20db6f00f9b88af412f",
+    "render_main/page-6.png": "ea5f3f0b149ebafc6b6f8fcd4a427fbd97b92700e381e7d09f5828d591526bca",
+    "render_main/page-7.png": "90404ee5838bb84b461b114d4c087e7303a4d286625136b4b128365d1c3501c4",
+    "render_main/page-8.png": "9ad6896d06cfe72856c39bdca64acf539819c7b2adf3ee6bc763420c4d4d8163",
+    "render_main/page-9.png": "20a5b1f2595cd1b4d4106e59db7115983f87bb654bd1ce136200d0aa85191bc4",
+    "render_supplement/page-1.png": "f3f72fcb5a54f59336e87bab9d6fda54e07f45b792b973f73c677fed1f6564ab",
+    "render_supplement/page-2.png": "63988a2548cb6ed984ce318c88e95b8990996aeed1ae7d76b7f6d5259e1efdd3",
+    "render_supplement/page-3.png": "0788b37a816e0e49189cc566c38c3b7a602f7251895e9f168a9b27ddbb9dbb4f",
+    "render_supplement/page-4.png": "5dfbb32304db4bd0537689566e63e0fb0e0260035ec675ec1f21582b39724c25",
+    "render_supplement/page-5.png": "52b88d4b2034d257e60fb8467ff3ce270af8d88d11b1feb2f4849904132b7f35",
+    "render_supplement/page-6.png": "1bf646f6bfee65f267ac87f653e9a1d8422715dfee9d40946e83fa292a81d47d",
+    "render_supplement/page-7.png": "80aeeb418067286dacf2a9d3ab50ebdea2ff0791bc54727a7bb0a1e67af2011d",
+    "render_supplement/page-8.png": "8dd7fdfb75a1c3f21e0cb8ebda8deaea7fa2ffb97e74116bf6e31544e85fe005"
+  }
+}

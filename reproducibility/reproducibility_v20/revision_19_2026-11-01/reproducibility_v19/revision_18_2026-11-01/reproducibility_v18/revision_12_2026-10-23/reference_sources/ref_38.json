@@ -1,0 +1,153 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T21:42:19Z",
+      "timestamp": 1792186939506,
+      "version": "4.4.0"
+    },
+    "reference-count": 0,
+    "publisher": "Institute of Mathematical Statistics",
+    "issue": "5",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Ann. Statist."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1974,
+          9,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1214/aos/1176342810",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          12,
+          17
+        ]
+      ],
+      "date-time": "2007-12-17T15:06:09Z",
+      "timestamp": 1197903969000
+    },
+    "page": "849-879",
+    "source": "Crossref",
+    "is-referenced-by-count": 594,
+    "title": [
+      "General Equivalence Theory for Optimum Designs (Approximate Theory)"
+    ],
+    "prefix": "10.1214",
+    "volume": "2",
+    "author": [
+      {
+        "given": "J.",
+        "family": "Kiefer",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "108",
+    "container-title": [
+      "The Annals of Statistics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://projecteuclid.org/download/pdf_1/euclid.aos/1176342810",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T21:19:18Z",
+      "timestamp": 1792185558000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-2/issue-5/General-Equivalence-Theory-for-Optimum-Designs-Approximate-Theory/10.1214/aos/1176342810.full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1974,
+          9,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            1974,
+            9,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1214/aos/1176342810",
+    "relation": {},
+    "ISSN": [
+      "0090-5364",
+      "2168-8966"
+    ],
+    "issn-type": [
+      {
+        "value": "0090-5364",
+        "type": "print"
+      },
+      {
+        "value": "2168-8966",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1974,
+          9,
+          1
+        ]
+      ]
+    }
+  }
+}

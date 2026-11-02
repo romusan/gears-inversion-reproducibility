@@ -1,0 +1,42 @@
+[
+  {
+    "phase": 0,
+    "approach_difference_um": 6.938893903907228e-15,
+    "displacement_difference_mm": 2.7296219601253447e-17,
+    "seconds": 0.08844279998447746,
+    "subproblems": 1,
+    "variables": 12,
+    "all_variables": 56,
+    "minimum_gap_mm": -7.196184659430303e-18
+  },
+  {
+    "phase": 0.174048546,
+    "approach_difference_um": 6.938893903907228e-15,
+    "displacement_difference_mm": 4.564998130603743e-17,
+    "seconds": 0.21869719994720072,
+    "subproblems": 2,
+    "variables": 21,
+    "all_variables": 82,
+    "minimum_gap_mm": -8.705076628930121e-18
+  },
+  {
+    "phase": 0.5,
+    "approach_difference_um": 0.0,
+    "displacement_difference_mm": 3.933725786766198e-17,
+    "seconds": 0.1598215999547392,
+    "subproblems": 2,
+    "variables": 16,
+    "all_variables": 110,
+    "minimum_gap_mm": -1.2114002139115643e-17
+  },
+  {
+    "phase": 0.825951454,
+    "approach_difference_um": 6.938893903907228e-15,
+    "displacement_difference_mm": 7.341785357728468e-17,
+    "seconds": 0.21449129993561655,
+    "subproblems": 2,
+    "variables": 18,
+    "all_variables": 79,
+    "minimum_gap_mm": -1.092587180862802e-17
+  }
+]

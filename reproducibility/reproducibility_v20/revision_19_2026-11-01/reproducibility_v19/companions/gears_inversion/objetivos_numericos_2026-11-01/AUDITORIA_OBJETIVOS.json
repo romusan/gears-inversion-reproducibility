@@ -1,0 +1,1551 @@
+{
+  "forward_configurations": 30,
+  "load_stages_verified": 90,
+  "forward": [
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "addendum",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.174048546_s0.02_h0.35_addendum_patch2_twopass_reg1e-08.json",
+      "tag": "f0.174048546_s0.02_h0.35_addendum_patch2_twopass_reg1e-08",
+      "approach_um": 28.279984487048438,
+      "minimum_researched_gap_um": -1.1067173384301122e-07,
+      "opposite_direction_penetration_um": 1.1067173384301122e-07,
+      "polygon_overlap_area_mm2": 7.227626847416828e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.1067173384301122e-07,
+      "recovered_torque_error": 5.789311030568456e-09,
+      "recovered_force_balance_relative": 2.8521068365699093e-08,
+      "strain_energy_N_mm": 121.05292031437546,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "case": "addendum",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.174048546_s0.01_h0.25_addendum_patch2_twopass_reg1e-08.json",
+      "tag": "f0.174048546_s0.01_h0.25_addendum_patch2_twopass_reg1e-08",
+      "approach_um": 28.496828159711818,
+      "minimum_researched_gap_um": -8.767072082708816e-08,
+      "opposite_direction_penetration_um": 8.767072082708816e-08,
+      "polygon_overlap_area_mm2": 1.3583450077633602e-12,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 8.767072082708816e-08,
+      "recovered_torque_error": 2.6349207260523144e-09,
+      "recovered_force_balance_relative": 1.6363587120133992e-08,
+      "strain_energy_N_mm": 121.91351726090761,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "combined",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.174048546_s0.02_h0.35_combined_patch2_twopass_reg1e-08.json",
+      "tag": "f0.174048546_s0.02_h0.35_combined_patch2_twopass_reg1e-08",
+      "approach_um": 28.858358721798968,
+      "minimum_researched_gap_um": -1.0040598353400247e-07,
+      "opposite_direction_penetration_um": 1.0040598353400247e-07,
+      "polygon_overlap_area_mm2": 7.555681773705118e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.0040598353400247e-07,
+      "recovered_torque_error": 5.705683703283171e-09,
+      "recovered_force_balance_relative": 2.844124758932265e-08,
+      "strain_energy_N_mm": 121.4384082968455,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "case": "combined",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.174048546_s0.01_h0.25_combined_patch2_twopass_reg1e-08.json",
+      "tag": "f0.174048546_s0.01_h0.25_combined_patch2_twopass_reg1e-08",
+      "approach_um": 29.073976662720945,
+      "minimum_researched_gap_um": -7.86447708055498e-08,
+      "opposite_direction_penetration_um": 7.86447708055498e-08,
+      "polygon_overlap_area_mm2": 9.836742581939575e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 7.86447708055498e-08,
+      "recovered_torque_error": 2.1460235810621953e-09,
+      "recovered_force_balance_relative": 1.653585771275403e-08,
+      "strain_energy_N_mm": 122.23808061486199,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.174048546_s0.04_h0.5.json",
+      "tag": "f0.174048546_s0.04_h0.5",
+      "approach_um": 28.033209540526933,
+      "minimum_researched_gap_um": -8.770520182311868e-12,
+      "opposite_direction_penetration_um": 0.5853662626692964,
+      "polygon_overlap_area_mm2": 6.0904729280586465e-06,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": false,
+      "max_researched_active_gap_um": 5.455899355203711e-10,
+      "recovered_torque_error": 5.5128044351704375e-09,
+      "recovered_force_balance_relative": 2.855195738801987e-08,
+      "strain_energy_N_mm": 119.37369899923522,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.174048546_s0.04_h0.5_patch2_twopass_reg1e-08.json",
+      "tag": "f0.174048546_s0.04_h0.5_patch2_twopass_reg1e-08",
+      "approach_um": 27.96005954341271,
+      "minimum_researched_gap_um": -1.432779565878382e-07,
+      "opposite_direction_penetration_um": 1.432779565878382e-07,
+      "polygon_overlap_area_mm2": 9.659309004186582e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.432779565878382e-07,
+      "recovered_torque_error": 5.780563361312829e-09,
+      "recovered_force_balance_relative": 2.8397804220179095e-08,
+      "strain_energy_N_mm": 120.03567900528293,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-10,
+      "file": "f0.174048546_s0.04_h0.5_patch2_twopass_reg1e-10.json",
+      "tag": "f0.174048546_s0.04_h0.5_patch2_twopass_reg1e-10",
+      "approach_um": 27.960059471450297,
+      "minimum_researched_gap_um": -1.035464130621972e-09,
+      "opposite_direction_penetration_um": 1.035464130621972e-09,
+      "polygon_overlap_area_mm2": 9.657681948142502e-15,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.035464130621972e-09,
+      "recovered_torque_error": 5.780563361312829e-09,
+      "recovered_force_balance_relative": 2.8397804239752395e-08,
+      "strain_energy_N_mm": 120.03567912216621,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.174048546_s0.02_h0.35.json",
+      "tag": "f0.174048546_s0.02_h0.35",
+      "approach_um": 28.375372593322293,
+      "minimum_researched_gap_um": -5.84056602501226e-12,
+      "opposite_direction_penetration_um": 0.9845858898113337,
+      "polygon_overlap_area_mm2": 8.531494321809113e-06,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": false,
+      "max_researched_active_gap_um": 1.3200144475031936e-09,
+      "recovered_torque_error": 2.2518849007724384e-09,
+      "recovered_force_balance_relative": 1.632677293923799e-08,
+      "strain_energy_N_mm": 120.68856419155894,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.174048546_s0.02_h0.35_patch2_twopass_reg1e-08.json",
+      "tag": "f0.174048546_s0.02_h0.35_patch2_twopass_reg1e-08",
+      "approach_um": 28.299956227197473,
+      "minimum_researched_gap_um": -1.0909142596732518e-07,
+      "opposite_direction_penetration_um": 1.0909142596732518e-07,
+      "polygon_overlap_area_mm2": 2.4871995351575387e-12,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.0909142596732518e-07,
+      "recovered_torque_error": 5.9272327046500095e-09,
+      "recovered_force_balance_relative": 2.8505011436421457e-08,
+      "strain_energy_N_mm": 121.13876261699792,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.174048546_s0.01_h0.25.json",
+      "tag": "f0.174048546_s0.01_h0.25",
+      "approach_um": 28.50796802566302,
+      "minimum_researched_gap_um": -3.577269060332456e-10,
+      "opposite_direction_penetration_um": 0.48639943407817293,
+      "polygon_overlap_area_mm2": 2.050862116570071e-06,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": false,
+      "max_researched_active_gap_um": 1.4647173644440555e-09,
+      "recovered_torque_error": 7.722371631047054e-10,
+      "recovered_force_balance_relative": 3.472203322461718e-09,
+      "strain_energy_N_mm": 121.54798775114358,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.174048546_s0.01_h0.25_patch2_twopass_reg1e-08.json",
+      "tag": "f0.174048546_s0.01_h0.25_patch2_twopass_reg1e-08",
+      "approach_um": 28.503859832099014,
+      "minimum_researched_gap_um": -8.651882853137546e-08,
+      "opposite_direction_penetration_um": 8.651882853137546e-08,
+      "polygon_overlap_area_mm2": 1.2147137356480881e-12,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 8.651882853137546e-08,
+      "recovered_torque_error": 2.6061874880412006e-09,
+      "recovered_force_balance_relative": 1.638809788401186e-08,
+      "strain_energy_N_mm": 121.93159312193956,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "case": "nominal",
+      "reverse": true,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.174048546_s0.04_h0.5_reverse.json",
+      "tag": "f0.174048546_s0.04_h0.5_reverse",
+      "approach_um": 27.95950874215612,
+      "minimum_researched_gap_um": -1.2447719446343044e-11,
+      "opposite_direction_penetration_um": 0.01768960484316396,
+      "polygon_overlap_area_mm2": 3.780436201246992e-07,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": false,
+      "max_researched_active_gap_um": 4.050710811024082e-10,
+      "recovered_torque_error": 5.6801006120821285e-09,
+      "recovered_force_balance_relative": 2.837071819527925e-08,
+      "strain_energy_N_mm": 120.01674776283421,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "case": "nominal",
+      "reverse": true,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.174048546_s0.04_h0.5_reverse_patch2_twopass_reg1e-08.json",
+      "tag": "f0.174048546_s0.04_h0.5_reverse_patch2_twopass_reg1e-08",
+      "approach_um": 27.960059543412417,
+      "minimum_researched_gap_um": -1.4327452430577951e-07,
+      "opposite_direction_penetration_um": 6.400423032805347e-08,
+      "polygon_overlap_area_mm2": 9.659137083032406e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.4327452430577951e-07,
+      "recovered_torque_error": 5.780563361312829e-09,
+      "recovered_force_balance_relative": 2.8397803862479593e-08,
+      "strain_energy_N_mm": 120.03567900528226,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "nominal",
+      "reverse": true,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.174048546_s0.02_h0.35_reverse.json",
+      "tag": "f0.174048546_s0.02_h0.35_reverse",
+      "approach_um": 28.296510837644764,
+      "minimum_researched_gap_um": -1.1064301567880702e-10,
+      "opposite_direction_penetration_um": 0.0040876494849081575,
+      "polygon_overlap_area_mm2": 4.335669200630042e-08,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": false,
+      "max_researched_active_gap_um": 5.613434581257511e-10,
+      "recovered_torque_error": 5.7968438937905375e-09,
+      "recovered_force_balance_relative": 2.8562869582215783e-08,
+      "strain_energy_N_mm": 121.10726206831472,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "addendum",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.500000000_s0.02_h0.35_addendum_patch2_twopass_reg1e-08.json",
+      "tag": "f0.500000000_s0.02_h0.35_addendum_patch2_twopass_reg1e-08",
+      "approach_um": 28.077898781776593,
+      "minimum_researched_gap_um": -3.168008119680904e-08,
+      "opposite_direction_penetration_um": 2.595702626194808e-08,
+      "polygon_overlap_area_mm2": 1.2210722864598855e-12,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 3.168008119680904e-08,
+      "recovered_torque_error": 5.435902172834517e-09,
+      "recovered_force_balance_relative": 2.674720946047614e-08,
+      "strain_energy_N_mm": 115.72394235750033,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "case": "addendum",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.500000000_s0.01_h0.25_addendum_patch2_twopass_reg1e-08.json",
+      "tag": "f0.500000000_s0.01_h0.25_addendum_patch2_twopass_reg1e-08",
+      "approach_um": 28.219431917337918,
+      "minimum_researched_gap_um": -1.6136544802120436e-08,
+      "opposite_direction_penetration_um": 1.4368188478914316e-08,
+      "polygon_overlap_area_mm2": 8.019207550005923e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.6136544802120436e-08,
+      "recovered_torque_error": 5.500881306019778e-09,
+      "recovered_force_balance_relative": 2.6904841527083438e-08,
+      "strain_energy_N_mm": 116.32606662105462,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "combined",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.500000000_s0.02_h0.35_combined_patch2_twopass_reg1e-08.json",
+      "tag": "f0.500000000_s0.02_h0.35_combined_patch2_twopass_reg1e-08",
+      "approach_um": 28.252373148346603,
+      "minimum_researched_gap_um": -3.045194587847688e-08,
+      "opposite_direction_penetration_um": 2.606761334747756e-08,
+      "polygon_overlap_area_mm2": 9.043257485305776e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 3.045194587847688e-08,
+      "recovered_torque_error": 5.396348923270011e-09,
+      "recovered_force_balance_relative": 2.6750865205053394e-08,
+      "strain_energy_N_mm": 115.58471105177351,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "case": "combined",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.500000000_s0.01_h0.25_combined_patch2_twopass_reg1e-08.json",
+      "tag": "f0.500000000_s0.01_h0.25_combined_patch2_twopass_reg1e-08",
+      "approach_um": 28.398003415625443,
+      "minimum_researched_gap_um": -1.6636439638946226e-08,
+      "opposite_direction_penetration_um": 1.4281690807516879e-08,
+      "polygon_overlap_area_mm2": 6.604938856977926e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.6636439638946226e-08,
+      "recovered_torque_error": 5.433486105488328e-09,
+      "recovered_force_balance_relative": 2.691494640970813e-08,
+      "strain_energy_N_mm": 116.15740067762138,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.500000000_s0.04_h0.5.json",
+      "tag": "f0.500000000_s0.04_h0.5",
+      "approach_um": 25.926255151120486,
+      "minimum_researched_gap_um": -1.828658902380797e-11,
+      "opposite_direction_penetration_um": 0.012538106055469464,
+      "polygon_overlap_area_mm2": 8.170658450940003e-07,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": false,
+      "max_researched_active_gap_um": 6.487380763773127e-11,
+      "recovered_torque_error": 5.075059927861503e-09,
+      "recovered_force_balance_relative": 2.662267438477585e-08,
+      "strain_energy_N_mm": 113.9330876118138,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.500000000_s0.04_h0.5_patch2_twopass_reg1e-08.json",
+      "tag": "f0.500000000_s0.04_h0.5_patch2_twopass_reg1e-08",
+      "approach_um": 25.932155739195057,
+      "minimum_researched_gap_um": -5.79883090758271e-08,
+      "opposite_direction_penetration_um": 5.79883090758271e-08,
+      "polygon_overlap_area_mm2": 3.288124537346373e-12,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 5.79883090758271e-08,
+      "recovered_torque_error": 4.975182710253989e-09,
+      "recovered_force_balance_relative": 2.6582003195791838e-08,
+      "strain_energy_N_mm": 114.01179061703691,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.500000000_s0.02_h0.35.json",
+      "tag": "f0.500000000_s0.02_h0.35",
+      "approach_um": 26.193834304345806,
+      "minimum_researched_gap_um": -6.404609667536469e-11,
+      "opposite_direction_penetration_um": 0.010981390373087414,
+      "polygon_overlap_area_mm2": 5.152045092110212e-07,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": false,
+      "max_researched_active_gap_um": 6.404609667536469e-11,
+      "recovered_torque_error": 5.058583329997646e-09,
+      "recovered_force_balance_relative": 2.6837791441610392e-08,
+      "strain_energy_N_mm": 115.0199757927749,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.500000000_s0.02_h0.35_patch2_twopass_reg1e-08.json",
+      "tag": "f0.500000000_s0.02_h0.35_patch2_twopass_reg1e-08",
+      "approach_um": 26.19137607210835,
+      "minimum_researched_gap_um": -3.1728517907821564e-08,
+      "opposite_direction_penetration_um": 3.1728517907821564e-08,
+      "polygon_overlap_area_mm2": 7.151819398446133e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 3.1728517907821564e-08,
+      "recovered_torque_error": 5.067680053372214e-09,
+      "recovered_force_balance_relative": 2.6802670641461888e-08,
+      "strain_energy_N_mm": 115.01423204699714,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.500000000_s0.01_h0.25_patch2.json",
+      "tag": "f0.500000000_s0.01_h0.25_patch2",
+      "approach_um": 26.334323210360704,
+      "minimum_researched_gap_um": -8.14958115460448e-11,
+      "opposite_direction_penetration_um": 0.0008789350111693706,
+      "polygon_overlap_area_mm2": 3.183343414682835e-08,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 8.14958115460448e-11,
+      "recovered_torque_error": 5.095695421175606e-09,
+      "recovered_force_balance_relative": 2.696483227176666e-08,
+      "strain_energy_N_mm": 115.57082542337713,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.500000000_s0.01_h0.25_patch2_twopass_reg1e-08.json",
+      "tag": "f0.500000000_s0.01_h0.25_patch2_twopass_reg1e-08",
+      "approach_um": 26.335107231382707,
+      "minimum_researched_gap_um": -1.4804989536928126e-08,
+      "opposite_direction_penetration_um": 1.405416158095992e-08,
+      "polygon_overlap_area_mm2": 9.702671680485545e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.4804989536928126e-08,
+      "recovered_torque_error": 5.193504737377452e-09,
+      "recovered_force_balance_relative": 2.7048369526362698e-08,
+      "strain_energy_N_mm": 115.57834966237772,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "nominal",
+      "reverse": true,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.500000000_s0.02_h0.35_reverse.json",
+      "tag": "f0.500000000_s0.02_h0.35_reverse",
+      "approach_um": 26.191133842667092,
+      "minimum_researched_gap_um": -4.3250274312526176e-11,
+      "opposite_direction_penetration_um": 0.007330937288592417,
+      "polygon_overlap_area_mm2": 2.6072370531746945e-07,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": false,
+      "max_researched_active_gap_um": 5.4857052429103164e-11,
+      "recovered_torque_error": 5.039794581662704e-09,
+      "recovered_force_balance_relative": 2.680069316209687e-08,
+      "strain_energy_N_mm": 115.0020667977476,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.825951454,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.825951454_s0.04_h0.5.json",
+      "tag": "f0.825951454_s0.04_h0.5",
+      "approach_um": 27.648300809510598,
+      "minimum_researched_gap_um": -4.383684870652166e-12,
+      "opposite_direction_penetration_um": 0.02342148701038327,
+      "polygon_overlap_area_mm2": 6.937352575571106e-07,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": false,
+      "max_researched_active_gap_um": 1.1435422307707003e-09,
+      "recovered_torque_error": 5.354606313900945e-09,
+      "recovered_force_balance_relative": 2.913366222689896e-08,
+      "strain_energy_N_mm": 118.74292245344988,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.825951454,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.825951454_s0.04_h0.5_patch2_twopass_reg1e-08.json",
+      "tag": "f0.825951454_s0.04_h0.5_patch2_twopass_reg1e-08",
+      "approach_um": 27.63930062844954,
+      "minimum_researched_gap_um": -1.4380494692077648e-07,
+      "opposite_direction_penetration_um": 4.395413880781579e-08,
+      "polygon_overlap_area_mm2": 2.028196824217707e-12,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.4380494692077648e-07,
+      "recovered_torque_error": 5.365187627504042e-09,
+      "recovered_force_balance_relative": 2.9122384711270276e-08,
+      "strain_energy_N_mm": 118.67276712827527,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.825951454,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": false,
+      "regularization_relative": 0.0,
+      "file": "f0.825951454_s0.02_h0.35.json",
+      "tag": "f0.825951454_s0.02_h0.35",
+      "approach_um": 27.917979735470013,
+      "minimum_researched_gap_um": -2.228744185102381e-10,
+      "opposite_direction_penetration_um": 0.003271391043015879,
+      "polygon_overlap_area_mm2": 6.59741399918093e-08,
+      "global_polygon_overlap_within_tolerance": false,
+      "two_direction_gap_within_1nm": false,
+      "max_researched_active_gap_um": 1.7367279672200818e-09,
+      "recovered_torque_error": 5.2939723715894615e-09,
+      "recovered_force_balance_relative": 2.8633500270218065e-08,
+      "strain_energy_N_mm": 119.449360101969,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.825951454,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.825951454_s0.02_h0.35_patch2_twopass_reg1e-08.json",
+      "tag": "f0.825951454_s0.02_h0.35_patch2_twopass_reg1e-08",
+      "approach_um": 27.917997632767964,
+      "minimum_researched_gap_um": -1.1309961342016126e-07,
+      "opposite_direction_penetration_um": 2.5981788000996385e-08,
+      "polygon_overlap_area_mm2": 1.994996527973802e-12,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 1.1309961342016126e-07,
+      "recovered_torque_error": 5.247191792179251e-09,
+      "recovered_force_balance_relative": 2.8639624428666152e-08,
+      "strain_energy_N_mm": 119.45071847923971,
+      "load_stages": 3
+    },
+    {
+      "phase": 0.825951454,
+      "step_mm": 0.01,
+      "h_mm": 0.25,
+      "case": "nominal",
+      "reverse": false,
+      "two_pass": true,
+      "regularization_relative": 1e-08,
+      "file": "f0.825951454_s0.01_h0.25_patch2_twopass_reg1e-08.json",
+      "tag": "f0.825951454_s0.01_h0.25_patch2_twopass_reg1e-08",
+      "approach_um": 28.132346546281017,
+      "minimum_researched_gap_um": -7.476959699510461e-08,
+      "opposite_direction_penetration_um": 8.08623895055669e-09,
+      "polygon_overlap_area_mm2": 8.362822923075549e-13,
+      "global_polygon_overlap_within_tolerance": true,
+      "two_direction_gap_within_1nm": true,
+      "max_researched_active_gap_um": 7.476959699510461e-08,
+      "recovered_torque_error": 5.803261871051291e-09,
+      "recovered_force_balance_relative": 2.9418052902969255e-08,
+      "strain_energy_N_mm": 120.27964031313866,
+      "load_stages": 3
+    }
+  ],
+  "nonconverged": [],
+  "exceptions_retained": [
+    {
+      "configuration": [
+        0.5,
+        0.01,
+        0.25,
+        "nominal",
+        false
+      ],
+      "error": "RuntimeError('Candidate escaped condensed patch: enlarge initial search')"
+    }
+  ],
+  "calculix": [
+    {
+      "file": "f0.174048546_s0.02_h0.35_k1e+09_a0.000837_v4_mortar_hard.dat",
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "h_mm": 0.35,
+      "penalty_N_mm3": null,
+      "method": "hard mortar, default incremental small-sliding pairing",
+      "approach_um": 28.363497886048187,
+      "hub_angle_rad": 0.000838439,
+      "torque_Nmm": 300000.0,
+      "max_penetration_um": 2.3296799999999998e-21,
+      "global_force_balance_relative": 0.0,
+      "reported_negative_COPEN_all_nodes_um": 2067.0899999999997,
+      "contact_output_note": "Active CPRESS>1e-4 MPa nodes used for the reported active COPEN. Mortar inactive projection values are retained separately; they are not a geometric nonpenetration certificate.",
+      "plane_strain_kinematic_error_um": 2.6120700000000002e-21,
+      "global_moment_balance_relative": 2.266666665673256e-07,
+      "normal_termination": true,
+      "input_sha256": "6c9ec97122e5f7d06891a839f2dc9cf48650196a4aa38ec569c55c33216a47e6"
+    },
+    {
+      "file": "f0.174048546_s0.04_h0.5_k1e+08_a0.0008285_v3_torque.dat",
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "penalty_N_mm3": 100000000.0,
+      "method": "node-to-surface, finite sliding, linear penalty",
+      "approach_um": 28.096543616425503,
+      "hub_angle_rad": 0.0008305477,
+      "torque_Nmm": 300000.0,
+      "max_penetration_um": 0.0389596,
+      "global_force_balance_relative": 0.0,
+      "reported_negative_COPEN_all_nodes_um": 0.0389596,
+      "contact_output_note": "Active CPRESS>1e-4 MPa nodes used for the reported active COPEN. Mortar inactive projection values are retained separately; they are not a geometric nonpenetration certificate.",
+      "plane_strain_kinematic_error_um": 9.999999999940612e-05,
+      "global_moment_balance_relative": 2.666666676911215e-08,
+      "normal_termination": true,
+      "input_sha256": "7e189eacbe8741b07151259a0ad9ddefd5253643e3f8fc85d3e2d848b5bcf49d"
+    },
+    {
+      "file": "f0.174048546_s0.04_h0.5_k1e+09_a0.0008285_v3_torque.dat",
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "penalty_N_mm3": 1000000000.0,
+      "method": "node-to-surface, finite sliding, linear penalty",
+      "approach_um": 28.077673836846028,
+      "hub_angle_rad": 0.0008299899,
+      "torque_Nmm": 300000.0,
+      "max_penetration_um": 0.00390028,
+      "global_force_balance_relative": 0.0,
+      "reported_negative_COPEN_all_nodes_um": 0.00390028,
+      "contact_output_note": "Active CPRESS>1e-4 MPa nodes used for the reported active COPEN. Mortar inactive projection values are retained separately; they are not a geometric nonpenetration certificate.",
+      "plane_strain_kinematic_error_um": 9.999999999940612e-05,
+      "global_moment_balance_relative": 2.666666676911215e-08,
+      "normal_termination": true,
+      "input_sha256": "167b4efcf4a14c43c4ce856ca8179ada918fc94781b8b767a1eba8e177d07aa2"
+    },
+    {
+      "file": "f0.174048546_s0.04_h0.5_k1e+09_a0.0008285_v4_mortar_hard.dat",
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "penalty_N_mm3": null,
+      "method": "hard mortar, default incremental small-sliding pairing",
+      "approach_um": 28.0604210803284,
+      "hub_angle_rad": 0.0008294799,
+      "torque_Nmm": 300000.0,
+      "max_penetration_um": 8.66885e-19,
+      "global_force_balance_relative": 0.0,
+      "reported_negative_COPEN_all_nodes_um": 2524.4399999999996,
+      "contact_output_note": "Active CPRESS>1e-4 MPa nodes used for the reported active COPEN. Mortar inactive projection values are retained separately; they are not a geometric nonpenetration certificate.",
+      "plane_strain_kinematic_error_um": 1.57464e-17,
+      "global_moment_balance_relative": 0.0,
+      "normal_termination": true,
+      "input_sha256": "14e44ead7f8b5e0df50e258e1d049606e1d551909cbc5671e3fb454ca5a728c7"
+    },
+    {
+      "file": "f0.500000000_s0.04_h0.5_k1e+09_a0.000766392897_v3_torque.dat",
+      "phase": 0.5,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "penalty_N_mm3": 1000000000.0,
+      "method": "node-to-surface, finite sliding, linear penalty",
+      "approach_um": 25.95664363082273,
+      "hub_angle_rad": 0.0007672912,
+      "torque_Nmm": 300000.0,
+      "max_penetration_um": 0.0015375200000000001,
+      "global_force_balance_relative": 0.0,
+      "reported_negative_COPEN_all_nodes_um": 0.0015375200000000001,
+      "contact_output_note": "Active CPRESS>1e-4 MPa nodes used for the reported active COPEN. Mortar inactive projection values are retained separately; they are not a geometric nonpenetration certificate.",
+      "plane_strain_kinematic_error_um": 1.0000000000157452e-06,
+      "global_moment_balance_relative": 1.3333333190530539e-08,
+      "normal_termination": true,
+      "input_sha256": "484c51f712ec568e89b249e065f53439483e43099e2eeb0b972a8a4e9671418a"
+    },
+    {
+      "file": "f0.825951454_s0.04_h0.5_k1e+09_a0.000817297427_v3_torque.dat",
+      "phase": 0.825951454,
+      "step_mm": 0.04,
+      "h_mm": 0.5,
+      "penalty_N_mm3": 1000000000.0,
+      "method": "node-to-surface, finite sliding, linear penalty",
+      "approach_um": 27.705785595768376,
+      "hub_angle_rad": 0.0008189967,
+      "torque_Nmm": 300000.0,
+      "max_penetration_um": 0.00403241,
+      "global_force_balance_relative": 0.0,
+      "reported_negative_COPEN_all_nodes_um": 0.00403241,
+      "contact_output_note": "Active CPRESS>1e-4 MPa nodes used for the reported active COPEN. Mortar inactive projection values are retained separately; they are not a geometric nonpenetration certificate.",
+      "plane_strain_kinematic_error_um": 1.27496e-22,
+      "global_moment_balance_relative": 1.6000000022662182e-07,
+      "normal_termination": true,
+      "input_sha256": "5cd48a214180ec3d5f654a311048ac79325d490a86126cb494c6361ec8fdc356"
+    }
+  ],
+  "cross_solver_comparisons": [
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "two_pass": false,
+      "calculix_method": "hard mortar, default incremental small-sliding pairing",
+      "penalty": null,
+      "calculix_um": 28.363497886048187,
+      "updated_um": 28.375372593322293,
+      "difference_um": -0.011874707274106555
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "two_pass": true,
+      "calculix_method": "hard mortar, default incremental small-sliding pairing",
+      "penalty": null,
+      "calculix_um": 28.363497886048187,
+      "updated_um": 28.299956227197473,
+      "difference_um": 0.06354165885071339
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "two_pass": false,
+      "calculix_method": "node-to-surface, finite sliding, linear penalty",
+      "penalty": 100000000.0,
+      "calculix_um": 28.096543616425503,
+      "updated_um": 28.033209540526933,
+      "difference_um": 0.06333407589857032
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "two_pass": true,
+      "calculix_method": "node-to-surface, finite sliding, linear penalty",
+      "penalty": 100000000.0,
+      "calculix_um": 28.096543616425503,
+      "updated_um": 27.96005954341271,
+      "difference_um": 0.13648407301279164
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "two_pass": false,
+      "calculix_method": "node-to-surface, finite sliding, linear penalty",
+      "penalty": 1000000000.0,
+      "calculix_um": 28.077673836846028,
+      "updated_um": 28.033209540526933,
+      "difference_um": 0.0444642963190951
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "two_pass": true,
+      "calculix_method": "node-to-surface, finite sliding, linear penalty",
+      "penalty": 1000000000.0,
+      "calculix_um": 28.077673836846028,
+      "updated_um": 27.96005954341271,
+      "difference_um": 0.11761429343331642
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "two_pass": false,
+      "calculix_method": "hard mortar, default incremental small-sliding pairing",
+      "penalty": null,
+      "calculix_um": 28.0604210803284,
+      "updated_um": 28.033209540526933,
+      "difference_um": 0.027211539801466955
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "two_pass": true,
+      "calculix_method": "hard mortar, default incremental small-sliding pairing",
+      "penalty": null,
+      "calculix_um": 28.0604210803284,
+      "updated_um": 27.96005954341271,
+      "difference_um": 0.10036153691568828
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.04,
+      "two_pass": false,
+      "calculix_method": "node-to-surface, finite sliding, linear penalty",
+      "penalty": 1000000000.0,
+      "calculix_um": 25.95664363082273,
+      "updated_um": 25.926255151120486,
+      "difference_um": 0.030388479702242677
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.04,
+      "two_pass": true,
+      "calculix_method": "node-to-surface, finite sliding, linear penalty",
+      "penalty": 1000000000.0,
+      "calculix_um": 25.95664363082273,
+      "updated_um": 25.932155739195057,
+      "difference_um": 0.024487891627671843
+    },
+    {
+      "phase": 0.825951454,
+      "step_mm": 0.04,
+      "two_pass": false,
+      "calculix_method": "node-to-surface, finite sliding, linear penalty",
+      "penalty": 1000000000.0,
+      "calculix_um": 27.705785595768376,
+      "updated_um": 27.648300809510598,
+      "difference_um": 0.05748478625777764
+    },
+    {
+      "phase": 0.825951454,
+      "step_mm": 0.04,
+      "two_pass": true,
+      "calculix_method": "node-to-surface, finite sliding, linear penalty",
+      "penalty": 1000000000.0,
+      "calculix_um": 27.705785595768376,
+      "updated_um": 27.63930062844954,
+      "difference_um": 0.06648496731883569
+    }
+  ],
+  "nominal_refinement": [
+    {
+      "phase": 0.174048546,
+      "two_pass": false,
+      "coarse_step": 0.04,
+      "fine_step": 0.02,
+      "approach_change_um": 0.3421630527953603
+    },
+    {
+      "phase": 0.174048546,
+      "two_pass": false,
+      "coarse_step": 0.02,
+      "fine_step": 0.01,
+      "approach_change_um": 0.13259543234072524
+    },
+    {
+      "phase": 0.174048546,
+      "two_pass": true,
+      "coarse_step": 0.04,
+      "fine_step": 0.02,
+      "approach_change_um": 0.3398966837847617
+    },
+    {
+      "phase": 0.174048546,
+      "two_pass": true,
+      "coarse_step": 0.02,
+      "fine_step": 0.01,
+      "approach_change_um": 0.2039036049015408
+    },
+    {
+      "phase": 0.5,
+      "two_pass": false,
+      "coarse_step": 0.04,
+      "fine_step": 0.02,
+      "approach_change_um": 0.26757915322532
+    },
+    {
+      "phase": 0.5,
+      "two_pass": false,
+      "coarse_step": 0.02,
+      "fine_step": 0.01,
+      "approach_change_um": 0.14048890601489816
+    },
+    {
+      "phase": 0.5,
+      "two_pass": true,
+      "coarse_step": 0.04,
+      "fine_step": 0.02,
+      "approach_change_um": 0.25922033291329427
+    },
+    {
+      "phase": 0.5,
+      "two_pass": true,
+      "coarse_step": 0.02,
+      "fine_step": 0.01,
+      "approach_change_um": 0.1437311592743562
+    },
+    {
+      "phase": 0.825951454,
+      "two_pass": false,
+      "coarse_step": 0.04,
+      "fine_step": 0.02,
+      "approach_change_um": 0.2696789259594148
+    },
+    {
+      "phase": 0.825951454,
+      "two_pass": true,
+      "coarse_step": 0.04,
+      "fine_step": 0.02,
+      "approach_change_um": 0.27869700431842404
+    },
+    {
+      "phase": 0.825951454,
+      "two_pass": true,
+      "coarse_step": 0.02,
+      "fine_step": 0.01,
+      "approach_change_um": 0.21434891351305296
+    }
+  ],
+  "master_slave_comparisons": [
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "reverse_minus_forward_um": -0.07370079837081178
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.04,
+      "reverse_minus_forward_um": -2.948752353404416e-13
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "reverse_minus_forward_um": -0.07886175567752929
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "reverse_minus_forward_um": -0.0027004616787138502
+    }
+  ],
+  "actual_geometry_dedendum_contrasts": [
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "geometry_dedendum_contrast_um": 0.5783742347505303
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "geometry_dedendum_contrast_um": 0.577148503009127
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "geometry_dedendum_contrast_um": 0.17447436657000992
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "geometry_dedendum_contrast_um": 0.17857149828752483
+    }
+  ],
+  "actual_geometry_dedendum_contrasts_by_load": [
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "torque_Nm": 60.0,
+      "geometry_dedendum_contrast_um": 0.6095951647980176,
+      "maximum_runtime_gap_error_um": 2.112682014974531e-08,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "torque_Nm": 150.0,
+      "geometry_dedendum_contrast_um": 0.5914890171536982,
+      "maximum_runtime_gap_error_um": 6.89535278468717e-08,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.02,
+      "torque_Nm": 300.0,
+      "geometry_dedendum_contrast_um": 0.5783742347505303,
+      "maximum_runtime_gap_error_um": 1.1067173384301122e-07,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "torque_Nm": 60.0,
+      "geometry_dedendum_contrast_um": 0.608007181230696,
+      "maximum_runtime_gap_error_um": 2.0786798757098335e-08,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "torque_Nm": 150.0,
+      "geometry_dedendum_contrast_um": 0.6089487968410481,
+      "maximum_runtime_gap_error_um": 5.3232317678161214e-08,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.174048546,
+      "step_mm": 0.01,
+      "torque_Nm": 300.0,
+      "geometry_dedendum_contrast_um": 0.577148503009127,
+      "maximum_runtime_gap_error_um": 8.767072082708816e-08,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "torque_Nm": 60.0,
+      "geometry_dedendum_contrast_um": 0.17176366223263262,
+      "maximum_runtime_gap_error_um": 1.9091594244289463e-08,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "torque_Nm": 150.0,
+      "geometry_dedendum_contrast_um": 0.1697580032841195,
+      "maximum_runtime_gap_error_um": 2.5196715601788906e-08,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.02,
+      "torque_Nm": 300.0,
+      "geometry_dedendum_contrast_um": 0.17447436657000992,
+      "maximum_runtime_gap_error_um": 3.168008119680904e-08,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "torque_Nm": 60.0,
+      "geometry_dedendum_contrast_um": 0.1801411417986163,
+      "maximum_runtime_gap_error_um": 9.953321460284552e-09,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "torque_Nm": 150.0,
+      "geometry_dedendum_contrast_um": 0.17837727553475524,
+      "maximum_runtime_gap_error_um": 1.3275756337678104e-08,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    },
+    {
+      "phase": 0.5,
+      "step_mm": 0.01,
+      "torque_Nm": 300.0,
+      "geometry_dedendum_contrast_um": 0.17857149828752483,
+      "maximum_runtime_gap_error_um": 1.6636439638946226e-08,
+      "note": "Intermediate load states checked by runtime records; final 300 Nm state additionally reconstructed from stored compliance/displacement."
+    }
+  ],
+  "offset_free_two_phase_contrasts": [
+    {
+      "step_mm": 0.02,
+      "torque_Nm": 60.0,
+      "entry_minus_interior_dedendum_contrast_um": 0.43783150256538494,
+      "definition": "(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+    },
+    {
+      "step_mm": 0.02,
+      "torque_Nm": 150.0,
+      "entry_minus_interior_dedendum_contrast_um": 0.4217310138695787,
+      "definition": "(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+    },
+    {
+      "step_mm": 0.02,
+      "torque_Nm": 300.0,
+      "entry_minus_interior_dedendum_contrast_um": 0.40389986818052037,
+      "definition": "(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+    },
+    {
+      "step_mm": 0.01,
+      "torque_Nm": 60.0,
+      "entry_minus_interior_dedendum_contrast_um": 0.4278660394320797,
+      "definition": "(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+    },
+    {
+      "step_mm": 0.01,
+      "torque_Nm": 150.0,
+      "entry_minus_interior_dedendum_contrast_um": 0.43057152130629284,
+      "definition": "(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+    },
+    {
+      "step_mm": 0.01,
+      "torque_Nm": 300.0,
+      "entry_minus_interior_dedendum_contrast_um": 0.3985770047216022,
+      "definition": "(combined_entry-combined_interior) - (addendum_entry-addendum_interior): cancels a constant offset per load, not unknown gain or phase error. Not full-cycle RMS."
+    }
+  ],
+  "source_hashes": {
+    "fe2d\\analyze_pilot_surface.py": "4b2101c0d17d76dd40b8e267e64b92b8fc916d8e9241fb04e04833e3715328ae",
+    "fe2d\\close_pilot_surface.py": "5219e2a9e312b3f1a247fc60b818f0f40b06fc1c33ad0c31e000285819c135c2",
+    "fe2d\\extend_surface_objectives.py": "2e00cb7d9c146e61b98e76de6be1d9bcfb644ae80a2a8ac606f8b772debbe30d",
+    "fe2d\\pilot_surface_contact.py": "ab520c045aecdbb4167764e5504a3971a367235dffd79861db175c755d9bfa37",
+    "fe2d\\relieved_surface_geometry.py": "7cddc9d2e7aef18b58e8f6c92ed4920679f3b3ac3ee2af5bd62b1712237248da",
+    "fe2d\\run_pilot_surface_campaign.py": "54e454885ab4d8fb9eddba4a9c1cf30a69c2251202bd4c7dd666b1dfd3dd11a4",
+    "fe2d\\updated_surface_contact.py": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+    "fe2d\\crosscheck_calculix.py": "00c85697c6d4341f5539885e29876fe3988d9e1633eedc4fa24e005711992d3f",
+    "fe2d\\run_bilateral_objectives.py": "c530a8ffd04005abaebb809fc61c419e226cfb65f6f9a3e27a02f00cdd68b171",
+    "fe2d\\run_fe2d.py": "70fa5b70e99f89479a68465c08446c465c161f980f40c3251d73566d37afe71a",
+    "objetivos_numericos_2026-11-01\\audit_objectives.py": "f8b78fff9157c044ddf807fc4609dcd59c45d1f58cb79305ea789559b707d1cc",
+    "objetivos_numericos_2026-11-01\\screen_public_data.py": "78fd911b2f06f11951d9b60575eb6c4e48bc42051f6d7cd8d6c6986758b0c0aa",
+    "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_dense_patch2.py": "f926590f7088a1357ab16e7ddf2df69b12da017e74c552c557f5f542858d2a3a",
+    "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_nominal_v1.py": "c98061a0653330c15d55ef106512267579fa9bb11bf72b86808a06433e10b1c5",
+    "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_onepass_final.py": "c854c80b271c818294bc08eb9f9bc7a72270a652186088dd1c8f713ec49dd84a",
+    "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_patch1.py": "aeb58ecb8e6a472064b0e495c6f341efc29bcf415b41953ae32d2e0f4aa7320f",
+    "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_reverse_first.py": "ce95a000c2bf7280cf2406ca42c7c25eaf54682680674f94179b5ded90defb88",
+    "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_twopass_coldstart.py": "c3973803320fb5fd869bb5b4327187c563bf71b6812f750047b09f6475e4b4db",
+    "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_twopass_first.py": "a3d9e214387e380b20454b728207be7ff0c55d433e1bf41d071cc76b0bc1e0c6"
+  },
+  "source_provenance": [
+    {
+      "result": "f0.174048546_s0.01_h0.25.json",
+      "source_sha256": "aeb58ecb8e6a472064b0e495c6f341efc29bcf415b41953ae32d2e0f4aa7320f",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_patch1.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.01_h0.25_addendum_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.01_h0.25_combined_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.01_h0.25_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.02_h0.35.json",
+      "source_sha256": "c98061a0653330c15d55ef106512267579fa9bb11bf72b86808a06433e10b1c5",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_nominal_v1.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.02_h0.35_addendum_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.02_h0.35_combined_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.02_h0.35_patch2_twopass_reg1e-08.json",
+      "source_sha256": "c3973803320fb5fd869bb5b4327187c563bf71b6812f750047b09f6475e4b4db",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_twopass_coldstart.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.02_h0.35_reverse.json",
+      "source_sha256": "aeb58ecb8e6a472064b0e495c6f341efc29bcf415b41953ae32d2e0f4aa7320f",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_patch1.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.04_h0.5.json",
+      "source_sha256": "c98061a0653330c15d55ef106512267579fa9bb11bf72b86808a06433e10b1c5",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_nominal_v1.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.04_h0.5_patch2_twopass_reg1e-08.json",
+      "source_sha256": "a3d9e214387e380b20454b728207be7ff0c55d433e1bf41d071cc76b0bc1e0c6",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_twopass_first.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.04_h0.5_patch2_twopass_reg1e-10.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.04_h0.5_reverse.json",
+      "source_sha256": "ce95a000c2bf7280cf2406ca42c7c25eaf54682680674f94179b5ded90defb88",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_reverse_first.py"
+      ]
+    },
+    {
+      "result": "f0.174048546_s0.04_h0.5_reverse_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.01_h0.25_addendum_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.01_h0.25_combined_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.01_h0.25_patch2.json",
+      "source_sha256": "c854c80b271c818294bc08eb9f9bc7a72270a652186088dd1c8f713ec49dd84a",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_onepass_final.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.01_h0.25_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.02_h0.35.json",
+      "source_sha256": "c98061a0653330c15d55ef106512267579fa9bb11bf72b86808a06433e10b1c5",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_nominal_v1.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.02_h0.35_addendum_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.02_h0.35_combined_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.02_h0.35_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.02_h0.35_reverse.json",
+      "source_sha256": "aeb58ecb8e6a472064b0e495c6f341efc29bcf415b41953ae32d2e0f4aa7320f",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_patch1.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.04_h0.5.json",
+      "source_sha256": "c98061a0653330c15d55ef106512267579fa9bb11bf72b86808a06433e10b1c5",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_nominal_v1.py"
+      ]
+    },
+    {
+      "result": "f0.500000000_s0.04_h0.5_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.825951454_s0.01_h0.25_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.825951454_s0.02_h0.35.json",
+      "source_sha256": "c98061a0653330c15d55ef106512267579fa9bb11bf72b86808a06433e10b1c5",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_nominal_v1.py"
+      ]
+    },
+    {
+      "result": "f0.825951454_s0.02_h0.35_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    },
+    {
+      "result": "f0.825951454_s0.04_h0.5.json",
+      "source_sha256": "c98061a0653330c15d55ef106512267579fa9bb11bf72b86808a06433e10b1c5",
+      "matching_sources": [
+        "objetivos_numericos_2026-11-01\\updated_contact\\updated_surface_contact_nominal_v1.py"
+      ]
+    },
+    {
+      "result": "f0.825951454_s0.04_h0.5_patch2_twopass_reg1e-08.json",
+      "source_sha256": "b95711f5e8332e963a9da6840969a716fae15e67a30bee2205d2a76d802b0479",
+      "matching_sources": [
+        "fe2d\\updated_surface_contact.py"
+      ]
+    }
+  ],
+  "public_screening": {
+    "screened_sources": [
+      {
+        "id": "P01",
+        "title": "Transmission Error Compensation for Industrial Robots Using Fourier Series",
+        "url": "https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/DARUS-5760",
+        "language": "English",
+        "evidence": "Repository API metadata + original experimental CSV sample(s)",
+        "measured_TE": "yes",
+        "relief_of_same_gear_documented": "not established",
+        "decision": "INELIGIBLE for direct spur-relief inversion: robot gearbox system, no verified matching spur geometry or relief truth. Useful only as a separate signal-processing dataset.",
+        "license": "CC BY 4.0"
+      },
+      {
+        "id": "P02",
+        "title": "Data/code: profile-shift coefficients and nonlinear dynamic spur-gear response",
+        "url": "https://data.mendeley.com/datasets/82xmwb5pvs/1",
+        "language": "English",
+        "evidence": "Primary repository description",
+        "measured_TE": "no: numerical data",
+        "relief_of_same_gear_documented": "not dedendum relief",
+        "decision": "INELIGIBLE for experimental validation; numerical cross-model resource only.",
+        "license": "CC BY 4.0"
+      },
+      {
+        "id": "P03",
+        "title": "Analysis of gear TE considering measured tooth profile errors",
+        "url": "https://doi.org/10.1038/s41598-025-90010-6",
+        "language": "English",
+        "evidence": "Downloaded full text R07; Data availability section",
+        "measured_TE": "published experimental comparisons",
+        "relief_of_same_gear_documented": "helical measured profiles in publication; no downloaded raw profile/TE pairing",
+        "decision": "PROMISING reference, but raw data are available on reasonable request, not a verified public download. Helical operator required.",
+        "license": "See article and any future data licence separately"
+      },
+      {
+        "id": "P04",
+        "title": "Static/dynamic TE of helical pairs with various tooth modifications",
+        "url": "https://doi.org/10.1115/1.4043586",
+        "language": "English",
+        "evidence": "Verified metadata/abstract only; no full text or raw dataset obtained",
+        "measured_TE": "reported in abstract",
+        "relief_of_same_gear_documented": "reported modifications; raw pairing not obtained",
+        "decision": "PROMISING lead; cannot digitize or claim raw experimental validation from an abstract.",
+        "license": "Not verified for underlying data"
+      },
+      {
+        "id": "P05",
+        "title": "Laboratory Scale Gear Faults Data",
+        "url": "https://zenodo.org/records/15265237",
+        "language": "English",
+        "evidence": "Primary repository description: fault conditions, load conditions and sensor locations",
+        "measured_TE": "not established from metadata",
+        "relief_of_same_gear_documented": "not established",
+        "decision": "INELIGIBLE at screening stage: fault/vibration data are not a verified relief + TE pair.",
+        "license": "Not used/downloaded"
+      },
+      {
+        "id": "P06",
+        "title": "High-precision herringbone mesh excitation and tooth-surface modification design data",
+        "url": "https://www.nbsdc.cn/general/dataSetHome?searchKey=%E4%BA%BA%E5%AD%97%E9%BD%BF",
+        "language": "Mandarin",
+        "evidence": "Indexed Chinese repository description; dynamic detail/download not obtained",
+        "measured_TE": "not verified; description includes LTCA simulations and vibration experiments",
+        "relief_of_same_gear_documented": "not verified from downloaded files",
+        "decision": "UNRESOLVED lead: no raw data obtained; herringbone geometry differs from spur test. Not a validated dataset.",
+        "license": "Access/use conditions require verification"
+      },
+      {
+        "id": "P07",
+        "title": "Reduction of gear pair TE with tooth profile modification (ISMA 2008)",
+        "url": "https://bura.brunel.ac.uk/handle/2438/3622",
+        "language": "English",
+        "evidence": "Primary repository abstract: static FE parametric study",
+        "measured_TE": "not established: described results are FE",
+        "relief_of_same_gear_documented": "model modifications, not certified measurements",
+        "decision": "INELIGIBLE as experimental evidence; potentially useful numerical comparison.",
+        "license": "Not used/downloaded"
+      },
+      {
+        "id": "P08",
+        "title": "Conceptual modular gear-pair validation rig framework",
+        "url": "https://zenodo.org/records/18921850",
+        "language": "English",
+        "evidence": "Primary repository expressly states initial conceptual release; datasets are future work",
+        "measured_TE": "no measurement dataset in this release",
+        "relief_of_same_gear_documented": "no",
+        "decision": "INELIGIBLE: a test-rig design is not measured validation data.",
+        "license": "Not used/downloaded"
+      }
+    ],
+    "downloaded_experimental_samples": [
+      {
+        "file": "darus_identification_axis2_vneg.csv",
+        "rows": 116801,
+        "columns": [
+          "theta",
+          "q_set",
+          "theta_TE"
+        ],
+        "units": "radians as repository metadata; no radius conversion",
+        "theta_range_rad": [
+          -1.7418744846576,
+          1.65570106046975
+        ],
+        "TE_range_rad": [
+          -0.0172226339780536,
+          0.0117470056168993
+        ],
+        "sha256": "7720258272f5c36593bf618a3736f4d3d449f7120697db66d411f7fabeef704a"
+      },
+      {
+        "file": "darus_validation_axis2_vneg.csv",
+        "rows": 116801,
+        "columns": [
+          "theta",
+          "q_set",
+          "theta_TE"
+        ],
+        "units": "radians as repository metadata; no radius conversion",
+        "theta_range_rad": [
+          -1.75198548423917,
+          1.67311491264493
+        ],
+        "TE_range_rad": [
+          -0.00246471185098964,
+          0.00201188422278431
+        ],
+        "sha256": "6e316403ad4ecf86cce0616a4ae02c64df82b806356cef2bb2e916536de217cb"
+      }
+    ],
+    "eligible_public_relief_TE_pairs_found": 0,
+    "conclusion": "No eligible public pairing has been obtained in this search. This does not prove no such dataset exists. No relief parameters were fitted to the unrelated robot data.",
+    "future_eligibility": [
+      "same physical pair with profile/relief metrology",
+      "sufficient geometry, material and supports",
+      "loaded TE waveform and measurement definition",
+      "torque, speed and phase indexing",
+      "uncertainty/repeats and data-use permission"
+    ]
+  },
+  "scope": "Selected phases only, idealized 2D plane strain and assumed sharp-tip/root geometry. No physical validation, no new inverse recovery claim, no full-cycle transition validation. v18 untouched."
+}

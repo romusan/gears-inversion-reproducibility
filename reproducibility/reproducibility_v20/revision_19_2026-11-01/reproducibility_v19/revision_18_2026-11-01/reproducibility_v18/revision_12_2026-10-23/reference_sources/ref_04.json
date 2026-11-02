@@ -1,0 +1,316 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2026-10-21T22:00:16Z",
+      "timestamp": 1792620016801,
+      "version": "4.5.0"
+    },
+    "reference-count": 12,
+    "publisher": "Wiley",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2016-01-01T00:00:00Z",
+          "timestamp": 1451606400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Mathematical Problems in Engineering"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "DOI": "10.1155/2016/6347987",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          1,
+          18
+        ]
+      ],
+      "date-time": "2016-01-18T16:03:27Z",
+      "timestamp": 1453133007000
+    },
+    "page": "1-7",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "The Optimal Design Method and Standardized Mathematical Model of Tooth Profile Modification of Spur Gear"
+    ],
+    "prefix": "10.1155",
+    "volume": "2016",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6964-9797",
+        "authenticated-orcid": true,
+        "given": "Wenjie",
+        "family": "Mei",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Engineering and Technology, Southwest University, Chongqing 400715, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jingzhou",
+        "family": "Na",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mathematical Sciences, Capital Normal University, Beijing 100048, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fan",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Semiconductors, Chinese Academy of Sciences, Beijing 100083, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guike",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Engineering and Technology, Southwest University, Chongqing 400715, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiawei",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mathematics and Statistics, Southwest University, Chongqing 400715, China"
+          },
+          {
+            "name": "College of Computer Science, Chongqing University, Chongqing 400044, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "reference": [
+      {
+        "key": "1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2005.05.055"
+      },
+      {
+        "issue": "4",
+        "key": "2",
+        "first-page": "63",
+        "volume": "34",
+        "year": "1998",
+        "journal-title": "Chinese Journal of Mechanical Engineering"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0045-7825(01)00201-8"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00170-011-3475-3"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3844/ajassp.2005.1058.1064"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0094-114X(99)00002-6"
+      },
+      {
+        "key": "7",
+        "first-page": "002",
+        "volume": "5",
+        "year": "2010",
+        "journal-title": "Journal of Mechanical Transmission"
+      },
+      {
+        "key": "8",
+        "first-page": "15",
+        "volume": "5",
+        "year": "2005",
+        "journal-title": "Journal of Mechanical Transmission"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.1767818"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00170-010-3034-3"
+      },
+      {
+        "key": "11",
+        "first-page": "13",
+        "volume": "6",
+        "year": "2008",
+        "journal-title": "Journal of Mechanical Transmission"
+      },
+      {
+        "issue": "10",
+        "key": "12",
+        "first-page": "1146",
+        "volume": "23",
+        "year": "2004",
+        "journal-title": "Mechanical Science and Technology"
+      }
+    ],
+    "container-title": [
+      "Mathematical Problems in Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://downloads.hindawi.com/journals/mpe/2016/6347987.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://downloads.hindawi.com/journals/mpe/2016/6347987.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://downloads.hindawi.com/journals/mpe/2016/6347987.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          7,
+          26
+        ]
+      ],
+      "date-time": "2016-07-26T14:12:39Z",
+      "timestamp": 1469542359000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://www.hindawi.com/journals/mpe/2016/6347987/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "references-count": 12,
+    "alternative-id": [
+      "6347987",
+      "6347987"
+    ],
+    "URL": "https://doi.org/10.1155/2016/6347987",
+    "relation": {},
+    "ISSN": [
+      "1024-123X",
+      "1563-5147"
+    ],
+    "issn-type": [
+      {
+        "value": "1024-123X",
+        "type": "print"
+      },
+      {
+        "value": "1563-5147",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    }
+  }
+}

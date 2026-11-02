@@ -1,0 +1,14 @@
+VERSIÓN VIGENTE: v19 — 1 de noviembre de 2026
+
+Utilizar únicamente los archivos de submission_kit_v19 o su ZIP homónimo.
+El paquete contiene artículo limpio, suplemento, Highlights, carta y archivo
+de reproducibilidad. El manifiesto CONTENIDO_Y_SHA256.json verifica los cinco.
+Los estados y parámetros computados, incluso fallos, están en la evidencia.
+
+Leer CIERRE_VERIFICADO_v19.txt para el alcance y las limitaciones.
+La v18 y las anteriores son antecedentes; no mezclar sus tablas/documentos
+con el artículo actual. El conjunto histórico de 102 estaciones no se alteró:
+el ciclo completo es un experimento con otro operador.
+
+Antes de una carga editorial, usar la declaración de datos que corresponde al
+depósito real. No existe DOI asignado a esta versión. No se ha enviado el artículo.
